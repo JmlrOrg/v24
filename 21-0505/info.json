@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider learning approximate Nash equilibria for discrete-time mean-field games with stochastic nonlinear state dynamics subject to both average and discounted costs. To this end, we introduce a mean-field equilibrium (MFE) operator, whose fixed point is a mean-field equilibrium, i.e., equilibrium in the infinite population limit. We first prove that this operator is a contraction, and propose a learning algorithm to compute an approximate mean-field equilibrium by approximating the MFE operator with a random one. Moreover, using the contraction property of the MFE operator, we establish the error analysis of the proposed learning algorithm. We then show that the learned mean-field equilibrium constitutes an approximate Nash equilibrium for finite-agent games.",
+    "authors": [
+        "Berkay Anahtarci",
+        "Can Deha Kariksiz",
+        "Naci Saldi"
+    ],
+    "emails": [
+        "berkay.anahtarci@ozyegin.edu.tr",
+        "deha.kariksiz@ozyegin.edu.tr",
+        "naci.saldi@bilkent.edu.tr"
+    ],
+    "id": "21-0505",
+    "issue": 17,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Learning Mean-Field Games with Discounted and Average Costs",
+    "volume": 24,
+    "year": 2023
+}

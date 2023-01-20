@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper provides elementary analyses of the regret and generalization of minimum-norm interpolating classifiers (MNIC). The MNIC is the function of smallest Reproducing Kernel Hilbert Space norm that perfectly interpolates a label pattern on a finite data set. We derive a mistake bound for MNIC and a regularized variant that holds for all data sets. This bound follows from elementary properties of matrix inverses. Under the assumption that the data is independently and identically distributed, the mistake bound implies that MNIC generalizes at a rate proportional to the norm of the interpolating solution and inversely proportional to the number of data points. This rate matches similar rates derived for margin classifiers and perceptrons. We derive several plausible generative models where the norm of the interpolating classifier is bounded or grows at a rate sublinear in $n$. We also show that as long as the population class conditional distributions are sufficiently separable in total variation, then MNIC generalizes with a fast rate.",
+    "authors": [
+        "Tengyuan Liang",
+        "Benjamin Recht"
+    ],
+    "emails": [
+        "tengyuan.liang@chicagobooth.edu",
+        "brecht@berkeley.edu"
+    ],
+    "id": "21-0844",
+    "issue": 20,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Interpolating Classifiers Make Few Mistakes",
+    "volume": 24,
+    "year": 2023
+}

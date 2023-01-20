@@ -1,0 +1,20 @@
+{
+    "abstract": "Bilevel optimization has recently attracted growing interests due to its wide applications in modern machine learning problems. Although recent studies have characterized the convergence rate for several such popular algorithms, it is still unclear how much further these convergence rates can be improved. In this paper, we address this fundamental question from two perspectives. First, we provide the first-known lower complexity bounds of $\\widetilde \\Omega\\bigg(\\sqrt{\\frac{L_y\\widetilde L_{xy}^2}{\\mu_x\\mu_y^2}}\\bigg)$ and $\\widetilde \\Omega\\big(\\frac{1}{\\sqrt{\\epsilon}}\\min\\{\\kappa_y,\\frac{1}{\\sqrt{\\epsilon^{3}}}\\}\\big)$ respectively for strongly-convex-strongly-convex and convex-strongly-convex bilevel optimizations. Second, we propose an accelerated bilevel optimizer named AccBiO, for which we provide the first-known complexity bounds without the gradient boundedness assumption (which was made in existing analyses) under the two aforementioned geometries. We also provide significantly tighter upper bounds than the existing complexity when the bounded gradient assumption does hold. We show that AccBiO achieves the optimal results (i.e., the upper and lower bounds match up to logarithmic factors) when the inner-level problem takes a quadratic form with a constant-level condition number. Interestingly, our lower bounds under both geometries are larger than the corresponding optimal complexities of minimax optimization, establishing that bilevel optimization is provably more challenging than minimax optimization. Our theoretical results are validated by numerical experiments.",
+    "authors": [
+        "Kaiyi ji",
+        "Yingbin Liang"
+    ],
+    "emails": [
+        "kaiyiji@buffalo.edu",
+        "liang.889@osu.edu"
+    ],
+    "id": "21-0949",
+    "issue": 22,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Lower Bounds and Accelerated Algorithms for Bilevel Optimization",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "With the evolution of data collection ways, label ambiguity has arisen from various applications. How to reduce its uncertainty and leverage its effectiveness is still a challenging task. As two types of representative label ambiguities, Label Distribution Learning (LDL), which annotates each instance with a label distribution, and Emerging New Class (ENC), which focuses on model reusing with new classes, have attached extensive attentions. Nevertheless, in many applications, such as emotion distribution recognition and facial age estimation, we may face a more complicated label ambiguity scenario, i.e., label distribution changing with sample space expanding owing to the new class. To solve this crucial but rarely studied problem, we propose a new framework named as Label Distribution Changing Learning (LDCL) in this paper, together with its theoretical guarantee with generalization error bound. Our approach expands the sample space by re-scaling previous distribution and then estimates the emerging label value via scaling constraint factor. For demonstration, we present two special cases within the framework, together with their optimizations and convergence analyses. Besides evaluating LDCL on most of the existing 13 data sets, we also apply it in the application of emotion distribution recognition. Experimental results demonstrate the effectiveness of our approach in both tackling label ambiguity problem and estimating facial emotion",
+    "authors": [
+        "Chao Xu",
+        "Hong Tao",
+        "Jing Zhang",
+        "Dewen Hu",
+        "Chenping Hou"
+    ],
+    "emails": [
+        "xcnudt@hotmail.com",
+        "taohong.nudt@hotmail.com",
+        "zhangjing_nudt@163.com",
+        "dwhu@nudt.edu.cn",
+        "hcpnudt@hotmail.com"
+    ],
+    "id": "22-0210",
+    "issue": 36,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Label Distribution Changing Learning with Sample Space Expanding",
+    "volume": 24,
+    "year": 2023
+}

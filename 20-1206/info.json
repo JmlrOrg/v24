@@ -1,0 +1,28 @@
+{
+    "abstract": "In network analysis, it is common to work with a collection of graphs that exhibit heterogeneity. For example, neuroimaging data from patient cohorts are increasingly available. A critical analytical task is to identify communities, and graph Laplacian-based methods are routinely used. However, these methods are currently limited to a single network and also do not provide measures of uncertainty on the community assignment. In this work, we first propose a probabilistic network model called the ''Spiked Laplacian Graph'' that considers an observed network as a transform of the Laplacian and degree matrices of the network generating process, with the Laplacian eigenvalues modeled by a modified spiked structure. This effectively reduces the number of parameters in the eigenvectors, and their sign patterns allow efficient estimation of the underlying community structure. Further, the posterior distribution of the eigenvectors provides uncertainty quantification for the community estimates. Second, we introduce a Bayesian non-parametric approach to address the issue of heterogeneity in a collection of graphs. Theoretical results are established on the posterior consistency of the procedure and provide insights on the trade-off between model resolution and accuracy. We illustrate the performance of the methodology on synthetic data sets, as well as a neuroscience study related to brain activity in working memory.",
+    "authors": [
+        "Leo L Duan",
+        "George Michailidis",
+        "Mingzhou Ding"
+    ],
+    "emails": [
+        "li.duan@ufl.edu",
+        "gmichail@ufl.edu",
+        "mding@bme.ufl.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/leoduan/BayesSpikedLaplacian"
+        ]
+    ],
+    "id": "20-1206",
+    "issue": 3,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Bayesian Spiked Laplacian Graphs",
+    "volume": 24,
+    "year": 2023
+}

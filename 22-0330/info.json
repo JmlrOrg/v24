@@ -1,0 +1,26 @@
+{
+    "abstract": "Formal models of learning from teachers need to respect certain criteria to avoid collusion. The most commonly accepted notion of collusion-avoidance was proposed by Goldman and Mathias (1996), and various teaching models obeying their criterion have been studied. For each model $M$ and each concept class $\\mathcal{C}$, a parameter $M$-TD$(\\mathcal{C})$ refers to the teaching dimension of concept class $\\mathcal{C}$ in model $M$---defined to be the number of examples required for teaching a concept, in the worst case over all concepts in $\\mathcal{C}$. This paper introduces a new model of teaching, called no-clash teaching, together with the corresponding parameter NCTD$(\\mathcal{C})$. No-clash teaching is provably optimal in the strong sense that, given any concept class $\\mathcal{C}$ and any model $M$ obeying Goldman and Mathias's collusion-avoidance criterion, one obtains NCTD$(\\mathcal{C})\\le M$-TD$(\\mathcal{C})$. We also study a corresponding notion NCTD$^+$ for the case of learning from positive data only, establish useful bounds on NCTD and NCTD$^+$, and discuss relations of these parameters to other complexity parameters of interest in computational learning theory. We further argue that Goldman and Mathias's collusion-avoidance criterion may in some settings be too weak in that it admits certain forms of interaction between teacher and learner that could be considered collusion in practice. Therefore, we introduce a strictly stronger notion of collusion-avoidance and demonstrate that the well-studied notion of Preference-based Teaching is optimal among all teaching schemes that are strongly collusion-avoiding on all finite subsets of a given concept class.",
+    "authors": [
+        "Shaun Fallat",
+        "David Kirkpatrick",
+        "Hans U. Simon",
+        "Abolghasem Soltani",
+        "Sandra Zilles"
+    ],
+    "emails": [
+        "shaun.fallat@uregina.ca",
+        "kirk@cs.ubc.ca",
+        "hsimon@mpi-inf.mpg.de",
+        "asoltani@uregina.ca",
+        "zilles@cs.uregina.ca"
+    ],
+    "id": "22-0330",
+    "issue": 40,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "On Batch Teaching Without Collusion",
+    "volume": 24,
+    "year": 2023
+}

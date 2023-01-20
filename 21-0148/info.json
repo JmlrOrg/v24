@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider stochastic bandit problems with $K$ arms, each associated with a distribution supported on a given finite range $[m,M]$. We do not assume that the range $[m,M]$ is known and show that there is a cost for learning this range. Indeed, a new trade-off between distribution-dependent and distribution-free regret bounds arises, which prevents from simultaneously achieving the typical $\\ln T$ and $\\sqrt{T}$ bounds. For instance, a $\\sqrt{T}$ distribution-free regret bound may only be achieved if the distribution-dependent regret bounds are at least of order $\\sqrt{T}$. We exhibit a strategy achieving the rates for regret imposed by the new trade-off.",
+    "authors": [
+        "H\u00e9di Hadiji",
+        "Gilles Stoltz"
+    ],
+    "emails": [
+        "hedi.hadiji@math.u-psud.fr",
+        "gilles.stoltz@math.u-psud.fr"
+    ],
+    "id": "21-0148",
+    "issue": 13,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Adaptation to the Range in K-Armed Bandits",
+    "volume": 24,
+    "year": 2023
+}

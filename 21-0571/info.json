@@ -1,0 +1,28 @@
+{
+    "abstract": "In this paper, we introduce TITAN, a novel inerTIal block majorizaTion minimizAtioN ramework for nonsmooth nonconvex optimization problems. To the best of our knowledge, TITAN is the first framework of block-coordinate update  method  that relies on the majorization-minimization framework while embedding inertial force to each  step of the block updates. The inertial force is obtained via an extrapolation operator that subsumes heavy-ball and Nesterov-type accelerations for block proximal gradient methods as special cases. By choosing various surrogate functions, such as proximal, Lipschitz gradient, Bregman, quadratic, and composite surrogate functions, and by varying the extrapolation operator, TITAN produces a rich set of inertial block-coordinate update methods. We study sub-sequential convergence as well as global convergence for the generated sequence of TITAN. We illustrate the effectiveness of TITAN on two important machine learning problems, namely sparse non-negative matrix factorization and matrix completion.",
+    "authors": [
+        "Le Thi Khanh Hien",
+        "Duy Nhat Phan",
+        "Nicolas Gillis"
+    ],
+    "emails": [
+        "khanhhiennt@gmail.com",
+        "nhatsp@gmail.com",
+        "nicolas.gillis@umons.ac.be"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nhatpd/TITAN"
+        ]
+    ],
+    "id": "21-0571",
+    "issue": 18,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "An Inertial Block Majorization Minimization Framework for Nonsmooth Nonconvex Optimization",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Many scientific problems require identifying a small set of covariates that are associated with a target response and estimating their effects. Often, these effects are nonlinear and include interactions, so linear and additive methods can lead to poor estimation and variable selection. Unfortunately, methods that simultaneously express sparsity, nonlinearity, and interactions are computationally intractable --- with runtime at least quadratic in the number of covariates, and often worse. In the present work, we solve this computational bottleneck. We show that suitable interaction models have a kernel representation, namely there exists a \"kernel trick\" to perform variable selection and estimation in $O$(# covariates) time. Our resulting fit corresponds to a sparse orthogonal decomposition of the regression function in a Hilbert space (i.e., a functional ANOVA decomposition), where interaction effects represent all variation that cannot be explained by lower-order effects. On a variety of synthetic and real data sets, our approach outperforms existing methods used for large, high-dimensional data sets while remaining competitive (or being orders of magnitude faster) in runtime.",
+    "authors": [
+        "Raj Agrawal",
+        "Tamara Broderick"
+    ],
+    "emails": [
+        "r.agrawal@mit.edu",
+        "tbroderick@mit.edu"
+    ],
+    "id": "21-1403",
+    "issue": 27,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "The SKIM-FA Kernel: High-Dimensional Variable Selection and Nonlinear Interaction Discovery in Linear Time",
+    "volume": 24,
+    "year": 2023
+}

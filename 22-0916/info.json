@@ -1,0 +1,20 @@
+{
+    "abstract": "The d-separation criterion detects the compatibility of a joint probability distribution with a directed acyclic graph through certain conditional independences. In this work, we study this problem in the context of categorical probability theory by introducing a categorical definition of causal models, a categorical notion of d-separation, and proving an abstract version of the d-separation criterion. This approach has two main benefits. First, categorical d-separation is a very intuitive criterion based on topological connectedness. Second, our results apply both to measure-theoretic probability (with standard Borel spaces) and beyond probability theory, including to deterministic and possibilistic networks. It therefore provides a clean proof of the equivalence of local and global Markov properties with causal compatibility for continuous and mixed random variables as well as deterministic and possibilistic variables.",
+    "authors": [
+        "Tobias Fritz",
+        "Andreas Klingler"
+    ],
+    "emails": [
+        "tobias.fritz@uibk.ac.at",
+        "andreas.klingler@uibk.ac.at"
+    ],
+    "id": "22-0916",
+    "issue": 46,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "The d-Separation Criterion in Categorical Probability",
+    "volume": 24,
+    "year": 2023
+}

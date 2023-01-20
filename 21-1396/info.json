@@ -1,0 +1,22 @@
+{
+    "abstract": "Machine learning models trained by different optimization algorithms under different data distributions can exhibit distinct generalization behaviors. In this paper, we analyze the generalization of models trained by noisy iterative algorithms. We derive distribution-dependent generalization bounds by connecting noisy iterative algorithms to additive noise channels found in communication and information theory. Our generalization bounds shed light on several applications, including differentially private stochastic gradient descent (DP-SGD), federated learning, and stochastic gradient Langevin dynamics (SGLD). We demonstrate our bounds through numerical experiments, showing that they can help understand recent empirical observations of the generalization phenomena of neural networks.",
+    "authors": [
+        "Hao Wang",
+        "Rui Gao",
+        "Flavio P. Calmon"
+    ],
+    "emails": [
+        "hao_wang@g.harvard.edu",
+        "rui.gao@mccombs.utexas.edu",
+        "flavio@seas.harvard.edu"
+    ],
+    "id": "21-1396",
+    "issue": 26,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Generalization Bounds for Noisy Iterative Algorithms Using Properties of Additive Noise Channels",
+    "volume": 24,
+    "year": 2023
+}

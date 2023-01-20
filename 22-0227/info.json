@@ -1,0 +1,18 @@
+{
+    "abstract": "A ridge is a function that is characterized by a one-dimensional profile (activation) and a multidimensional direction vector. Ridges appear in the theory of neural networks as functional descriptors of the effect of a neuron, with the direction vector being encoded in the linear weights. In this paper, we investigate properties of the Radon transform in relation to ridges and to the characterization of neural networks. We introduce a broad category of hyper-spherical Banach subspaces (including the relevant subspace of measures) over which the back-projection operator is invertible.  We also give conditions under which the back-projection operator is extendable to the full parent space with its null space being identifiable as a Banach complement.  Starting from first principles, we then characterize the sampling functionals that are in the range of the filtered Radon transform.  Next, we extend the definition of ridges for any distributional profile  and determine their (filtered) Radon transform in full generality. Finally, we apply our formalism to clarify and simplify some of the results and proofs on the optimality of ReLU networks that have appeared in the literature.",
+    "authors": [
+        "Michael Unser"
+    ],
+    "emails": [
+        "michael.unser@epfl.ch"
+    ],
+    "id": "22-0227",
+    "issue": 37,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Ridges, Neural Networks, and the Radon Transform",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,39 @@
+{
+    "abstract": "The evaluation of explanation methods is a research topic that has not yet been explored deeply, however, since explainability is supposed to strengthen trust in artificial intelligence, it is necessary to systematically review and compare explanation methods in order to confirm their correctness. Until now, no tool with focus on XAI evaluation exists that exhaustively and speedily allows researchers to evaluate the performance of explanations of neural network predictions. To increase transparency and reproducibility in the field, we therefore built Quantus\u2014a comprehensive, evaluation toolkit in Python that includes a growing, well-organised collection of evaluation metrics and tutorials for evaluating explainable methods. The toolkit has been thoroughly tested and is available under an open-source license on PyPi (or on https://github.com/understandable-machine-intelligence-lab/Quantus/).",
+    "authors": [
+        "Anna Hedstr\u00f6m",
+        "Leander Weber",
+        "Daniel Krakowczyk",
+        "Dilyara Bareeva",
+        "Franz Motzkus",
+        "Wojciech Samek",
+        "Sebastian Lapuschkin",
+        "Marina M.-C. H\u00f6hne"
+    ],
+    "emails": [
+        "anna.hedstroem@tu-berlin.de",
+        "leander.weber@hhi.fraunhofer.de",
+        "daniel.krakowczyk@uni-potsdam.de",
+        "dilyara.bareeva@campus.tu-berlin.de",
+        "franz.motzkus@hhi.fraunhofer.de",
+        "wojciech.samek@hhi.fraunhofer.de",
+        "sebastian.lapuschkin@hhi.fraunhofer.de",
+        "marina.hoehne@tu-berlin.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/understandable-machine-intelligence-lab/Quantus/"
+        ]
+    ],
+    "id": "22-0142",
+    "issue": 34,
+    "pages": [
+        1,
+        11
+    ],
+    "special_issue": "MLOSS",
+    "title": "Quantus: An Explainable AI Toolkit for Responsible Evaluation of Neural Network Explanations and Beyond",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "We develop a method for understanding specific predictions made by (global) predictive models by constructing (local) models tailored to each specific observation (these are also called ``explanations\" in the literature). Unlike existing work that ``explains'' specific observations by approximating global models in the vicinity of these observations, we fit models that are globally-consistent with predictions made by the global model on past data. We focus on rule-based models  (also known as association rules or conjunctions of predicates), which are interpretable and widely used in practice. We design multiple algorithms to extract such rules from discrete and continuous datasets, and study their theoretical properties. Finally, we apply these algorithms to multiple credit-risk models trained on the Explainable Machine Learning Challenge data from FICO and demonstrate that our approach effectively produces sparse summary-explanations of these models in seconds. Our approach is model-agnostic (that is, can be used to explain any predictive model), and solves a minimum set cover problem to construct its summaries.",
+    "authors": [
+        "Cynthia Rudin",
+        "Yaron Shaposhnik"
+    ],
+    "emails": [
+        "cynthia@cs.duke.edu",
+        "yaron.shaposhnik@simon.rochester.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/yaronshap/GloballyConsistentRules"
+        ]
+    ],
+    "id": "21-0488",
+    "issue": 16,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Globally-Consistent Rule-Based Summary-Explanations for Machine Learning Models: Application to Credit-Risk Evaluation",
+    "volume": 24,
+    "year": 2023
+}

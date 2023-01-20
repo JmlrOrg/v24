@@ -1,0 +1,33 @@
+{
+    "abstract": "Causal discovery is a methodology for learning causal graphs from data, and LiNGAM is a well-known model for causal discovery. This paper describes an open-source Python package for causal discovery based on LiNGAM. The package implements various LiNGAM methods under different settings like time series cases, multiple-group cases, mixed data cases, and hidden common cause cases, in addition to evaluation of statistical reliability and model assumptions. The source code is freely available under the MIT license at https://github.com/cdt15/lingam.",
+    "authors": [
+        "Takashi Ikeuchi",
+        "Mayumi Ide",
+        "Yan Zeng",
+        "Takashi Nicholas Maeda",
+        "Shohei Shimizu"
+    ],
+    "emails": [
+        "ikeuchi@screen.co.jp",
+        "ide@screen.co.jp",
+        "yanazeng013@gmail.com",
+        "tn.maeda@mail.dendai.ac.jp",
+        "shohei-shimizu@biwako.shiga-u.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cdt15/lingam"
+        ]
+    ],
+    "id": "21-0321",
+    "issue": 14,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "Python package for causal discovery based on LiNGAM",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,31 @@
+{
+    "abstract": "To use deep learning, one needs to be familiar with various software tools like TensorFlow or Keras, as well as various model architecture and optimization best practices. Despite recent progress in software usability, deep learning remains a highly specialized occupation. To enable people with limited machine learning and programming experience to adopt deep learning, we developed AutoKeras, an Automated Machine Learning (AutoML) library that automates the process of model selection and hyperparameter tuning. AutoKeras encapsulates the complex process of building and training deep neural networks into a very simple and accessible interface, which enables novice users to solve standard machine learning problems with a few lines of code. Designed with practical applications in mind, AutoKeras is built on top of Keras and TensorFlow, and all AutoKeras-created models can be easily exported and deployed with the help of the TensorFlow ecosystem tooling.",
+    "authors": [
+        "Haifeng Jin",
+        "Fran\u00e7ois Chollet",
+        "Qingquan Song",
+        "Xia Hu"
+    ],
+    "emails": [
+        "haifengj@google.com",
+        "fchollet@google.com",
+        "ustcsqq@gmail.com",
+        "xia.hu@rice.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/keras-team/autokeras"
+        ]
+    ],
+    "id": "20-1355",
+    "issue": 6,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "AutoKeras: An AutoML Library for Deep Learning",
+    "volume": 24,
+    "year": 2023
+}

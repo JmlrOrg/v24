@@ -1,0 +1,24 @@
+{
+    "abstract": "We study multi-player general-sum Markov games with one of the players designated as the leader and the other players regarded as followers. In particular, we focus on the class of games where the followers are myopically rational; i.e., they aim to maximize their instantaneous rewards. For such a game, our goal is to find a Stackelberg-Nash equilibrium (SNE), which is a policy pair $(\\pi^*, \\nu^*)$ such that: (i) $\\pi^*$ is the optimal policy for the leader when the followers always play their best response, and (ii) $\\nu^*$ is the best response policy of the followers, which is a Nash equilibrium of the followers' game induced by $\\pi^*$. We develop sample-efficient reinforcement learning (RL) algorithms for solving for an SNE in both online and offline settings. Our algorithms are optimistic and pessimistic variants of least-squares value iteration, and they are readily able to incorporate function approximation tools in the setting of large state spaces. Furthermore, for the case with linear function approximation,  we prove that our algorithms achieve sublinear regret and suboptimality under online and offline setups respectively. \r\n  To the best of our knowledge, we establish the first provably efficient RL algorithms for solving for SNEs in general-sum Markov games with myopically rational followers.",
+    "authors": [
+        "Han Zhong",
+        "Zhuoran Yang",
+        "Zhaoran Wang",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "hanzhong@stu.pku.edu.cn",
+        "zhuoran.yang@yale.edu",
+        "zhaoranwang@gmail.com",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "22-0203",
+    "issue": 35,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Can Reinforcement Learning Find Stackelberg-Nash Equilibria in General-Sum Markov Games with Myopically Rational  Followers?",
+    "volume": 24,
+    "year": 2023
+}

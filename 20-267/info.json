@@ -1,0 +1,22 @@
+{
+    "abstract": "We introduce a relaxed inertial forward-backward-forward (RIFBF) splitting algorithm for approaching the set of zeros of the sum of a maximally monotone operator and a single-valued monotone and Lipschitz continuous operator. This work aims to extend Tseng's forward-backward-forward method by both using inertial effects as well as relaxation parameters. We formulate first a second order dynamical system that approaches the solution set of the monotone inclusion problem to be solved and provide an asymptotic analysis for its trajectories. We provide for RIFBF, which follows by explicit time discretization, a convergence analysis in the general monotone case as well as when applied to the solving of pseudo-monotone variational inequalities. We illustrate the proposed method by applications to a bilinear saddle point problem, in the context of which we also emphasize the interplay between the inertial and the relaxation parameters, and to the training of Generative Adversarial Networks (GANs).",
+    "authors": [
+        "Radu I. Bot",
+        "Michael Sedlmayer",
+        "Phan Tu Vuong"
+    ],
+    "emails": [
+        "radu.bot@univie.ac.at",
+        "michael.sedlmayer@univie.ac.at",
+        "T.V.Phan@soton.ac.uk"
+    ],
+    "id": "20-267",
+    "issue": 8,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A Relaxed Inertial Forward-Backward-Forward Algorithm for Solving Monotone Inclusions with Application to GANs",
+    "volume": 24,
+    "year": 2023
+}

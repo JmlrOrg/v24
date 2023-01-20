@@ -1,0 +1,26 @@
+{
+    "abstract": "Multi-kernel learning (MKL) has been widely used in learning problems involving function learning tasks. Compared with single kernel learning approach which relies on a pre-selected kernel, the advantage of MKL is its flexibility results from combining a dictionary of kernels. However, inclusion of irrelevant kernels in the dictionary may deteriorate the accuracy of MKL, and increase the computational complexity. Faced with this challenge, a novel graph-aided framework is developed to select a subset of kernels from the dictionary with the assistance of a graph. Different graph construction and refinement schemes are developed based on incurred losses or kernel similarities to assist the adaptive selection process.  Moreover, to cope with the scenario where data may be collected in a sequential fashion, or cannot be stored in batch due to the massive scale, random feature approximation are adopted to enable online function learning. It is proved that our proposed algorithms enjoy sub-linear regret bounds. Experiments on a number of real datasets showcase the advantages of our novel graph-aided algorithms compared to state-of-the-art alternatives.",
+    "authors": [
+        "Pouya M. Ghari",
+        "Yanning Shen"
+    ],
+    "emails": [
+        "pmollaeb@uci.edu",
+        "yannings@uci.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/pouyamghari/Graph-Aided-Online-Multi-Kernel-Learning"
+        ]
+    ],
+    "id": "21-0877",
+    "issue": 21,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Graph-Aided Online Multi-Kernel Learning",
+    "volume": 24,
+    "year": 2023
+}

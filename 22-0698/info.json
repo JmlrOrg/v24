@@ -1,0 +1,22 @@
+{
+    "abstract": "We study a family of adversarial multiclass classification problems and provide equivalent reformulations in terms of: 1) a family of generalized barycenter problems introduced in the paper and 2) a family of multimarginal optimal transport problems where the number of marginals is equal to the number of classes in the original classification problem. These new theoretical results reveal a rich geometric structure of adversarial learning problems in multiclass classification and extend recent results restricted to the binary classification setting. A direct computational implication of our results is that by solving either the barycenter problem and its dual, or the MOT problem and its dual, we can recover the optimal robust classification rule and the optimal adversarial strategy for the original adversarial problem. Examples with synthetic and real data illustrate our results.",
+    "authors": [
+        "Nicol\u00e1s Garc\u00eda Trillos",
+        "Matt Jacobs",
+        "Jakwang Kim"
+    ],
+    "emails": [
+        "garciatrillo@wisc.edu",
+        "jacob225@purdue.edu",
+        "kim836@wisc.edu"
+    ],
+    "id": "22-0698",
+    "issue": 45,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "The multimarginal optimal transport formulation of adversarial multiclass classification",
+    "volume": 24,
+    "year": 2023
+}

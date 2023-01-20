@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the problem of computing an equilibrium in a class of nonlinear generalized Nash equilibrium problems (NGNEPs) in which the strategy sets for each player are defined by the equality and inequality constraints that may depend on the choices of rival players. While the asymptotic global convergence and local convergence rate of certain algorithms have been extensively investigated, the iteration complexity analysis is still in its infancy. This paper provides two first-order algorithms based on quadratic penalty method (QPM) and augmented Lagrangian method (ALM), respectively, with an accelerated mirror-prox algorithm as the solver in each inner loop. We show the nonasymptotic convergence rate for these algorithms. In particular, we establish the global convergence guarantee for solving monotone and strongly monotone NGNEPs and provide the complexity bounds expressed in terms of the number of gradient evaluations. Experimental results demonstrate the efficiency of our algorithms in practice.",
+    "authors": [
+        "Michael I. Jordan",
+        "Tianyi Lin",
+        "Manolis Zampetakis"
+    ],
+    "emails": [
+        "jordan@cs.berkeley.edu",
+        "darren_lin@berkeley.edu",
+        "mzampet@berkeley.edu"
+    ],
+    "id": "22-0310",
+    "issue": 38,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "First-Order Algorithms for Nonlinear Generalized Nash Equilibrium Problems",
+    "volume": 24,
+    "year": 2023
+}

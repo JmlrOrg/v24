@@ -1,0 +1,38 @@
+{
+    "abstract": "Learning from multiple related tasks by knowledge sharing and transfer has become increasingly relevant over the last two decades. In order to successfully transfer information from one task to another, it is critical to understand the similarities and differences between the domains. In this paper, we introduce the notion of performance gap, an intuitive and novel measure of the distance between learning tasks. Unlike existing measures which are used as tools to bound the difference of expected risks between tasks (e.g., $\\mathcal{H}$-divergence or discrepancy distance), we theoretically show that the performance gap can be viewed as a data- and algorithm-dependent regularizer, which controls the model complexity and leads to finer guarantees. More importantly, it also provides new insights and motivates a novel principle for designing strategies for knowledge sharing and transfer: gap minimization. We instantiate this principle with two algorithms: 1. gapBoost, a novel and principled boosting algorithm that explicitly minimizes the performance gap between source and target domains for transfer learning; and 2. gapMTNN, a representation learning algorithm that reformulates gap minimization as semantic conditional matching for multitask learning. Our extensive evaluation on both transfer learning and multitask learning benchmark data sets shows that our methods outperform existing baselines.",
+    "authors": [
+        "Boyu Wang",
+        "Jorge A. Mendez",
+        "Changjian Shui",
+        "Fan Zhou",
+        "Di Wu",
+        "Gezheng Xu",
+        "Christian Gagn\u00e9",
+        "Eric Eaton"
+    ],
+    "emails": [
+        "bwang@csd.uwo.ca",
+        "jmendez@csail.mit.edu",
+        "changjian.shui.1@ulaval.ca",
+        "zhoufan@buaa.edu.cn",
+        "di.wu5@mail.mcgill.ca",
+        "gxu86@uwo.ca",
+        "christian.gagne@gel.ulaval.ca",
+        "eeaton@seas.upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bwang-ml/gapBoost"
+        ]
+    ],
+    "id": "22-0099",
+    "issue": 33,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Gap Minimization for Knowledge Sharing and Transfer",
+    "volume": 24,
+    "year": 2023
+}

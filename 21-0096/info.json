@@ -1,0 +1,22 @@
+{
+    "abstract": "The count-min sketch (CMS) is a time and memory efficient randomized data structure that provides estimates of tokens' frequencies in a data stream of tokens, i.e. point queries, based on random hashed data. A learning-augmented version of the CMS, referred to as  CMS-DP, has been proposed by Cai, Mitzenmacher and Adams (NeurIPS 2018), and it relies on Bayesian nonparametric (BNP) modeling of the data stream of tokens via a Dirichlet process (DP) prior, with estimates of a point query being that are obtained as mean functionals of the posterior distribution of the point query, given the hashed data. While the CMS-DP has proved to improve on some aspects of CMS, it has the major drawback of arising from a ``constructive\" proof that builds upon arguments that are tailored to the DP prior, namely arguments that are not usable for other nonparametric priors. In this paper, we present a ``Bayesian\" proof of the CMS-DP that has the main advantage of building upon arguments that are usable under the popular Pitman-Yor process (PYP) prior, which generalizes the DP prior by allowing for a more flexible tail behaviour, ranging from geometric tails to heavy power-law tails. This result leads to develop a novel learning-augmented CMS under power-law data streams, referred to as CMS-PYP, which relies on BNP modeling of the data stream of tokens via a PYP prior. Under this more general framework, we apply the arguments of the ``Bayesian\" proof of the CMS-DP, suitably adapted to the PYP prior, in order to compute the posterior distribution of a point query, given the hashed data. Applications to synthetic data and real textual data show that the CMS-PYP outperforms the CMS and the CMS-DP in estimating low-frequency tokens, which are known to be of critical interest in textual data, and it is competitive with respect to a variation of the CMS designed to deal with the estimation of low-frequency tokens. An extension of our BNP approach to more general queries, such as range queries, is also discussed.",
+    "authors": [
+        "Emanuele Dolera",
+        "Stefano Favaro",
+        "Stefano Peluchetti"
+    ],
+    "emails": [
+        "emanuele.dolera@unipv.it",
+        "stefano.favaro@unito.it",
+        "speluchetti@cogent.co.jp"
+    ],
+    "id": "21-0096",
+    "issue": 12,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Learning-augmented count-min sketches via Bayesian nonparametrics",
+    "volume": 24,
+    "year": 2023
+}

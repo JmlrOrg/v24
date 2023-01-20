@@ -1,0 +1,28 @@
+{
+    "abstract": "Many of the new developments in machine learning are connected with gradient-based optimization methods. Recently, these methods have been studied using a variational perspective (Betancourt et al., 2018). This has opened up the possibility of introducing variational and symplectic methods using geometric integration. In particular, in this paper, we introduce variational integrators (Marsden and West, 2001) which allow us to derive different methods for optimization. Using both Hamilton\u2019s and Lagrange-d\u2019Alembert\u2019s principle, we derive two families of optimization methods in one-to-one correspondence that generalize Polyak\u2019s heavy ball (Polyak, 1964) and Nesterov\u2019s accelerated gradient (Nesterov, 1983), the second of which mimics the behavior of the latter reducing the oscillations of classical momentum methods. However, since the systems considered are explicitly time-dependent, the preservation of symplecticity of autonomous systems occurs here solely on the fibers. Several experiments exemplify the result.",
+    "authors": [
+        "C\u00e9dric M. Campos",
+        "Alejandro Mahillo",
+        "David Mart\u00edn de Diego"
+    ],
+    "emails": [
+        "cedric.mcampos@urjc.es",
+        "almahill@unizar.es",
+        "david.martin@icmat.es"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cmcampos-xyz"
+        ]
+    ],
+    "id": "21-1323",
+    "issue": 25,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Discrete Variational Calculus for Accelerated Optimization",
+    "volume": 24,
+    "year": 2023
+}

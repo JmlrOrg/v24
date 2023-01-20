@@ -1,0 +1,30 @@
+{
+    "abstract": "Regularized  regression models are well studied and, under appropriate conditions, offer fast and statistically interpretable results. However, large data in many applications are heterogeneous in the sense of harboring distributional differences between latent groups. Then, the assumption that the conditional distribution of response $Y$ given features $X$ is the same for all samples may not hold. Furthermore, in scientific applications, the covariance structure of the features may contain important signals and its learning is also affected by latent group structure. We propose a class of  mixture models for paired data $(X,Y)$ that couples together the  distribution of $X$ (using sparse graphical models) and the conditional $Y \\! \\mid \\! X$ (using sparse regression models). The regression and graphical models are specific to the latent groups and model parameters are estimated jointly. This  allows signals in either or both of the feature distribution and regression model to inform learning of latent structure and provides automatic control of confounding by such structure. Estimation is handled via an expectation-maximization algorithm, whose convergence is established theoretically. We illustrate the key ideas via empirical examples. An R package is available at https://github.com/k-perrakis/regjmix.",
+    "authors": [
+        "Konstantinos Perrakis",
+        "Thomas Lartigue",
+        "Frank Dondelinger",
+        "Sach Mukherjee"
+    ],
+    "emails": [
+        "konstantinos.perrakis@durham.ac.uk",
+        "thomas.lartigue@polytechnique.edu",
+        "fdondelinger.work@gmail.com",
+        "sach.mukherjee@dzne.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/k-perrakis/regjmix"
+        ]
+    ],
+    "id": "21-0796",
+    "issue": 19,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Regularized Joint Mixture Models",
+    "volume": 24,
+    "year": 2023
+}

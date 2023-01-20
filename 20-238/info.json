@@ -1,0 +1,20 @@
+{
+    "abstract": "Measuring conditional dependence is one of the important tasks in statistical inference and is fundamental in causal discovery, feature selection, dimensionality reduction, Bayesian network learning, and others. In this work, we explore the connection between conditional dependence measures induced by distances on a metric space and reproducing kernels associated with a reproducing kernel Hilbert space (RKHS). For certain distance and kernel pairs, we show the distance-based conditional dependence measures to be equivalent to that of kernel-based measures. On the other hand, we also show that some popular kernel conditional dependence measures based on the Hilbert-Schmidt norm of a certain cross-conditional covariance operator, do not have a simple distance representation, except in some limiting cases.",
+    "authors": [
+        "Tianhong Sheng",
+        "Bharath K. Sriperumbudur"
+    ],
+    "emails": [
+        "txs514@psu.edu",
+        "bks18@psu.edu"
+    ],
+    "id": "20-238",
+    "issue": 7,
+    "pages": [
+        1,
+        16
+    ],
+    "title": "On Distance and Kernel Measures of Conditional Dependence",
+    "volume": 24,
+    "year": 2023
+}

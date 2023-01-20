@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the problem of maximizing the variance explained from a data matrix using orthogonal sparse principal components that have a support of fixed cardinality. While most existing methods focus on building principal components (PCs) iteratively through deflation, we propose GeoSPCA, a novel algorithm to build all PCs at once while satisfying the orthogonality constraints which brings substantial benefits over deflation. This novel approach is based on the left eigenvalues of the covariance matrix which helps circumvent the non-convexity of the problem by approximating the optimal solution using a binary linear optimization problem that can find the optimal solution. The resulting approximation can be used to tackle different versions of the sparse PCA problem including the case in which the principal components share the same support or have disjoint supports and the Structured Sparse PCA problem. We also propose optimality bounds and illustrate the benefits of GeoSPCA in selected real world problems both in terms of explained variance, sparsity and tractability. Improvements vs. the greedy algorithm, which is often at par with state-of-the-art techniques, reaches up to 24% in terms of variance while solving real world problems with 10,000s of variables and support cardinality of 100s in minutes. We also apply GeoSPCA in a face recognition problem yielding more than 10% improvement vs. other PCA based technique such as structured sparse PCA.",
+    "authors": [
+        "Dimitris Bertsimas",
+        "Driss Lahlou Kitane"
+    ],
+    "emails": [
+        "dbertsim@mit.edu",
+        "driss@mit.edu"
+    ],
+    "id": "22-0088",
+    "issue": 32,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Sparse PCA: a Geometric Approach",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,29 @@
+{
+    "abstract": "HiClass is an open-source Python library for local hierarchical classification entirely compatible with scikit-learn. It contains implementations of the most common design patterns for hierarchical machine learning models found in the literature, that is, the local classifiers per node, per parent node and per level. Additionally, the package contains implementations of hierarchical metrics, which are more appropriate for evaluating classification performance on hierarchical data. The documentation includes installation and usage instructions, examples within tutorials and interactive notebooks, and a complete description of the API. HiClass is released under the simplified BSD license, encouraging its use in both academic and commercial environments. Source code and documentation are available at https://github.com/scikit-learn-contrib/hiclass.",
+    "authors": [
+        "F\u00e1bio M. Miranda",
+        "Niklas K\u00f6hnecke",
+        "Bernhard Y. Renard"
+    ],
+    "emails": [
+        "Fabio.MalcherMiranda@hpi.de",
+        "Niklas.Koehnecke@student.hpi.uni-potsdam.de",
+        "Bernhard.Renard@hpi.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/scikit-learn-contrib/hiclass"
+        ]
+    ],
+    "id": "21-1518",
+    "issue": 29,
+    "pages": [
+        1,
+        17
+    ],
+    "special_issue": "MLOSS",
+    "title": "HiClass: a Python Library for Local Hierarchical Classification Compatible with Scikit-learn",
+    "volume": 24,
+    "year": 2023
+}

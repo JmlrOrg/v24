@@ -1,0 +1,30 @@
+{
+    "abstract": "An increasing amount of the collected data are high-dimensional multi-way arrays (tensors), and it is crucial for efficient learning algorithms to exploit this tensorial structure as much as possible. The ever present curse of dimensionality for high dimensional data and the loss of structure when vectorizing the data motivates the use of tailored low-rank tensor classification methods. In the presence of small amounts of training data, kernel methods offer an attractive choice as they provide the possibility for a nonlinear decision boundary. We develop the Tensor Train Multi-way Multi-level Kernel (TT-MMK), which combines the simplicity of the Canonical Polyadic decomposition, the classification power of the Dual Structure-preserving Support Vector Machine, and the reliability of the Tensor Train (TT) approximation. We show by experiments that the TT-MMK method is usually more reliable computationally, less sensitive to tuning parameters, and gives higher prediction accuracy in the SVM classification when benchmarked against other state-of-the-art techniques.",
+    "authors": [
+        "Kirandeep Kour",
+        "Sergey Dolgov",
+        "Martin Stoll",
+        "Peter Benner"
+    ],
+    "emails": [
+        "kour@mpi-magdeburg.mpg.de",
+        "S.Dolgov@bath.ac.uk",
+        "martin.stoll@mathematik.tu-chemnitz.de",
+        "benner@mpi-magdeburg.mpg.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mpimd-csc/Structure-preserving_STTM"
+        ]
+    ],
+    "id": "20-1310",
+    "issue": 4,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "Efficient Structure-preserving Support Tensor Train Machine",
+    "volume": 24,
+    "year": 2023
+}

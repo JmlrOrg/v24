@@ -1,0 +1,28 @@
+{
+    "abstract": "We develop a method to generate predictive regions that cover a multivariate response variable with a user-specified probability. Our work is composed of two components. First, we use a deep generative model to learn a representation of the response that has a unimodal distribution. Existing multiple-output quantile regression approaches are effective in such cases, so we apply them on the learned representation, and then transform the solution to the original space of the response. This process results in a flexible and informative region that can have an arbitrary shape, a property that existing methods lack. Second, we propose an extension of conformal prediction to the multivariate response setting that modifies any method to return sets with a pre-specified coverage level. The desired coverage is theoretically guaranteed in the finite-sample case for any distribution. Experiments conducted on both real and synthetic data show that our method constructs regions that are significantly smaller compared to existing techniques.",
+    "authors": [
+        "Shai Feldman",
+        "Stephen Bates",
+        "Yaniv Romano"
+    ],
+    "emails": [
+        "shai.feldman@cs.technion.ac.il",
+        "stephenbates@cs.berkeley.edu",
+        "yromano@technion.ac.il"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Shai128/mqr"
+        ]
+    ],
+    "id": "21-1280",
+    "issue": 24,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Calibrated Multiple-Output Quantile Regression with Representation Learning",
+    "volume": 24,
+    "year": 2023
+}

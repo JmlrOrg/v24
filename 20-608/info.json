@@ -1,0 +1,20 @@
+{
+    "abstract": "We describe a line-search algorithm which achieves the best-known worst-case complexity results for problems with a certain ``strict saddle'' property that has been observed to hold in low-rank matrix optimization problems. Our algorithm is adaptive, in the sense that it makes use of backtracking line searches and does not require prior knowledge of the parameters that define the strict saddle property.",
+    "authors": [
+        "Michael J. O'Neill",
+        "Stephen J. Wright"
+    ],
+    "emails": [
+        "mikeoneill@unc.edu",
+        "swright@cs.wisc.edu"
+    ],
+    "id": "20-608",
+    "issue": 10,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Line-Search Descent Algorithm for Strict Saddle Functions with Complexity Guarantees",
+    "volume": 24,
+    "year": 2023
+}

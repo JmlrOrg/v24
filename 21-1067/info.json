@@ -1,0 +1,26 @@
+{
+    "abstract": "Insights into complex, high-dimensional data can be obtained by discovering features of the data that match or do not match a model of interest. To formalize this task, we introduce the \"data selection\" problem: finding a lower-dimensional statistic - such as a subset of variables - that is well fit by a given parametric model of interest. A fully Bayesian approach to data selection would be to parametrically model the value of the statistic, nonparametrically model the remaining \"background\" components of the data, and perform standard Bayesian model selection for the choice of statistic. However, fitting a nonparametric model to high-dimensional data tends to be highly inefficient, statistically and computationally. We propose a novel score for performing data selection, the \"Stein volume criterion (SVC)\", that does not require fitting a nonparametric model. The SVC takes the form of a generalized marginal likelihood with a kernelized Stein discrepancy in place of the Kullback-Leibler divergence. We prove that the SVC is consistent for data selection, and establish consistency and asymptotic normality of the corresponding generalized posterior on parameters. We apply the SVC to the analysis of single-cell RNA sequencing data sets using probabilistic principal components analysis and a spin glass model of gene regulation.",
+    "authors": [
+        "Eli N. Weinstein",
+        "Jeffrey W. Miller"
+    ],
+    "emails": [
+        "ew2760@columbia.edu",
+        "jwmiller@hsph.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/EWeinstein/data-selection"
+        ]
+    ],
+    "id": "21-1067",
+    "issue": 23,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "Bayesian Data Selection",
+    "volume": 24,
+    "year": 2023
+}

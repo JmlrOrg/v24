@@ -1,0 +1,20 @@
+{
+    "abstract": "The Brier score is commonly used for evaluating probability predictions. In survival analysis, with right-censored observations of the event times, this score can be weighted by the inverse probability of censoring (IPCW) to retain its original interpretation. It is common practice to estimate the censoring distribution with the Kaplan-Meier estimator, even though it assumes that the censoring distribution is independent of the covariates. This paper investigates problems that may arise for the IPCW weighting scheme when the covariates used in the prediction model contain information about the censoring times. In particular, this may occur for administratively censored data if the distribution of the covariates varies with calendar time. For administratively censored data, we propose an alternative version of the Brier score. This administrative Brier score does not require estimation of the censoring distribution and is valid also when the censoring times can be predicted from the covariates.",
+    "authors": [
+        "H\u00e5vard Kvamme",
+        "\u00d8rnulf Borgan"
+    ],
+    "emails": [
+        "haavakva@math.uio.no",
+        "borgan@math.uio.no"
+    ],
+    "id": "19-1030",
+    "issue": 2,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "The Brier Score under Administrative Censoring: Problems and a Solution",
+    "volume": 24,
+    "year": 2023
+}
