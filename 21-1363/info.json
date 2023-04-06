@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose a new data-driven approach for learning the fundamental solutions (Green's functions) of various linear partial differential equations (PDEs) given sample pairs of input-output functions. Building off the theory of functional linear regression (FLR), we estimate the best-fit Green's function and bias term of the fundamental solution in a reproducing kernel Hilbert space (RKHS) which allows us to regularize their smoothness and impose various structural constraints. We derive a general representer theorem for operator RKHSs to approximate the original infinite-dimensional regression problem by a finite-dimensional one, reducing the search space to a parametric class of Green's functions. In order to study the prediction error of our Green's function estimator, we extend prior results on FLR with scalar outputs to the case with functional outputs. Finally, we demonstrate our method on several linear PDEs including the Poisson, Helmholtz, Schr\u00f6dinger, Fokker-Planck, and heat equation. We highlight its robustness to noise as well as its ability to generalize to new data with varying degrees of smoothness and mesh discretization without any additional training.",
+    "authors": [
+        "George Stepaniants"
+    ],
+    "emails": [
+        "gstepan@mit.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sgstepaniants/OperatorLearning"
+        ]
+    ],
+    "id": "21-1363",
+    "issue": 86,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "Learning Partial Differential Equations in Reproducing Kernel Hilbert Spaces",
+    "volume": 24,
+    "year": 2023
+}

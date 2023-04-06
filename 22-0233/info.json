@@ -1,0 +1,20 @@
+{
+    "abstract": "In this work, we study the performance of sub-gradient method (SubGM) on a natural nonconvex and nonsmooth formulation of low-rank matrix recovery with $\\ell_1$-loss, where the goal is to recover a low-rank matrix from a limited number of measurements, a subset of which may be grossly corrupted with noise. We study a scenario where the rank of the true solution is unknown and over-estimated instead. The over-estimation of the rank gives rise to an over-parameterized model in which there are more degrees of freedom than needed. Such over-parameterization may lead to overfitting, or adversely affect the performance of the algorithm.  We prove that a simple SubGM with small initialization is agnostic to both over-parameterization and noise in the measurements. In particular, we show that small initialization nullifies the effect of over-parameterization on the performance of SubGM, leading to an exponential improvement in its convergence rate. Moreover, we provide the first unifying framework for analyzing the behavior of SubGM under both outlier and Gaussian noise models, showing that SubGM converges to the true solution, even under arbitrarily large and arbitrarily dense noise values, and, perhaps surprisingly, even if the globally optimal solutions do not correspond to the ground truth. At the core of our results is a robust variant of restricted isometry property, called Sign-RIP, which controls the deviation of the sub-differential of the $\\ell_1$-loss from that of an ideal, expected loss. As a byproduct of our results, we consider a subclass of robust low-rank matrix recovery with Gaussian measurements, and show that the number of required samples to guarantee the global convergence of SubGM is independent of the over-parameterized rank.",
+    "authors": [
+        "Jianhao Ma",
+        "Salar Fattahi"
+    ],
+    "emails": [
+        "jianhao@umich.edu",
+        "fattahi@umich.edu"
+    ],
+    "id": "22-0233",
+    "issue": 96,
+    "pages": [
+        1,
+        84
+    ],
+    "title": "Global Convergence of Sub-gradient Method for Robust Matrix Recovery: Small Initialization, Noisy Measurements, and Over-parameterization",
+    "volume": 24,
+    "year": 2023
+}

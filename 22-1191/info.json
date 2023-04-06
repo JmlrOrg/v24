@@ -1,0 +1,24 @@
+{
+    "abstract": "A recurrent neural network (RNN) is a widely used deep-learning network for dealing with sequential data. Imitating a dynamical system, an infinite-width RNN can approximate any open dynamical system in a compact domain. In general, deep narrow networks with bounded width and arbitrary depth are more effective than wide shallow networks with arbitrary width and bounded depth in practice; however, the universal approximation theorem for deep narrow structures has yet to be extensively studied. In this study, we prove the universality of deep narrow RNNs and show that the upper bound of the minimum width for universality can be independent of the length of the data. Specifically, we show a deep RNN with ReLU activation can approximate any continuous function or $L^p$ function with the widths $d_x+d_y+3$ and $\\max\\{d_x+1,d_y\\}$, respectively, where the target function maps a finite sequence of vectors in $\\mathbb{R}^{d_x}$ to a finite sequence of vectors in $\\mathbb{R}^{d_y}$. We also compute the additional width required if the activation function is sigmoid or more. In addition, we prove the universality of other recurrent networks, such as bidirectional RNNs. Bridging a multi-layer perceptron and an RNN, our theory and technique can shed light on further research on deep RNNs.",
+    "authors": [
+        "Chang hoon Song",
+        "Geonho Hwang",
+        "Jun ho Lee",
+        "Myungjoo Kang"
+    ],
+    "emails": [
+        "goldbach2@snu.ac.kr",
+        "hgh2134@snu.ac.kr",
+        "jhlsat@kongju.ac.kr",
+        "mkang@snu.ac.kr"
+    ],
+    "id": "22-1191",
+    "issue": 121,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Minimal Width for Universal Property of Deep RNN",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Based on the Riemannian manifold model, we study the asymptotic behavior of a widely applied unsupervised learning algorithm, locally linear embedding (LLE), when the point cloud is sampled from a compact, smooth manifold with boundary. We show several peculiar behaviors of LLE near the boundary that are different from those diffusion-based algorithms. In particular, we show that LLE pointwisely converges to a mixed-type differential operator with degeneracy and we calculate the convergence rate. The impact of the hyperbolic part of the operator is discussed and we propose a clipped LLE algorithm which is a potential approach to recover the Dirichlet Laplace-Beltrami operator.",
+    "authors": [
+        "Hau-Tieng Wu",
+        "Nan Wu"
+    ],
+    "emails": [
+        "hauwu@math.duke.edu",
+        "nan.wu@utdallas.edu"
+    ],
+    "id": "21-0697",
+    "issue": 69,
+    "pages": [
+        1,
+        80
+    ],
+    "title": "When Locally Linear Embedding Hits Boundary",
+    "volume": 24,
+    "year": 2023
+}

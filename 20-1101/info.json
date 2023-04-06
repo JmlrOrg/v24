@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper, we develop an online change-point detection procedure in the covariance structure of high-dimensional data. A new stopping rule is proposed to terminate the process as early as possible when a change in covariance structure occurs. The stopping rule allows spatial and temporal dependence and can be applied to non-Gaussian data. An explicit expression for the average run length is derived, so that the level of threshold in the stopping rule can be easily obtained with no need to run time-consuming Monte Carlo simulations. We also establish an upper bound for the expected detection delay, the expression of which demonstrates the impact of data dependence and magnitude of change in the covariance structure. Simulation studies are provided to confirm accuracy of the theoretical results. The practical usefulness of the proposed procedure is illustrated by detecting the change of brain\u2019s covariance network in a resting-state fMRI data set. The implementation of the methodology is provided in the R package OnlineCOV.",
+    "authors": [
+        "Lingjun Li",
+        "Jun Li"
+    ],
+    "emails": [
+        "lli13@kent.edu",
+        "jli49@kent.edu"
+    ],
+    "id": "20-1101",
+    "issue": 51,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Online Change-Point Detection in High-Dimensional Covariance Structure with Application to Dynamic Networks",
+    "volume": 24,
+    "year": 2023
+}

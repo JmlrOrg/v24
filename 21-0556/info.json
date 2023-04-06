@@ -1,0 +1,20 @@
+{
+    "abstract": "We study posterior contraction rates for a class of deep Gaussian process priors in the nonparametric regression setting under a general composition assumption on the regression function. It is shown that the contraction rates can achieve the minimax convergence rate (up to log n factors), while being adaptive to the underlying structure and smoothness of the target function. The proposed framework extends the Bayesian nonparametric theory for Gaussian process priors.",
+    "authors": [
+        "Gianluca Finocchio",
+        "Johannes Schmidt-Hieber"
+    ],
+    "emails": [
+        "gianluca.finocchio@univie.ac.at",
+        "a.j.schmidt-hieber@utwente.nl"
+    ],
+    "id": "21-0556",
+    "issue": 66,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Posterior Contraction for Deep Gaussian Process Priors",
+    "volume": 24,
+    "year": 2023
+}

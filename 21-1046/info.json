@@ -1,0 +1,26 @@
+{
+    "abstract": "An analysis of high-dimensional data can offer a detailed description of a system but is often challenged by the curse of dimensionality. General dimensionality reduction techniques can alleviate such difficulty by extracting a few important features, but they are limited due to the lack of interpretability and connectivity to actual decision making associated with each physical variable. Variable selection techniques, as an alternative, can maintain the interpretability, but they often involve a greedy search that is susceptible to failure in capturing important interactions or a metaheuristic search that requires extensive computations. This research proposes a novel method that identifies critical subspaces, reduced-dimensional physical spaces, to achieve dimensionality reduction and variable selection. We apply a randomized search for subspace exploration and leverage ensemble techniques to enhance model performance. When applied to high-dimensional data collected from the failure prediction of a composite/metal hybrid structure exhibiting complex progressive damage failure under loading, the proposed method outperforms the existing and potential alternatives in prediction and important variable selection.",
+    "authors": [
+        "Di Bo",
+        "Hoon Hwangbo",
+        "Vinit Sharma",
+        "Corey Arndt",
+        "Stephanie TerMaath"
+    ],
+    "emails": [
+        "dbo@vols.utk.edu",
+        "hhwangb1@utk.edu",
+        "vinit.sharma@utk.edu",
+        "carndt@vols.utk.edu",
+        "stermaat@utk.edu"
+    ],
+    "id": "21-1046",
+    "issue": 76,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "A Randomized Subspace-based Approach for Dimensionality Reduction and Important Variable Selection",
+    "volume": 24,
+    "year": 2023
+}

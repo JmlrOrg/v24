@@ -1,0 +1,26 @@
+{
+    "abstract": "The transition kernel of a continuous-state-action Markov decision process (MDP) admits a natural tensor structure. This paper proposes a tensor-inspired unsupervised learning method to identify meaningful low-dimensional state and action representations from empirical trajectories.  The method exploits the MDP's tensor structure by kernelization, importance sampling and low-Tucker-rank approximation. This method can be further used to cluster states and actions respectively and find the best discrete MDP abstraction. We provide sharp statistical error bounds for tensor concentration and the preservation of diffusion distance after embedding. We further prove that the learned state/action abstractions provide accurate approximations to latent block structures if they exist, enabling function approximation in downstream tasks such as policy evaluation.",
+    "authors": [
+        "Chengzhuo Ni",
+        "Yaqi Duan",
+        "Munther Dahleh",
+        "Mengdi Wang",
+        "Anru R. Zhang"
+    ],
+    "emails": [
+        "chengzhuo.ni@princeton.edu",
+        "yaqid@mit.edu",
+        "dahleh@mit.edu",
+        "mengdiw@princeton.edu",
+        "anru.zhang@duke.edu"
+    ],
+    "id": "22-0917",
+    "issue": 115,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Learning Good State and Action Representations for Markov Decision Process via Tensor Decomposition",
+    "volume": 24,
+    "year": 2023
+}

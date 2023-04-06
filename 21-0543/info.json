@@ -1,0 +1,24 @@
+{
+    "abstract": "We establish exact asymptotic expressions for the normalized mutual information and minimum mean-square-error (MMSE) of  sparse linear regression in the sub-linear sparsity regime. Our result is achieved by a generalization of the adaptive interpolation method in Bayesian inference for linear regimes to sub-linear ones. A modification of the well-known approximate message passing algorithm to approach the MMSE fundamental limit is also proposed, and its state evolution is rigorously analysed.  Our results show that the traditional linear assumption between the signal dimension and number of observations in the replica and adaptive interpolation methods is not necessary for sparse signals. They also show how to modify the existing well-known AMP algorithms for linear regimes to sub-linear ones.",
+    "authors": [
+        "Lan V. Truong"
+    ],
+    "emails": [
+        "lt407@cam.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LanTruong1980/AMP"
+        ]
+    ],
+    "id": "21-0543",
+    "issue": 64,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Fundamental limits and algorithms for sparse linear regression with sublinear sparsity",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Normalizing flows (NFs) are universal density estimators based on neural networks. However, this universality is limited: the density's support needs to be diffeomorphic to a Euclidean space. In this paper, we propose a novel method to overcome this limitation without sacrificing universality. The proposed method inflates the data manifold by adding noise in the normal space, trains an NF on this inflated manifold, and, finally, deflates the learned density. Our main result provides sufficient conditions on the manifold and the specific choice of noise under which the corresponding estimator is exact. Our method has the same computational complexity as NFs and does not require computing an inverse flow. We also demonstrate theoretically (under certain conditions) and empirically (on a wide range of toy examples) that noise in the normal space can be well approximated by Gaussian noise. This allows using our method for approximating arbitrary densities on unknown manifolds provided that the manifold dimension is known.",
+    "authors": [
+        "Christian Horvat",
+        "Jean-Pascal Pfister"
+    ],
+    "emails": [
+        "christian.horvat@unibe.ch",
+        "jeanpascal.pfister@unibe.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chrvt/Inflation-Deflation"
+        ]
+    ],
+    "id": "21-0235",
+    "issue": 61,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Density estimation on low-dimensional manifolds: an inflation-deflation approach",
+    "volume": 24,
+    "year": 2023
+}

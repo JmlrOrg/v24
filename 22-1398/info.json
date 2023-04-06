@@ -1,0 +1,20 @@
+{
+    "abstract": "In many modern applications of deep learning the neural network has many more parameters than the data points used for its training. Motivated by those practices, a large body of recent theoretical research has been devoted to studying overparameterized models. One of the central phenomena in this regime is the ability of the model to interpolate noisy data, but still have test error lower than the amount of noise in that data. arXiv:1906.11300 characterized for which covariance structure of the data such a phenomenon can happen in linear regression if one considers the interpolating solution with minimum $\\ell_2$-norm and the data has independent components: they gave a sharp bound on the variance term and showed that it can be small if and only if the data covariance has high effective rank in a subspace of small co-dimension. We strengthen and complete their results by eliminating the independence assumption and providing sharp bounds for the bias term. Thus, our results  apply in a much more general setting than those of arXiv:1906.11300, e.g., kernel regression, and not only characterize how the noise is damped but also which part of the true signal is learned.  Moreover, we extend the result to the setting of ridge regression, which allows us to explain another interesting phenomenon: we give general sufficient conditions under which the optimal regularization is negative.",
+    "authors": [
+        "Alexander Tsigler",
+        "Peter L. Bartlett"
+    ],
+    "emails": [
+        "alexander_tsigler@berkeley.edu",
+        "peter@berkeley.edu"
+    ],
+    "id": "22-1398",
+    "issue": 123,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Benign overfitting in ridge regression",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Positive-Unlabeled learning (PU learning) is a special case of semi-supervised binary classification where only a fraction of positive examples is labeled. The challenge is then to find the correct classifier despite this lack of information. Recently, new methodologies have been introduced to address the case where the probability of being labeled may depend on the covariates. In this paper, we are interested in establishing risk bounds for PU learning under this general assumption. In addition, we quantify the impact of label noise on PU learning compared to the standard classification setting. Finally, we provide a lower bound on the minimax risk proving that the upper bound is almost optimal.",
+    "authors": [
+        "Olivier Coudray",
+        "Christine Keribin",
+        "Pascal Massart",
+        "Patrick Pamphile"
+    ],
+    "emails": [
+        "olivier.coudray@universite-paris-saclay.fr",
+        "christine.keribin@universite-paris-saclay.fr",
+        "pascal.massart@fondation-hadamard.fr",
+        "patrick.pamphile@universite-paris-saclay.fr"
+    ],
+    "id": "22-067",
+    "issue": 107,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Risk Bounds for Positive-Unlabeled Learning Under the Selected At Random Assumption",
+    "volume": 24,
+    "year": 2023
+}

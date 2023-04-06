@@ -1,0 +1,28 @@
+{
+    "abstract": "We introduce a metric space of clusterings, where clusterings are described by a binary vector indexed by the vertex-pairs. We extend this geometry to a hypersphere and prove that maximizing modularity is equivalent to minimizing the angular distance to some modularity vector over the set of clustering vectors. In that sense, modularity-based community detection methods can be seen as a subclass of a more general class of projection methods, which we define as the community detection methods that adhere to the following two-step procedure: first, mapping the network to a point on the hypersphere; second, projecting this point to the set of clustering vectors. We show that this class of projection methods contains many interesting community detection methods. Many of these new methods cannot be described in terms of null models and resolution parameters, as is customary for modularity-based methods. We provide a new characterization of such methods in terms of meridians and latitudes of the hypersphere. In addition, by relating the modularity resolution parameter to the latitude of the corresponding modularity vector, we obtain a new interpretation of the resolution limit that modularity maximization is known to suffer from.",
+    "authors": [
+        "Martijn G\u00f6sgens",
+        "Remco van der Hofstad",
+        "Nelly Litvak"
+    ],
+    "emails": [
+        "research@martijngosgens.nl",
+        "r.w.v.d.hofstad@tue.nl",
+        "n.litvak@utwente.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MartijnGosgens/hyperspherical_community_detection"
+        ]
+    ],
+    "id": "22-0744",
+    "issue": 112,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "The Hyperspherical Geometry of Community Detection: Modularity as a Distance",
+    "volume": 24,
+    "year": 2023
+}

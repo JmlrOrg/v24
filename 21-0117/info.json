@@ -1,0 +1,22 @@
+{
+    "abstract": "In the optimization of dynamic systems, the variables typically have constraints. Such problems can be modeled as a Constrained Markov Decision Process (CMDP). This paper considers the peak Constrained Markov Decision Process (PCMDP), where the agent chooses the policy to maximize total reward in the finite horizon as well as satisfy constraints at each epoch with probability 1. We propose a model-free algorithm that converts PCMDP problem to an unconstrained problem and a Q-learning based approach is applied. We define the concept of probably approximately correct (PAC) to the proposed PCMDP problem. The proposed algorithm is proved to achieve an  $(\\epsilon,p)$-PAC policy when the episode $K\\geq\\Omega(\\frac{I^2H^6SA\\ell}{\\epsilon^2})$, where $S$ and $A$ are the number of states and actions, respectively. $H$ is the number of epochs per episode. $I$ is the number of constraint functions, and $\\ell=\\log(\\frac{SAT}{p})$. We note that this is the first result on PAC kind of analysis for  PCMDP with peak constraints, where the transition dynamics are not known apriori. We demonstrate the proposed algorithm on an energy harvesting problem and a single machine scheduling problem, where it performs close to the theoretical upper bound of the studied optimization problem.",
+    "authors": [
+        "Qinbo Bai",
+        "Vaneet Aggarwal",
+        "Ather Gattami"
+    ],
+    "emails": [
+        "bai113@purdue.edu",
+        "vaneet@purdue.edu",
+        "ather.gattami@ai.se"
+    ],
+    "id": "21-0117",
+    "issue": 60,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Provably Sample-Efficient Model-Free Algorithm for MDPs with Peak Constraints",
+    "volume": 24,
+    "year": 2023
+}

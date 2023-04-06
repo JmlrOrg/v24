@@ -1,0 +1,22 @@
+{
+    "abstract": "Data driven individualized decision making problems have received a lot of attentions in recent years. In particular, decision makers aim to determine the optimal Individualized Treatment Rule (ITR) so that the expected specified outcome averaging over heterogeneous patient-specific characteristics is maximized. Many existing methods deal with binary or a moderate number of treatment arms and may not take potential treatment effect structure into account. However, the effectiveness of these methods may deteriorate when the number of treatment arms becomes large. In this article, we propose GRoup Outcome Weighted Learning (GROWL) to estimate the latent structure in the treatment space and the optimal group-structured ITRs through a single optimization. In particular, for estimating group-structured ITRs, we utilize the Reinforced Angle based Multicategory Support Vector Machines (RAMSVM) to learn group-based decision rules under the weighted angle based multi-class classification framework. Fisher consistency, the excess risk bound, and the convergence rate of the value function are established to provide a theoretical guarantee for GROWL. Extensive empirical results in simulation studies and real data analysis demonstrate that GROWL enjoys better performance than several other existing methods.",
+    "authors": [
+        "Haixu Ma",
+        "Donglin Zeng",
+        "Yufeng Liu"
+    ],
+    "emails": [
+        "haixuma@live.unc.edu",
+        "dzeng@email.unc.edu",
+        "yfliu@email.unc.edu"
+    ],
+    "id": "22-0520",
+    "issue": 102,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Learning Optimal Group-structured Individualized Treatment Rules with Many Treatments",
+    "volume": 24,
+    "year": 2023
+}

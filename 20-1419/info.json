@@ -1,0 +1,20 @@
+{
+    "abstract": "We study community detection in the ``contextual stochastic block model\" (Yan and Sarkar (2020), Deshpande et al. (2018)). Deshpande et al. (2018) studied this problem in the setting of sparse graphs with high-dimensional node-covariates. Using the non-rigorous ``cavity method\" from statistical physics (Mezard and Montanari (2009)), they calculated the sharp limit for community detection in this setting, and verified that the limit matches the information theoretic threshold when the average degree of the observed graph is large. They conjectured that the limit should hold as soon as the average degree exceeds one. We establish this conjecture, and characterize the sharp threshold for detection and weak recovery.",
+    "authors": [
+        "Chen Lu",
+        "Subhabrata Sen"
+    ],
+    "emails": [
+        "chenl819@mit.edu",
+        "subhabratasen@fas.harvard.edu"
+    ],
+    "id": "20-1419",
+    "issue": 54,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Contextual Stochastic Block Model: Sharp Thresholds and Contiguity",
+    "volume": 24,
+    "year": 2023
+}

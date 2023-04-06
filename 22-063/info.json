@@ -1,0 +1,30 @@
+{
+    "abstract": "Relational databases are a successful model for data storage, and rely on query languages for information retrieval. Most of these query languages are based on relational algebra, a mathematical formalization at the core of relational models. Knowledge graphs are flexible data storage structures that allow for knowledge completion using machine learning techniques. Knowledge hypergraphs generalize knowledge graphs by allowing multi-argument relations. This work studies knowledge hypergraph completion through the lens of relational algebra and its core operations. We explore the space between relational algebra foundations and machine learning techniques for knowledge completion.  We investigate whether such methods can capture high-level abstractions in terms of relational algebra operations. We propose a simple embedding-based model called Relational Algebra Embedding (ReAlE) that performs link prediction in knowledge hypergraphs. We show theoretically that ReAlE is fully expressive and can represent the relational algebra operations of renaming, projection, set union, selection, and set difference. We verify experimentally that ReAlE outperforms state-of-the-art models in knowledge hypergraph completion, and in representing each of these primitive relational algebra operations.  For the latter experiment, we generate a synthetic knowledge hypergraph, for which we design an algorithm based on the Erdos-R'enyi model for generating random graphs.",
+    "authors": [
+        "Bahare Fatemi",
+        "Perouz Taslakian",
+        "David Vazquez",
+        "David Poole"
+    ],
+    "emails": [
+        "bfatemi@cs.ubc.ca",
+        "perouz.taslakian@servicenow.com",
+        "david.vazquez@servicenow.com",
+        "poole@cs.ubc.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/baharefatemi/ReAlE"
+        ]
+    ],
+    "id": "22-063",
+    "issue": 105,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Knowledge Hypergraph Embedding Meets Relational Algebra",
+    "volume": 24,
+    "year": 2023
+}

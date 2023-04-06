@@ -1,0 +1,30 @@
+{
+    "abstract": "Algorithms involving Gaussian processes or determinantal point processes typically require computing the determinant of a kernel matrix. Frequently, the latter is computed from the Cholesky decomposition, an algorithm of cubic complexity in the size of the matrix.  We show that, under mild assumptions, it is possible to estimate the determinant from only a sub-matrix, with probabilistic guarantee on the relative error.  We present an augmentation of the Cholesky decomposition that stops under certain conditions before processing the whole matrix. Experiments demonstrate that this can save a considerable amount of time while rarely exceeding an overhead of more than 5% when not stopping early. More generally, we present a probabilistic stopping strategy for the approximation of a sum of known length where addends are revealed sequentially.  We do not assume independence between addends, only that they are bounded from below and decrease in conditional expectation.",
+    "authors": [
+        "Simon Bartels",
+        "Wouter Boomsma",
+        "Jes Frellsen",
+        "Damien Garreau"
+    ],
+    "emails": [
+        "bartels@di.ku.dk",
+        "wb@di.ku.dk",
+        "jefr@dtu.dk",
+        "damien.garreau@unice.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SimonBartels/pac_kernel_matrix_determinant_estimation"
+        ]
+    ],
+    "id": "21-0781",
+    "issue": 71,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Kernel-Matrix Determinant Estimates from stopped Cholesky Decomposition",
+    "volume": 24,
+    "year": 2023
+}

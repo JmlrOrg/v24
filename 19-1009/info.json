@@ -1,0 +1,20 @@
+{
+    "abstract": "We first propose a general step-size framework for the stochastic gradient descent(SGD) method: bandwidth-based step sizes that are allowed to vary within a banded region. The framework provides efficient and flexible step size selection in optimization, including cyclical and non-monotonic step sizes (e.g., triangular policy and cosine with restart), for which theoretical guarantees are rare. We provide state-of-the-art convergence guarantees for SGD under mild conditions and allow a large constant step size at the beginning of training. Moreover, we investigate the error bounds of SGD under the bandwidth step size where the boundary functions are in the same order and different orders, respectively. Finally, we propose a $1/t$ up-down policy and design novel non-monotonic step sizes. Numerical experiments demonstrate these bandwidth-based step sizes' efficiency and significant potential in training regularized logistic regression and several large-scale neural network tasks.",
+    "authors": [
+        "Xiaoyu Wang",
+        "Ya-xiang Yuan"
+    ],
+    "emails": [
+        "wxy@lsec.cc.ac.cn",
+        "yyx@lsec.cc.ac.cn"
+    ],
+    "id": "19-1009",
+    "issue": 48,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "On the Convergence of Stochastic Gradient Descent with Bandwidth-based Step Size",
+    "volume": 24,
+    "year": 2023
+}

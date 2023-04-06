@@ -1,0 +1,26 @@
+{
+    "abstract": "Covariate measurement error in nonparametric regression is a common problem in nutritional epidemiology and geostatistics, and other fields. Over the last two decades, this problem has received substantial attention in the frequentist literature. Bayesian approaches for handling measurement error have only been explored recently and are surprisingly successful, although there still is a lack of a proper theoretical justification regarding the asymptotic performance of the estimators. By specifying a Gaussian process prior on the regression function and a Dirichlet process Gaussian mixture prior on the unknown distribution of the unobserved covariates, we show that the posterior distribution of the regression function and the unknown covariate density attain optimal rates of contraction adaptively over a range of H\u007folder classes, up to logarithmic terms. We also develop a novel surrogate prior for approximating the Gaussian process prior that leads to efficient computation and preserves the covariance structure, thereby facilitating easy prior elicitation. We demonstrate the empirical performance of our approach and compare it with competitors in a wide range of simulation experiments and a real data example.",
+    "authors": [
+        "Shuang Zhou",
+        "Debdeep Pati",
+        "Tianying Wang",
+        "Yun Yang",
+        "Raymond J. Carroll"
+    ],
+    "emails": [
+        "szhou98@asu.edu",
+        "debdeep@stat.tamu.edu",
+        "tianyingw@tsinghua.edu.cn",
+        "yy84@illinois.edu",
+        "carroll@stat.tamu.edu"
+    ],
+    "id": "21-1480",
+    "issue": 87,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Gaussian Processes with Errors in Variables: Theory and Computation",
+    "volume": 24,
+    "year": 2023
+}

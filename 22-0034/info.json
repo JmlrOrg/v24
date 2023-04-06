@@ -1,0 +1,24 @@
+{
+    "abstract": "There has been a surge of interest in developing robust estimators for models with heavy-tailed and bounded variance data in statistics and machine learning, while few works impose unbounded variance. This paper proposes two types of robust estimators, the ridge log-truncated M-estimator and the elastic net log-truncated M-estimator. The first estimator is applied to convex regressions such as quantile regression and generalized linear models, while the other one is applied to high dimensional non-convex learning problems such as regressions via deep neural networks. Simulations and real data analysis demonstrate the robustness of log-truncated estimations over standard estimations.",
+    "authors": [
+        "Lihu Xu",
+        "Fang Yao",
+        "Qiuran Yao",
+        "Huiming Zhang"
+    ],
+    "emails": [
+        "lihuxu@um.edu.mo",
+        "fyao@math.pku.edu.cn",
+        "yb97478@connect.um.edu.mo",
+        "zhanghuiming@buaa.edu.cn"
+    ],
+    "id": "22-0034",
+    "issue": 92,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Non-Asymptotic Guarantees for Robust Statistical Learning under Infinite Variance Assumption",
+    "volume": 24,
+    "year": 2023
+}

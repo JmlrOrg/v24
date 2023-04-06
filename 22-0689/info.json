@@ -1,0 +1,30 @@
+{
+    "abstract": "We propose a novel framework to study asynchronous federated learning optimization with delays in gradient updates. Our theoretical framework extends the standard FedAvg aggregation scheme by introducing stochastic aggregation weights to represent the variability of the clients update time, due for example to heterogeneous hardware capabilities. Our formalism applies to the general federated setting where clients have heterogeneous datasets and perform at least one step of stochastic gradient descent (SGD). We demonstrate convergence for such a scheme and provide sufficient conditions for the related minimum to be the optimum of the federated problem. We show that our general framework applies to existing optimization schemes including centralized learning, FedAvg, asynchronous FedAvg, and FedBuff. The theory here provided allows drawing meaningful guidelines for designing a federated learning experiment in heterogeneous conditions. In particular, we develop in this work FedFix, a novel extension of FedAvg enabling efficient asynchronous federated training while preserving the convergence stability of synchronous aggregation. We empirically demonstrate our theory on a series of experiments showing that asynchronous FedAvg leads to fast convergence at the expense of stability, and we finally demonstrate  the improvements of FedFix over synchronous and asynchronous FedAvg.",
+    "authors": [
+        "Yann Fraboni",
+        "Richard Vidal",
+        "Laetitia Kameni",
+        "Marco Lorenzi"
+    ],
+    "emails": [
+        "yann.fraboni@inria.fr",
+        "richard.vidal@accenture.com",
+        "laetitia.kameni@accenture.com",
+        "marco.lorenzi@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Accenture/Labs-Federated-Learning/tree/asynchronous_FL"
+        ]
+    ],
+    "id": "22-0689",
+    "issue": 110,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "A General Theory for Federated Optimization with Asynchronous and Heterogeneous Clients Updates",
+    "volume": 24,
+    "year": 2023
+}

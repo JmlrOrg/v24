@@ -1,0 +1,30 @@
+{
+    "abstract": "We address the problem of estimating topological features from data in high dimensional Euclidean spaces under the manifold assumption. Our approach is based on the  computation of persistent homology of the space of data points endowed with a sample metric known as Fermat distance. We prove that such metric space converges almost surely to the manifold itself endowed with an intrinsic metric that accounts for both the geometry of the manifold and the density that produces the sample. This fact implies the convergence of the associated persistence diagrams. The use of this intrinsic distance when computing persistent homology presents advantageous properties such as robustness to the presence of outliers in the input data and less sensitiveness to the particular embedding of the underlying manifold in the ambient space. We use these ideas to propose and implement a method for pattern recognition and anomaly detection in time series, which is evaluated in applications to real data.",
+    "authors": [
+        "Ximena Fern\u00e1ndez",
+        "Eugenio Borghini",
+        "Gabriel Mindlin",
+        "Pablo Groisman"
+    ],
+    "emails": [
+        "xfernand@dm.uba.ar",
+        "eborghini@dm.uba.ar",
+        "gabo@df.uba.ar",
+        "pgroisma@dm.uba.ar"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ximenafernandez/intrinsicPH"
+        ]
+    ],
+    "id": "21-1044",
+    "issue": 75,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Intrinsic Persistent Homology via Density-based Metric Learning",
+    "volume": 24,
+    "year": 2023
+}

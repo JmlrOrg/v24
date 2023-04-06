@@ -1,0 +1,22 @@
+{
+    "abstract": "Density estimation is a building block for many other statistical methods, such as classification, nonparametric testing, and data compression. In this paper, we focus on a non-parametric approach to multivariate density estimation, and study its asymptotic properties under both frequentist and Bayesian settings. The estimated density function is obtained by considering a sequence of approximating spaces to the space of densities. These spaces consist of piecewise constant density functions supported by binary partitions with increasing complexity. To obtain an estimate, the partition is learned by maximizing either the likelihood of the corresponding histogram on that partition, or the marginal posterior probability of the partition under a suitable prior. We analyze the convergence rate of the maximum likelihood estimator and the posterior concentration rate of the Bayesian estimator, and conclude that for a relatively rich class of density functions the rate does not directly depend on the dimension. We also show that the Bayesian method can adapt to the unknown smoothness of the density function.  The method is applied to several specific function classes and explicit rates are obtained. These include spatially sparse functions, functions of bounded variation, and H{\\\"o}lder continuous functions. We also introduce an ensemble approach, obtained by aggregating multiple density estimates fit under carefully designed perturbations, and show that for density functions lying in a H{\\\"o}lder space ($\\mathcal{H}^{1, \\beta}, 0 < \\beta \\leq 1$), the ensemble method can achieve minimax convergence rate up to a logarithmic term, while the corresponding rate of the density estimator based on a single partition is suboptimal for this function class.",
+    "authors": [
+        "Linxi Liu",
+        "Dangna Li",
+        "Wing Hung Wong"
+    ],
+    "emails": [
+        "lil155@pitt.edu",
+        "ldangna@alumni.stanford.edu",
+        "whwong@stanford.edu"
+    ],
+    "id": "20-060",
+    "issue": 50,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Convergence Rates of a Class of Multivariate Density Estimation Methods Based on Adaptive Partitioning",
+    "volume": 24,
+    "year": 2023
+}

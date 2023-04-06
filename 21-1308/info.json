@@ -1,0 +1,32 @@
+{
+    "abstract": "Online optimization has witnessed a massive surge of research attention in recent years. In this paper, we propose online gradient descent and online bandit algorithms over Riemannian manifolds in full information and bandit feedback settings respectively, for both geodesically convex and strongly geodesically convex functions. We establish a series of upper bounds on the regrets for the proposed algorithms over Hadamard manifolds. We also find a universal lower bound for achievable regret on Hadamard manifolds. Our analysis shows how time horizon, dimension, and sectional curvature bounds have impact on the regret bounds. When the manifold permits positive sectional curvature, we prove similar regret bound can be established by handling non-constrictive project maps. In addition, numerical studies on problems defined on symmetric positive definite matrix manifold, hyperbolic spaces, and Grassmann manifolds are provided to validate our theoretical findings, using synthetic and real-world data.",
+    "authors": [
+        "Xi Wang",
+        "Zhipeng Tu",
+        "Yiguang Hong",
+        "Yingyi Wu",
+        "Guodong Shi"
+    ],
+    "emails": [
+        "wangxi14.ucas@gmail.com",
+        "tuzhipeng@amss.ac.cn",
+        "yghong@iss.ac.cn",
+        "wuyy@ucas.ac.cn",
+        "guodong.shi@sydney.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/RiemannianOCO/experiments"
+        ]
+    ],
+    "id": "21-1308",
+    "issue": 84,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Online Optimization over Riemannian Manifolds",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,32 @@
+{
+    "abstract": "Several papers argue that wide minima generalize better than narrow minima. In this paper, through detailed experiments that not only corroborate the generalization properties of wide minima, we also provide empirical evidence for a new hypothesis that the density of wide minima is likely lower than the density of narrow minima. Further, motivated by this hypothesis, we design a novel explore-exploit learning rate schedule. On a variety of image and natural language datasets, compared to their original hand-tuned learning rate baselines, we show that our explore-exploit schedule can result in either up to 0.84% higher absolute accuracy using the original training budget or up to 57% reduced training time while achieving the original reported accuracy.",
+    "authors": [
+        "Nikhil Iyer",
+        "V. Thejas",
+        "Nipun Kwatra",
+        "Ramachandran Ramjee",
+        "Muthian Sivathanu"
+    ],
+    "emails": [
+        "iyernikhi007@gmail.com",
+        "thejasvenkatesh97@gmail.com",
+        "nkwatra@microsoft.com",
+        "ramjee@microsoft.com",
+        "muthian@microsoft.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nikhil-iyer-97/wide-minima-density-hypothesis"
+        ]
+    ],
+    "id": "21-0549",
+    "issue": 65,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Wide-minima Density Hypothesis and the Explore-Exploit Learning Rate Schedule",
+    "volume": 24,
+    "year": 2023
+}

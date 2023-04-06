@@ -1,0 +1,22 @@
+{
+    "abstract": "Gaussian processes are widely employed as versatile modelling and predictive tools in spatial statistics, functional data analysis, computer modelling and diverse applications of machine learning. They have been widely studied over Euclidean spaces, where they are specified using covariance functions or covariograms for modelling complex dependencies. There is a growing literature on Gaussian processes over Riemannian manifolds in order to develop richer and more flexible inferential frameworks for non-Euclidean data. While numerical approximations through graph representations have been well studied for the Matern covariogram and heat kernel, the behaviour of asymptotic inference on the parameters of the covariogram has received relatively scant attention. We focus on asymptotic behaviour for Gaussian processes constructed over compact Riemannian manifolds. Building upon a recently introduced Matern covariogram on a compact Riemannian manifold, we employ formal notions and conditions for the equivalence of two Matern Gaussian random measures on compact manifolds to derive the parameter that is identifiable, also known as the microergodic parameter, and formally establish the consistency of the maximum likelihood estimate and the asymptotic optimality of the best linear unbiased predictor. The circle is studied as a specific example of compact Riemannian manifolds with numerical experiments to illustrate and corroborate the theory.",
+    "authors": [
+        "Didong Li",
+        "Wenpin Tang",
+        "Sudipto Banerjee"
+    ],
+    "emails": [
+        "didongli@unc.edu",
+        "wt2319@columbia.edu",
+        "sudipto@ucla.edu"
+    ],
+    "id": "22-0503",
+    "issue": 101,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Inference for Gaussian Processes with Matern Covariogram on Compact Riemannian Manifolds",
+    "volume": 24,
+    "year": 2023
+}

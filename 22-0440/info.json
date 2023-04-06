@@ -1,0 +1,33 @@
+{
+    "abstract": "FedLab is a lightweight open-source framework for the simulation of federated learning. The design of FedLab focuses on federated learning algorithm effectiveness and communication efficiency. It allows customization on server optimization, client optimization, communication agreement, and communication compression. Also, FedLab is scalable in different deployment scenarios with different computation and communication resources. We hope FedLab could provide flexible APIs as well as reliable baseline implementations and relieve the burden of implementing novel approaches for researchers in the FL community. The source code, tutorial, and documentation can be found at https://github.com/SMILELab-FL/FedLab.",
+    "authors": [
+        "Dun Zeng",
+        "Siqi Liang",
+        "Xiangjing Hu",
+        "Hui Wang",
+        "Zenglin Xu"
+    ],
+    "emails": [
+        "zengdun@std.uestc.edu.cn",
+        "zszxlsq@gmail.com",
+        "xiangjinghu@stu.hit.edu.cn",
+        "wangh06@pcl.ac.cn",
+        "xuzenglin@hit.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SMILELab-FL/FedLab"
+        ]
+    ],
+    "id": "22-0440",
+    "issue": 100,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "FedLab: A Flexible Federated Learning Framework",
+    "volume": 24,
+    "year": 2023
+}

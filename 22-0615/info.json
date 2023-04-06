@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper is motivated by structured sparsity for deep neural network training. We study a weighted group $l_0$-norm constraint, and present the projection and normal cone of this set. Using randomized smoothing, we develop zeroth and first-order algorithms for minimizing a Lipschitz continuous function constrained by any closed set which can be projected onto. Non-asymptotic convergence guarantees are proven in expectation for the proposed algorithms for two related convergence criteria which can be considered as approximate stationary points. Two further methods are given using the proposed algorithms: one with non-asymptotic convergence guarantees in high probability, and the other with asymptotic guarantees to a stationary point almost surely. We believe in particular that these are the first such non-asymptotic convergence results for constrained Lipschitz continuous loss functions.",
+    "authors": [
+        "Michael R. Metel"
+    ],
+    "emails": [
+        "michael.metel@huawei.com"
+    ],
+    "id": "22-0615",
+    "issue": 103,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Sparse Training with Lipschitz Continuous Loss Functions and a Weighted Group L0-norm Constraint",
+    "volume": 24,
+    "year": 2023
+}

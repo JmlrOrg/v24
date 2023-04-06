@@ -1,0 +1,22 @@
+{
+    "abstract": "Humans' abstraction ability plays a key role in concept learning and knowledge discovery. This theory paper presents the mathematical formulation for computationally emulating human-like abstractions---computational abstraction---and abstraction processes developed hierarchically from innate priors like symmetries. We study the nature of abstraction via a group-theoretic approach, formalizing and practically computing abstractions as symmetry-driven hierarchical clustering. Compared to data-driven clustering like k-means or agglomerative clustering (a chain), our abstraction model is data-free, feature-free, similarity-free, and globally hierarchical (a lattice). This paper also serves as a theoretical generalization of several existing works. These include generalizing Shannon's information lattice, specialized algorithms for certain symmetry-induced clusterings, as well as formalizing knowledge discovery applications such as learning music theory from scores and chemistry laws from molecules. We consider computational abstraction as a first step towards a principled and cognitive way of achieving human-level concept learning and knowledge discovery.",
+    "authors": [
+        "Haizi Yu",
+        "Igor Mineyev",
+        "Lav R. Varshney"
+    ],
+    "emails": [
+        "haiziyu7@illinois.edu",
+        "mineyev@illinois.edu",
+        "varshney@illinois.edu"
+    ],
+    "id": "18-508",
+    "issue": 47,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "A Group-Theoretic Approach to Computational Abstraction: Symmetry-Driven Hierarchical Clustering",
+    "volume": 24,
+    "year": 2023
+}

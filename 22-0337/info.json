@@ -1,0 +1,30 @@
+{
+    "abstract": "We consider the problem of fitting autoregressive graph generative models via maximum likelihood estimation (MLE). MLE is intractable for graph autoregressive models because the nodes in a graph can be arbitrarily reordered; thus the exact likelihood involves a sum over all possible node orders leading to the same graph. In this work, we fit the graph models by maximizing a variational bound, which is built by first deriving the joint probability over the graph and the node order of the autoregressive process. This approach avoids the need to specify ad-hoc node orders, since an inference network learns the most likely node sequences that have generated a given graph. We improve the approach by developing a graph generative model based on attention mechanisms and an inference network based on routing search. We demonstrate empirically that fitting autoregressive graph models via variational inference improves their qualitative and quantitative performance, and the improved model and inference network further boost the performance.",
+    "authors": [
+        "Xu Han",
+        "Xiaohui Chen",
+        "Francisco J. R. Ruiz",
+        "Li-Ping Liu"
+    ],
+    "emails": [
+        "Xu.Han@tufts.edu",
+        "Xiaohui.Chen@tufts.edu",
+        "franrruiz@deepmind.com",
+        "Liping.Liu@tufts.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tufts-ml/Graph-Generation-MLE"
+        ]
+    ],
+    "id": "22-0337",
+    "issue": 97,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Fitting Autoregressive Graph Generative Models through Maximum Likelihood Estimation",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Nonparametric regression imputation is commonly used in missing data analysis. However, it suffers from the curse of dimension.   The problem can be alleviated by the explosive sample size in the era of big data, while the large-scale data size presents some challenges in the storage of data and the calculation of estimators.  These challenges make the classical nonparametric regression imputation methods no longer applicable.  This motivates us to develop two distributed nonparametric regression imputation methods.  One is based on kernel smoothing and the other on the sieve method.  The kernel-based distributed imputation method has extremely low communication cost, and the sieve-based distributed imputation method can accommodate more local machines.  The response mean estimation is considered to illustrate the proposed imputation methods. Two distributed nonparametric regression imputation estimators are proposed for the response mean, which are proved to be asymptotically normal with asymptotic variances achieving the semiparametric efficiency bound.  The proposed methods are evaluated through simulation studies and illustrated in real data analysis.",
+    "authors": [
+        "Ruoyu Wang",
+        "Miaomiao Su",
+        "Qihua Wang"
+    ],
+    "emails": [
+        "wangruoyu17@mails.ucas.edu.cn",
+        "smm@amss.ac.cn",
+        "qhwang@amss.ac.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/stat-conifer/DistNonparImp"
+        ]
+    ],
+    "id": "21-0673",
+    "issue": 68,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Distributed Nonparametric Regression Imputation for Missing Response Problems with Large-scale Data",
+    "volume": 24,
+    "year": 2023
+}

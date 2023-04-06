@@ -1,0 +1,26 @@
+{
+    "abstract": "Units equivariance (or units covariance) is the exact symmetry that follows from the requirement that relationships among measured quantities of physics relevance must obey self-consistent dimensional scalings. Here, we express this symmetry in terms of a (non-compact) group action, and we employ dimensional analysis and ideas from equivariant machine learning to provide a methodology for exactly units-equivariant machine learning: For any given learning task, we first construct a dimensionless version of its inputs using classic results from dimensional analysis and then perform inference in the dimensionless space. Our approach can be used to impose units equivariance across a broad range of machine learning methods that are equivariant to rotations and other groups. We discuss the in-sample and out-of-sample prediction accuracy gains one can obtain in contexts like symbolic regression and emulation, where symmetry is important. We illustrate our approach with simple numerical examples involving dynamical systems in physics and ecology.",
+    "authors": [
+        "Soledad Villar",
+        "Weichi Yao",
+        "David W. Hogg",
+        "Ben Blum-Smith",
+        "Bianca Dumitrascu"
+    ],
+    "emails": [
+        "soledad.villar@jhu.edu",
+        "weichi.yao@nyu.edu",
+        "david.hogg@nyu.edu",
+        "bblumsm1@jhu.edu",
+        "bmd39@cam.ac.uk"
+    ],
+    "id": "22-0680",
+    "issue": 109,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Dimensionless machine learning: Imposing exact units equivariance",
+    "volume": 24,
+    "year": 2023
+}

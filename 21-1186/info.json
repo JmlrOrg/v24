@@ -1,0 +1,22 @@
+{
+    "abstract": "After selection with the Group LASSO (or generalized variants such as the overlapping, sparse, or standardized Group LASSO), inference for the selected parameters is unreliable in the absence of adjustments for selection bias. In the penalized Gaussian regression setup, existing approaches provide adjustments for selection events that can be expressed as linear inequalities in the data variables. Such a representation, however, fails to hold for selection with the Group LASSO and substantially obstructs the scope of subsequent post-selective inference. Key questions of inferential interest, e.g., inference for the effects of selected variables on the outcome, remain unanswered. In the present paper, we develop a consistent, post-selective, Bayesian method to address the existing gaps by deriving a likelihood adjustment factor and an approximation thereof that eliminates bias from the selection of groups. Experiments on simulated data and data from the Human Connectome Project demonstrate that our method recovers the effects of parameters within the selected groups while paying only a small price for bias adjustment.",
+    "authors": [
+        "Snigdha Panigrahi",
+        "Peter W MacDonald",
+        "Daniel Kessler"
+    ],
+    "emails": [
+        "psnigdha@umich.edu",
+        "pwmacdon@umich.edu",
+        "kesslerd@umich.edu"
+    ],
+    "id": "21-1186",
+    "issue": 79,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Approximate Post-Selective Inference for Regression with the Group LASSO",
+    "volume": 24,
+    "year": 2023
+}

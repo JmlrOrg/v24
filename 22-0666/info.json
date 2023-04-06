@@ -1,0 +1,22 @@
+{
+    "abstract": "We prove concentration inequalities and associated PAC bounds  for both continuous- and discrete-time additive functionals for possibly unbounded functions of multivariate, nonreversible diffusion processes. Our analysis relies on an approach via the Poisson equation allowing us to consider a very broad class of subexponentially ergodic, multivariate diffusion processes. These results add to existing concentration inequalities for additive functionals of diffusion processes which have so far been only available for either bounded functions or for unbounded functions of processes from a significantly smaller class. We demonstrate the power of these exponential inequalities by two examples of very different areas. Considering a possibly high-dimensional, parametric, nonlinear drift model under sparsity constraints we apply the continuous-time concentration results to validate the restricted eigenvalue condition for Lasso estimation, which is fundamental for the derivation of oracle inequalities. The results for discrete additive functionals are applied for an investigation of the unadjusted Langevin MCMC algorithm for sampling of moderately heavy tailed densities $\\pi$. In particular, we provide PAC bounds for the sample Monte Carlo estimator of integrals $\\pi(f)$ for polynomially growing functions $f$ that quantify sufficient  sample and step sizes for approximation within a prescribed margin with high probability.",
+    "authors": [
+        "Lukas Trottner",
+        "Cathrine Aeckerle-Willems",
+        "Claudia Strauch"
+    ],
+    "emails": [
+        "trottner@math.au.dk",
+        "aeckerle@uni-mannheim.de",
+        "strauch@math.au.dk"
+    ],
+    "id": "22-0666",
+    "issue": 106,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Concentration analysis of multivariate elliptic diffusions",
+    "volume": 24,
+    "year": 2023
+}

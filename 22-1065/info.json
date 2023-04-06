@@ -1,0 +1,26 @@
+{
+    "abstract": "We bound the excess risk of interpolating deep linear networks trained using gradient flow. In a setting previously used to establish risk bounds for the minimum $\\ell_2$-norm interpolant, we show that randomly initialized deep linear networks can closely approximate or even match known bounds for the minimum $\\ell_2$-norm interpolant. Our analysis also reveals that interpolating deep linear models have exactly the same conditional variance as the minimum $\\ell_2$-norm solution. Since the noise affects the excess risk only through the conditional variance, this implies that depth does not improve the algorithm's ability to \"hide the noise\". Our simulations verify that aspects of our bounds reflect typical behavior for simple data distributions.  We also find that similar phenomena are seen in simulations with ReLU networks, although the situation there is more nuanced.",
+    "authors": [
+        "Niladri S. Chatterji",
+        "Philip M. Long"
+    ],
+    "emails": [
+        "niladri@cs.stanford.edu",
+        "plong@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/niladri-chatterji/benign-deep-linear"
+        ]
+    ],
+    "id": "22-1065",
+    "issue": 117,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Deep linear networks can benignly overfit when shallow ones do",
+    "volume": 24,
+    "year": 2023
+}

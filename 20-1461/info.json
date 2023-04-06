@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers the partially functional linear model (PFLM) where all predictive features consist of a functional covariate and a high dimensional scalar vector.  Over an infinite dimensional reproducing kernel Hilbert space, the proposed estimation for  PFLM is a least square approach with two mixed regularizations of  a function-norm and an $\\ell_1$-norm. Our main task in this paper is to establish the minimax rates for PFLM under high dimensional setting, and the optimal minimax rates of estimation are established by using various techniques in empirical process theory for analyzing kernel classes. In addition, we propose an efficient numerical algorithm based on randomized sketches of the kernel matrix.   Several numerical experiments are implemented to support our method and optimization strategy.",
+    "authors": [
+        "Shaogao Lv",
+        "Xin He",
+        "Junhui Wang"
+    ],
+    "emails": [
+        "lvsg716@nau.edu.cn",
+        "he.xin17@mail.shufe.edu.cn",
+        "junhuiwang@cuhk.edu.hk"
+    ],
+    "id": "20-1461",
+    "issue": 55,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Kernel-based estimation for partially  functional linear model: Minimax rates and  randomized sketches",
+    "volume": 24,
+    "year": 2023
+}

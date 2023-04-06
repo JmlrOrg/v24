@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers the recursive estimation of quantiles using the stochastic gradient descent (SGD) algorithm with Polyak-Ruppert averaging. The algorithm offers a computationally and memory efficient alternative to the usual empirical estimator. Our focus is on studying the non-asymptotic behavior by providing exponentially decreasing tail probability bounds under mild assumptions on the smoothness of the density functions. This novel non-asymptotic result is based on a bound of the moment generating function of the SGD estimate. We apply our result to the problem of best arm identification in a multi-armed stochastic bandit setting under quantile preferences.",
+    "authors": [
+        "Likai Chen",
+        "Georg Keilbar",
+        "Wei Biao Wu"
+    ],
+    "emails": [
+        "likai.chen@wustl.edu",
+        "georg.keilbar@univie.ac.at",
+        "wbwu@galton.uchicago.edu"
+    ],
+    "id": "22-0021",
+    "issue": 91,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Recursive Quantile Estimation: Non-Asymptotic Confidence Bounds",
+    "volume": 24,
+    "year": 2023
+}

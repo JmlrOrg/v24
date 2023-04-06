@@ -1,0 +1,22 @@
+{
+    "abstract": "Guaranteeing privacy in released data is an important goal for data-producing agencies. There has been extensive research on developing suitable privacy mechanisms in recent years. Particularly notable is the idea of noise addition with the guarantee of differential privacy. There are, however, concerns about compromising data utility when very stringent privacy mechanisms are applied. Such compromises can be quite stark in correlated data, such as time series data.  Adding white noise to a stochastic process may significantly change the correlation structure, a facet of the process that is essential to optimal prediction. We propose the use of all-pass filtering as a privacy mechanism for regularly sampled time series data, showing that this procedure preserves certain types of utility while also providing sufficient privacy guarantees to entity-level time series.  Numerical studies explore the practical performance of the new method, and  an empirical application to labor force data show the method's favorable utility properties in comparison to other competing privacy mechanisms.",
+    "authors": [
+        "Tucker McElroy",
+        "Anindya Roy",
+        "Gaurab Hore"
+    ],
+    "emails": [
+        "tucker.s.mcelroy@census.gov",
+        "anindya@umbc.edu",
+        "gaurabh1@umbc.edu"
+    ],
+    "id": "22-0734",
+    "issue": 111,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "FLIP: A Utility Preserving Privacy Mechanism for Time Series",
+    "volume": 24,
+    "year": 2023
+}

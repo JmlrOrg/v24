@@ -1,0 +1,24 @@
+{
+    "abstract": "In recent years, persistent homology has been successfully applied to real-world data in many different settings. Despite significant computational advances, persistent homology algorithms do not yet scale to large datasets preventing interesting applications. One approach to address computational issues posed by persistent homology is to select a set of landmarks by subsampling from the data. Currently, these landmark points are chosen either at random or using the maxmin algorithm. Neither is ideal as random selection tends to favour dense areas of the data while the maxmin algorithm is very sensitive to noise. Here, we propose a novel approach to select landmarks specifically for persistent homology that preserves coarse topological information of the original dataset. Our method is motivated by the Mayer-Vietoris sequence and requires only local persistent homology calculations thus enabling efficient computation. We test our landmarks on artificial data sets which contain different levels of noise and compare them to standard landmark selection techniques. We demonstrate that our landmark selection outperforms standard methods as well as a subsampling technique based on an outlier-robust version of the k-means algorithm for low sampling densities in noisy data with respect to robustness to outliers.",
+    "authors": [
+        "Bernadette J. Stolz"
+    ],
+    "emails": [
+        "bernadette.stolz-pretzer@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/stolzbernadette/Outlier-robust-subsampling-techniques-for-persistent-homology"
+        ]
+    ],
+    "id": "21-1526",
+    "issue": 90,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Outlier-Robust Subsampling Techniques for Persistent Homology",
+    "volume": 24,
+    "year": 2023
+}

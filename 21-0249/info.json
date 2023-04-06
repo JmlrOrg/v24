@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we introduce a novel family of iterative algorithms which carry out $\\alpha$-divergence minimisation in a Variational Inference context. They do so by ensuring a systematic decrease at each step in the $\\alpha$-divergence between the variational and the posterior distributions. In its most general form, the variational distribution is a mixture model and our framework allows us to simultaneously optimise the weights and components parameters of this mixture model. Our approach permits us to build on various methods previously proposed for $\\alpha$-divergence minimisation such as Gradient or Power Descent schemes and we also shed a new light on an integrated Expectation Maximization algorithm. Lastly, we provide empirical evidence that our methodology yields improved results on several multimodal target distributions and on a real data example.",
+    "authors": [
+        "Kam\u00e9lia Daudel",
+        "Randal Douc",
+        "Fran\u00e7ois Roueff"
+    ],
+    "emails": [
+        "kamelia.daudel@gmail.com",
+        "randal.douc@telecom-sudparis.eu",
+        "francois.roueff@telecom-paris.fr"
+    ],
+    "id": "21-0249",
+    "issue": 62,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Monotonic Alpha-divergence Minimisation for Variational Inference",
+    "volume": 24,
+    "year": 2023
+}

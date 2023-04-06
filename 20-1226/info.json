@@ -1,0 +1,24 @@
+{
+    "abstract": "We study a multi-round welfare-maximising mechanism design problem in instances where agents do not know their values. On each round, a mechanism first assigns an allocation to a set of agents and charges them a price; at the end of the round, the agents provide (stochastic) feedback to the mechanism for the allocation they received. This setting is motivated by applications in cloud markets and online advertising where an agent may know her value for an allocation only after experiencing it. Therefore, the mechanism needs to explore different allocations for each agent so that it can learn their values, while simultaneously attempting to find the socially optimal set of allocations. Our focus is on truthful and individually rational mechanisms which imitate the classical VCG mechanism in the long run. To that end, we first define three notions of regret for the welfare, the individual utilities of each agent and that of the mechanism. We show that these three terms are interdependent via an $\\Omega(T^{\\frac{2}{3}})$ lower bound for the maximum of these three terms after $T$ rounds of allocations, and describe an algorithm which essentially achieves this rate. Our framework also provides flexibility to control the pricing scheme so as to trade-off between the agent and seller regrets. Next, we define asymptotic variants for the truthfulness and individual rationality requirements and provide asymptotic rates to quantify the degree to which both properties are satisfied by the proposed algorithm.",
+    "authors": [
+        "Kirthevasan Kandasamy",
+        "Joseph E Gonzalez",
+        "Michael I Jordan",
+        "Ion Stoica"
+    ],
+    "emails": [
+        "kandasamy@cs.wisc.edu",
+        "jegonzal@eecs.berkeley.edu",
+        "jordan@cs.berkeley.edu",
+        "stoica@cs.berkeley.edu"
+    ],
+    "id": "20-1226",
+    "issue": 53,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "VCG Mechanism Design with Unknown Agent Values under Stochastic Bandit Feedback",
+    "volume": 24,
+    "year": 2023
+}

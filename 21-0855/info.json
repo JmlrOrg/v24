@@ -1,0 +1,28 @@
+{
+    "abstract": "Statistical inference of directed relations given some unspecified interventions (i.e., the intervention targets are unknown) is challenging. In this article, we test hypothesized directed relations with unspecified interventions. First, we derive conditions to yield an identifiable model. Unlike classical inference, testing directed relations requires identifying the ancestors and relevant interventions of hypothesis-specific primary variables. To this end, we propose a peeling algorithm based on nodewise regressions to establish a topological order of primary variables. Moreover, we prove that the peeling algorithm yields a consistent estimator in low-order polynomial time. Second, we propose a likelihood ratio test integrated with a data perturbation scheme to account for the uncertainty of identifying ancestors and interventions. Also, we show that the distribution of a data perturbation test statistic converges to the target distribution. Numerical examples demonstrate the utility and effectiveness of the proposed methods, including an application to infer gene regulatory networks.",
+    "authors": [
+        "Chunlin Li",
+        "Xiaotong Shen",
+        "Wei Pan"
+    ],
+    "emails": [
+        "li000007@umn.edu",
+        "xshen@umn.edu",
+        "panxx014@umn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chunlinli/intdag"
+        ]
+    ],
+    "id": "21-0855",
+    "issue": 73,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Inference for a Large Directed Acyclic Graph with Unspecified Interventions",
+    "volume": 24,
+    "year": 2023
+}

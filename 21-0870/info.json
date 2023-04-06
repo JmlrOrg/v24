@@ -1,0 +1,20 @@
+{
+    "abstract": "While differential privacy (DP) offers strong theoretical privacy guarantees,  implementations of DP mechanisms may be vulnerable to side-channel attacks, such as timing attacks. When sampling methods such as MCMC or rejection sampling are used to implement a privacy mechanism, the runtime can leak private information. We characterize the additional privacy cost due to the runtime of a rejection sampler in terms of both $(\\epsilon,\\delta)$-DP as well as $f$-DP. We also show that unless the acceptance probability is constant across databases, the runtime of a rejection sampler does not satisfy $\\epsilon$-DP for any $\\epsilon$. We show that there is a similar breakdown in privacy with adaptive rejection samplers. We propose three modifications to the rejection sampling algorithm, with varying assumptions, to protect against timing attacks by making the runtime independent of the data. The modification with the weakest assumptions is an approximate sampler, introducing a small increase in the privacy cost, whereas the other modifications give perfect samplers.  We also use our techniques to develop an adaptive rejection sampler for log-H\u00f6lder densities, which also has data-independent runtime. We give several examples of DP mechanisms that fit the assumptions of our methods and can thus be implemented using our samplers.",
+    "authors": [
+        "Jordan Awan",
+        "Vinayak Rao"
+    ],
+    "emails": [
+        "jawan@purdue.edu",
+        "varao@purdue.edu"
+    ],
+    "id": "21-0870",
+    "issue": 74,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Privacy-Aware Rejection Sampling",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,35 @@
+{
+    "abstract": "Integrating AI algorithms into databases is an ongoing effort in both academia and industry. We introduce SQLFlow, a toolkit seamlessly combining data manipulations and AI operations that can be run locally or remotely. SQLFlow extends SQL syntax to support typical AI tasks including model training, inference, interpretation, and mathematical optimization. It is compatible with a variety of database management systems (DBMS) and AI engines, including MySQL, TiDB, MaxCompute, and Hive, as well as TensorFlow, scikit-learn, and XGBoost. Documentations and case studies are available at https://sqlflow.org. The source code and additional details can be found at https://github.com/sql-machine-learning/sqlflow.",
+    "authors": [
+        "Jun Zhou",
+        "Ke Zhang",
+        "Lin Wang",
+        "Hua Wu",
+        "Yi Wang",
+        "ChaoChao Chen"
+    ],
+    "emails": [
+        "jun.zhoujun@antgroup.com",
+        "yingzi.zk@antgroup.com",
+        "fred.wl@antgroup.com",
+        "wuhua.wh@antgroup.com",
+        "yi.w@antgroup.com",
+        "zjuccc@zju.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sql-machine-learning/sqlflow"
+        ]
+    ],
+    "id": "22-1047",
+    "issue": 116,
+    "pages": [
+        1,
+        9
+    ],
+    "special_issue": "MLOSS",
+    "title": "SQLFlow: An Extensible Toolkit Integrating DB and AI",
+    "volume": 24,
+    "year": 2023
+}

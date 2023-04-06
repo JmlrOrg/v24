@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the statistical inference for noisy incomplete binary (or 1-bit) matrix. Despite the importance of uncertainty quantification to matrix completion, most of the categorical matrix completion literature focuses on point estimation and prediction. This paper moves one step further toward statistical inference for binary matrix completion. Under a popular nonlinear factor analysis model, we obtain a point estimator and derive its asymptotic normality. Moreover, our analysis adopts a flexible missing-entry design that does not require a random sampling scheme as required by most of the existing asymptotic results for matrix completion. Under reasonable conditions, the proposed estimator is statistically efficient and optimal in the sense that the Cramer-Rao lower bound is achieved asymptotically for the model parameters. Two applications are considered, including (1) linking two forms of an educational test and (2) linking the roll call voting records from multiple years in the United States Senate. The first application enables the comparison between examinees who took different test forms, and the second application allows us to compare the liberal-conservativeness of senators who did not serve in the Senate at the same time.",
+    "authors": [
+        "Yunxiao Chen",
+        "Chengcheng Li",
+        "Jing Ouyang",
+        "Gongjun Xu"
+    ],
+    "emails": [
+        "y.chen186@lse.ac.uk",
+        "lccvic@umich.edu",
+        "jingoy@umich.edu",
+        "gongjun@umich.edu"
+    ],
+    "id": "22-0214",
+    "issue": 95,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Statistical Inference for Noisy Incomplete Binary Matrix",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "This article presents a novel approach to construct Intrinsic Gaussian Processes for regression on unknown manifolds with probabilistic metrics (GPUM) in point clouds. In many real world applications, one often encounters high dimensional data (e.g.\u2018point cloud data\u2019) centered around some lower dimensional unknown manifolds. The geometry of manifold is in general different from the usual Euclidean geometry. Naively applying traditional smoothing methods such as Euclidean Gaussian Processes (GPs) to manifold-valued data and so ignoring the geometry of the space can potentially lead to highly misleading predictions and inferences. A manifold embedded in a high dimensional Euclidean space can be well described by a probabilistic mapping function and the corresponding latent space. We investigate the geometrical structure of the unknown manifolds using the Bayesian Gaussian Processes latent variable models(B-GPLVM) and Riemannian geometry. The distribution of the metric tensor is learned using B-GPLVM. The boundary of the resulting manifold is defined based on the uncertainty quantification of the mapping. We use the probabilistic metric tensor to simulate Brownian Motion paths on the unknown manifold. The heat kernel is estimated as the transition density of Brownian Motion and used as the covariance functions of GPUM. The applications of GPUM are illustrated in the simulation studies on the Swiss roll, high dimensional real datasets of WiFi signals and image data examples. Its performance is compared with the Graph Laplacian GP, Graph Mat\\'{e}rn GP and Euclidean GP.",
+    "authors": [
+        "Mu Niu",
+        "Zhenwen Dai",
+        "Pokman Cheung",
+        "Yizhu Wang"
+    ],
+    "emails": [
+        "mu.niu@glasgow.ac.uk",
+        "zhenwend@spotify.com",
+        "pokman@alumni.stanford.edu",
+        "2603214w@student.gla.ac.uk"
+    ],
+    "id": "22-0627",
+    "issue": 104,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Intrinsic Gaussian Process on Unknown Manifolds with Probabilistic Metrics",
+    "volume": 24,
+    "year": 2023
+}

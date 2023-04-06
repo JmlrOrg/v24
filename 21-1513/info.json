@@ -1,0 +1,24 @@
+{
+    "abstract": "Mixed Membership Models (MMMs) are a popular family of latent structure models for complex multivariate data.  Instead of forcing each subject to belong to a single cluster, MMMs incorporate a vector of subject-specific weights characterizing partial membership across clusters.  With this flexibility come challenges in uniquely identifying, estimating, and interpreting the parameters. In this article, we propose a new class of Dimension-Grouped MMMs (Gro-M$^3$s) for multivariate categorical data, which improve parsimony and interpretability. In Gro-M$^3$s, observed variables are partitioned into groups such that the latent membership is constant for variables within a group but can differ across groups. Traditional latent class models are obtained when all variables are in one group, while traditional MMMs are obtained when each variable is in its own group. The new model corresponds to a novel decomposition of probability tensors. Theoretically, we derive transparent identifiability conditions for both the unknown grouping structure and model parameters in general settings. Methodologically, we propose a Bayesian approach for Dirichlet Gro-M$^3$s to inferring the variable grouping structure and estimating model parameters. Simulation results demonstrate good computational performance and empirically confirm the identifiability results. We illustrate the new methodology through applications to a functional disability survey dataset and a personality test dataset.",
+    "authors": [
+        "Yuqi Gu",
+        "Elena E. Erosheva",
+        "Gongjun Xu",
+        "David B. Dunson"
+    ],
+    "emails": [
+        "yuqi.gu@columbia.edu",
+        "erosheva@uw.edu",
+        "gongjun@umich.edu",
+        "dunson@duke.edu"
+    ],
+    "id": "21-1513",
+    "issue": 88,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Dimension-Grouped Mixed Membership Models for Multivariate Categorical Data",
+    "volume": 24,
+    "year": 2023
+}
