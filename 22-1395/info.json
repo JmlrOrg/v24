@@ -1,0 +1,18 @@
+{
+    "abstract": "Diagonal linear networks (DLNs) are a toy simplification of artificial neural networks; they consist in a quadratic reparametrization of linear regression inducing a sparse implicit regularization. In this paper, we describe the trajectory of the gradient flow of DLNs in the limit of small initialization. We show that incremental learning is effectively performed in the limit: coordinates are successively activated, while the iterate is the minimizer of the loss constrained to have support on the active coordinates only. This shows that the sparse implicit regularization of DLNs decreases with time. This work is restricted to the underparametrized regime with anti-correlated features for technical reasons.",
+    "authors": [
+        "Rapha\u00ebl Berthier"
+    ],
+    "emails": [
+        "raphaelberthier@hotmail.fr"
+    ],
+    "id": "22-1395",
+    "issue": 171,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Incremental Learning in Diagonal Linear Networks",
+    "volume": 24,
+    "year": 2023
+}

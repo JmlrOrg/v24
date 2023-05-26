@@ -1,0 +1,22 @@
+{
+    "abstract": "Estimation of the precision matrix (or inverse covariance matrix) is of great importance in statistical data analysis and machine learning. However, as the number of parameters scales quadratically with the dimension $p$, the computation becomes very challenging when $p$ is large. In this paper, we propose an adaptive sieving reduction algorithm to generate a solution path for the estimation of precision matrices under the $\\ell_1$ penalized D-trace loss, with each subproblem being solved by a second-order algorithm. In each iteration of our algorithm, we are able to greatly reduce the number of variables in the problem based on the Karush-Kuhn-Tucker (KKT) conditions and the sparse structure of the estimated precision matrix in the previous iteration. As a result, our algorithm is capable of handling data sets with very high dimensions that may go beyond  the capacity of the existing methods. Moreover, for the sub-problem in each iteration, other than solving the primal problem directly, we develop a semismooth Newton augmented Lagrangian algorithm with global linear convergence rate on the dual problem to improve the efficiency. Theoretical properties of our proposed algorithm have been established. In particular, we show that the convergence rate of our algorithm is asymptotically superlinear. The high efficiency and promising performance of our algorithm are illustrated via extensive simulation studies and real data applications, with comparison to several state-of-the-art solvers.",
+    "authors": [
+        "Qian Li",
+        "Binyan Jiang",
+        "Defeng Sun"
+    ],
+    "emails": [
+        "qianxa.li@connect.polyu.hk",
+        "by.jiang@polyu.edu.hk",
+        "defeng.sun@polyu.edu.hk"
+    ],
+    "id": "21-0699",
+    "issue": 134,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "MARS: A Second-Order Reduction Algorithm for High-Dimensional Sparse Precision Matrices Estimation",
+    "volume": 24,
+    "year": 2023
+}

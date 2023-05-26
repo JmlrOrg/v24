@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper studies accelerated gradient methods for nonconvex optimization with Lipschitz continuous gradient and Hessian. We propose two simple accelerated gradient methods, restarted accelerated gradient descent (AGD) and restarted heavy ball (HB) method, and establish that our methods achieve an $\\epsilon$-approximate first-order stationary point within $O(\\epsilon^{-7/4})$ number of gradient evaluations by elementary proofs. Theoretically, our complexity does not hide any polylogarithmic factors, and thus it improves over the best known one by the $O(\\log\\frac{1}{\\epsilon})$ factor. Our algorithms are simple in the sense that they only consist of Nesterov's classical AGD or Polyak's HB iterations, as well as a restart mechanism. They do not invoke negative curvature exploitation or minimization of regularized surrogate functions as the subroutines. In contrast with existing analysis, our elementary proofs use less advanced techniques and do not invoke the analysis of strongly convex AGD or HB.",
+    "authors": [
+        "Huan Li",
+        "Zhouchen Lin"
+    ],
+    "emails": [
+        "lihuanss@nankai.edu.cn",
+        "zlin@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lihuanML/RestartAGD"
+        ]
+    ],
+    "id": "22-0522",
+    "issue": 157,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Restarted Nonconvex Accelerated Gradient Descent:  No More Polylogarithmic Factor in the in the O(epsilon^(-7/4)) Complexity",
+    "volume": 24,
+    "year": 2023
+}

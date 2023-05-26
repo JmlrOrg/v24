@@ -1,0 +1,20 @@
+{
+    "abstract": "We introduce novel convergence results for asynchronous iterations that appear in the analysis of parallel and distributed optimization algorithms. The results are simple to apply and give explicit estimates for how the degree of asynchrony impacts the convergence rates of the iterates. Our results shorten, streamline and strengthen existing convergence proofs for several asynchronous optimization methods and allow us to establish convergence guarantees for popular algorithms that were thus far lacking a complete theoretical understanding. Specifically, we use our results to derive better iteration complexity bounds for proximal incremental aggregated gradient methods, to obtain tighter guarantees depending on the average rather than maximum delay for the asynchronous stochastic gradient descent method, to provide less conservative analyses of the speedup conditions for asynchronous block-coordinate implementations of Krasnoselskii\u2013Mann iterations, and to quantify the convergence rates for totally asynchronous iterations under various assumptions on communication delays and update rates.",
+    "authors": [
+        "Hamid Reza Feyzmahdavian",
+        "Mikael Johansson"
+    ],
+    "emails": [
+        "hamid.feyzmahdavian@se.abb.com",
+        "mikaelj@kth.se"
+    ],
+    "id": "22-0555",
+    "issue": 158,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Asynchronous Iterations in Optimization: New Sequence Results and Sharper Algorithmic Guarantees",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "In this work we study statistical properties of graph-based algorithms for multi-manifold clustering (MMC). In MMC the goal is to retrieve the multi-manifold structure underlying a given Euclidean data set when this one is assumed to be obtained by sampling a distribution on a union of manifolds $\\M = \\M_1 \\cup\\dots  \\cup \\M_N$ that may intersect with each other and that may have different dimensions. We investigate sufficient conditions that similarity graphs on data sets must satisfy in order for their corresponding graph Laplacians to capture the right geometric information to solve the MMC problem. Precisely, we provide high probability error bounds for the spectral approximation of a tensorized Laplacian on $\\M$ with a suitable graph Laplacian built from the observations; the recovered tensorized Laplacian contains all geometric information of all the individual underlying manifolds. We provide an example of a family of similarity graphs, which we call annular proximity graphs with angle constraints, satisfying these sufficient conditions. We contrast our family of graphs with other constructions in the literature based on the alignment of tangent planes. Extensive numerical experiments expand the insights that our theory provides on the MMC problem.",
+    "authors": [
+        "Nicolas Garcia Trillos",
+        "Pengfei He",
+        "Chenghui Li"
+    ],
+    "emails": [
+        "garciatrillo@wisc.edu",
+        "hepengf1@msu.edu",
+        "cli539@wisc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chl781/manifold-clustering"
+        ]
+    ],
+    "id": "21-1254",
+    "issue": 143,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Large sample spectral analysis of graph-based multi-manifold clustering",
+    "volume": 24,
+    "year": 2023
+}

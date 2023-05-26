@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the problem of minimizing a convex function that is evolving according to unknown and possibly stochastic dynamics, which may depend jointly on time and on the decision variable itself. Such problems abound in the machine learning and signal processing literature, under the names of concept drift, stochastic tracking, and performative prediction. We provide novel non-asymptotic convergence guarantees for stochastic algorithms with iterate averaging, focusing on bounds valid both in expectation and with high probability. The efficiency estimates we obtain clearly decouple the contributions of optimization error, gradient noise, and time drift. Notably, we identify a low drift-to-noise regime in which the tracking efficiency of the proximal stochastic gradient method benefits significantly from a step decay schedule. Numerical experiments illustrate our results.",
+    "authors": [
+        "Joshua Cutler",
+        "Dmitriy Drusvyatskiy",
+        "Zaid Harchaoui"
+    ],
+    "emails": [
+        "jocutler@uw.edu",
+        "ddrusv@uw.edu",
+        "zaid@uw.edu"
+    ],
+    "id": "21-1410",
+    "issue": 147,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Stochastic Optimization under Distributional Drift",
+    "volume": 24,
+    "year": 2023
+}

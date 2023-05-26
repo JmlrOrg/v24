@@ -1,0 +1,28 @@
+{
+    "abstract": "We improve the understanding of the golden ratio algorithm, which solves monotone variational inequalities (VI) and convex-concave min-max problems via the distinctive feature of adapting the step sizes to the local Lipschitz constants.  Adaptive step sizes not only eliminate the need to pick hyperparameters, but they also remove the necessity of global Lipschitz continuity and can increase from one iteration to the next.   We first establish the equivalence of this algorithm with popular VI methods such as reflected gradient, Popov or optimistic gradient descent-ascent (OGDA) in the unconstrained case with constant step sizes. We then move on to the constrained setting and introduce a new analysis that allows to use larger step sizes, to complete the bridge between the golden ratio algorithm and the existing algorithms in the literature. Doing so, we actually eliminate the link between the golden ratio {$\\frac{1+\\sqrt{5}}{2}$} and the algorithm.  Moreover, we improve the adaptive version of the  algorithm, first by removing the maximum step size hyperparameter (an artifact from the analysis), and secondly, by adjusting it to nonmonotone problems with weak Minty solutions, with superior empirical performance.",
+    "authors": [
+        "Ahmet Alacaoglu",
+        "Axel B\u00f6hm",
+        "Yura Malitsky"
+    ],
+    "emails": [
+        "alacaoglu@wisc.edu",
+        "axel.boehm@univie.ac.at",
+        "yurii.malitskyi@univie.ac.at"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AxelBohm/beyond_golden_ratio"
+        ]
+    ],
+    "id": "22-1488",
+    "issue": 172,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Beyond the Golden Ratio for Variational Inequality Algorithms",
+    "volume": 24,
+    "year": 2023
+}

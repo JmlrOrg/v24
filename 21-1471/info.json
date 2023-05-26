@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper focuses on stochastic methods for solving smooth non-convex strongly-concave min-max problems, which have received increasing attention  due to their potential applications in deep learning (e.g., deep AUC maximization, distributionally robust optimization). However, most of the existing algorithms are slow in practice, and their analysis revolves around the convergence to a nearly stationary point. We consider leveraging the  Polyak-Lojasiewicz (PL) condition to design faster stochastic algorithms with stronger convergence guarantee. Although PL condition has been utilized for designing many stochastic minimization algorithms, their applications for non-convex min-max optimization remain rare. In this paper, we propose and analyze a generic framework of proximal stage-based method with many well-known stochastic updates embeddable. Fast convergence is established in terms of both the primal objective gap and the duality gap. Compared with existing studies, (i) our analysis is  based on a novel Lyapunov function consisting  of the primal objective gap and the duality gap of a regularized function, and (ii) the results are more comprehensive with improved rates that have better dependence on the condition number under different assumptions. We also conduct deep and non-deep learning experiments to verify the effectiveness of our methods.",
+    "authors": [
+        "Zhishuai Guo",
+        "Yan Yan",
+        "Zhuoning Yuan",
+        "Tianbao Yang"
+    ],
+    "emails": [
+        "zhishguo@tamu.edu",
+        "yan.yan1@wsu.edu",
+        "zhuoning-yuan@uiowa.edu",
+        "tianbao-yang@tamu.edu"
+    ],
+    "id": "21-1471",
+    "issue": 148,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Fast Objective & Duality Gap Convergence for Non-Convex Strongly-Concave Min-Max Problems with PL Condition",
+    "volume": 24,
+    "year": 2023
+}

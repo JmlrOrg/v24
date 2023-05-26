@@ -1,0 +1,20 @@
+{
+    "abstract": "Comparing probability distributions is at the crux of many machine learning algorithms. Maximum Mean Discrepancies (MMD) and Wasserstein distances are two classes of distances between probability distributions that have attracted abundant attention in past years. This paper establishes some conditions under which the Wasserstein distance can be controlled by MMD norms. Our work is motivated by the compressive statistical learning (CSL) theory, a general framework for resource-efficient large scale learning in which the training data is summarized in a single vector (called sketch) that captures the information relevant to the considered learning task. Inspired by existing results in CSL, we introduce the H\u00f6lder Lower Restricted Isometric Property and show that this property comes with interesting guarantees for compressive statistical learning. Based on the relations between the MMD and the Wasserstein distances, we provide guarantees for compressive statistical learning by introducing and studying the concept of Wasserstein regularity of the learning task, that is when some task-specific metric between probability distributions can be bounded by a Wasserstein distance.",
+    "authors": [
+        "Titouan Vayer",
+        "R\u00e9mi Gribonval"
+    ],
+    "emails": [
+        "titouan.vayer@inria.fr",
+        "remi.gribonval@inria.fr"
+    ],
+    "id": "21-1516",
+    "issue": 149,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Controlling Wasserstein Distances by Kernel Norms with Application to Compressive Statistical Learning",
+    "volume": 24,
+    "year": 2023
+}

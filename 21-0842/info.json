@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider a general-sum N-player linear-quadratic game with stochastic dynamics over a finite horizon and prove the global convergence of the natural policy gradient method to the Nash equilibrium. In order to prove convergence of the method we require a certain amount of noise in the system. We give a condition, essentially a lower bound on the covariance of the noise in terms of the model parameters, in order to guarantee convergence. We illustrate our results with numerical experiments to show that even in situations where the policy gradient method may not converge in the deterministic setting, the addition of noise leads to convergence.",
+    "authors": [
+        "Ben Hambly",
+        "Renyuan Xu",
+        "Huining Yang"
+    ],
+    "emails": [
+        "hambly@maths.ox.ac.uk",
+        "renyuanx@usc.edu",
+        "hy5564@princeton.edu"
+    ],
+    "id": "21-0842",
+    "issue": 139,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Policy Gradient Methods Find the Nash Equilibrium in N-player General-sum Linear-quadratic Games",
+    "volume": 24,
+    "year": 2023
+}

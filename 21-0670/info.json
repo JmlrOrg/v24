@@ -1,0 +1,30 @@
+{
+    "abstract": "Regression discontinuity (RD) designs are widely used to estimate causal effects in the absence of a randomized experiment. However, standard approaches to RD analysis face two significant limitations. First, they require a priori knowledge of discontinuities in treatment. Second, they yield doubly-local treatment effect estimates, and fail to provide more general causal effect estimates away from the discontinuity. To address these limitations, we introduce a novel method for automatically detecting RDs at scale, integrating information from multiple discovered discontinuities with an observational estimator, and extrapolating away from discovered, local RDs. We demonstrate the performance of our method on two synthetic datasets, showing improved performance compared to direct use of an observational estimator, direct extrapolation of RD estimates, and existing methods for combining multiple causal effect estimates. Finally, we apply our novel method to estimate spatially heterogeneous treatment effects in the context of a recent economic development problem.",
+    "authors": [
+        "Benjamin Jakubowski",
+        "Sriram Somanchi",
+        "Edward McFowland III",
+        "Daniel B. Neill"
+    ],
+    "emails": [
+        "buj201@nyu.edu",
+        "somanchi.1@nd.edu",
+        "emcfowland@hbs.edu",
+        "daniel.neill@nyu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ssomanch/DEE"
+        ]
+    ],
+    "id": "21-0670",
+    "issue": 133,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Exploiting Discovered Regression Discontinuities to Debias Conditioned-on-observable Estimators",
+    "volume": 24,
+    "year": 2023
+}

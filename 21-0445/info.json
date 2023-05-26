@@ -1,0 +1,34 @@
+{
+    "abstract": "Despite impressive results, deep learning-based technologies also raise severe privacy and environmental concerns induced by the training procedure often conducted in data centers. In response, alternatives to centralized training such as Federated Learning (FL) have emerged. FL is now starting to be deployed at a global scale by companies that must adhere to new legal demands and policies originating from governments and social groups advocating for privacy protection. However, the potential environmental impact related to FL remains unclear and unexplored. This article offers the first-ever systematic study of the carbon footprint of FL. We propose a rigorous model to quantify the carbon footprint, hence facilitating the investigation of the relationship between FL design and carbon emissions. We also compare the carbon footprint of FL to traditional centralized learning. Our findings show that, depending on the configuration, FL can emit up to two orders of magnitude more carbon than centralized training. However, in certain settings, it can be comparable to centralized learning due to the reduced energy consumption of embedded devices. Finally, we highlight and connect the results to the future challenges and trends in FL to reduce its environmental impact, including algorithms efficiency, hardware capabilities, and stronger industry transparency.",
+    "authors": [
+        "Xinchi Qiu",
+        "Titouan Parcollet",
+        "Javier Fernandez-Marques",
+        "Pedro P. B. Gusmao",
+        "Yan Gao",
+        "Daniel J. Beutel",
+        "Taner Topal",
+        "Akhil Mathur",
+        "Nicholas D. Lane"
+    ],
+    "emails": [
+        "xq227@cam.ac.uk",
+        "titouan.parcollet@univ-avignon.fr",
+        "javier.fernandezmarques@cs.ox.ac.uk",
+        "pp524@cam.ac.uk",
+        "yg381@cam.ac.uk",
+        "db849@cam.ac.uk",
+        "taner@flower.dev",
+        "akhil.mathur@nokia-bell-labs.com",
+        "ndl32@cam.ac.uk"
+    ],
+    "id": "21-0445",
+    "issue": 129,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "A First Look into the Carbon Footprint of Federated Learning",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "We study representations of data from an arbitrary metric space $\\mathcal{X}$ in the space of univariate Gaussian mixtures equipped with a transport metric (Delon and Desolneux 2020).  We prove embedding guarantees for feature maps implemented by small neural networks called probabilistic transformers.  Our guarantees are of memorization type: we prove that a probabilistic transformer of depth about $n\\log(n)$ and width about $n^2$ can bi-H\\\"older embed any $n$-point dataset from $\\mathcal{X}$ with low metric distortion, thus avoiding the curse of dimensionality.  We further derive probabilistic bi-Lipschitz guarantees, which trade off the amount of distortion and the probability that a randomly chosen pair of points embeds with that distortion.  If the geometry of $\\mathcal{X}$ is sufficiently regular, we obtain stronger bi-Lipschitz guarantees for all points.  As applications, we derive neural embedding guarantees for datasets from Riemannian manifolds, metric trees, and certain types of combinatorial graphs. When instead embedding into multivariate Gaussian mixtures, we show that probabilistic transformers compute bi-H\u00f6lder embeddings with arbitrarily small distortion.  Our results show that any finite metric dataset, from vertices on a graph to functions a function space, can be faithfully represented in a single representation space, and that the representation can be implemented by a simple transformer architecture. Thus one may only need a modular set of machine learning tools compatible with this one representation space, many of which already exist, for downstream supervised and unsupervised learning from a great variety of data types.",
+    "authors": [
+        "Anastasis Kratsios",
+        "Valentin Debarnot",
+        "Ivan Dokmani\u0107"
+    ],
+    "emails": [
+        "kratsioa@mcmaster.ca",
+        "valentin.debarnot@unibas.ch",
+        "ivan.dokmanic@unibas.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/swing-research/Universal-Embeddings"
+        ]
+    ],
+    "id": "22-1246",
+    "issue": 170,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Small Transformers Compute Universal Metric Embeddings",
+    "volume": 24,
+    "year": 2023
+}

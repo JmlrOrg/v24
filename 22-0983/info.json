@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper we consider a composite optimization problem that minimizes the sum of a weakly smooth function and a convex function with either a bounded domain or a uniformly convex structure. In particular, we first present a parameter-dependent conditional gradient method for this problem, whose step sizes require prior knowledge of the parameters associated with the H\u00f6lder continuity of the gradient of the weakly smooth function, and establish its rate of convergence. Given that these parameters could be unknown or known but possibly conservative,  such a method may suffer from implementation issue or slow convergence. We therefore propose a parameter-free conditional gradient method whose step size is determined by using a constructive local quadratic upper approximation and an adaptive line search scheme, without using any problem parameter. We show that this method achieves the same rate of convergence as the parameter-dependent conditional gradient method. Preliminary experiments are also conducted and illustrate the superior performance of the parameter-free conditional gradient method over the methods with some other step size rules.",
+    "authors": [
+        "Masaru Ito",
+        "Zhaosong Lu",
+        "Chuan He"
+    ],
+    "emails": [
+        "ito.masaru@nihon-u.ac.jp",
+        "zhaosong@umn.edu",
+        "he000233@umn.edu"
+    ],
+    "id": "22-0983",
+    "issue": 166,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Parameter-Free Conditional Gradient Method for Composite Minimization under H\u00f6lder Condition",
+    "volume": 24,
+    "year": 2023
+}

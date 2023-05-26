@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider Generative Adversarial Networks (GANs) and address the underlying functional optimization problem ab initio within a variational setting. Strictly speaking, the optimization of the generator and discriminator functions must be carried out in accordance with the Euler-Lagrange conditions, which become particularly relevant in scenarios where the  optimization cost involves regularizers comprising the derivatives of these functions. Considering Wasserstein GANs (WGANs) with a gradient-norm penalty, we show that the optimal discriminator is the solution to a Poisson differential equation. In principle, the optimal discriminator can be obtained in closed form without having to train a neural network. We illustrate this by employing a Fourier-series approximation to solve the Poisson differential equation. Experimental results based on synthesized Gaussian data demonstrate superior convergence behavior of the proposed approach in comparison with the baseline WGAN variants that employ weight-clipping, gradient or Lipschitz penalties on the discriminator on low-dimensional data. We also analyze the truncation error of the Fourier-series approximation  and the estimation error of the Fourier coefficients in a high-dimensional setting. We demonstrate applications to real-world images considering latent-space prior matching in Wasserstein autoencoders and present performance comparisons on  benchmark datasets such as MNIST, SVHN, CelebA, CIFAR-10, and Ukiyo-E. We demonstrate that the proposed approach achieves comparable reconstruction error and Frechet inception distance with faster convergence and up to two-fold improvement in image sharpness.",
+    "authors": [
+        "Siddarth Asokan",
+        "Chandra Sekhar Seelamantula"
+    ],
+    "emails": [
+        "siddartha@iisc.ac.in",
+        "css@iisc.ac.in"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DarthSid95/ELF_GANs"
+        ]
+    ],
+    "id": "20-1390",
+    "issue": 126,
+    "pages": [
+        1,
+        100
+    ],
+    "title": "Euler-Lagrange Analysis of Generative Adversarial Networks",
+    "volume": 24,
+    "year": 2023
+}

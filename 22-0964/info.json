@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose statistically robust and computationally efficient linear learning methods in the high-dimensional batch setting, where the number of features $d$ may exceed the sample size $n$. We employ, in a generic learning setting, two algorithms depending on whether the considered loss function is gradient-Lipschitz or not. Then, we instantiate our framework on several applications including vanilla sparse, group-sparse and low-rank matrix recovery.  This leads, for each application, to efficient and robust learning algorithms, that reach near-optimal estimation rates under heavy-tailed distributions and the presence of outliers. For vanilla $s$-sparsity, we are able to reach the $s\\log (d)/n$ rate under heavy-tails and $\\eta$-corruption, at a computational cost comparable to that of non-robust analogs. We provide an efficient implementation of our algorithms in an open-source Python library called linlearn, by means of which we carry out numerical experiments which confirm our theoretical findings together with a comparison to other recent approaches proposed in the literature.",
+    "authors": [
+        "Ibrahim Merad",
+        "St\u00e9phane Ga\u00efffas"
+    ],
+    "emails": [
+        "imerad@lpsm.paris",
+        "stephane.gaiffas@lpsm.paris"
+    ],
+    "id": "22-0964",
+    "issue": 165,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Robust Methods for High-Dimensional Linear Learning",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Dynamic multilayer networks frequently represent the structure of multiple co-evolving relations; however, statistical models are not well-developed for this prevalent network type. Here, we propose a new latent space model for dynamic multilayer networks. The key feature of our model is its ability to identify common time-varying structures shared by all layers while also accounting for layer-wise variation and degree heterogeneity. We establish the identifiability of the model's parameters and develop a structured mean-field variational inference approach to estimate the model's posterior, which scales to networks previously intractable to dynamic latent space models. We demonstrate the estimation procedure's accuracy and scalability on simulated networks. We apply the model to two real-world problems: discerning regional conflicts in a data set of international relations and quantifying infectious disease spread throughout a school based on the student's daily contact patterns.",
+    "authors": [
+        "Joshua Daniel Loyal",
+        "Yuguo Chen"
+    ],
+    "emails": [
+        "jloyal@fsu.edu",
+        "yuguo@illinois.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/joshloyal/multidynet"
+        ]
+    ],
+    "id": "21-0270",
+    "issue": 128,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "An Eigenmodel for Dynamic Multilayer Networks",
+    "volume": 24,
+    "year": 2023
+}

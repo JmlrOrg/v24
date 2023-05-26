@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we study the problem of estimating smooth Generalized Linear Models (GLMs) in the Non-interactive Local Differential Privacy (NLDP) model.  Unlike its classical setting, our model allows the server to access additional public but unlabeled data. In the first part of the paper, we focus on GLMs. Specifically, we first consider the case where each data record is i.i.d. sampled from a zero-mean multivariate Gaussian distribution. Motivated by the Stein's lemma, we present an $(\\epsilon, \\delta)$-NLDP algorithm for   GLMs. Moreover, the sample complexity of public and private data for the algorithm to achieve an $\\ell_2$-norm estimation error of  $\\alpha$ (with high probability) is ${O}(p \\alpha^{-2})$ and $\\tilde{O}(p^3\\alpha^{-2}\\epsilon^{-2})$ respectively, where $p$ is the dimension of the feature vector. This is a significant improvement over the previously known exponential or quasi-polynomial in $\\alpha^{-1}$, or exponential in $p$ sample complexities of  GLMs with no public data. Then we consider a more general setting where each data record is i.i.d. sampled from some sub-Gaussian distribution with bounded $\\ell_1$-norm. Based on a variant of Stein's lemma, we propose an $(\\epsilon, \\delta)$-NLDP algorithm for GLMs whose sample complexity of  public and private data to achieve an $\\ell_\\infty$-norm estimation error of $\\alpha$ is ${O}(p^2\\alpha^{-2})$ and $\\tilde{O}(p^2\\alpha^{-2}\\epsilon^{-2})$  respectively, under some mild assumptions and if  $\\alpha$ is not too small  i.e., $\\alpha\\geq \\Omega(\\frac{1}{\\sqrt{p}})$). In the second part of the paper, we extend our idea to the problem of estimating non-linear regressions and show similar results as in GLMs for both multivariate Gaussian and sub-Gaussian cases. Finally, we demonstrate the effectiveness of our algorithms through experiments on both synthetic and real-world datasets.  To our best knowledge, this is the first paper showing the existence of efficient and effective  algorithms for GLMs and non-linear regressions in the NLDP model with unlabeled public data.",
+    "authors": [
+        "Di Wang",
+        "Lijie Hu",
+        "Huanyu Zhang",
+        "Marco Gaboardi",
+        "Jinhui Xu"
+    ],
+    "emails": [
+        "di.wang@kaust.edu.sa",
+        "lijie.hu@kaust.edu.sa",
+        "hz388@cornell.edu",
+        "gaboardi@bu.edu",
+        "jinhui@buffalo.edu"
+    ],
+    "id": "21-0523",
+    "issue": 132,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Generalized Linear Models in Non-interactive Local Differential Privacy with Public Data",
+    "volume": 24,
+    "year": 2023
+}

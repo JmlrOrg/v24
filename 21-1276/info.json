@@ -1,0 +1,22 @@
+{
+    "abstract": "Bayesian mixture models are widely used for clustering of high-dimensional data with appropriate uncertainty quantification. However, as the dimension of the observations increases, posterior inference often tends to favor too many or too few clusters. This article explains this behavior by studying the random partition posterior in a non-standard setting with a fixed sample size and increasing data dimensionality. We provide conditions under which the finite sample posterior tends to either assign every observation to a different cluster or all observations to the same cluster as the dimension grows. Interestingly, the conditions do not depend on the choice of clustering prior, as long as all possible partitions of observations into clusters have positive prior probabilities, and hold irrespective of the true data-generating model. We then propose a class of latent mixtures for Bayesian clustering (Lamb) on a set of low-dimensional latent variables inducing a partition on the observed data. The model is amenable to scalable posterior inference and we show that it can avoid the pitfalls of high-dimensionality under mild assumptions. The proposed approach is shown to have good performance in simulation studies and an application to inferring cell types based on scRNAseq.",
+    "authors": [
+        "Noirrit Kiran Chandra",
+        "Antonio Canale",
+        "David B. Dunson"
+    ],
+    "emails": [
+        "noirritchandra@gmail.com",
+        "antonio.canale@unipd.it",
+        "dunson@duke.edu"
+    ],
+    "id": "21-1276",
+    "issue": 144,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Escaping The Curse of Dimensionality in Bayesian Model-Based Clustering",
+    "volume": 24,
+    "year": 2023
+}

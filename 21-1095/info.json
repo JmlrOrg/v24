@@ -1,0 +1,30 @@
+{
+    "abstract": "Exponential tilting is a technique commonly used in fields such as statistics, probability, information theory, and optimization to create parametric distribution shifts. Despite its prevalence in related fields, tilting has not seen widespread use in machine learning. In this work, we aim to bridge this gap by exploring the use of tilting in risk minimization. We study a simple extension to ERM---tilted empirical risk minimization (TERM)---which uses exponential tilting to flexibly tune the impact of individual losses. The resulting framework has several useful properties: We show that TERM can increase or decrease the influence of outliers, respectively, to enable fairness or robustness; has variance-reduction properties that can benefit generalization; and can be viewed as a smooth approximation to the tail probability of losses. Our work makes connections between TERM and related objectives, such as Value-at-Risk, Conditional Value-at-Risk, and distributionally robust optimization (DRO). We develop batch and stochastic first-order optimization methods for solving TERM, provide convergence guarantees for the solvers, and show that the framework can be efficiently solved relative to common alternatives. Finally, we demonstrate that TERM can be used for a multitude of applications in machine learning, such as enforcing fairness between subgroups, mitigating the effect of outliers, and handling class imbalance. Despite the straightforward modification TERM makes to traditional ERM objectives, we find that the framework can consistently outperform ERM and deliver competitive performance with state-of-the-art, problem-specific approaches.",
+    "authors": [
+        "Tian Li",
+        "Ahmad Beirami",
+        "Maziar Sanjabi",
+        "Virginia Smith"
+    ],
+    "emails": [
+        "tianli@cmu.edu",
+        "beirami@google.com",
+        "maziars@fb.com",
+        "smithv@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/litian96/TERM"
+        ]
+    ],
+    "id": "21-1095",
+    "issue": 142,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "On Tilted Losses in Machine Learning: Theory and Applications",
+    "volume": 24,
+    "year": 2023
+}

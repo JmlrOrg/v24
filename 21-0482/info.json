@@ -1,0 +1,22 @@
+{
+    "abstract": "Selecting a minimal feature set that is maximally informative about a target variable is a central task in machine learning and statistics. Information theory provides a powerful framework for formulating feature selection algorithms\u2014yet, a rigorous, information-theoretic definition of feature relevancy, which accounts for feature interactions such as redundant and synergistic contributions, is still missing. We argue that this lack is inherent to classical information theory which does not provide measures to decompose the information a set of variables provides about a target into unique, redundant, and synergistic contributions. Such a decomposition has been introduced only recently by the partial information decomposition (PID) framework. Using PID, we clarify why feature selection is a conceptually difficult problem when approached using information theory and provide a novel definition of feature relevancy and redundancy in PID terms. From this definition, we show that the conditional mutual information (CMI) maximizes relevancy while minimizing redundancy and propose an iterative, CMI-based algorithm for practical feature selection. We demonstrate the power of our CMI-based algorithm in comparison to the unconditional mutual information on benchmark examples and provide corresponding PID estimates to highlight how PID allows to quantify information contribution of features and their interactions in feature-selection problems.",
+    "authors": [
+        "Patricia Wollstadt",
+        "Sebastian Schmitt",
+        "Michael Wibral"
+    ],
+    "emails": [
+        "patricia.wollstadt@honda-ri.de",
+        "sebastian.schmitt@honda-ri.de",
+        "michael.wibral@uni-goettingen.de"
+    ],
+    "id": "21-0482",
+    "issue": 131,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "A Rigorous Information-Theoretic Definition of Redundancy and Relevancy in Feature Selection Based on (Partial) Information Decomposition",
+    "volume": 24,
+    "year": 2023
+}

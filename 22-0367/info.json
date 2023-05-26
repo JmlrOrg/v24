@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider high-dimensional multiclass classification by sparse multinomial logistic regression. Unlike binary classification, in the multiclass setup one can think about an entire spectrum of possible notions of sparsity associated with different structural assumptions on the regression coefficients matrix.  We propose a computationally feasible feature selection procedure based on penalized maximum likelihood with convex penalties capturing a specific type of sparsity at hand. In particular, we consider global row-wise sparsity, double row-wise sparsity, and low-rank sparsity, and show that with the properly chosen tuning parameters the derived plug-in classifiers attain the minimax generalization error bounds (in terms of misclassification excess risk) within the corresponding classes of multiclass sparse linear classifiers. The developed approach is  general and can be adapted to other types of sparsity as well.",
+    "authors": [
+        "Tomer Levy",
+        "Felix Abramovich"
+    ],
+    "emails": [
+        "tmrlvi@gmail.com",
+        "felix@tauex.tau.ac.il"
+    ],
+    "id": "22-0367",
+    "issue": 151,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Generalization error bounds for multiclass sparse linear classifiers",
+    "volume": 24,
+    "year": 2023
+}

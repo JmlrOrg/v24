@@ -1,0 +1,30 @@
+{
+    "abstract": "In recent years, model-agnostic meta-learning (MAML) has become a popular research area. However, the stochastic optimization of MAML is still underdeveloped. Existing MAML algorithms rely on the ``episode'' idea by sampling a few tasks and data points to update the meta-model at each iteration. Nonetheless, these algorithms either fail to guarantee convergence with a constant mini-batch size or require processing a large number of tasks at every iteration, which is unsuitable for continual learning or cross-device federated learning where only a small number of tasks are available per iteration or per round. To address these issues, this paper proposes memory-based stochastic algorithms for MAML that converge with vanishing error. The proposed algorithms require sampling a constant number of tasks and data samples per iteration, making them suitable for the continual learning scenario. Moreover, we introduce a communication-efficient memory-based MAML algorithm for personalized federated learning in cross-device (with client sampling) and cross-silo (without client sampling) settings. Our theoretical analysis improves the optimization theory for MAML, and our empirical results corroborate our theoretical findings.",
+    "authors": [
+        "Bokun Wang",
+        "Zhuoning Yuan",
+        "Yiming Ying",
+        "Tianbao Yang"
+    ],
+    "emails": [
+        "bokun-wang@tamu.edu",
+        "zhuoning-yuan@uiowa.edu",
+        "yying@albany.edu",
+        "tianbao-yang@tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bokun-wang/moml"
+        ]
+    ],
+    "id": "21-1301",
+    "issue": 145,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Memory-Based Optimization Methods for Model-Agnostic Meta-Learning and Personalized Federated Learning",
+    "volume": 24,
+    "year": 2023
+}

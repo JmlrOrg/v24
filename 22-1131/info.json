@@ -1,0 +1,22 @@
+{
+    "abstract": "Multiple testing is a commonly used tool in modern data science. Sometimes, the hypotheses are embedded in a space; the distances between the hypotheses reflect their co-null/co- alternative patterns. Properly incorporating the distance information in testing will boost testing power. Hence, we developed a new multiple testing framework named Distance Assisted Recursive Testing (DART). DART features in joint artificial intelligence (AI) and statistics modeling. It has two stages. The first stage uses AI models to construct an aggregation tree that reflects the distance information. The second stage uses statistical models to embed the testing on the tree and control the false discovery rate. Theoretical analysis and numerical experiments demonstrated that DART generates valid, robust, and powerful results. We applied DART to a clinical trial in the allogeneic stem cell transplantation study to identify the gut microbiota whose abundance was impacted by post-transplant care.",
+    "authors": [
+        "Xuechan Li",
+        "Anthony D. Sung",
+        "Jichun Xie"
+    ],
+    "emails": [
+        "xuechan.li@duke.edu",
+        "anthony.sung@duke.edu",
+        "jichun.xie@duke.edu"
+    ],
+    "id": "22-1131",
+    "issue": 169,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "DART: Distance Assisted Recursive Testing",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider the problem of testing for a difference in means between clusters of observations identified via k-means clustering. In this setting, classical hypothesis tests lead to an inflated Type I error rate. In recent work, Gao et al. (2022) considered a related problem in the context of hierarchical clustering. Unfortunately, their solution is highly-tailored to the context of hierarchical clustering, and thus cannot be applied in the setting of k-means clustering. In this paper, we propose a p-value that conditions on all of the intermediate clustering assignments in the k-means algorithm. We show that the p-value controls the selective Type I error for a test of the difference in means between a pair of clusters obtained using k-means clustering in finite samples, and can be efficiently computed. We apply our proposal on hand-written digits data and on single-cell RNA-sequencing data.",
+    "authors": [
+        "Yiqun T. Chen",
+        "Daniela M. Witten"
+    ],
+    "emails": [
+        "yiqunc@stanford.edu",
+        "dwttien@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/yiqunchen/KmeansInference"
+        ]
+    ],
+    "id": "22-0371",
+    "issue": 152,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Selective inference for k-means clustering",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "The framework of optimal transport has been leveraged to extend the notion of rank to the multivariate setting as corresponding to an optimal transport map, while preserving desirable properties of the resulting goodness-of-fit (GoF) statistics. In particular, the rank energy (RE) and rank maximum mean discrepancy (RMMD) are distribution-free under the null, exhibit high power in statistical testing, and are robust to outliers. In this paper, we point to and alleviate some of the shortcomings of these GoF statistics that are of practical significance, namely high computational cost, curse of dimensionality in statistical sample complexity, and lack of differentiability with respect to the data. We show that all these issues are addressed by defining multivariate rank as an entropic transport map derived from the entropic regularization of the optimal transport problem, which we refer to as the soft rank. We consequently propose two new statistics, the soft rank energy (sRE) and soft rank maximum mean discrepancy (sRMMD). Given n sample data points, we provide non-asymptotic convergence rates for the sample estimate of the entropic transport map to its population version that are essentially of the order n^(-1/2) when the source measure is subgaussian and the target measure has compact support.  This result is novel compared to existing results which achieve a rate of n^(-1) but crucially rely on both measures having compact support. In contrast, the corresponding convergence rate of estimating an optimal transport map, and hence the rank map, is exponential in the data dimension. We leverage these fast convergence rates to show that the sample estimates of sRE and sRMMD converge rapidly to their population versions. Combined with the computational efficiency of methods in solving the entropy-regularized optimal transport problem, these results enable efficient rank-based GoF statistical computation, even in high dimensions. Furthermore, the sample estimates of sRE and sRMMD are differentiable with respect to the data and amenable to popular machine learning frameworks that rely on gradient methods. We leverage these properties towards showcasing their utility for generative modeling on two important problems: image generation and generating valid knockoffs for controlled feature selection.",
+    "authors": [
+        "Shoaib Bin Masud",
+        "Matthew Werenski",
+        "James M. Murphy",
+        "Shuchin Aeron"
+    ],
+    "emails": [
+        "Shoaib_Bin.Masud@tufts.edu",
+        "matthew.werenski@tufts.edu",
+        "jm.murphy@tufts.edu",
+        "shuchin@ece.tufts.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications"
+        ]
+    ],
+    "id": "22-0616",
+    "issue": 160,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Multivariate Soft Rank via Entropy-Regularized Optimal Transport: Sample Efficiency and Generative Modeling",
+    "volume": 24,
+    "year": 2023
+}

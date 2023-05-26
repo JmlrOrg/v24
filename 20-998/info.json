@@ -1,0 +1,30 @@
+{
+    "abstract": "Graph Neural Networks (GNNs) have achieved state-of-the-art results on many graph analysis tasks such as node classification and link prediction. However, important unsupervised problems on graphs, such as graph clustering, have proved more resistant to advances in GNNs. Graph clustering has the same overall goal as node pooling in GNNs\u2014does this mean that GNN pooling methods do a good job at clustering graphs? Surprisingly, the answer is no\u2014current GNN pooling methods often fail to recover the cluster structure in cases where simple baselines, such as k-means applied on learned representations, work well. We investigate further by carefully designing a set of experiments to study different signal-to-noise scenarios both in graph structure and attribute data. To address these methods' poor performance in clustering, we introduce Deep Modularity Networks (DMoN), an unsupervised pooling method inspired by the modularity measure of clustering quality, and show how it tackles recovery of the challenging clustering structure of real-world graphs. Similarly, on real-world data, we show that DMoN produces high quality clusters which correlate strongly with ground truth labels, achieving state-of-the-art results with over 40% improvement over other pooling methods across different metrics.",
+    "authors": [
+        "Anton Tsitsulin",
+        "John Palowitch",
+        "Bryan Perozzi",
+        "Emmanuel M\u00fcller"
+    ],
+    "emails": [
+        "tsitsulin@google.com",
+        "palowitch@google.com",
+        "bperozzi@acm.org",
+        "emmanuel.mueller@cs.tu-dortmund.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/google-research/google-research/tree/master/graph_embedding/dmon"
+        ]
+    ],
+    "id": "20-998",
+    "issue": 127,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Graph Clustering with Graph Neural Networks",
+    "volume": 24,
+    "year": 2023
+}

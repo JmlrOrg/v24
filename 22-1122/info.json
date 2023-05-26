@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the problem of constructing asymptotically valid confidence intervals for the change point in a high-dimensional covariance shift setting. A novel estimator for the change point parameter is developed, and its asymptotic distribution under high dimensional scaling obtained. We establish that the proposed estimator exhibits a sharp $O_p(\\psi^{-2})$ rate of convergence, wherein $\\psi$ represents the jump size between model parameters before and after the change point. Further, the form of the asymptotic distributions under both a vanishing and a non-vanishing regime of the jump size are characterized. In the former case, it corresponds to the argmax of an asymmetric Brownian motion, while in the latter case to the argmax of an asymmetric random walk. We then obtain the relationship between these distributions, which allows construction of regime (vanishing vs non-vanishing) adaptive confidence intervals. Easy to implement algorithms for the proposed methodology are developed and their performance illustrated on synthetic and real data sets.",
+    "authors": [
+        "Abhishek Kaul",
+        "Hongjin Zhang",
+        "Konstantinos Tsampourakis",
+        "George Michailidis"
+    ],
+    "emails": [
+        "abhishek.kaul@wsu.edu",
+        "hongjin.zhang@wsu.edu",
+        "k.tsampourakis@wsu.edu",
+        "gmichail@ufl.edu"
+    ],
+    "id": "22-1122",
+    "issue": 168,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Inference on the Change Point under a High Dimensional Covariance Shift",
+    "volume": 24,
+    "year": 2023
+}

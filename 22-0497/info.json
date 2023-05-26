@@ -1,0 +1,20 @@
+{
+    "abstract": "Data depth, introduced by Tukey (1975), is an important tool in data science, robust statistics, and computational geometry. One chief barrier to its broader practical utility is that many common measures of depth are computationally intensive, requiring on the order of $n^d$ operations to exactly compute the depth of a single point within a data set of $n$ points in $d$-dimensional space. Often however, we are not directly interested in the absolute depths of the points, but rather in their relative ordering. For example, we may want to find the most central point in a data set (a generalized median), or to identify and remove all outliers (points on the fringe of the data set with low depth). With this observation, we develop a novel instance-adaptive algorithm for adaptive data depth computation by reducing the problem of exactly computing $n$ depths to an $n$-armed stochastic multi-armed bandit problem which we can efficiently solve. We focus our exposition on simplicial depth, developed by Liu (1990), which has emerged as a promising notion of depth due to its interpretability and asymptotic properties. We provide general data-dependent theoretical guarantees for our proposed algorithms, which readily extend to many other common measures of data depth including majority depth, Oja depth, and likelihood depth. When specialized to the case where the gaps in the data follow a power law distribution with parameter $\\alpha<2$, we reduce the complexity of identifying the deepest point in the data set (the simplicial median) from $O(n^d)$ to $\\tilde{O}(n^{d-(d-1)\\alpha/2})$, where $\\tilde{O}$ suppresses a logarithmic factor. We corroborate our theoretical results with numerical experiments on synthetic data, showing the practical utility of our proposed methods.",
+    "authors": [
+        "Tavor Baharav",
+        "Tze Leung Lai"
+    ],
+    "emails": [
+        "tavorb@stanford.edu",
+        "lait@stanford.edu"
+    ],
+    "id": "22-0497",
+    "issue": 155,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Adaptive Data Depth via Multi-Armed Bandits",
+    "volume": 24,
+    "year": 2023
+}

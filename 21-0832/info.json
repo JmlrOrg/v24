@@ -1,0 +1,26 @@
+{
+    "abstract": "We investigate gradient descent training of wide neural networks and the corresponding implicit bias in function space. For univariate regression, we show that the solution of training a width-$n$ shallow ReLU network is within $n^{- 1/2}$ of the function which fits the training data and whose difference from the initial function has the smallest 2-norm of the second derivative weighted by a curvature penalty that depends on the probability distribution that is used to initialize the network parameters. We compute the curvature penalty function explicitly for various common initialization procedures. For instance, asymmetric initialization with a uniform distribution yields a constant curvature penalty, and thence the solution function is the natural cubic spline interpolation of the training data. For stochastic gradient descent we obtain the same implicit bias result. We obtain a similar result for different activation functions. For multivariate regression we show an analogous result, whereby the second derivative is replaced by the Radon transform of a fractional Laplacian. For initialization schemes that yield a constant penalty function, the solutions are polyharmonic splines. Moreover, we show that the training trajectories are captured by trajectories of smoothing splines with decreasing regularization strength.",
+    "authors": [
+        "Hui Jin",
+        "Guido Montufar"
+    ],
+    "emails": [
+        "huijin@ucla.edu",
+        "montufar@math.ucla.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/huijin12/Implicit_Bias_Wide_Neural_Networks"
+        ]
+    ],
+    "id": "21-0832",
+    "issue": 137,
+    "pages": [
+        1,
+        97
+    ],
+    "title": "Implicit Bias of Gradient Descent for Mean Squared Error Regression with Two-Layer Wide Neural Networks",
+    "volume": 24,
+    "year": 2023
+}

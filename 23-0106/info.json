@@ -1,0 +1,18 @@
+{
+    "abstract": "In the face of uncertainty, the need for probabilistic assessments has long been recognized in the literature on forecasting. In classification, however, comparative evaluation of classifiers often focuses on predictions specifying a single class through the use of simple accuracy measures, which disregard any probabilistic uncertainty quantification. I propose probabilistic top lists as a novel type of prediction in classification, which bridges the gap between single-class predictions and predictive distributions. The probabilistic top list functional is elicitable through the use of strictly consistent evaluation metrics. The proposed evaluation metrics are based on symmetric proper scoring rules and admit comparison of various types of predictions ranging from single-class point predictions to fully specified predictive distributions. The Brier score yields a metric that is particularly well suited for this kind of comparison.",
+    "authors": [
+        "Johannes Resin"
+    ],
+    "emails": [
+        "Johannes.Resin@awi.uni-heidelberg.de"
+    ],
+    "id": "23-0106",
+    "issue": 173,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "From Classification Accuracy to Proper Scoring Rules: Elicitability of Probabilistic Top List Predictions",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "The distributed kernel ridge regression (DKRR) has shown great potential in processing complicated tasks. However, DKRR only made use of the local samples that failed to capture the global characteristics. Besides, the existing optimal learning guarantees were provided in expectation and only pertain to the attainable case that the target regression lies exactly in the kernel space. In this paper, we propose distributed learning with globally-shared Nystroem centers (DNystroem), which utilizes global information across the local clients. We also study the statistical properties of DNystroem in expectation and in probability, respectively, and obtain several state-of-the-art results with the minimax optimal learning rates. Note that, the optimal convergence rates for DNystroem pertain to the non-attainable case, while the statistical results allow more partitions and require fewer Nystroem centers. Finally, we conduct experiments on several real-world datasets to validate the effectiveness of the proposed algorithm, and the empirical results coincide with our theoretical findings.",
+    "authors": [
+        "Jian Li",
+        "Yong Liu",
+        "Weiping Wang"
+    ],
+    "emails": [
+        "lijian9026@iie.ac.cn",
+        "liuyonggsai@ruc.edu.cn",
+        "wangweiping@iie.ac.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/superlj666/DNystroem"
+        ]
+    ],
+    "id": "21-1049",
+    "issue": 141,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Optimal Convergence Rates for Distributed Nystroem Approximation",
+    "volume": 24,
+    "year": 2023
+}

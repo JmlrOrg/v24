@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider a contextual online learning (multi-armed bandit) problem with high-dimensional covariate $x$ and decision $y$. The reward function to learn, $f(x,y)$, does not have a particular parametric form. The literature has shown that the optimal regret is $\\tilde{O}(T^{(d_x\\!+\\!d_y\\!+\\!1)/(d_x\\!+\\!d_y\\!+\\!2)})$, where $d_x$ and $d_y$ are the dimensions of $x$ and $y$, and thus it suffers from the curse of dimensionality. In many applications, only a small subset of variables in the covariate affect the value of $f$, which is referred to as sparsity in statistics. To take advantage of the sparsity structure of the covariate, we propose a variable selection algorithm called BV-LASSO, which incorporates novel ideas such as binning and voting to apply LASSO to nonparametric settings. Using it as a subroutine, we can achieve the regret $\\tilde{O}(T^{(d_x^*\\!+\\!d_y\\!+\\!1)/(d_x^*\\!+\\!d_y\\!+\\!2)})$, where $d_x^*$ is the effective covariate dimension. The regret matches the optimal regret when the covariate is $d^*_x$-dimensional and thus cannot be improved. Our algorithm may serve as a general recipe to achieve dimension reduction via variable selection in nonparametric settings.",
+    "authors": [
+        "Wenhao Li",
+        "Ningyuan Chen",
+        "L. Jeff Hong"
+    ],
+    "emails": [
+        "zjuliwenhao@gmail.com",
+        "ningyuan.chen@utoronto.ca",
+        "hong_liu@fudan.edu.cn"
+    ],
+    "id": "21-0818",
+    "issue": 136,
+    "pages": [
+        1,
+        84
+    ],
+    "title": "Dimension Reduction in Contextual Online Learning via Nonparametric Variable Selection",
+    "volume": 24,
+    "year": 2023
+}
