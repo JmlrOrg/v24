@@ -1,0 +1,26 @@
+{
+    "abstract": "Many modern classification algorithms are formulated through the regularized empirical risk minimization (ERM) framework, where the risk is defined based on a loss function. We point out that although the loss function in decision theory is non-negative by definition, the non-negativity of the loss function in ERM is not necessary to be classification-calibrated and to produce a Bayes consistent classifier. We introduce the leaky hockey stick loss (LHS loss), the first negatively divergent margin-based loss function. We prove that the LHS loss is classification-calibrated. When the hinge loss is replaced with the LHS loss in the ERM approach for deriving the kernel support vector machine (SVM), the corresponding optimization problem has a well-defined solution named the kernel leaky hockey stick classifier (LHS classifier). Under mild regularity conditions, we prove that the kernel LHS classifier is Bayes risk consistent. In our theoretical analysis, we overcome multiple challenges caused by the negative divergence of the LHS loss that does not exist in the analysis of the usual kernel machines. For a numerical demonstration, we provide a computationally efficient algorithm to solve the kernel LHS classifier and compare it to the kernel SVM on simulated data and fifteen benchmark data sets. To conclude this work, we further present a class of negatively divergent margin-based loss functions that have similar theoretical properties to those of the LHS loss. Interestingly, the LHS loss can be viewed as a limiting case of this family of negatively divergent margin-based loss functions.",
+    "authors": [
+        "Oh-Ran Kwon",
+        "Hui Zou"
+    ],
+    "emails": [
+        "kwon0085@umn.edu",
+        "zouxx019@umn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://github.com/ohrankwon/lhsc"
+        ]
+    ],
+    "id": "22-1104",
+    "issue": 239,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Leaky Hockey Stick Loss: The First Negatively Divergent Margin-based Loss Function for Classification",
+    "volume": 24,
+    "year": 2023
+}

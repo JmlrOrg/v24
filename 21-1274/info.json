@@ -1,0 +1,24 @@
+{
+    "abstract": "Combining several (sample approximations of) distributions, which we term sub-posteriors, into a single distribution proportional to their product, is a common challenge. Occurring, for instance, in distributed 'big data' problems, or when working under multi-party privacy constraints. Many existing approaches resort to approximating the individual sub-posteriors for practical necessity, then find either an analytical approximation or sample approximation of the resulting (product-pooled) posterior. The quality of the posterior approximation for these approaches is poor when the sub-posteriors fall out-with a narrow range of distributional form, such as being approximately Gaussian. Recently, a Fusion approach has been proposed which finds an exact Monte Carlo approximation of the posterior, circumventing the drawbacks of approximate approaches. Unfortunately, existing Fusion approaches have a number of computational limitations, particularly when unifying a large number of sub-posteriors. In this paper, we generalise the theory underpinning existing Fusion approaches, and embed the resulting methodology within a recursive  divide-and-conquer sequential Monte Carlo paradigm. This ultimately leads to a competitive Fusion approach, which is robust to increasing numbers of sub-posteriors.",
+    "authors": [
+        "Ryan S.Y. Chan",
+        "Murray Pollock",
+        "Adam M. Johansen",
+        "Gareth O. Roberts"
+    ],
+    "emails": [
+        "rchan@turing.ac.uk",
+        "murray.pollock@newcastle.ac.uk",
+        "a.m.johansen@warwick.ac.uk",
+        "gareth.o.roberts@warwick.ac.uk"
+    ],
+    "id": "21-1274",
+    "issue": 193,
+    "pages": [
+        1,
+        82
+    ],
+    "title": "Divide-and-Conquer Fusion",
+    "volume": 24,
+    "year": 2023
+}

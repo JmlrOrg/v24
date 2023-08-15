@@ -1,0 +1,22 @@
+{
+    "abstract": "Federated Learning (FL) is a promising decentralized learning framework and  has great potentials in privacy preservation and in lowering the computation load at the cloud. Recent work showed that FedAvg and FedProx -- the two widely-adopted FL algorithms -- fail to reach the stationary points of the global optimization objective even for homogeneous linear regression problems. Further,  it is concerned that the common model learned might not generalize well locally at all in the presence of heterogeneity.  In this paper, we analyze the convergence and statistical efficiency of FedAvg and FedProx, addressing the above two concerns. Our analysis is based on the standard non-parametric regression in a reproducing kernel Hilbert space (RKHS), and allows for heterogeneous local data distributions and unbalanced local datasets. We prove that the estimation errors, measured in either the empirical norm or the RKHS norm, decay with a rate of $1/t$ in general and exponentially for finite-rank kernels.  In certain heterogeneous settings, these upper bounds also imply that both FedAvg and FedProx achieve the optimal error rate. To further analytically quantify the impact of the heterogeneity at each client, we propose and characterize a novel notion-federation gain, defined as the reduction of the estimation error for a client to join the FL. We discover that when the data heterogeneity is moderate, a client with limited local data can benefit from a common model with a large federation gain. Two new insights introduced by considering the statistical aspect are: (1) requiring the standard bounded dissimilarity is pessimistic for the convergence analysis of FedAvg and FedProx; (2) despite inconsistency of stationary points, their limiting points are unbiased estimators of the underlying truth. Numerical experiments further corroborate our theoretical findings.",
+    "authors": [
+        "Lili Su",
+        "Jiaming Xu",
+        "Pengkun Yang"
+    ],
+    "emails": [
+        "l.su@northeastern.edu",
+        "jiaming.xu868@duke.edu",
+        "yangpengkun@tsinghua.edu.cn"
+    ],
+    "id": "22-0153",
+    "issue": 203,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "A Non-parametric View of FedAvg and FedProx:Beyond Stationary Points",
+    "volume": 24,
+    "year": 2023
+}

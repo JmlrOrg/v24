@@ -1,0 +1,36 @@
+{
+    "abstract": "Originally, tangles were invented as an abstract tool in mathematical graph theory to prove the famous graph minor theorem. In this paper, we showcase the practical potential of tangles in machine learning applications. Given a collection of cuts of any dataset, tangles aggregate these cuts to point in the direction of a dense structure.  As a result, a cluster is softly characterized by a set of consistent pointers. This highly flexible approach can solve clustering problems in various setups, ranging from questionnaires over community detection in graphs to clustering points in metric spaces. The output of our proposed framework is hierarchical and induces the notion of a soft dendrogram, which can help explore the cluster structure of a dataset. The computational complexity of aggregating the cuts is linear in the number of data points. Thus the bottleneck of the tangle approach is to generate the cuts, for which simple and fast algorithms form a sufficient basis. In our paper we construct the algorithmic framework for clustering with tangles, prove theoretical guarantees in various settings, and provide extensive simulations and use cases. Python code is available on github.",
+    "authors": [
+        "Solveig Klepper",
+        "Christian Elbracht",
+        "Diego Fioravanti",
+        "Jakob Kneip",
+        "Luca Rendsburg",
+        "Maximilian Teegen",
+        "Ulrike von Luxburg"
+    ],
+    "emails": [
+        "solveig.klepper@uni-tuebingen.de",
+        "christian.elbracht@uni-hamburg.de",
+        "fioravanti.diego@gmail.com",
+        "jakobfkneip+jmlr@gmail.com",
+        "luca.rendsburg@uni-tuebingen.de",
+        "maximilian.teegen@uni-hamburg.de",
+        "ulrike.luxburg@uni-tuebingen.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tml-tuebingen/tangles/tree/vanilla"
+        ]
+    ],
+    "id": "21-1160",
+    "issue": 190,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Clustering with Tangles: Algorithmic Framework and Theoretical Guarantees",
+    "volume": 24,
+    "year": 2023
+}

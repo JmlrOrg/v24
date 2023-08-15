@@ -1,0 +1,28 @@
+{
+    "abstract": "Progress in machine learning (ML) comes with a cost to the environment, given that training ML models requires computational resources, energy and materials. In the present article, we aim to quantify the carbon footprint of BLOOM, a 176-billion parameter language model, across its life cycle. We estimate that BLOOM\u2019s final training emitted approximately 24.7 tonnes of CO2eq if we consider only the dynamic power consumption, and 50.5 tonnes if we account for all processes ranging from equipment manufacturing to energy-based operational consumption. We also carry out an empirical study to measure the energy requirements and carbon emissions of its deployment for inference via an API endpoint receiving user queries in real-time. We conclude with a discussion regarding the difficulty of precisely estimating the carbon footprint of ML models and future research directions that can contribute towards improving carbon emissions reporting.",
+    "authors": [
+        "Alexandra Sasha Luccioni",
+        "Sylvain Viguier",
+        "Anne-Laure Ligozat"
+    ],
+    "emails": [
+        "sasha.luccioni@huggingface.co",
+        "sylvain@graphcore.ai",
+        "anne-laure.ligozat@lisn.upsaclay.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bigscience-workshop/carbon-footprint/"
+        ]
+    ],
+    "id": "23-0069",
+    "issue": 253,
+    "pages": [
+        1,
+        15
+    ],
+    "title": "Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model",
+    "volume": 24,
+    "year": 2023
+}

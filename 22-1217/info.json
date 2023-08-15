@@ -1,0 +1,22 @@
+{
+    "abstract": "$\\ell_1$-penalized quantile regression ($\\ell_1$-QR)  is a useful tool for modeling the relationship between input and  output variables when detecting heterogeneous effects in the high-dimensional setting. Hypothesis tests can then be formulated based on the debiased $\\ell_1$-QR estimator that reduces the bias induced by Lasso penalty. However, the non-smoothness of the quantile loss brings great challenges to the computation, especially when the data dimension is high. Recently, the convolution-type smoothed quantile regression (SQR) model has been proposed to overcome such shortcoming, and people developed theory of estimation and variable selection therein. In this work, we combine the debiased method with SQR model and come up with the debiased $\\ell_1$-SQR estimator, based on which we then establish confidence intervals and hypothesis testing in the high-dimensional setup. Theoretically, we provide the non-asymptotic Bahadur representation for our proposed estimator and also the Berry-Esseen bound, which implies the empirical coverage rates for the studentized confidence intervals. Furthermore, we build up the theory of hypothesis testing on both a single variable and a group of variables. Finally, we exhibit extensive numerical experiments on both simulated and real data to demonstrate the good performance of our method.",
+    "authors": [
+        "Yibo Yan",
+        "Xiaozhou Wang",
+        "Riquan Zhang"
+    ],
+    "emails": [
+        "yyb820nb@sina.com",
+        "xzwang@sfs.ecnu.edu.cn",
+        "zhangriquan@163.com"
+    ],
+    "id": "22-1217",
+    "issue": 245,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Confidence Intervals and Hypothesis Testing for High-dimensional Quantile Regression: Convolution Smoothing and Debiasing",
+    "volume": 24,
+    "year": 2023
+}

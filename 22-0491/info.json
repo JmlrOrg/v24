@@ -1,0 +1,22 @@
+{
+    "abstract": "The leaky ReLU network with a group sparse regularization term has been widely used in the recent years. However, training such network yields a nonsmooth nonconvex optimization problem and there exists a lack of approaches to compute a stationary point deterministically. In this paper, we first resolve the multi-layer composite term in the original optimization problem by introducing auxiliary variables and additional constraints. We show the new model has a nonempty and bounded solution set and its feasible set satisfies the Mangasarian-Fromovitz constraint qualification.  Moreover, we show the relationship between the new model and the original problem. Remarkably, we propose an inexact augmented Lagrangian algorithm for solving the new model, and show the convergence of the algorithm to a KKT point.  Numerical experiments demonstrate that our algorithm is more efficient for training sparse leaky ReLU neural networks than some well-known algorithms.",
+    "authors": [
+        "Wei Liu",
+        "Xin Liu",
+        "Xiaojun Chen"
+    ],
+    "emails": [
+        "liuwei175@lsec.cc.ac.cn",
+        "liuxin@lsec.cc.ac.cn",
+        "xiaojun.chen@polyu.edu.hk"
+    ],
+    "id": "22-0491",
+    "issue": 212,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "An Inexact Augmented Lagrangian Algorithm for Training Leaky ReLU Neural Network with Group Sparsity",
+    "volume": 24,
+    "year": 2023
+}

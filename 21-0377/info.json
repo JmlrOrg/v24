@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper shows that dropout training in generalized linear models is the minimax solution of a two-player, zero-sum game where an adversarial nature corrupts a statistician's covariates  using  a  multiplicative nonparametric  errors-in-variables  model. In this game, nature's least favorable distribution is dropout noise, where nature independently deletes entries of the covariate vector with some fixed probability $\\delta$. This result implies that dropout training indeed provides out-of-sample expected loss guarantees for distributions that arise from multiplicative perturbations of in-sample data. The paper makes a concrete recommendation on how to select the tuning parameter $\\delta$. The paper also provides a novel, parallelizable, unbiased multi-level Monte Carlo algorithm to speed-up the implementation of dropout training. Our algorithm has a much smaller computational cost compared to the naive implementation of dropout,  provided the number of data points is much smaller than the dimension of the covariate vector.",
+    "authors": [
+        "Jos\u00e9 Blanchet",
+        "Yang Kang",
+        "Jos\u00e9 Luis Montiel Olea",
+        "Viet Anh Nguyen",
+        "Xuhui Zhang"
+    ],
+    "emails": [
+        "jose.blanchet@stanford.edu",
+        "yangkang@stat.columbia.edu",
+        "jlo67@cornell.edu",
+        "nguyen@se.cuhk.edu.hk",
+        "xuhui.zhang@stanford.edu"
+    ],
+    "id": "21-0377",
+    "issue": 180,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Dropout Training is Distributionally Robust Optimal",
+    "volume": 24,
+    "year": 2023
+}

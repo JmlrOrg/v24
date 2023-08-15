@@ -1,0 +1,20 @@
+{
+    "abstract": "Differentially private multiple testing procedures can protect the information of individuals used in hypothesis tests while guaranteeing a small fraction of false discoveries. In this paper, we propose a differentially private adaptive FDR control method that can control the classic FDR metric exactly at a user-specified level $\\alpha$ with a privacy guarantee, which is a non-trivial improvement compared to the differentially private Benjamini-Hochberg method proposed in Dwork et al. (2021). Our analysis is based on two key insights: 1) a novel $p$-value transformation that preserves both privacy and the mirror conservative property, and 2) a mirror peeling algorithm that allows the construction of the filtration and application of the optimal stopping technique. Numerical studies demonstrate that the proposed DP-AdaPT performs better compared to the existing differentially private FDR control methods. Compared to the non-private AdaPT, it incurs a small accuracy loss but significantly reduces the computation cost.",
+    "authors": [
+        "Xintao Xia",
+        "Zhanrui Cai"
+    ],
+    "emails": [
+        "xintaox@iastate.edu",
+        "zhanruic@hku.hk"
+    ],
+    "id": "23-0039",
+    "issue": 252,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Adaptive False Discovery Rate Control with Privacy Guarantee",
+    "volume": 24,
+    "year": 2023
+}

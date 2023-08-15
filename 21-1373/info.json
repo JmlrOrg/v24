@@ -1,0 +1,28 @@
+{
+    "abstract": "Statistical models are central to machine learning with broad applicability across a range of downstream tasks. The models are controlled by free parameters that are typically estimated from data by maximum-likelihood estimation or approximations thereof. However, when faced with real-world data sets many of the models run into a critical issue: they are formulated in terms of fully-observed data, whereas in practice the data sets are plagued with missing data. The theory of statistical model estimation from incomplete data is conceptually similar to the estimation of latent-variable models, where powerful tools such as variational inference (VI) exist. However, in contrast to standard latent-variable models, parameter estimation with incomplete data often requires estimating exponentially-many conditional distributions of the missing variables, hence making standard VI methods intractable. We address this gap by introducing variational Gibbs inference (VGI), a new general-purpose method to estimate the parameters of statistical models from incomplete data. We validate VGI on a set of synthetic and real-world estimation tasks, estimating important machine learning models such as variational autoencoders and normalising flows from incomplete data. The proposed method, whilst general-purpose, achieves competitive or better performance than existing model-specific estimation methods.",
+    "authors": [
+        "Vaidotas Simkus",
+        "Benjamin Rhodes",
+        "Michael U. Gutmann"
+    ],
+    "emails": [
+        "vaidotas.simkus@ed.ac.uk",
+        "ben.rhodes@ed.ac.uk",
+        "michael.gutmann@ed.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vsimkus/variational-gibbs-inference"
+        ]
+    ],
+    "id": "21-1373",
+    "issue": 196,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "Variational Gibbs Inference for Statistical Model Estimation from Incomplete Data",
+    "volume": 24,
+    "year": 2023
+}

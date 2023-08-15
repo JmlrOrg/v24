@@ -1,0 +1,24 @@
+{
+    "abstract": "Convex Reinforcement Learning (RL) is a recently introduced framework that generalizes the standard RL objective to any convex (or concave) function of the state distribution induced by the agent's policy. This framework subsumes several applications of practical interest, such as pure exploration, imitation learning, and risk-averse RL, among others. However, the previous convex RL literature implicitly evaluates the agent's performance over infinite realizations (or trials), while most of the applications require excellent performance over a handful, or even just one, trials. To meet this practical demand, we formulate convex RL in finite trials, where the objective is any convex function of the empirical state distribution computed over a finite number of realizations. In this paper, we provide a comprehensive theoretical study of the setting, which includes an analysis of the importance of non-Markovian policies to achieve optimality, as well as a characterization of the computational and statistical complexity of the problem in various configurations.",
+    "authors": [
+        "Mirco Mutti",
+        "Riccardo De Santi",
+        "Piersilvio De Bartolomeis",
+        "Marcello Restelli"
+    ],
+    "emails": [
+        "mirco.mutti@polimi.it",
+        "rdesanti@ethz.ch",
+        "pdebartol@ethz.ch",
+        "marcello.restelli@polimi.it"
+    ],
+    "id": "22-1514",
+    "issue": 250,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Convex Reinforcement Learning in Finite Trials",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Constructing states from sequences of observations is an important component of reinforcement learning agents. One solution for state construction is to use recurrent neural networks. Back-propagation through time (BPTT), and real-time recurrent learning (RTRL) are two popular gradient-based methods for recurrent learning. BPTT requires complete trajectories of observations before it can compute the gradients and is unsuitable for online updates. RTRL can do online updates but scales poorly to large networks. In this paper, we propose two constraints that make RTRL scalable. We show that by either decomposing the network into independent modules or learning the network in stages, we can make RTRL scale linearly with the number of parameters. Unlike prior scalable gradient estimation algorithms, such as UORO and Truncated-BPTT, our algorithms do not add noise or bias to the gradient estimate. Instead, they trade off the functional capacity of the network for computationally efficient learning. We demonstrate the effectiveness of our approach over Truncated-BPTT on a prediction benchmark inspired by animal learning and by doing policy evaluation of pre-trained policies for Atari 2600 games.",
+    "authors": [
+        "Khurram Javed",
+        "Haseeb Shah",
+        "Richard S. Sutton",
+        "Martha White"
+    ],
+    "emails": [
+        "kjaved@ualberta.ca",
+        "hshah1@ualberta.ca",
+        "rsutton@ualberta.ca",
+        "whitem@ualberta.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/khurramjaved96/Columnar-Constructive-Networks"
+        ]
+    ],
+    "id": "23-0367",
+    "issue": 256,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Scalable Real-Time Recurrent Learning Using Columnar-Constructive Networks",
+    "volume": 24,
+    "year": 2023
+}

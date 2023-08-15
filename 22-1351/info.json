@@ -1,0 +1,22 @@
+{
+    "abstract": "Multiple-try Metropolis (MTM) is a popular Markov chain Monte Carlo method with the appealing feature of being amenable to parallel computing. At each iteration, it samples several candidates for the next state of the Markov chain and randomly selects one of them based on a weight function. The canonical weight function is proportional to the target density. We show both theoretically and empirically that this weight function induces pathological behaviours in high dimensions, especially during the convergence phase. We propose to instead use weight functions akin to the locally-balanced proposal distributions of Zanella (2020), thus yielding MTM algorithms that do not exhibit those pathological behaviours. To theoretically analyse these algorithms, we study the high-dimensional performance of ideal schemes that can be thought of as MTM algorithms which sample an infinite number of candidates at each iteration, as well as the discrepancy between such schemes and the MTM algorithms which sample a finite number of candidates. Our analysis unveils a strong distinction between the convergence and stationary phases: in the former, local balancing is crucial and effective to achieve fast convergence, while in the latter, the canonical and novel weight functions yield similar performance. Numerical experiments include an application in precision medicine involving a computationally-expensive forward model, which makes the use of parallel computing within MTM iterations beneficial.",
+    "authors": [
+        "Philippe Gagnon",
+        "Florian Maire",
+        "Giacomo Zanella"
+    ],
+    "emails": [
+        "philippe.gagnon.3@umontreal.ca",
+        "florian.maire@umontreal.ca",
+        "giacomo.zanella@unibocconi.it"
+    ],
+    "id": "22-1351",
+    "issue": 248,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Improving multiple-try Metropolis with local balancing",
+    "volume": 24,
+    "year": 2023
+}

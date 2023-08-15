@@ -1,0 +1,22 @@
+{
+    "abstract": "The empirical practice of using factor models to adjust for shared, unobserved confounders, $\\boldsymbol{Z}$, in observational settings with multiple treatments, $\\boldsymbol{A}$, is widespread in fields including genetics, networks, medicine, and politics. Wang and Blei (2019, WB) generalize these procedures to develop the ``deconfounder,'' a causal inference method using factor models of $\\boldsymbol{A}$ to estimate ``substitute confounders,'' $\\widehat{\\boldsymbol{Z}}$, then estimating treatment effects---regressing the outcome, $\\boldsymbol{Y}$, on part of $\\boldsymbol{A}$ while adjusting for $\\widehat{\\boldsymbol{Z}}$. WB claim the deconfounder is unbiased when (among other assumptions) there are no single-cause confounders and $\\widehat{\\boldsymbol{Z}}$ is ``pinpointed.'' We clarify pinpointing requires each confounder to affect infinitely many treatments. We prove that when the conditions hold for the deconfounder to be asymptotically unbiased, a naive semiparametric regression of $\\boldsymbol{Y}$ on $\\boldsymbol{A}$ which ignores confounding is also asymptotically unbiased. We provide bias formulas for finite numbers of treatments and show that different deconfounders exhibit different kinds of bias. We replicate every deconfounder analysis with available data and find that neither the naive regression nor the deconfounder consistently outperform the other. In practice, the deconfounder produces implausible estimates in WB's case study of movie earnings: estimates suggest comic author Stan Lee's cameo appearances causally contributed $15.5 billion, most of Marvel movie revenue. We conclude neither approach is a viable substitute for careful research design in real-world applications.",
+    "authors": [
+        "Justin Grimmer",
+        "Dean Knox",
+        "Brandon Stewart"
+    ],
+    "emails": [
+        "jgrimmer@stanford.edu",
+        "dcknox@wharton.upenn.edu",
+        "bms4@princeton.edu"
+    ],
+    "id": "21-0515",
+    "issue": 182,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "Naive regression requires weaker assumptions than factor models to adjust for multiple cause confounding",
+    "volume": 24,
+    "year": 2023
+}

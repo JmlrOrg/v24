@@ -1,0 +1,22 @@
+{
+    "abstract": "While classic studies proved that wide networks allow universal approximation, recent research and successes of deep learning demonstrate the power of deep networks. Based on a symmetric consideration, we investigate if the design of artificial neural networks should have a directional preference, and what the mechanism of interaction is between the width and depth of a network. Inspired by the De Morgan law, we address this fundamental question by establishing a quasi-equivalence between the width and depth of ReLU networks. We formulate two transforms for mapping an arbitrary ReLU network to a wide ReLU network and a deep ReLU network respectively, so that the essentially same capability of the original network can be implemented. Based on our findings, a deep network has a wide equivalent, and vice versa, subject to an arbitrarily small error.",
+    "authors": [
+        "Fenglei Fan",
+        "Rongjie Lai",
+        "Ge Wang"
+    ],
+    "emails": [
+        "hitfanfenglei@gmail.com",
+        "lair@rpi.edu",
+        "wangg6@rpi.edu"
+    ],
+    "id": "21-0579",
+    "issue": 183,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "Quasi-Equivalence between Width and Depth of Neural Networks",
+    "volume": 24,
+    "year": 2023
+}

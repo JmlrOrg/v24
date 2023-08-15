@@ -1,0 +1,30 @@
+{
+    "abstract": "Sinkhorn algorithm has been used pervasively to approximate the solution to optimal transport (OT) and unbalanced optimal transport (UOT) problems. However, its practical application is limited due to the high computational complexity. To alleviate the computational burden, we propose a novel importance sparsification method, called Spar-Sink, to efficiently approximate entropy-regularized OT and UOT solutions. Specifically, our method employs natural upper bounds for unknown optimal transport plans to establish effective sampling probabilities, and constructs a sparse kernel matrix to accelerate Sinkhorn iterations, reducing the computational cost of each iteration from $O(n^2)$ to $\\widetilde{O}(n)$ for a sample of size $n$. Theoretically, we show the proposed estimators for the regularized OT and UOT problems are consistent under mild regularity conditions. Experiments on various synthetic data demonstrate Spar-Sink outperforms mainstream competitors in terms of both estimation error and speed. A real-world echocardiogram data analysis shows Spar-Sink can effectively estimate and visualize cardiac cycles, from which one can identify heart failure and arrhythmia. To evaluate the numerical accuracy of cardiac cycle prediction, we consider the task of predicting the end-systole time point using the end-diastole one. Results show Spar-Sink performs as well as the classical Sinkhorn algorithm, requiring significantly less computational time.",
+    "authors": [
+        "Mengyu Li",
+        "Jun Yu",
+        "Tao Li",
+        "Cheng Meng"
+    ],
+    "emails": [
+        "limengyu516@ruc.edu.cn",
+        "yujunbeta@bit.edu.cn",
+        "2019000153lt@ruc.edu.cn",
+        "chengmeng@ruc.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Mengyu8042/Spar-Sink"
+        ]
+    ],
+    "id": "22-1311",
+    "issue": 247,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Importance Sparsification for Sinkhorn Algorithm",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Massive data bring the big challenges of memory and computation for analysis. These challenges can be tackled by taking subsamples from the full data as a surrogate. For functional data, it is common to collect multiple measurements over their domains, which require even more memory and computation time when the sample size is large. The computation would be much more intensive when statistical inference is required through bootstrap samples. Motivated by analyzing large-scale kidney transplant data, we propose an optimal subsampling method based on the functional L-optimality criterion for functional generalized linear models. To the best of our knowledge, this is the first attempt to propose a subsampling method for functional data analysis. The asymptotic properties of the resultant estimators are also established. The analysis results from extensive simulation studies and from the kidney transplant data show that the functional L-optimality subsampling (FLoS) method is much better than the uniform subsampling approach and can well approximate the results based on the full data while dramatically reducing the computation time and memory.",
+    "authors": [
+        "Hua Liu",
+        "Jinhong You",
+        "Jiguo Cao"
+    ],
+    "emails": [
+        "liuhua_22@xjtu.edu.cn",
+        "johnyou07@163.com",
+        "jiguo_cao@sfu.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/caojiguo/FLoS"
+        ]
+    ],
+    "id": "22-0614",
+    "issue": 219,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Functional L-Optimality Subsampling for Functional Generalized Linear Models with Massive Data",
+    "volume": 24,
+    "year": 2023
+}

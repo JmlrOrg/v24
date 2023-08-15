@@ -1,0 +1,30 @@
+{
+    "abstract": "How might one test the hypothesis that networks were sampled from the same distribution?  Here, we compare two statistical tests that use subgraph counts to address this question.  The first uses the empirical subgraph densities themselves as estimates of those of the underlying distribution.  The second test uses a new approach that converts these subgraph densities into estimates of the graph cumulants of the distribution (without any increase in computational complexity). We demonstrate --- via theory, simulation, and application to real data --- the superior statistical power of using graph cumulants.  In summary, when analyzing data using subgraph/motif densities, we suggest using the corresponding graph cumulants instead.",
+    "authors": [
+        "Gecia Bravo-Hermsdorff",
+        "Lee M. Gunderson",
+        "Pierre-Andr\u00e9 Maugis",
+        "Carey E. Priebe"
+    ],
+    "emails": [
+        "gecia.bravo@gmail.com",
+        "lgund161@gmail.com",
+        "pamaugis@google.com",
+        "cep@jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/TheGravLab/GraphCumulantComparison"
+        ]
+    ],
+    "id": "21-082",
+    "issue": 187,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Quantifying Network Similarity using Graph Cumulants",
+    "volume": 24,
+    "year": 2023
+}

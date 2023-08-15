@@ -1,0 +1,24 @@
+{
+    "abstract": "Model-based reinforcement learning (RL), which finds an optimal policy after establishing an empirical model, has long been recognized as one of the cornerstones of RL. It is especially suitable for multi-agent RL (MARL), as it naturally decouples the learning and the planning phases, and avoids the non-stationarity problem when all agents are improving their policies simultaneously. Though intuitive and widely-used, the sample complexity of model-based MARL algorithms has not been fully investigated. In this paper, we aim to ad- dress the fundamental question about its sample complexity. We study arguably the most basic MARL setting: two-player discounted zero-sum Markov games, given only access to a generative model. We show that model-based MARL achieves a sample complexity of Oe(|S||A||B|(1 \u2212 \u03b3)\u22123\u03b5\u22122) for finding the Nash equilibrium (NE) value up to some \u03b5 error, and the \u03b5-NE policies with a smooth planning oracle, where \u03b3 is the discount factor, and S,A,B denote the state space, and the action spaces for the two agents. We further show that such a sample bound is minimax-optimal (up to logarithmic factors) if the algorithm is reward-agnostic, where the algorithm queries state transition samples without reward knowledge, by establishing a matching lower bound. This is in contrast to the usual reward- aware setting, where the sample complexity lower bound is \u03a9e(|S|(|A| + |B|)(1 \u2212 \u03b3)\u22123\u03b5\u22122), and this model-based approach is near-optimal with only a gap on the |A|, |B| dependence. Our results not only illustrate the sample-efficiency of this basic model-based MARL approach, but also elaborate on the fundamental tradeoff between its power (easily handling the reward-agnostic case) and limitation (less adaptive and suboptimal in |A|, |B|), which particularly arises in the multi-agent context.",
+    "authors": [
+        "Kaiqing Zhang",
+        "Sham M. Kakade",
+        "Tamer Basar",
+        "Lin F. Yang"
+    ],
+    "emails": [
+        "kaiqing@umd.edu",
+        "sham@seas.harvard.edu",
+        "basar1@illinois.edu",
+        "linyang@ee.ucla.edu"
+    ],
+    "id": "20-1131",
+    "issue": 175,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Model-Based Multi-Agent RL in Zero-Sum Markov Games with Near-Optimal Sample Complexity",
+    "volume": 24,
+    "year": 2023
+}

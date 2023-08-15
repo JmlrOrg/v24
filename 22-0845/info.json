@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a first-order autoregressive (i.e. AR(1)) model for dynamic network processes in which edges change over time while nodes remain unchanged. The model depicts the dynamic changes explicitly. It also facilitates simple and efficient statistical inference methods including a permutation test for diagnostic checking for the fitted network models. The proposed model can be applied to the network processes with various underlying structures but with independent edges. As an illustration, an AR(1) stochastic block model has been investigated in depth, which characterizes the latent communities by the transition probabilities over time. This leads to a new and more effective spectral clustering algorithm for identifying the latent communities. We have derived a finite sample condition under which the perfect recovery of the community structure can be achieved by the newly defined spectral clustering algorithm. Furthermore the inference for a change point is incorporated into the AR(1) stochastic block model to cater for possible structure changes. We have derived the explicit error rates for the maximum likelihood estimator of the change-point. Application with three real data sets illustrates both relevance and usefulness of the proposed AR(1) models and the associate inference methods.",
+    "authors": [
+        "Binyan Jiang",
+        "Jialiang Li",
+        "Qiwei Yao"
+    ],
+    "emails": [
+        "by.jiang@polyu.edu.hk",
+        "stalj@nus.edu.sg",
+        "q.yao@lse.ac.uk"
+    ],
+    "id": "22-0845",
+    "issue": 227,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Autoregressive Networks",
+    "volume": 24,
+    "year": 2023
+}

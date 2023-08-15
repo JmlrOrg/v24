@@ -1,0 +1,24 @@
+{
+    "abstract": "To quantify uncertainties in inverse problems of partial differential equations (PDEs), we formulate them into statistical inference problems using Bayes' formula. Recently, well-justified infinite-dimensional Bayesian analysis methods have been developed to construct dimension-independent algorithms. However, there are three challenges for these infinite-dimensional Bayesian methods: prior measures usually act as regularizers and are not able to incorporate prior information efficiently; complex noises, such as more practical non-i.i.d. distributed noises, are rarely considered; and time-consuming forward PDE solvers are needed to estimate posterior statistical quantities. To address these issues, an infinite-dimensional inference framework has been proposed based on the infinite-dimensional variational inference method and deep generative models. Specifically, by introducing some measure equivalence assumptions, we derive the evidence lower bound in the infinite-dimensional setting and provide possible parametric strategies that yield a general inference framework called the Variational Inverting Network (VINet). This inference framework can encode prior and noise information from learning examples. In addition, relying on the power of deep neural networks, the posterior mean and variance can be efficiently and explicitly generated in the inference stage. In numerical experiments, we design specific network structures that yield a computable VINet from the general inference framework. Numerical examples of linear inverse problems of an elliptic equation and the Helmholtz equation are presented to illustrate the effectiveness of the proposed inference framework.",
+    "authors": [
+        "Junxiong Jia",
+        "Yanni Wu",
+        "Peijun Li",
+        "Deyu Meng"
+    ],
+    "emails": [
+        "jjx323@xjtu.edu.cn",
+        "wuyanni@stu.xjtu.edu.cn",
+        "lipeijun@math.purdue.edu",
+        "dymeng@mail.xjtu.edu.cn"
+    ],
+    "id": "22-0006",
+    "issue": 201,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Variational Inverting Network for Statistical Inverse Problems of Partial Differential Equations",
+    "volume": 24,
+    "year": 2023
+}

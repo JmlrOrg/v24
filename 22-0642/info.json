@@ -1,0 +1,28 @@
+{
+    "abstract": "Electronic healthcare records (EHR) provide a rich resource for healthcare research. An important problem for the efficient utilization of the EHR data is the representation of the EHR features, which include the unstructured clinical narratives and the structured codified data. Matrix factorization-based embeddings trained using the summary-level co-occurrence statistics of EHR data have provided a promising solution for feature representation while preserving patients' privacy. However, such methods do not work well with multi-source data when these sources have overlapping but non-identical features. To accommodate multi-sources learning, we propose a novel word embedding generative model. To obtain multi-source embeddings, we design an efficient Block-wise Overlapping Noisy Matrix Integration (BONMI) algorithm to aggregate the multi-source pointwise mutual information matrices optimally with a theoretical guarantee. Our algorithm can also be applied to other multi-source data integration problems with a similar data structure. A by-product of BONMI is the contribution to the field of matrix completion by considering the missing mechanism other than the entry-wise independent missing. We show that the entry-wise missing assumption, despite its prevalence in the works of matrix completion, is not necessary to guarantee recovery. We prove the statistical rate of our estimator, which is comparable to the rate under independent missingness. Simulation studies show that BONMI performs well under a variety of configurations. We further illustrate the utility of BONMI by integrating multi-lingual multi-source medical text and EHR data to perform two tasks: (i) co-training semantic embeddings for medical concepts in both English and Chinese and (ii) the translation between English and Chinese medical concepts. Our method shows an advantage over existing methods.",
+    "authors": [
+        "Doudou Zhou",
+        "Tianxi Cai",
+        "Junwei Lu"
+    ],
+    "emails": [
+        "doudouzhou@hsph.harvard.edu",
+        "tcai@hsph.harvard.edu",
+        "junweilu@hsph.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DoudouZhou/BONMI"
+        ]
+    ],
+    "id": "22-0642",
+    "issue": 221,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
+    "volume": 24,
+    "year": 2023
+}

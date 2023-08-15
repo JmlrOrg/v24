@@ -1,0 +1,18 @@
+{
+    "abstract": "Stochastic optimization, especially stochastic gradient descent (SGD), is now the workhorse for the vast majority of problems in machine learning. Various strategies, e.g., control variates, adaptive learning rate, momentum technique, etc., have been developed to improve canonical SGD that is of a low convergence rate and the poor generalization in practice. Most of these strategies improve SGD that can be attributed to control the updating direction (e.g., gradient descent or gradient ascent direction), or manipulate the learning rate. Along these two lines, this work first develops and analyzes a novel type of improved powered stochastic gradient descent algorithms from the perspectives of variance reduction, where the updating direction was determined by the Powerball function. Additionally, to bridge the gap between powered stochastic optimization (PSO) and the learning rate, which is now still an open problem for PSO, we propose an adaptive mechanism of updating the learning rate that resorts the Barzilai-Borwein (BB) like scheme, not only for the proposed algorithm, but also for classical PSO algorithms. The theoretical properties of the resulting algorithms for non-convex optimization problems are technically analyzed. Empirical tests using various benchmark data sets indicate the efficiency and robustness of our proposed algorithms.",
+    "authors": [
+        "Zhuang Yang"
+    ],
+    "emails": [
+        "zhuangyang@suda.edu.cn"
+    ],
+    "id": "22-1149",
+    "issue": 241,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Improved Powered Stochastic Optimization Algorithms for Large-Scale Machine Learning",
+    "volume": 24,
+    "year": 2023
+}

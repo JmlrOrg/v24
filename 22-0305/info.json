@@ -1,0 +1,28 @@
+{
+    "abstract": "Hypergraph generalizations of many graph cut problems and algorithms have recently been introduced to better model data and systems characterized by multiway relationships. Recent work in machine learning and theoretical computer science uses a generalized cut function for a hypergraph $\\mathcal{H} = (V,\\mathcal{E})$ that associates each hyperedge $e \\in \\mathcal{E}$ with a splitting function ${\\bf w}_e$, which assigns a penalty to each way of separating the nodes of $e$. When each ${\\bf w}_e$ satisfies ${\\bf w}_e(S) = g(\\lvert S \\rvert)$ for some concave function $g$, previous work has shown how to reduce the generalized hypergraph cut problem to a directed graph cut problem, although the resulting graph may be very dense. We introduce a framework for sparsifying hypergraph-to-graph reductions, where the hypergraph cut function is $(1+\\varepsilon)$-approximated by a cut on a directed graph. For $\\varepsilon > 0$ we need at most $O(\\varepsilon^{-1}|e| \\log |e|)$ edges to reduce any hyperedge $e$, while only $O(|e| \\varepsilon^{-1/2} \\log \\log \\frac{1}{\\varepsilon})$ edges are needed to approximate the clique expansion, a widely used heuristic in hypergraph clustering. Our framework leads to improved results for solving cut problems in co-occurrence graphs, decomposable submodular function minimization problems, and localized hypergraph clustering problems.",
+    "authors": [
+        "Nate Veldt",
+        "Austin R. Benson",
+        "Jon Kleinberg"
+    ],
+    "emails": [
+        "nveldt@tamu.edu",
+        "arb@cs.cornell.edu",
+        "kleinberg@cornell.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nveldt/SparseCardDSFM"
+        ]
+    ],
+    "id": "22-0305",
+    "issue": 207,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Augmented Sparsifiers for Generalized Hypergraph Cuts",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,39 @@
+{
+    "abstract": "Hyperdimensional computing (HD), also known as vector symbolic architectures (VSA), is a framework for computing with distributed representations by exploiting properties of random high-dimensional vector spaces. The commitment of the scientific community to aggregate and disseminate research in this particularly multidisciplinary area has been fundamental for its advancement. Joining these efforts, we present Torchhd, a high-performance open source Python library for HD/VSA. Torchhd seeks to make HD/VSA more accessible and serves as an efficient foundation for further research and application development. The easy-to-use library builds on top of PyTorch and features state-of-the-art HD/VSA functionality, clear documentation, and implementation examples from well-known publications. Comparing publicly available code with their corresponding Torchhd implementation shows that experiments can run up to 100x faster. Torchhd is available at: https://github.com/hyperdimensional-computing/torchhd.",
+    "authors": [
+        "Mike Heddes",
+        "Igor Nunes",
+        "Pere Verg\u00e9s",
+        "Denis Kleyko",
+        "Danny Abraham",
+        "Tony Givargis",
+        "Alexandru Nicolau",
+        "Alexander Veidenbaum"
+    ],
+    "emails": [
+        "mheddes@uci.edu",
+        "igord@uci.edu",
+        "pvergesb@uci.edu",
+        "denis.kleyko@ri.se",
+        "danny1@uci.edu",
+        "givargis@uci.edu",
+        "nicolau@ics.uci.edu",
+        "alexv@ics.uci.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hyperdimensional-computing/torchhd"
+        ]
+    ],
+    "id": "23-0300",
+    "issue": 255,
+    "pages": [
+        1,
+        10
+    ],
+    "special_issue": "MLOSS",
+    "title": "Torchhd: An Open Source Python Library to Support Research on Hyperdimensional Computing and Vector Symbolic Architectures",
+    "volume": 24,
+    "year": 2023
+}

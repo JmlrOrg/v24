@@ -1,0 +1,22 @@
+{
+    "abstract": "In the course of playing or solving a game, it is common to face a series of changing other-agent strategies. These strategies often share elements: the set of possible policies to play has overlap, and the policies are sampled at the beginning of play by possibly differing distributions. As it faces the series of strategies, therefore, an agent has the opportunity to transfer its learned play against the previously encountered other-agent policies. We tackle two problems: (1) how can learned responses transfer across changing opponent strategies, and (2) how can this transfer be used to reduced the cumulative cost of learning in game solving. The first problem we characterize as the strategic knowledge transfer problem. For value-based response policies, we demonstrate that Q-Mixing approximately solves this problem by appropriately averaging the component Q-values. Solutions to the first problem can be applied to reduce the computational cost of learning-based game solving algorithms. We offer two algorithms that operate within the Policy-Space Response Oracles (PSRO) framework. Mixed-Oracles reduces the per-policy construction cost by transferring responses from previously encountered opponents. Mixed-Opponents performs strategic knowledge transfer by combining the previously encountered opponents into a single novel policy. Experimental evaluation of these methods on general-sum grid-world games provide evidence about their advantages and limitations in comparison to standard PSRO.",
+    "authors": [
+        "Max Olan Smith",
+        "Thomas Anthony",
+        "Michael P. Wellman"
+    ],
+    "emails": [
+        "mxsmith@umich.edu",
+        "twa@google.com",
+        "wellman@umich.edu"
+    ],
+    "id": "22-0968",
+    "issue": 233,
+    "pages": [
+        1,
+        96
+    ],
+    "title": "Strategic Knowledge Transfer",
+    "volume": 24,
+    "year": 2023
+}

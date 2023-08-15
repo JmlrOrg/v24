@@ -1,0 +1,28 @@
+{
+    "abstract": "Counting and sampling directed acyclic graphs from a Markov equivalence class are fundamental tasks in graphical causal analysis. In this paper we show that these tasks can be performed in polynomial time, solving a long-standing open problem in this area. Our algorithms are effective and easily implementable. As we show in experiments, these breakthroughs make thought-to-be-infeasible strategies in active learning of causal structures and causal effect identification with regard to a Markov equivalence class practically applicable.",
+    "authors": [
+        "Marcel Wien\u00f6bst",
+        "Max Bannach",
+        "Maciej Li\u015bkiewicz"
+    ],
+    "emails": [
+        "m.wienoebst@uni-luebeck.de",
+        "max.bannach@esa.int",
+        "maciej.liskiewicz@uni-luebeck.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mwien/counting-with-applications"
+        ]
+    ],
+    "id": "22-0495",
+    "issue": 213,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Polynomial-Time Algorithms for Counting and Sampling Markov Equivalent DAGs with Applications",
+    "volume": 24,
+    "year": 2023
+}

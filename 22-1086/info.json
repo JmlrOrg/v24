@@ -1,0 +1,18 @@
+{
+    "abstract": "We study the ranking of individuals, teams, or objects, based on pairwise comparisons between them, using the Bradley-Terry model.  Estimates of rankings within this model are commonly made using a simple iterative algorithm first introduced by Zermelo almost a century ago.  Here we describe an alternative and similarly simple iteration that provably returns identical results but does so much faster\u2014over a hundred times faster in some cases.  We demonstrate this algorithm with applications to a range of example data sets and derive a number of results regarding its convergence.",
+    "authors": [
+        "M. E. J. Newman"
+    ],
+    "emails": [
+        "mejn@umich.edu"
+    ],
+    "id": "22-1086",
+    "issue": 238,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Efficient Computation of Rankings from Pairwise Comparisons",
+    "volume": 24,
+    "year": 2023
+}

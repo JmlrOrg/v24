@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper approaches the unsupervised learning problem by gradient descent in the space of probability density functions. A main result shows that along the gradient flow induced by a distribution-dependent ordinary differential equation (ODE), the unknown data distribution emerges as the long-time limit. That is, one can uncover the data distribution by simulating the distribution-dependent ODE. Intriguingly, the simulation of the ODE is shown equivalent to the training of generative adversarial networks (GANs). This equivalence provides a new \"cooperative\" view of GANs and, more importantly, sheds new light on the divergence of GANs. In particular, it reveals that the GAN algorithm implicitly minimizes the mean squared error (MSE) between two sets of samples, and this MSE fitting alone can cause GANs to diverge. To construct a solution to the distribution-dependent ODE, we first show that the associated nonlinear Fokker-Planck equation has a unique weak solution, by the Crandall-Liggett theorem for differential equations in Banach spaces. Based on this solution to the Fokker-Planck equation, we construct a unique solution to the ODE, using Trevisan's superposition principle. The convergence of the induced gradient flow to the data distribution is obtained by analyzing the Fokker-Planck equation.",
+    "authors": [
+        "Yu-Jui Huang",
+        "Yuchong Zhang"
+    ],
+    "emails": [
+        "yujui.huang@colorado.edu",
+        "yuchong.zhang@utoronto.ca"
+    ],
+    "id": "22-0583",
+    "issue": 217,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "GANs as Gradient Flows that Converge",
+    "volume": 24,
+    "year": 2023
+}

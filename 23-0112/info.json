@@ -1,0 +1,31 @@
+{
+    "abstract": "skrl is an open-source modular library for reinforcement learning written in Python and designed with a focus on readability, simplicity, and transparency of algorithm implementations. In addition to supporting environments that use the traditional interfaces from OpenAI Gym/Farama Gymnasium, DeepMind and others, it provides the facility to load, configure, and operate NVIDIA Isaac Gym, Isaac Orbit, and Omniverse Isaac Gym environments. Furthermore, it enables the simultaneous training of several agents with customizable scopes (subsets of environments among all available ones), which may or may not share resources, in the same run. The library's documentation can be found at https://skrl.readthedocs.io and its source code is available on GitHub at https://github.com/Toni-SM/skrl.",
+    "authors": [
+        "Antonio Serrano-Mu\u00f1oz",
+        "Dimitrios Chrysostomou",
+        "Simon B\u00f8gh",
+        "Nestor Arana-Arexolaleiba"
+    ],
+    "emails": [
+        "aserrano@mondragon.edu",
+        "dimi@mp.aau.dk",
+        "sb@mp.aau.dk",
+        "narana@mondragon.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Toni-SM/skrl"
+        ]
+    ],
+    "id": "23-0112",
+    "issue": 254,
+    "pages": [
+        1,
+        9
+    ],
+    "special_issue": "MLOSS",
+    "title": "skrl: Modular and Flexible Library for Reinforcement Learning",
+    "volume": 24,
+    "year": 2023
+}

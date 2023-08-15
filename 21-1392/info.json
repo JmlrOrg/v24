@@ -1,0 +1,30 @@
+{
+    "abstract": "Semiparametric inference on average causal effects from observational data is based on assumptions yielding identification of the effects. In practice, several distinct identifying assumptions may be plausible; an analyst has to make a delicate choice between these models. In this paper, we study three identifying assumptions based on the potential outcome framework:  the back-door assumption, which uses pre-treatment covariates, the front-door assumption, which uses mediators, and the two-door assumption using pre-treatment covariates and mediators simultaneously. We provide the efficient influence functions and the corresponding semiparametric efficiency bounds that hold under these assumptions, and their combinations. We demonstrate that neither of the identification models provides uniformly the most efficient estimation and give conditions under which some bounds are lower than others. We show when semiparametric estimating equation estimators based on influence functions  attain the bounds, and study the robustness of the estimators to misspecification of the nuisance models. The theory is complemented with simulation experiments on the finite sample behavior of the estimators. The results obtained are relevant for an analyst facing a choice between several plausible identifying assumptions and corresponding estimators. Our results show that this choice implies a trade-off between efficiency and robustness to misspecification of the nuisance models.",
+    "authors": [
+        "Tetiana Gorbach",
+        "Xavier de Luna",
+        "Juha Karvanen",
+        "Ingeborg Waernbaum"
+    ],
+    "emails": [
+        "tetiana.gorbach@umu.se",
+        "xavier.de.luna@umu.se",
+        "juha.t.karvanen@jyu.fi",
+        "ingeborg.waernbaum@statistik.uu.se"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tetianagorbach/semiparametric_inference_ACE_BD_FD_TD_efficiency_robustness"
+        ]
+    ],
+    "id": "21-1392",
+    "issue": 197,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Contrasting Identifying Assumptions of Average Causal Effects: Robustness and Semiparametric Efficiency",
+    "volume": 24,
+    "year": 2023
+}

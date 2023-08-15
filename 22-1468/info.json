@@ -1,0 +1,26 @@
+{
+    "abstract": "Constructing unbiased estimators from Markov chain Monte Carlo (MCMC) outputs is a difficult problem that has recently received a lot of attention in the statistics and machine learning communities. However, the current unbiased MCMC framework only works when the quantity of interest is an expectation, which excludes many practical applications. In this paper, we propose a general method for constructing unbiased estimators for functions of expectations and extend it to construct unbiased estimators for nested expectations. Our approach combines and generalizes the unbiased MCMC and Multilevel Monte Carlo (MLMC) methods. In contrast to traditional sequential methods, our estimator can be implemented on parallel processors. We show that our estimator has a finite variance and computational complexity and can achieve $\\varepsilon$-accuracy within the optimal $O(1/\\varepsilon^2)$ computational cost under mild conditions. Numerical experiments confirm our theoretical findings and demonstrate the benefits of unbiased estimators in the massively parallel regime.",
+    "authors": [
+        "Tianze Wang",
+        "Guanyang Wang"
+    ],
+    "emails": [
+        "tianze.wang@rutgers.edu",
+        "guanyang.wang@rutgers.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/TzWng/unbiasedmlmc"
+        ]
+    ],
+    "id": "22-1468",
+    "issue": 249,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Unbiased Multilevel Monte Carlo Methods for Intractable Distributions: MLMC Meets MCMC",
+    "volume": 24,
+    "year": 2023
+}

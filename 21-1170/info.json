@@ -1,0 +1,32 @@
+{
+    "abstract": "The objective of ordinal embedding is to find a Euclidean representation of a set of abstract items, using only answers to triplet comparisons of the form ``Is item $i$ closer to item $j$ or item $k$?''. In recent years, numerous algorithms have been proposed to solve this problem. However, there does not exist a fair and thorough assessment of these embedding methods and therefore several key questions remain unanswered: Which algorithms perform better when the embedding dimension is constrained or few triplet comparisons are available? Which ones scale better with increasing sample size or dimension? In our paper, we address these questions and provide an extensive and systematic empirical evaluation of existing algorithms as well as a new neural network approach. We find that simple, relatively unknown, non-convex methods consistently outperform all other algorithms across a broad range of tasks including more recent and elaborate methods based on neural networks or landmark approaches. This finding can be explained by the insight that many of the non-convex optimization approaches do not suffer from local optima. Our comprehensive assessment is enabled by our unified library of popular embedding algorithms that leverages GPU resources and allows for fast and accurate embeddings of millions of data points.",
+    "authors": [
+        "Leena Chennuru Vankadara",
+        "Michael Lohaus",
+        "Siavash Haghiri",
+        "Faiz Ul Wahab",
+        "Ulrike von Luxburg"
+    ],
+    "emails": [
+        "leena.chennuru-vankadara@uni-tuebingen.de",
+        "michael.lohaus@uni-tuebingen.de",
+        "siyavash.haghiri@gmail.com",
+        "fwahhab89@gmail.com",
+        "ulrike.luxburg@uni-tuebingen.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tml-tuebingen/evaluate-OE"
+        ]
+    ],
+    "id": "21-1170",
+    "issue": 191,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Insights into Ordinal Embedding Algorithms: A Systematic Evaluation",
+    "volume": 24,
+    "year": 2023
+}

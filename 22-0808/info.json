@@ -1,0 +1,20 @@
+{
+    "abstract": "We develop a theory of limits for sequences of dense abstract simplicial complexes, where a sequence is considered convergent if its homomorphism densities converge. The limiting objects are represented by stacks of measurable $[0,1]$-valued functions on unit cubes of increasing dimension, each corresponding to a dimension of the abstract simplicial complex. We show that convergence in homomorphism density implies convergence in a cut-metric, and vice versa, as well as showing that simplicial complexes sampled from the limit objects closely resemble its structure. Applying this framework, we also partially characterize the convergence of nonuniform hypergraphs.",
+    "authors": [
+        "T. Mitchell Roddenberry",
+        "Santiago Segarra"
+    ],
+    "emails": [
+        "mitch@rice.edu",
+        "segarra@rice.edu"
+    ],
+    "id": "22-0808",
+    "issue": 225,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Limits of Dense Simplicial Complexes",
+    "volume": 24,
+    "year": 2023
+}

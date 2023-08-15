@@ -1,0 +1,28 @@
+{
+    "abstract": "We propose a novel multivariate nonparametric multiple change point detection method using classifiers. We construct a classifier log-likelihood ratio that uses class probability predictions to compare different change point configurations. We propose a computationally feasible search method that is particularly well suited for random forests, denoted by changeforest. However, the method can be paired with any classifier that yields class probability predictions, which we illustrate by also using a $k$-nearest neighbor classifier. We prove that it consistently locates change points in single change point settings when paired with a consistent classifier. Our proposed method changeforest achieves improved empirical performance in an extensive simulation study compared to existing multivariate nonparametric change point detection methods. An efficient implementation of our method is made available for R, Python, and Rust users in the changeforest software package.",
+    "authors": [
+        "Malte Londschien",
+        "Peter B\u00fchlmann",
+        "Solt Kov\u00e1cs"
+    ],
+    "emails": [
+        "malte.londschien@ai.ethz.ch",
+        "peter.buehlmann@stat.math.ethz.ch",
+        "solt.kovacs@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mlondschien/changeforest"
+        ]
+    ],
+    "id": "22-0512",
+    "issue": 216,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Random Forests for Change Point Detection",
+    "volume": 24,
+    "year": 2023
+}

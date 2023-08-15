@@ -1,0 +1,20 @@
+{
+    "abstract": "Statistical modeling and inference problems with sample sizes substantially smaller than  the number of available covariates are challenging. Chakraborty et al. (2012)  did a full hierarchical Bayesian analysis of nonlinear regression in such situations using relevance vector machines based on reproducing kernel Hilbert space (RKHS).  But they did not provide any theoretical properties associated with their procedure. The present paper revisits their problem,  introduces a  new class of global-local priors different from theirs, and provides results on posterior consistency as well as on posterior contraction rates.",
+    "authors": [
+        "Xiao Fang",
+        "Malay Ghosh"
+    ],
+    "emails": [
+        "xiaofang@ufl.edu",
+        "ghoshm@ufl.edu"
+    ],
+    "id": "20-1012",
+    "issue": 174,
+    "pages": [
+        1,
+        17
+    ],
+    "title": "Posterior Consistency for Bayesian Relevance Vector Machines",
+    "volume": 24,
+    "year": 2023
+}

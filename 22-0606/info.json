@@ -1,0 +1,28 @@
+{
+    "abstract": "Compared to model-free reinforcement learning (RL), model-based RL is often more sample efficient by leveraging a learned dynamics model to help decision making. However, the learned model is usually not perfectly accurate and the error will compound in multi-step predictions, which can lead to poor asymptotic performance. In this paper, we first derive an upper bound of the return discrepancy between the real dynamics and the learned model, which reveals the fundamental problem of distribution shift between simulated data and real data. Inspired by the theoretical analysis, we propose an adaptation augmented model-based policy optimization (AMPO) framework to address the distribution shift problem from the perspectives of feature learning and instance re-weighting, respectively. Specifically, the feature-based variant, namely FAMPO, introduces unsupervised model adaptation to minimize the integral probability metric (IPM) between feature distributions from real and simulated data, while the instance-based variant, termed as IAMPO, utilizes importance sampling to re-weight the real samples used to train the model. Besides model learning, we also investigate how to improve policy optimization in the model usage phase by selecting simulated samples with different probability according to their uncertainty. Extensive experiments on challenging continuous control tasks show that FAMPO and IAMPO, coupled with our model usage technique, achieves superior performance against baselines, which demonstrates the effectiveness of the proposed methods.",
+    "authors": [
+        "Jian Shen",
+        "Hang Lai",
+        "Minghuan Liu",
+        "Han Zhao",
+        "Yong Yu",
+        "Weinan Zhang"
+    ],
+    "emails": [
+        "rockyshen@apex.sjtu.edu.cn",
+        "laihang99@sjtu.edu.cn",
+        "minghuanliu@sjtu.edu.cn",
+        "hanzhao@illinois.edu",
+        "yyu@sjtu.edu.cn",
+        "wnzhang@sjtu.edu.cn"
+    ],
+    "id": "22-0606",
+    "issue": 218,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Adaptation Augmented Model-based Policy Optimization",
+    "volume": 24,
+    "year": 2023
+}

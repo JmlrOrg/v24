@@ -1,0 +1,26 @@
+{
+    "abstract": "Nuclear-norm-based matrix completion was originally developed for imputing missing entries in low rank, or approximately low rank matrices. However, it has proven widely effective in many problems where there is no reason to assume low-dimensional linear structure in the underlying matrix, as would be imposed by rank constraints. In this manuscript we show that nuclear-norm-based matrix completion attains within a log factor of the minimax rate for estimating the mean structure of matrices that are not necessarily low-rank, but lie in a low-dimensional non-linear manifold, when observations are missing completely at random. In particular, we give upper bounds on the rate of convergence as a function of the number of rows, columns, and observed entries in the matrix, as well as the smoothness and dimension of the non-linear embedding. We additionally give a minimax lower bound: This lower bound agrees with our upper bound (up to a logarithmic factor), which shows that nuclear-norm penalization is (up to log terms) minimax rate optimal for these problems.",
+    "authors": [
+        "Yunhua Xiang",
+        "Tianyu Zhang",
+        "Xu Wang",
+        "Ali Shojaie",
+        "Noah Simon"
+    ],
+    "emails": [
+        "xiangyh@uw.edu",
+        "zty@uw.edu",
+        "wangxu85@uw.edu",
+        "ashojaie@uw.edu",
+        "nrsimon@uw.edu"
+    ],
+    "id": "22-0850",
+    "issue": 228,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "On the Optimality of Nuclear-norm-based Matrix Completion for Problems with Smooth Non-linear Structure",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The study of strategic or adversarial manipulation of testing data to fool a classifier has attracted much recent attention.  Most previous works have focused on two extreme situations where any testing data point either is completely adversarial or always equally prefers the positive label. In this paper, we   generalize both of these through a unified framework by considering strategic agents with heterogenous preferences, and introduce the notion of strategic VC-dimension (SVC) to capture the PAC-learnability in our general strategic setup. SVC  provably generalizes the recent concept of adversarial VC-dimension (AVC) introduced by Cullina et al. (2018). We instantiate our framework for the fundamental strategic linear classification problem. We fully characterize: (1) the statistical learnability of linear classifiers by pinning down its SVC; (2) its computational tractability by pinning down the complexity of the empirical risk minimization problem. Interestingly, the SVC  of linear classifiers is always upper bounded by its standard VC-dimension. This characterization also strictly generalizes the AVC bound for linear classifiers in (Cullina et al., 2018). Finally, we briefly investigate the power of randomization in our strategic classification setup. We show that randomization may strictly increase the accuracy in general, but will not help in the special case of adversarial classification with zero-manipulation-cost.",
+    "authors": [
+        "Ravi Sundaram",
+        "Anil Vullikanti",
+        "Haifeng Xu",
+        "Fan Yao"
+    ],
+    "emails": [
+        "r.sundaram@northeastern.edu",
+        "vsakumar@virginia.edu",
+        "haifengxu@uchicago.edu",
+        "fy4bc@virginia.edu"
+    ],
+    "id": "21-1250",
+    "issue": 192,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "PAC-learning for Strategic Classification",
+    "volume": 24,
+    "year": 2023
+}

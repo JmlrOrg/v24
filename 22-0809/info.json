@@ -1,0 +1,69 @@
+{
+    "abstract": "We introduce Merlion, an open-source machine learning library for time series. It features a unified interface for many commonly used models and datasets for forecasting and anomaly detection on both univariate and multivariate time series, along with standard pre/post-processing layers. It has several modules to improve ease-of-use, including a no-code visual dashboard, anomaly score calibration to improve interpetability, AutoML for hyperparameter tuning and model selection, and model ensembling. Merlion also provides an evaluation framework that simulates the live deployment of a model in production, and a distributed computing backend to run time series models at industrial scale. This library aims to provide engineers and researchers a one-stop solution to rapidly develop models for their specific time series needs and benchmark them across multiple datasets.",
+    "authors": [
+        "Aadyot Bhatnagar",
+        "Paul Kassianik",
+        "Chenghao Liu",
+        "Tian Lan",
+        "Wenzhuo Yang",
+        "Rowan Cassius",
+        "Doyen Sahoo",
+        "Devansh Arpit",
+        "Sri Subramanian",
+        "Gerald Woo",
+        "Amrita Saha",
+        "Arun Kumar Jagota",
+        "Gokulakrishnan Gopalakrishnan",
+        "Manpreet Singh",
+        "K C Krithika",
+        "Sukumar Maddineni",
+        "Daeki Cho",
+        "Bo Zong",
+        "Yingbo Zhou",
+        "Caiming Xiong",
+        "Silvio Savarese",
+        "Steven Hoi",
+        "Huan Wang"
+    ],
+    "emails": [
+        "aadyotb@gmail.com",
+        "pkassianik@salesforce.com",
+        "twinsken@gmail.com",
+        "tian.lan84@gmail.com",
+        "yangwenzhuo08@gmail.com",
+        "rowancassius@gmail.com",
+        "doyensahoo@gmail.com",
+        "devansharpit@gmail.com",
+        "srisubramanian98@gmail.com",
+        "woogerald@yahoo.com.sg",
+        "amrita.saha87@gmail.com",
+        "arun.jagota@salesforce.com",
+        "gokul149@gmail.com",
+        "manpreet.singh@salesforce.com",
+        "kc.krithika21@gmail.com",
+        "maddinenisukumar@gmail.com",
+        "daeki.cho@salesforce.com",
+        "bzong@salesforce.com",
+        "yingbo.zhou20@gmail.com",
+        "cmxiong.lhi@gmail.com",
+        "ssavarese@salesforce.com",
+        "stevenhoi@gmail.com",
+        "joyousprince@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/salesforce/Merlion"
+        ]
+    ],
+    "id": "22-0809",
+    "issue": 226,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Merlion: End-to-End Machine Learning for Time Series",
+    "volume": 24,
+    "year": 2023
+}

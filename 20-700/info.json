@@ -1,0 +1,26 @@
+{
+    "abstract": "Traditional centralized multi-agent reinforcement learning (MARL) algorithms are sometimes unpractical in complicated applications due to non-interactivity between agents, the curse of dimensionality, and computation complexity. Hence, several decentralized MARL algorithms are motivated. However, existing decentralized methods only handle the fully cooperative setting where massive information needs to be transmitted in training. The block coordinate gradient descent scheme they used for successive independent actor and critic steps can simplify the calculation, but it causes serious bias. This paper proposes a flexible fully decentralized actor-critic MARL framework, which can combine most of the actor-critic methods and handle large-scale general cooperative multi-agent settings. A primal-dual hybrid gradient descent type algorithm framework is designed to learn individual agents separately for decentralization. From the perspective of each agent, policy improvement and value evaluation are jointly optimized, which can stabilize multi-agent policy learning. Furthermore, the proposed framework can achieve scalability and stability for the large-scale environment. This framework also reduces information transmission by the parameter sharing mechanism and novel modeling-other-agents methods based on theory-of-mind and online supervised learning. Sufficient experiments in cooperative Multi-agent Particle Environment and StarCraft II show that the proposed decentralized MARL instantiation algorithms perform competitively against conventional centralized and decentralized methods.",
+    "authors": [
+        "Wenhao Li",
+        "Bo Jin",
+        "Xiangfeng Wang",
+        "Junchi Yan",
+        "Hongyuan Zha"
+    ],
+    "emails": [
+        "liwenhao@cuhk.edu.cn",
+        "bjin@tongji.edu.cn",
+        "xfwang@cs.ecnu.edu.cn",
+        "yanjunchi@sjtu.edu.cn",
+        "zhahy@cuhk.edu.cn"
+    ],
+    "id": "20-700",
+    "issue": 178,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "F2A2: Flexible Fully-decentralized Approximate Actor-critic for Cooperative Multi-agent Reinforcement Learning",
+    "volume": 24,
+    "year": 2023
+}

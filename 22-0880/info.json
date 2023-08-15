@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper considers the learning of Boolean rules in disjunctive normal form (DNF, OR-of-ANDs, equivalent to decision rule sets) as an interpretable model for classification.  An integer program is formulated to optimally trade classification accuracy for rule simplicity. We also consider the fairness setting and extend the formulation to include explicit constraints on two different measures of classification parity: equality of opportunity and equalized odds. Column generation (CG) is used to efficiently search over an exponential number of candidate rules without the need for heuristic rule mining. To handle large data sets, we propose an approximate CG algorithm using randomization.  Compared to three recently proposed alternatives, the CG algorithm dominates the accuracy-simplicity trade-off in 8 out of 16 data sets. When maximized for accuracy, CG is competitive with rule learners designed for this purpose, sometimes finding significantly simpler solutions that are no less accurate. Compared to other fair and interpretable classifiers, our method is able to find rule sets that meet stricter notions of fairness with a modest trade-off in accuracy.",
+    "authors": [
+        "Connor Lawless",
+        "Sanjeeb Dash",
+        "Oktay Gunluk",
+        "Dennis Wei"
+    ],
+    "emails": [
+        "cal379@cornell.edu",
+        "sanjeebd@us.ibm.com",
+        "ong5@cornell.edu",
+        "dwei@us.ibm.com"
+    ],
+    "id": "22-0880",
+    "issue": 229,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Interpretable and Fair Boolean Rule Sets via Column Generation",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the problem of Online Convex Optimization (OCO) with memory, which allows loss functions to depend on past decisions and thus captures temporal effects of learning problems. In this paper, we introduce dynamic policy regret as the performance measure to design algorithms robust to non-stationary environments, which competes algorithms' decisions with a sequence of changing comparators. We propose a novel algorithm for OCO with memory that provably enjoys an optimal dynamic policy regret in terms of time horizon, non-stationarity measure, and memory length. The key technical challenge is how to control the switching cost, the cumulative movements of player's decisions, which is neatly addressed by a novel switching-cost-aware online ensemble approach equipped with a new meta-base decomposition of dynamic policy regret and a careful design of meta-learner and base-learner that explicitly regularizes the switching cost. The results are further applied to tackle non-stationarity in online non-stochastic control (Agarwal et al., 2019), i.e., controlling a linear dynamical system with adversarial disturbance and convex cost functions. We derive a novel gradient-based controller with dynamic policy regret guarantees, which is the first controller provably competitive to a sequence of changing policies for online non-stochastic control.",
+    "authors": [
+        "Peng Zhao",
+        "Yu-Hu Yan",
+        "Yu-Xiang Wang",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "zhaop@lamda.nju.edu.cn",
+        "yanyh@lamda.nju.edu.cn",
+        "yuxiangw@cs.ucsb.edu",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "22-0218",
+    "issue": 206,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "Non-stationary Online Learning with Memory and Non-stochastic Control",
+    "volume": 24,
+    "year": 2023
+}

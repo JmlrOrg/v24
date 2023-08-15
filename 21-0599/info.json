@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper characterizes the maximum mean discrepancies (MMD) that metrize the weak convergence of probability measures for a wide class of kernels. More precisely, we prove that, on a locally compact, non-compact, Hausdorff space, the MMD of a bounded continuous Borel measurable kernel $k$, whose RKHS-functions vanish at infinity (i.e., $H_k \\subset  C_0$), metrizes the weak convergence of probability measures if and only if $k$ is continuous and integrally strictly positive definite ($\\int$s.p.d.) over all signed, finite, regular Borel measures. We also correct a prior result of Simon-Gabriel and Sch\u00f6lkopf (JMLR 2018, Thm. 12) by showing that there exist both bounded continuous $\\int$s.p.d. kernels that do not metrize weak convergence and bounded continuous non-$\\int$s.p.d. kernels that do metrize it.",
+    "authors": [
+        "Carl-Johann Simon-Gabriel",
+        "Alessandro Barp",
+        "Bernhard Sch\u00f6lkopf",
+        "Lester Mackey"
+    ],
+    "emails": [
+        "cjsg@ethz.ch",
+        "ab2286@cam.ac.uk",
+        "bs@tue.mpg.de",
+        "lmackey@microsoft.com"
+    ],
+    "id": "21-0599",
+    "issue": 184,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Metrizing Weak Convergence with Maximum Mean Discrepancies",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We study two-layer neural networks in the mean field limit, where the number of neurons tends to infinity. In this regime, the optimization over the neuron parameters becomes the optimization over the probability measures, and by adding an entropic regularizer, the minimizer of the problem is identified as a fixed point. We propose a novel training algorithm named entropic fictitious play, inspired by the classical fictitious play in game theory for learning Nash equilibriums, to recover this fixed point, and the algorithm exhibits a two-loop iteration structure. Exponential convergence is proved in this paper and we also verify our theoretical results by simple numerical examples.",
+    "authors": [
+        "Fan Chen",
+        "Zhenjie Ren",
+        "Songbo Wang"
+    ],
+    "emails": [
+        "alexnwish@sjtu.edu.cn",
+        "ren@ceremade.dauphine.fr",
+        "songbo.wang@polytechnique.edu"
+    ],
+    "id": "22-0411",
+    "issue": 211,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Entropic Fictitious Play for Mean Field Optimization Problem",
+    "volume": 24,
+    "year": 2023
+}

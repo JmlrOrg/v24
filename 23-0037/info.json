@@ -1,0 +1,42 @@
+{
+    "abstract": "Large language models have shown impressive few-shot results on a wide range of tasks. However, when knowledge is key for such results, as is the case for tasks such as question answering and fact checking, massive parameter counts to store knowledge seem to be needed. Retrieval-augmented models are known to excel at knowledge intensive tasks without the need for as many parameters, but it is unclear whether they work in few-shot settings. In this work we present Atlas, a carefully designed and pre-trained retrieval-augmented language model able to learn knowledge intensive tasks with very few training examples. We perform evaluations on a wide range of tasks, including MMLU, KILT and Natural Questions, and study the impact of the content of the document index, showing that it can easily be updated. Notably, Atlas reaches over 42% accuracy on Natural Questions using only 64 examples, outperforming a 540B parameter model by 3% despite having 50x fewer parameters.",
+    "authors": [
+        "Gautier Izacard",
+        "Patrick Lewis",
+        "Maria Lomeli",
+        "Lucas Hosseini",
+        "Fabio Petroni",
+        "Timo Schick",
+        "Jane Dwivedi-Yu",
+        "Armand Joulin",
+        "Sebastian Riedel",
+        "Edouard Grave"
+    ],
+    "emails": [
+        "gautier@inflection.ai",
+        "patrick@cohere.com",
+        "marialomeli@meta.com",
+        "hoss@meta.com",
+        "fabiopetroni@meta.com",
+        "schick@meta.com",
+        "janeyu@meta.com",
+        "ajoulin@meta.com",
+        "sriedel@meta.com",
+        "egrave@meta.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/facebookresearch/atlas"
+        ]
+    ],
+    "id": "23-0037",
+    "issue": 251,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+    "volume": 24,
+    "year": 2023
+}

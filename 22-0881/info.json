@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper investigates the sample complexity of learning a distributionally robust predictor under a particular distributional shift based on $\\chi^2$-divergence, which is well known for its computational feasibility and statistical properties. We demonstrate that any hypothesis class $\\mathcal{H}$ with finite VC dimension is distributionally robustly learnable. Moreover, we show that when the perturbation size is smaller than a constant, finite VC dimension is also necessary for distributionally robust learning by deriving a lower bound of sample complexity in terms of VC dimension.",
+    "authors": [
+        "Zhengyu Zhou",
+        "Weiwei Liu"
+    ],
+    "emails": [
+        "zzysince1999@gmail.com",
+        "liuweiwei863@gmail.com"
+    ],
+    "id": "22-0881",
+    "issue": 230,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Sample Complexity for Distributionally Robust Learning under chi-square divergence",
+    "volume": 24,
+    "year": 2023
+}

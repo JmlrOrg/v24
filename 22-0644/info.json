@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a single timescale actor-critic algorithm to solve the linear quadratic regulator (LQR) problem. A least squares temporal difference (LSTD) method is applied to the critic and a natural policy gradient method is used for the actor. We give a proof of convergence with sample complexity $\\mathcal{O}(\\varepsilon^{-1} \\log(\\varepsilon^{-1})^2)$. The method in the proof is applicable to general single timescale bilevel optimization problems. We also numerically validate our theoretical results on the convergence.",
+    "authors": [
+        "Mo Zhou",
+        "Jianfeng Lu"
+    ],
+    "emails": [
+        "mo.zhou366@duke.edu",
+        "jianfeng@math.duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MoZhou1995/ActorCriticLQR"
+        ]
+    ],
+    "id": "22-0644",
+    "issue": 222,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Single Timescale Actor-Critic Method to Solve the Linear Quadratic Regulator with Convergence Guarantees",
+    "volume": 24,
+    "year": 2023
+}

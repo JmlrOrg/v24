@@ -1,0 +1,26 @@
+{
+    "abstract": "Decision making or scientific discovery pipelines such as job hiring and drug discovery often involve multiple stages: before any resource-intensive step, there is often an initial screening that uses predictions from a machine learning model to shortlist a few candidates from a large pool. We study screening procedures that aim to select candidates whose unobserved outcomes exceed user-specified values. We develop a method that wraps around any prediction model to produce a subset of candidates while controlling the proportion of falsely selected units. Building upon the conformal inference framework, our method first constructs p-values that quantify the statistical evidence for large outcomes; it then determines the shortlist by comparing the p-values to a threshold introduced in the multiple testing literature. In many cases, the procedure selects candidates whose predictions are above a data-dependent threshold. Our theoretical guarantee holds under mild exchangeability conditions on the samples, generalizing existing results on multiple conformal p-values. We demonstrate the empirical performance of our method via simulations, and apply it to job hiring and drug discovery datasets.",
+    "authors": [
+        "Ying Jin",
+        "Emmanuel J. Candes"
+    ],
+    "emails": [
+        "ying531@stanford.edu",
+        "candes@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ying531/selcf_paper"
+        ]
+    ],
+    "id": "22-1176",
+    "issue": 244,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Selection by Prediction with Conformal p-values",
+    "volume": 24,
+    "year": 2023
+}

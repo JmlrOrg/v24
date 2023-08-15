@@ -1,0 +1,28 @@
+{
+    "abstract": "Graphs are commonly used to represent and visualize causal relations. For a small number of variables, this approach provides a succinct and clear view of the scenario at hand. As the number of variables under study increases, the graphical approach may become impractical, and the clarity of the representation is lost. Clustering of variables is a natural way to reduce the size of the causal diagram, but it may erroneously change the essential properties of the causal relations if implemented arbitrarily. We define a specific type of cluster, called transit cluster, that is guaranteed to preserve the identifiability properties of causal effects under certain conditions. We provide a sound and complete algorithm for finding all transit clusters in a given graph and demonstrate how clustering can simplify the identification of causal effects. We also study the inverse problem, where one starts with a clustered graph and looks for extended graphs where the identifiability properties of causal effects remain unchanged. We show that this kind of structural robustness is closely related to transit clusters.",
+    "authors": [
+        "Santtu Tikka",
+        "Jouni Helske",
+        "Juha Karvanen"
+    ],
+    "emails": [
+        "santtu.tikka@jyu.fi",
+        "jouni.helske@jyu.fi",
+        "juha.t.karvanen@jyu.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/santikka/transit_cluster"
+        ]
+    ],
+    "id": "21-1322",
+    "issue": 195,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Clustering and Structural Robustness in Causal Diagrams",
+    "volume": 24,
+    "year": 2023
+}

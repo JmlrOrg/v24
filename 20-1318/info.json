@@ -1,0 +1,26 @@
+{
+    "abstract": "Item Response Theory (IRT) has been proposed within the field of Educational Psychometrics to assess student ability as well as test question difficulty and discrimination power. More recently, IRT has been applied to evaluate machine learning algorithm performance on a single classification dataset, where the student is now an algorithm, and the test question is an observation to be classified by the algorithm. In this paper we present a modified IRT-based framework for evaluating a portfolio of algorithms across a repository of datasets, while simultaneously eliciting a richer suite of characteristics - such as algorithm consistency and anomalousness - that describe important aspects of algorithm performance. These characteristics arise from a novel inversion and reinterpretation of the traditional IRT model without requiring additional dataset feature computations. We test this framework on algorithm portfolios for a wide range of applications, demonstrating the broad applicability of this method as an insightful algorithm evaluation tool. Furthermore, the explainable nature of IRT parameters yield an increased understanding of algorithm portfolios.",
+    "authors": [
+        "Sevvandi Kandanaarachchi",
+        "Kate Smith-Miles"
+    ],
+    "emails": [
+        "sevvandi.kandanaarachchi@data61.csiro.au",
+        "smith-miles@unimelb.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sevvandi/airt-scripts"
+        ]
+    ],
+    "id": "20-1318",
+    "issue": 177,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Comprehensive Algorithm Portfolio Evaluation using Item Response Theory",
+    "volume": 24,
+    "year": 2023
+}

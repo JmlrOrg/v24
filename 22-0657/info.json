@@ -1,0 +1,26 @@
+{
+    "abstract": "Most work in neural networks focuses on estimating the conditional mean of a continuous response variable given a set of covariates. In this article, we consider estimating the conditional distribution function using neural networks for both censored and uncensored data. The algorithm is built upon the data structure particularly constructed for the Cox regression with time-dependent covariates. Without imposing any model assumptions, we consider a loss function that is based on the full likelihood where the conditional hazard function is the only unknown nonparametric parameter, for which unconstrained optimization methods can be applied. Through simulation studies, we show that the proposed method possesses desirable performance, whereas the partial likelihood method and the traditional neural networks with $L_2$ loss yields biased estimates when model assumptions are violated. We further illustrate the proposed method with several real-world data sets.",
+    "authors": [
+        "Bingqing Hu",
+        "Bin Nan"
+    ],
+    "emails": [
+        "bingqih2@uci.edu",
+        "nanb@uci.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bingqing0729/NNCDE"
+        ]
+    ],
+    "id": "22-0657",
+    "issue": 223,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data",
+    "volume": 24,
+    "year": 2023
+}

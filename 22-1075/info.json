@@ -1,0 +1,28 @@
+{
+    "abstract": "Solving high-dimensional partial differential equations (PDEs) is a major challenge in scientific computing. We develop a new numerical method for solving elliptic-type PDEs by adapting the Q-learning algorithm in reinforcement learning. To solve PDEs with Dirichlet boundary condition, our ``Q-PDE\" algorithm is mesh-free and therefore has the potential to overcome the curse of dimensionality. Using a neural tangent kernel (NTK) approach, we prove that the neural network approximator for the PDE solution, trained with the Q-PDE algorithm, converges to the trajectory of an infinite-dimensional ordinary differential equation (ODE) as the number of hidden units $\\rightarrow \\infty$. For monotone PDEs (i.e., those given by monotone operators, which may be nonlinear), despite the lack of a spectral gap in the NTK,  we then prove that the limit neural network, which satisfies the infinite-dimensional ODE, strongly converges in $L^2$ to the PDE solution as the training time $\\rightarrow \\infty$. More generally, we can prove that any fixed point of the wide-network limit for the Q-PDE algorithm is a solution of the PDE (not necessarily under the monotone condition). The numerical performance of the Q-PDE algorithm is studied for several elliptic PDEs.",
+    "authors": [
+        "Samuel N. Cohen",
+        "Deqing Jiang",
+        "Justin Sirignano"
+    ],
+    "emails": [
+        "cohens@maths.ox.ac.uk",
+        "Deqing.Jiang@maths.ox.ac.uk",
+        "sirignano@maths.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DeqingJ/QPDE"
+        ]
+    ],
+    "id": "22-1075",
+    "issue": 236,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Neural Q-learning for solving PDEs",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Reinforcement learning algorithms often require finiteness of state and action spaces in Markov decision processes (MDPs) (also called controlled Markov chains) and various efforts have been made in the literature towards the applicability of such algorithms for continuous state and action spaces. In this paper, we show that under very mild regularity conditions (in particular, involving only weak continuity of the transition kernel of an MDP), Q-learning for standard Borel MDPs via quantization of states and actions (called Quantized Q-Learning) converges to a limit, and furthermore this limit satisfies an optimality equation which leads to near optimality with either explicit performance bounds or which are guaranteed to be asymptotically optimal. Our approach builds on (i) viewing quantization as a measurement kernel and thus a quantized MDP as a partially observed Markov decision process (POMDP), (ii) utilizing near optimality and convergence results of Q-learning for POMDPs, and (iii) finally, near-optimality of finite state model approximations for MDPs with weakly continuous kernels which we show to correspond to the fixed point of the constructed POMDP. Thus, our paper presents a very general convergence and approximation result for the applicability of Q-learning for continuous MDPs.",
+    "authors": [
+        "Ali Kara",
+        "Naci Saldi",
+        "Serdar Y\u00fcksel"
+    ],
+    "emails": [
+        "alikara@umich.edu",
+        "naci.saldi@bilkent.edu.tr",
+        "yuksel@queensu.ca"
+    ],
+    "id": "21-1457",
+    "issue": 199,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Q-Learning for MDPs with General Spaces: Convergence and Near Optimality via Quantization under Weak Continuity",
+    "volume": 24,
+    "year": 2023
+}

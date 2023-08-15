@@ -1,0 +1,29 @@
+{
+    "abstract": "We present L0Learn: an open-source package for sparse linear regression and classification using $\\ell_0$ regularization. L0Learn implements scalable, approximate algorithms, based on coordinate descent and local combinatorial optimization. The package is built using C++ and has user-friendly R and Python interfaces. L0Learn can address problems with millions of features, achieving competitive run times and statistical performance with state-of-the-art sparse learning packages. L0Learn is available on both CRAN and GitHub.",
+    "authors": [
+        "Hussein Hazimeh",
+        "Rahul Mazumder",
+        "Tim Nonet"
+    ],
+    "emails": [
+        "hazimeh@google.com",
+        "rahulmaz@mit.edu",
+        "tim.nonet@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hazimehh/L0Learn"
+        ]
+    ],
+    "id": "22-0189",
+    "issue": 205,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "L0Learn: A Scalable Package for Sparse Learning using L0 Regularization",
+    "volume": 24,
+    "year": 2023
+}

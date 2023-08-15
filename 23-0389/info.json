@@ -1,0 +1,35 @@
+{
+    "abstract": "Fairlearn is an open source project to help practitioners assess and improve fairness of artificial intelligence (AI) systems. The associated Python library, also named fairlearn, supports evaluation of a model's output across affected populations and includes several algorithms for mitigating fairness issues. Grounded in the understanding that fairness is a sociotechnical challenge, the project integrates learning resources that aid practitioners in considering a system's broader societal context.",
+    "authors": [
+        "Hilde Weerts",
+        "Miroslav Dud\u00edk",
+        "Richard Edgar",
+        "Adrin Jalali",
+        "Roman Lutz",
+        "Michael Madaio"
+    ],
+    "emails": [
+        "h.j.p.weerts@tue.nl",
+        "mdudik@microsoft.com",
+        "riedgar@microsoft.com",
+        "adrin.jalali@gmail.com",
+        "romanlutz@microsoft.com",
+        "madaiom@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/fairlearn/fairlearn"
+        ]
+    ],
+    "id": "23-0389",
+    "issue": 257,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "Fairlearn: Assessing and Improving Fairness of AI Systems",
+    "volume": 24,
+    "year": 2023
+}

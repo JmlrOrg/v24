@@ -1,0 +1,26 @@
+{
+    "abstract": "We introduce a novel mathematical formulation for the training of feed-forward neural networks with (potentially non-smooth) proximal maps as activation functions. This formulation is based on Bregman distances and a key advantage is that its partial derivatives with respect to the network\u2019s parameters do not require the computation of derivatives of the network's activation functions. Instead of estimating the parameters with a combination of first-order optimisation method and back-propagation (as is the state-of-the-art), we propose the use of non-smooth first-order optimisation methods that exploit the specific structure of the novel formulation. We present several numerical results that demonstrate that these training approaches can be equally well or even better suited for the training of neural network-based classifiers and (denoising) autoencoders with sparse coding compared to more conventional training frameworks.",
+    "authors": [
+        "Xiaoyu Wang",
+        "Martin Benning"
+    ],
+    "emails": [
+        "xw343@cam.ac.uk",
+        "m.benning@qmul.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://doi.org/10.17863/CAM.86729"
+        ]
+    ],
+    "id": "22-0934",
+    "issue": 232,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Lifted Bregman Training of Neural Networks",
+    "volume": 24,
+    "year": 2023
+}

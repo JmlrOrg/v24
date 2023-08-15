@@ -1,0 +1,20 @@
+{
+    "abstract": "Distributed learning has become a hot research topic due to its wide application in cluster-based large-scale learning, federated learning, edge computing, and so on. Most traditional distributed learning methods typically assume no failure or attack. However, many unexpected cases, such as communication failure and even malicious attack, may happen in real applications. Hence, Byzantine learning (BL), which refers to distributed learning with failure or attack, has recently attracted much attention. Most existing BL methods are synchronous, which are impractical in some applications due to heterogeneous or offline workers. In these cases, asynchronous BL (ABL) is usually preferred. In this paper, we propose a novel method, called buffered asynchronous stochastic gradient descent (BASGD), for ABL. To the best of our knowledge, BASGD is the first ABL method that can resist non-omniscient attacks without storing any instances on the server. Furthermore, we also propose an improved variant of BASGD, called BASGD with momentum (BASGDm), by introducing local momentum into BASGD. Compared with those methods which need to store instances on server, BASGD and BASGDm have a wider scope of application. Both BASGD and BASGDm are compatible with various aggregation rules. Moreover, both BASGD and BASGDm are proved to be convergent and able to resist failure or attack. Empirical results show that our methods significantly outperform existing ABL baselines when there exists failure or attack on workers.",
+    "authors": [
+        "Yi-Rui Yang",
+        "Wu-Jun Li"
+    ],
+    "emails": [
+        "yangyr@smail.nju.edu.cn",
+        "liwujun@nju.edu.cn"
+    ],
+    "id": "22-0184",
+    "issue": 204,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Buffered Asynchronous SGD for Byzantine Learning",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Consider the problem of simultaneous estimation of location and variance matrix under Huber's contaminated Gaussian model. First, we study minimum $f$-divergence estimation at the population level, corresponding to a generative adversarial method with a nonparametric discriminator and establish conditions on $f$-divergences which lead to robust estimation, similarly to robustness of minimum distance estimation. More importantly, we develop tractable adversarial algorithms with simple spline discriminators, which can be defined by nested optimization such that the discriminator parameters are determined by maximizing a concave objective function given the current generator. The proposed methods are shown to achieve minimax optimal rates or near-optimal rates depending on the $f$-divergence and the penalty used. This is the first time such near-optimal error rates are established for adversarial algorithms with linear discriminators under Huber's contamination model. We present simulation studies to demonstrate advantages of the proposed methods over classic robust estimators, pairwise methods, and a generative adversarial method with neural network discriminators.",
+    "authors": [
+        "Ziyue Wang",
+        "Zhiqiang Tan"
+    ],
+    "emails": [
+        "zw245@stat.rutgers.edu",
+        "ztan@stat.rutgers.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LMC4S/robust-spline-GAN-pytorch"
+        ]
+    ],
+    "id": "22-1053",
+    "issue": 235,
+    "pages": [
+        1,
+        112
+    ],
+    "title": "Tractable and Near-Optimal Adversarial Algorithms for Robust Estimation in Contaminated Gaussian Models",
+    "volume": 24,
+    "year": 2023
+}

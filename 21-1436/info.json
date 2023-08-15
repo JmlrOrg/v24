@@ -1,0 +1,41 @@
+{
+    "abstract": "CodaLab Competitions is an open source web platform designed to help data scientists and research teams to crowd-source the resolution of machine learning problems through the organization of competitions, also called challenges or contests. CodaLab Competitions provides useful features such as multiple phases, results and code submissions, multi-score leaderboards, and jobs running inside Docker containers. The platform is very flexible and can handle large scale experiments, by allowing organizers to upload large datasets and provide their own CPU or GPU compute workers.",
+    "authors": [
+        "Adrien Pavao",
+        "Isabelle Guyon",
+        "Anne-Catherine Letournel",
+        "Dinh-Tuan Tran",
+        "Xavier Baro",
+        "Hugo Jair Escalante",
+        "Sergio Escalera",
+        "Tyler Thomas",
+        "Zhen Xu"
+    ],
+    "emails": [
+        "adrien.pavao@gmail.com",
+        "guyon@chalearn.org",
+        "anne-catherine.letournel@lisn.upsaclay.fr",
+        "dinh-tuan.tran@lisn.upsaclay.fr",
+        "xbaro@uoc.edu",
+        "hugojair@inaoep.mx",
+        "sergio@maia.ub.es",
+        "mr.tyler.thomas@gmail.com",
+        "xuzhen@4paradigm.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/codalab/codalab-competitions/"
+        ]
+    ],
+    "id": "21-1436",
+    "issue": 198,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "CodaLab Competitions: An Open Source Platform to Organize Scientific Challenges",
+    "volume": 24,
+    "year": 2023
+}

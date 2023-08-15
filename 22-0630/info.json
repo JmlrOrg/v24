@@ -1,0 +1,30 @@
+{
+    "abstract": "In fully cooperative multi-agent reinforcement learning (MARL) settings, environments are highly stochastic due to the partial observability of each agent and the continuously changing policies of other agents. To address the above issues, we proposed a unified framework, called DFAC, for integrating distributional RL with value function factorization methods. This framework generalizes expected value function factorization methods to enable the factorization of return distributions. To validate DFAC, we first demonstrate its ability to factorize the value functions of a simple matrix game with stochastic rewards. Then, we perform experiments on all Super Hard maps of the StarCraft Multi-Agent Challenge and six self-designed Ultra Hard maps, showing that DFAC is able to outperform a number of baselines.",
+    "authors": [
+        "Wei-Fang Sun",
+        "Cheng-Kuang Lee",
+        "Simon See",
+        "Chun-Yi Lee"
+    ],
+    "emails": [
+        "j3soon@gapp.nthu.edu.tw",
+        "ckl@nvidia.com",
+        "ssee@nvidia.com",
+        "cylee@cs.nthu.edu.tw"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/j3soon/dfac-extended"
+        ]
+    ],
+    "id": "22-0630",
+    "issue": 220,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning",
+    "volume": 24,
+    "year": 2023
+}

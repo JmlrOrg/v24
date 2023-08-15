@@ -1,0 +1,22 @@
+{
+    "abstract": "Supervised classification techniques use training samples to learn a classification rule with small expected 0-1 loss (error probability). Conventional methods enable tractable learning and provide out-of-sample generalization by using surrogate losses instead of the 0-1 loss and considering specific families of rules (hypothesis classes). This paper presents minimax risk classifiers (MRCs) that minimize the worst-case 0-1 loss with respect to uncertainty sets of distributions that can include the underlying distribution, with a tunable confidence. We show that MRCs can provide tight performance guarantees at learning and are strongly universally consistent using feature mappings given by characteristic kernels. The paper also proposes efficient optimization techniques for MRC learning and shows that the methods presented can provide accurate classification together with tight performance guarantees in practice.",
+    "authors": [
+        "Santiago Mazuelas",
+        "Mauricio Romero",
+        "Peter Grunwald"
+    ],
+    "emails": [
+        "smazuelas@bcamath.org",
+        "msicre@ufba.br",
+        "Peter.Grunwald@cwi.nl"
+    ],
+    "id": "22-0339",
+    "issue": 208,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Minimax Risk Classifiers with 0-1 Loss",
+    "volume": 24,
+    "year": 2023
+}
