@@ -3,11 +3,13 @@
     "authors": [
         "Runjing Liu",
         "Jon D. McAuliffe",
-        "Jeffrey Regier"
+        "Jeffrey Regier",
+        "The LSST Dark Energy Science Collaboration"
     ],
     "emails": [
         "runjing_liu@berkeley.edu",
         "jon@stat.berkeley.edu",
+        "regier@umich.edu",
         "regier@umich.edu"
     ],
     "extra_links": [
