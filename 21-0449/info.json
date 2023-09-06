@@ -1,14 +1,16 @@
 {
     "abstract": "Combinatorial optimization is a well-established area in operations research and computer science. Until recently, its methods have focused on solving problem instances in isolation, ignoring that they often stem from related data distributions in practice. However, recent years have seen a surge of interest in using machine learning, especially graph neural networks, as a key building block for combinatorial tasks, either directly as solvers or by enhancing exact solvers. The inductive bias of GNNs effectively encodes combinatorial and relational input due to their invariance to permutations and awareness of input sparsity. This paper presents a conceptual review of recent key advancements in this emerging field, aiming at optimization and machine learning researchers.",
-    "authors": [
+    "authors":
+    [
         "Quentin Cappart",
-        "Didier Ch\u00e9telat",
+        "Didier Chételat",
         "Elias B. Khalil",
         "Andrea Lodi",
         "Christopher Morris",
-        "Petar Velickovic"
+        "Petar Veličković"
     ],
-    "emails": [
+    "emails":
+    [
         "quentin.cappart@polymtl.ca",
         "didier.chetelat@polymtl.ca",
         "khalil@mie.utoronto.ca",
@@ -18,7 +20,8 @@
     ],
     "id": "21-0449",
     "issue": 130,
-    "pages": [
+    "pages":
+    [
         1,
         61
     ],
