@@ -1,0 +1,24 @@
+{
+    "abstract": "We develop an augmented transfer regression learning (ATReL) approach that introduces an imputation model to augment the importance weighting equation to achieve double robustness for covariate shift correction. More significantly, we propose a novel semi-non-parametric (SNP) construction framework for the two nuisance models. Compared with existing doubly robust approaches relying on fully parametric or fully non-parametric (machine learning) nuisance models, our proposal is more flexible and balanced to address model misspecification and the curse of dimensionality, achieving a better trade-off in terms of model complexity. The SNP construction presents a new technical challenge in controlling the first-order bias caused by the nuisance estimators. To overcome this, we propose a two-step calibrated estimating approach to construct the nuisance models that ensures the effective reduction of potential bias. Under this SNP framework, our ATReL estimator is root-n-consistent when (i) at least one nuisance model is correctly specified and (ii) the nonparametric components are rate-doubly robust. Simulation studies demonstrate that our method is more robust and efficient than existing methods under various configurations. We also examine the utility of our method through a real transfer learning example of the phenotyping algorithm for rheumatoid arthritis across different time windows. Finally, we propose ways to enhance the intrinsic efficiency of our estimator and to incorporate modern machine-learning methods in the proposed SNP framework.",
+    "authors": [
+        "Molei Liu",
+        "Yi Zhang",
+        "Katherine P. Liao",
+        "Tianxi Cai"
+    ],
+    "emails": [
+        "ml4890@cumc.columbia.edu",
+        "yi_zhang@fas.harvard.edu",
+        "KLIAO@bwh.harvard.edu",
+        "tcai.hsph@gmail.com"
+    ],
+    "id": "22-0700",
+    "issue": 293,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Augmented Transfer Regression Learning with Semi-non-parametric Nuisance Models",
+    "volume": 24,
+    "year": 2023
+}

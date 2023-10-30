@@ -1,0 +1,28 @@
+{
+    "abstract": "The elastic net combines lasso and ridge regression to fuse the sparsity property of lasso with the grouping property of ridge regression. The connections between ridge regression and gradient descent and between lasso and forward stagewise regression have previously been shown. Similar to how the elastic net generalizes lasso and ridge regression, we introduce elastic gradient descent, a generalization of gradient descent and forward stagewise regression. We theoretically analyze elastic gradient descent and compare it to the elastic net and forward stagewise regression. Parts of the analysis are based on elastic gradient flow, a piecewise analytical construction, obtained for elastic gradient descent with infinitesimal step size. We also compare elastic gradient descent to the elastic net on real and simulated data and show that it provides similar solution paths, but is several orders of magnitude faster. Compared to forward stagewise regression, elastic gradient descent selects a model that, although still sparse, provides considerably lower prediction and estimation errors.",
+    "authors": [
+        "Oskar Allerbo",
+        "Johan Jonasson",
+        "Rebecka J\u00f6rnsten"
+    ],
+    "emails": [
+        "allerbo@chalmers.se",
+        "jonasson@chalmers.se",
+        "jornsten@chalmers.se"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/allerbo/elastic_gradient_descent"
+        ]
+    ],
+    "id": "22-0119",
+    "issue": 277,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Elastic Gradient Descent, an Iterative Optimization Method Approximating the Solution Paths of the Elastic Net",
+    "volume": 24,
+    "year": 2023
+}

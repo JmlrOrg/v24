@@ -1,0 +1,30 @@
+{
+    "abstract": "We study a dynamic traffic assignment model, where agents base their instantaneous routing decisions on real-time delay predictions. We formulate a mathematically concise model and define dynamic prediction equilibrium (DPE) in which no agent can at any point during their journey improve their predicted travel time by switching to a different route. We demonstrate the versatility of our framework by showing that it subsumes the well-known full information and instantaneous information models, in addition to admitting further realistic predictors as special cases. We then proceed to derive properties of the predictors that ensure a dynamic prediction equilibrium exists. Additionally, we define $\\varepsilon$-approximate DPE wherein no agent can improve their predicted travel time by more than $\\varepsilon$ and provide further conditions of the predictors under which such an approximate equilibrium can be computed. Finally, we complement our theoretical analysis by an experimental study, in which we systematically compare the induced average travel times of different predictors, including two machine-learning based models trained on data gained from previously computed approximate equilibrium flows, both on synthetic and real world road networks.",
+    "authors": [
+        "Lukas Graf",
+        "Tobias Harks",
+        "Kostas Kollias",
+        "Michael Markl"
+    ],
+    "emails": [
+        "lukas.graf@uni-passau.de",
+        "tobias.harks@uni-passau.de",
+        "kostaskollias@google.com",
+        "michael.markl@uni-passau.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ArbeitsgruppeTobiasHarks/dynamic-prediction-equilibria/tree/jmlr"
+        ]
+    ],
+    "id": "22-1446",
+    "issue": 310,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Prediction Equilibrium for Dynamic Network Flows",
+    "volume": 24,
+    "year": 2023
+}

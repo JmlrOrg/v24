@@ -1,0 +1,28 @@
+{
+    "abstract": "Expectation propagation (EP) is an approximate Bayesian inference (ABI) method which has seen widespread use across machine learning and statistics, owing to its accuracy and speed. However, it is often difficult to apply EP to models with complex likelihoods, where the EP updates do not have a tractable form and need to be calculated using methods such as multivariate numerical quadrature. These methods increase run time and reduce the appeal of EP as a fast approximate method. In this paper, we demonstrate that EP can still be made fast for certain models in this category. We focus on various types of linear regression, for which fast Bayesian inference is becoming increasingly important in the transition to big data. Fast EP updates are achieved through analytic integral reductions in certain moment computations. EP is compared to other ABI methods across simulations and benchmark datasets, and is shown to offer a good balance between accuracy and speed.",
+    "authors": [
+        "Jackson Zhou",
+        "John T. Ormerod",
+        "Clara Grazian"
+    ],
+    "emails": [
+        "jzho4727@uni.sydney.edu.au",
+        "john.ormerod@sydney.edu.au",
+        "clara.grazian@sydney.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jackson-zhou-sydney/EP-multicomp"
+        ]
+    ],
+    "id": "23-0104",
+    "issue": 314,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Fast Expectation Propagation for Heteroscedastic, Lasso-Penalized, and Quantile Regression",
+    "volume": 24,
+    "year": 2023
+}

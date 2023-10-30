@@ -1,0 +1,24 @@
+{
+    "abstract": "Gaussian process dynamical systems (GPDSs) have shown their effectiveness in many tasks of machine learning. However, when they address multi-view data, current GPDSs do not explicitly model the dependence between private and shared latent variables. Instead, they introduce structurally and intrinsically discrete segmentation in the latent space. In this paper, we propose the multi-view collaborative Gaussian process dynamical systems (McGPDSs) model, which assumes that the private latent variable for each view is controlled by its dynamical prior and the shared latent variable. The relevance between private and shared latent variables can be automatically learned by optimization in the Bayesian framework. The model is capable of learning an effective latent representation and generating novel data of one view given data of the other view. We evaluate our model on two-view data sets, and our model obtains better performance compared with the state-of-the-art multi-view GPDSs.",
+    "authors": [
+        "Shiliang Sun",
+        "Jingjing Fei",
+        "Jing Zhao",
+        "Liang Mao"
+    ],
+    "emails": [
+        "slsun@cs.ecnu.edu.cn",
+        "jingjingfei16@163.com",
+        "jzhao@cs.ecnu.edu.cn",
+        "lmao14@outlook.com"
+    ],
+    "id": "19-094",
+    "issue": 258,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Multi-view Collaborative Gaussian Process Dynamical Systems",
+    "volume": 24,
+    "year": 2023
+}

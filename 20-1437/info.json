@@ -1,0 +1,28 @@
+{
+    "abstract": "Nonparametric varying coefficient (NVC) models are useful for modeling time-varying effects on responses that are measured repeatedly for the same subjects. When the number of covariates is moderate or large, it is desirable to perform variable selection from the varying coefficient functions. However, existing methods for variable selection in NVC models either fail to account for within-subject correlations or require the practitioner to specify a parametric form for the correlation structure. In this paper, we introduce the nonparametric varying coefficient spike-and-slab lasso (NVC-SSL) for Bayesian high dimensional NVC models. Through the introduction of functional random effects, our method allows for flexible modeling of within-subject correlations without needing to specify a parametric covariance function. We further propose several scalable optimization and Markov chain Monte Carlo (MCMC) algorithms. For variable selection, we propose an Expectation Conditional Maximization (ECM) algorithm to rapidly obtain maximum a posteriori (MAP) estimates. Our ECM algorithm scales linearly in the total number of observations $N$ and the number of covariates $p$. For uncertainty quantification, we introduce an approximate MCMC algorithm that also scales linearly in both $N$ and $p$. We demonstrate the scalability, variable selection performance, and inferential capabilities of our method through simulations and a real data application. These algorithms are implemented in the publicly available R package NVCSSL on the Comprehensive R Archive Network.",
+    "authors": [
+        "Ray Bai",
+        "Mary R. Boland",
+        "Yong Chen"
+    ],
+    "emails": [
+        "rbai@mailbox.sc.edu",
+        "mary.boland@stvincent.edu",
+        "ychen123@upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://cran.r-project.org/web/packages/NVCSSL/"
+        ]
+    ],
+    "id": "20-1437",
+    "issue": 259,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Scalable high-dimensional Bayesian varying coefficient models with unknown within-subject covariance",
+    "volume": 24,
+    "year": 2023
+}

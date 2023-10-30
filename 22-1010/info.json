@@ -1,0 +1,22 @@
+{
+    "abstract": "A learning based method for obtaining feedback laws for nonlinear optimal control problems is proposed. The learning problem is posed such that the open loop value function is its optimal solution. This infinite dimensional, function space, problem, is approximated by a polynomial ansatz and its convergence is analyzed. An $\\ell_1$ penalty term is employed, which combined with the proximal point method, allows to find sparse solutions for the learning problem. The approach requires multiple evaluations of the elements of the polynomial basis and of their derivatives. In order to do this efficiently a graph-theoretic algorithm is devised. Several examples underline that the proposed methodology provides a promising approach for mitigating the curse of dimensionality which would be involved in case the optimal feedback law was obtained by solving the Hamilton Jacobi Bellman equation.",
+    "authors": [
+        "Karl Kunisch",
+        "Donato V\u00e1squez-Varas",
+        "Daniel Walter"
+    ],
+    "emails": [
+        "karl.kunisch@uni-graz.at",
+        "donato.vasquez-varas@ricam.oeaw.ac.at",
+        "daniel.walter@hu-berlin.de"
+    ],
+    "id": "22-1010",
+    "issue": 301,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Learning Optimal Feedback Operators and their Sparse Polynomial Approximations",
+    "volume": 24,
+    "year": 2023
+}

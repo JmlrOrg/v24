@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider decentralized stochastic optimization problems, where a network of $n$ nodes cooperates to find a minimizer of the globally-averaged cost. A widely studied decentralized algorithm for this problem is the decentralized SGD (D-SGD), in which each node averages only with its neighbors.  D-SGD is efficient in single-iteration communication, but it is very sensitive to the network topology. For smooth objective functions, the transient stage (which measures the number of iterations the algorithm has to experience before achieving the linear speedup stage) of D-SGD is on the order of ${O}(n/(1-\\beta)^2)$ and  $O(n^3/(1-\\beta)^4)$ for strongly and generally convex cost functions, respectively, where $1-\\beta \\in (0,1)$ is a topology-dependent quantity that approaches $0$ for a large and sparse network. Hence, D-SGD suffers from slow convergence for large and sparse networks. In this work, we revisit the convergence property of the  D$^2$/Exact-Diffusion algorithm. By eliminating the influence of data heterogeneity between nodes, D$^2$/Exact-diffusion is shown to have an enhanced transient stage that is on the order of $\\tilde{O}(n/(1-\\beta))$ and  $O(n^3/(1-\\beta)^2)$ for strongly and generally convex cost functions (where $\\tilde{O}(\\cdot)$ hides all logarithm factors), respectively. Moreover, when D$^2$/Exact-Diffusion is implemented with both gradient accumulation and multi-round gossip communications, its transient stage can be further improved to $\\tilde{O}(1/(1-\\beta)^{\\frac{1}{2}})$ and $\\tilde{O}(n/(1-\\beta))$ for strongly and generally convex cost functions, respectively. To our knowledge, these established results for D$^2$/Exact-Diffusion have the best, i.e., weakest) dependence on network topology  compared to existing decentralized algorithms. Numerical simulations are conducted to validate our theories.",
+    "authors": [
+        "Kun Yuan",
+        "Sulaiman A. Alghunaim",
+        "Xinmeng Huang"
+    ],
+    "emails": [
+        "kunyuan@pku.edu.cn",
+        "sulaiman.alghunaim@ku.edu.kw",
+        "xinmengh@sas.upenn.edu"
+    ],
+    "id": "22-0283",
+    "issue": 280,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Removing Data Heterogeneity Influence Enhances Network Topology Dependence of Decentralized SGD",
+    "volume": 24,
+    "year": 2023
+}

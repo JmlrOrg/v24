@@ -1,0 +1,28 @@
+{
+    "abstract": "We propose a novel interpretable deep neural network for text classification, called ProtoryNet, based on a new concept of prototype trajectories. Motivated by the prototype theory in modern linguistics, ProtoryNet makes a prediction by finding the most similar prototype for each sentence in a text sequence and feeding an RNN backbone with the proximity of each sentence to the corresponding active prototype. The RNN backbone then captures the temporal pattern of the prototypes, which we refer to as prototype trajectories. Prototype trajectories enable intuitive and fine-grained interpretation of the reasoning process of the RNN model, in resemblance to how humans analyze texts. We also design a prototype pruning procedure to reduce the total number of prototypes used by the model for better interpretability. Experiments on multiple public datasets demonstrate that ProtoryNet achieves higher accuracy than the baseline prototype-based deep neural net and narrows the performance gap when compared to state-of-the-art black-box models. In addition, after prototype pruning, the resulting ProtoryNet models only need less than or around 20 prototypes for all datasets, which significantly benefits interpretability. Furthermore, we report survey results indicating that human users find ProtoryNet more intuitive and easier to understand compared to other prototype-based methods.",
+    "authors": [
+        "Dat Hong",
+        "Tong Wang",
+        "Stephen Baek"
+    ],
+    "emails": [
+        "dat.hong@yale.edu",
+        "tong.wang@yale.edu",
+        "baek@virginia.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dathong/ProtoryNet"
+        ]
+    ],
+    "id": "21-0899",
+    "issue": 264,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "ProtoryNet - Interpretable Text Classification Via Prototype Trajectories",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,34 @@
+{
+    "abstract": "This article studies the infinite-width limit of deep feedforward neural networks whose weights are dependent, and modelled via a mixture of Gaussian distributions. Each hidden node of the network is assigned a nonnegative random variable that controls the variance of the outgoing weights of that node. We make minimal assumptions on these per-node random variables: they are iid and their sum, in each layer, converges to some finite random variable in the infinite-width limit. Under this model, we show that each layer of the infinite-width neural network can be characterised by two simple quantities: a non-negative scalar parameter and a L\\'evy measure on the positive reals. If the scalar parameters are strictly positive and the L\\'evy measures are trivial at all hidden layers, then one recovers the classical Gaussian process (GP) limit, obtained with iid Gaussian weights. More interestingly, if the L\\'evy measure of at least one layer is non-trivial, we obtain a mixture of Gaussian processes (MoGP) in the large-width limit. The behaviour of the neural network in this regime is very different from the GP regime. One obtains correlated outputs, with non-Gaussian distributions, possibly with heavy tails. Additionally, we show that, in this regime, the weights are compressible, and some nodes have asymptotically non-negligible contributions, therefore representing important hidden features. Many sparsity-promoting neural network models can be recast as special cases of our approach, and we discuss their infinite-width limits; we also present an asymptotic analysis of the pruning error. We illustrate some of the benefits of the MoGP regime over the GP regime in terms of representation learning and compressibility on simulated, MNIST and Fashion MNIST datasets.",
+    "authors": [
+        "Hoil Lee",
+        "Fadhel Ayed",
+        "Paul Jung",
+        "Juho Lee",
+        "Hongseok Yang",
+        "Francois Caron"
+    ],
+    "emails": [
+        "hoil.lee@kaist.ac.kr",
+        "fadhel.ayed@gmail.com",
+        "pjung3@fordham.edu",
+        "juholee@kaist.ac.kr",
+        "hongseok.yang@kaist.ac.kr",
+        "caron@stats.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/FadhelA/mogp"
+        ]
+    ],
+    "id": "22-0537",
+    "issue": 289,
+    "pages": [
+        1,
+        78
+    ],
+    "title": "Deep Neural Networks with Dependent Weights: Gaussian Process Mixture Limit, Heavy Tails, Sparsity and Compressibility",
+    "volume": 24,
+    "year": 2023
+}

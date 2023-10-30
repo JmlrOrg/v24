@@ -1,0 +1,62 @@
+{
+    "abstract": "A shared goal of several machine learning communities like continual learning, meta-learning and transfer learning, is to design algorithms and models that efficiently and robustly adapt to unseen tasks. An even more ambitious goal is to build models that never stop adapting, and that become increasingly more efficient through time by suitably transferring the accrued knowledge. Beyond the study of the actual learning algorithm and model architecture, there are several hurdles towards our quest to build such models, such as the choice of learning protocol, metric of success and data needed to validate research hypotheses. In this work, we introduce the Never-Ending VIsual-classification Stream (NEVIS'22), a benchmark consisting of a stream of over 100 visual classification tasks, sorted chronologically and extracted from papers sampled uniformly from computer vision proceedings spanning the last three decades. The resulting stream reflects what the research community thought was meaningful at any point in time, and it serves as an ideal test bed to assess how well models can adapt to new tasks, and do so better and more efficiently as time goes by. Despite being limited to classification, the resulting stream has a rich diversity of tasks from OCR, to texture analysis, scene recognition, and so forth. The diversity is also reflected in the wide range of dataset sizes, spanning over four orders of magnitude. Overall, NEVIS'22 poses an unprecedented challenge for current sequential learning approaches due to the scale and diversity of tasks, yet with a low entry barrier as it is limited to a single modality and well understood supervised learning problems. Moreover, we provide a reference implementation including strong baselines and an evaluation protocol to compare methods in terms of their trade-off between accuracy and compute. We hope that NEVIS'22 can be useful to researchers working on continual learning, meta-learning, AutoML and more generally sequential learning, and help these communities join forces towards more robust models that efficiently adapt to a never ending stream of data.",
+    "authors": [
+        "Jorg Bornschein",
+        "Alexandre Galashov",
+        "Ross Hemsley",
+        "Amal Rannen-Triki",
+        "Yutian Chen",
+        "Arslan Chaudhry",
+        "Xu Owen He",
+        "Arthur Douillard",
+        "Massimo Caccia",
+        "Qixuan Feng",
+        "Jiajun Shen",
+        "Sylvestre-Alvise Rebuffi",
+        "Kitty Stacpoole",
+        "Diego de las Casas",
+        "Will Hawkins",
+        "Angeliki Lazaridou",
+        "Yee Whye Teh",
+        "Andrei A. Rusu",
+        "Razvan Pascanu",
+        "Marc\u2019Aurelio Ranzato"
+    ],
+    "emails": [
+        "bornschein@deepmind.com",
+        "agalashov@deepmind.com",
+        "rhemsley@deepmind.com",
+        "arannen@deepmind.com",
+        "yutianc@deepmind.com",
+        "arslanch@deepmind.com",
+        "hexu@deepmind.com",
+        "douillard@deepmind.com",
+        "massimo.p.caccia@gmail.com",
+        "qixuan@deepmind.com",
+        "jiajuns@deepmind.com",
+        "sylvestre@deepmind.com",
+        "kstacpoole@deepmind.com",
+        "diegolascasas@deepmind.com",
+        "willhawkins@deepmind.com",
+        "angeliki@deepmind.com",
+        "ywteh@deepmind.com",
+        "andrei@deepmind.com",
+        "razp@deepmind.com",
+        "ranzato@deepmind.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/deepmind/dm_nevis"
+        ]
+    ],
+    "id": "22-1345",
+    "issue": 308,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Nevis'22: A Stream of 100 Tasks Sampled from 30 Years of Computer Vision Research",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "The problems of Lasso regression and optimal design of experiments share a critical property: their optimal solutions are typically sparse, i.e., only a small fraction of the optimal variables are non-zero. Therefore, the identification of the support of an optimal solution reduces the dimensionality of the problem and can yield a substantial simplification of the calculations. It has recently been shown that linear regression with a squared $\\ell_1$-norm sparsity-inducing penalty is equivalent to an optimal experimental design problem. In this work, we use this equivalence to derive safe screening rules that can be used to discard inessential samples. Compared to previously existing rules, the new tests are much faster to compute, especially for problems involving a parameter space of high dimension, and can be used dynamically within any iterative solver, with negligible computational overhead. Moreover, we show how an existing homotopy algorithm to compute the regularization path of the lasso method can be reparametrized with respect to the squared $\\ell_1$-penalty. This allows the computation of a Bayes $c$-optimal design in a finite number of steps and can be several orders of magnitude faster than standard first-order algorithms. The efficiency of the new screening rules and of the homotopy algorithm are demonstrated on different examples based on real data.",
+    "authors": [
+        "Guillaume Sagnol",
+        "Luc Pronzato"
+    ],
+    "emails": [
+        "sagnol@math.tu-berlin.de",
+        "luc.pronzato@cnrs.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://gitlab.com/gsagnol/qlasso"
+        ]
+    ],
+    "id": "22-1305",
+    "issue": 307,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Fast Screening Rules for Optimal Design via Quadratic Lasso Reformulation",
+    "volume": 24,
+    "year": 2023
+}

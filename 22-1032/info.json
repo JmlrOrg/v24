@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider the linear discriminant analysis problem in the high-dimensional settings. In this work, we propose PANDA(PivotAl liNear Discriminant Analysis), a tuning insensitive method  in the sense that it requires very little effort to tune the  parameters. Moreover, we prove that PANDA achieves the optimal convergence rate in terms of both the estimation error and misclassification rate. Our theoretical results are backed up by thorough numerical studies using both simulated and real datasets. In comparison with the existing methods, we observe that our proposed PANDA yields equal or better performance, and requires substantially less effort in parameter tuning.",
+    "authors": [
+        "Ethan X. Fang",
+        "Yajun Mei",
+        "Yuyang Shi",
+        "Qunzhi Xu",
+        "Tuo Zhao"
+    ],
+    "emails": [
+        "ethan.fang@duke.edu",
+        "ymei3@gatech.edu",
+        "yyshi@gatech.edu",
+        "xuqunzhi@gatech.edu",
+        "tourzhao@gatech.edu"
+    ],
+    "id": "22-1032",
+    "issue": 302,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Pivotal Estimation of Linear Discriminant Analysis in High Dimensions",
+    "volume": 24,
+    "year": 2023
+}

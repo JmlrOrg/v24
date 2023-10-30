@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the problem of estimating the derivatives of a regression function, which has a wide range of applications as a key nonparametric functional of unknown functions. Standard analysis may be tailored to specific derivative orders, and parameter tuning remains a daunting challenge particularly for high-order derivatives. In this article, we propose a simple plug-in kernel ridge regression (KRR) estimator in nonparametric regression with random design that is broadly applicable for multi-dimensional support and arbitrary mixed-partial derivatives. We provide a non-asymptotic analysis to study the behavior of the proposed estimator in a unified manner that encompasses the regression function and its derivatives, leading to two error bounds for a general class of kernels under the strong $L_\\infty$ norm. In a concrete example specialized to kernels with polynomially decaying eigenvalues, the proposed estimator recovers the minimax optimal rate up to a logarithmic factor for estimating derivatives of functions in H\u00f6lder and Sobolev classes. Interestingly, the proposed estimator achieves the optimal rate of convergence with the same choice of tuning parameter for any order of derivatives. Hence, the proposed estimator enjoys a plug-in property for derivatives in that it automatically adapts to the order of derivatives to be estimated, enabling easy tuning in practice. Our simulation studies show favorable finite sample performance of the proposed method relative to several existing methods and corroborate the theoretical findings on its minimax optimality.",
+    "authors": [
+        "Zejian Liu",
+        "Meng Li"
+    ],
+    "emails": [
+        "zejian.liu@rice.edu",
+        "meng@rice.edu"
+    ],
+    "id": "21-1110",
+    "issue": 266,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "On the Estimation of Derivatives Using Plug-in Kernel Ridge Regression Estimators",
+    "volume": 24,
+    "year": 2023
+}

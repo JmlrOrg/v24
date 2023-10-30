@@ -1,0 +1,24 @@
+{
+    "abstract": "Offline policy evaluation is a fundamental statistical problem in reinforcement learning that involves estimating the value function of some decision-making policy given data collected by a potentially different policy. In order to tackle problems with complex, high-dimensional observations, there has been significant interest from theoreticians and practitioners alike in understanding the possibility of function approximation in reinforcement learning. Despite significant study, a sharp characterization of when we might expect offline policy evaluation to be tractable, even in the simplest setting of linear function approximation, has so far remained elusive, with a surprising number of strong negative results recently appearing in the literature. In this work, we identify simple control-theoretic and linear-algebraic conditions that are necessary and sufficient for classical methods, in particular Fitted Q-iteration (FQI) and least squares temporal difference learning (LSTD), to succeed at offline policy evaluation. Using this characterization, we establish a precise hierarchy of regimes under which these estimators succeed. We prove that LSTD works under strictly weaker conditions than FQI. Furthermore, we establish that if a problem is not solvable via LSTD, then it cannot be solved by a broad class of linear estimators, even in the limit of infinite data. Taken together, our results provide a complete picture of the behavior of linear estimators for offline policy evaluation, unify previously disparate analyses of canonical algorithms, and provide significantly sharper notions of the underlying statistical complexity of offline policy evaluation.",
+    "authors": [
+        "Juan C. Perdomo",
+        "Akshay Krishnamurthy",
+        "Peter Bartlett",
+        "Sham Kakade"
+    ],
+    "emails": [
+        "jcperdomo@berkeley.edu",
+        "akshay@cs.umass.edu",
+        "peter@berkeley.edu",
+        "sham@seas.harvard.edu"
+    ],
+    "id": "22-0341",
+    "issue": 284,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "A Complete Characterization of Linear Estimators for Offline Policy Evaluation",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,41 @@
+{
+    "abstract": "A significant challenge facing researchers in the area of multi-agent reinforcement learning (MARL) pertains to the identification of a library that can offer fast and compatible development for multi-agent tasks and algorithm combinations, while obviating the need to consider compatibility issues. In this paper, we present MARLlib, a library designed to address the aforementioned challenge by leveraging three key mechanisms: 1) a standardized multi-agent environment wrapper, 2) an agent-level algorithm implementation, and 3) a flexible policy mapping strategy. By utilizing these mechanisms, MARLlib can effectively disentangle the intertwined nature of the multi-agent task and the learning process of the algorithm, with the ability to automatically alter the training strategy based on the current task's attributes. The MARLlib library's source code is publicly accessible on GitHub: https://github.com/Replicable-MARL/MARLlib.",
+    "authors": [
+        "Siyi Hu",
+        "Yifan Zhong",
+        "Minquan Gao",
+        "Weixun Wang",
+        "Hao Dong",
+        "Xiaodan Liang",
+        "Zhihui Li",
+        "Xiaojun Chang",
+        "Yaodong Yang"
+    ],
+    "emails": [
+        "siyi.hu@student.uts.edu.au",
+        "zhongyifan@stu.pku.edu.cn",
+        "minchiuan.gao@gmail.com",
+        "wangweixun@corp.netease.com",
+        "hao.dong@pku.edu.cn",
+        "xiaodan.liang@sysu.edu.cn",
+        "zhihuilics@gmail.com",
+        "xiaojun.chang@uts.edu.au",
+        "yaodong.yang@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Replicable-MARL/MARLlib"
+        ]
+    ],
+    "id": "23-0378",
+    "issue": 315,
+    "pages": [
+        1,
+        23
+    ],
+    "special_issue": "MLOSS",
+    "title": "MARLlib: A Scalable and Efficient Multi-agent Reinforcement Learning Library",
+    "volume": 24,
+    "year": 2023
+}

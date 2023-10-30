@@ -1,0 +1,24 @@
+{
+    "abstract": "We study sparse linear regression over a network of agents, modeled as an undirected graph (with no centralized node). The estimation problem is formulated as the minimization of the sum of the local LASSO loss functions plus a quadratic penalty of the consensus constraint\u2014the latter being instrumental to obtain distributed solution methods. While penalty-based consensus methods have been extensively studied in the optimization literature, their statistical and computational guarantees in the high dimensional setting remain unclear. This work provides an answer to this open problem. Our contribution is two-fold. First, we establish statistical consistency of the estimator: under a suitable choice of the penalty parameter, the optimal solution of the penalized problem achieves near optimal minimax rate $O(s \\log d/N)$ in $\\ell_2$-loss, where $s$ is the sparsity value, $d$ is the ambient dimension, and $N$ is the total sample size in the network\u2014this matches centralized sample rates. Second, we show that the proximal-gradient algorithm applied to the penalized problem, which naturally leads to distributed implementations, converges linearly up to a tolerance of the order of the centralized statistical error---the rate scales as $O(d)$, revealing an unavoidable speed-accuracy dilemma. Numerical results demonstrate the tightness of the derived sample rate and convergence rate scalings.",
+    "authors": [
+        "Yao Ji",
+        "Gesualdo Scutari",
+        "Ying Sun",
+        "Harsha Honnappa"
+    ],
+    "emails": [
+        "jiyao@purdue.edu",
+        "gscutari@purdue.edu",
+        "ybs5190@psu.edu",
+        "honnappa@purdue.edu"
+    ],
+    "id": "21-1333",
+    "issue": 272,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Distributed Sparse Regression via Penalization",
+    "volume": 24,
+    "year": 2023
+}

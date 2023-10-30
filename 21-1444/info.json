@@ -1,0 +1,22 @@
+{
+    "abstract": "Online control with non-stochastic disturbances and adversarially chosen convex cost functions, referred to as online non-stochastic control, has recently attracted increasing attention. We study online non-stochastic control with partial feedback, where learners can only access partially observed states and partially informed (bandit) costs. The problem setting arises naturally in real-world decision-making applications and strictly generalizes exceptional cases studied disparately by previous works. We propose the first online algorithm for this problem, with an $\\tilde{O}(T^{3/4})$ regret competing with the best policy in hindsight, where $T$ denotes the time horizon and the $\\tilde{O}(\\cdot)$-notation omits the poly-logarithmic factors in $T$. To further enhance the algorithms' robustness to changing environments, we then design a novel method with a two-layer structure to optimize the dynamic regret, a more challenging measure that competes with time-varying policies. Our method is based on the online ensemble framework by treating the controller above as the base learner. On top of that, we design two different meta-combiners to simultaneously handle the unknown variation of environments and the memory issue arising from the online control. We prove that the two resulting algorithms enjoy $\\tilde{O}(T^{3/4}(1+P_T)^{1/2})$ and $\\tilde{O}(T^{3/4}(1+P_T)^{1/4}+T^{5/6})$ dynamic regret respectively, where $P_T$ measures the environmental non-stationarity. Our results are further extended to unknown transition matrices. Finally, empirical studies in both synthetic linear and simulated nonlinear tasks validate our method's effectiveness, thus supporting the theoretical findings.",
+    "authors": [
+        "Yu-Hu Yan",
+        "Peng Zhao",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "yanyh@lamda.nju.edu.cn",
+        "zhaop@lamda.nju.edu.cn",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "21-1444",
+    "issue": 273,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Online Non-stochastic Control with Partial Feedback",
+    "volume": 24,
+    "year": 2023
+}

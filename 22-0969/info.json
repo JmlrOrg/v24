@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper studies the problem of designing an optimal sequence of interventions in a causal graphical model to minimize cumulative regret with respect to the best intervention in hindsight. This is, naturally, posed as a causal bandit problem. The focus is on causal bandits for linear structural equation models (SEMs) and soft interventions. It is assumed that the graph's structure is known and has $N$ nodes. Two linear mechanisms, one soft intervention and one observational, are assumed for each node, giving rise to $2^N$ possible interventions. The majority of the existing causal bandit algorithms assume that at least the interventional distributions of the reward node's parents are fully specified. However, there are $2^N$ such distributions (one corresponding to each intervention), acquiring which becomes prohibitive even in moderate-sized graphs. This paper dispenses with the assumption of knowing these distributions or their marginals. Two algorithms are proposed for the frequentist (UCB-based) and Bayesian (Thompson sampling-based) settings. The key idea of these algorithms is to avoid directly estimating the $2^N$ reward distributions and instead estimate the parameters that fully specify the SEMs (linear in $N$) and use them to compute the rewards. In both algorithms, under boundedness assumptions on noise and the parameter space, the cumulative regrets scale as $\\tilde{\\cal O} (d^{L+\\frac{1}{2}} \\sqrt{NT})$, where $d$ is the graph's maximum degree, and $L$ is the length of its longest causal path. Additionally, a minimax lower of $\\Omega(d^{\\frac{L}{2}-2}\\sqrt{T})$ is presented, which suggests that the achievable and lower bounds conform in their scaling behavior with respect to the horizon $T$ and graph parameters $d$ and $L$.",
+    "authors": [
+        "Burak Varici",
+        "Karthikeyan Shanmugam",
+        "Prasanna Sattigeri",
+        "Ali Tajer"
+    ],
+    "emails": [
+        "varicb@rpi.edu",
+        "karthikeyanvs@google.com",
+        "psattig@us.ibm.com",
+        "tajer@ecse.rpi.edu"
+    ],
+    "id": "22-0969",
+    "issue": 297,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Causal Bandits for Linear Structural Equation Models",
+    "volume": 24,
+    "year": 2023
+}

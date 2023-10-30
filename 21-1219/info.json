@@ -1,0 +1,20 @@
+{
+    "abstract": "The stochastic proximal point (SPP) methods have gained recent attention for stochastic optimization, with strong convergence guarantees and superior robustness to the classic stochastic gradient descent (SGD) methods showcased at little to no cost of computational overhead added. In this article, we study a minibatch variant of SPP, namely M-SPP, for solving convex composite risk minimization problems. The core contribution is a set of novel excess risk bounds of M-SPP derived through the lens of algorithmic stability theory. Particularly under smoothness and quadratic growth conditions, we show that M-SPP with minibatch-size $n$ and iteration count $T$ enjoys an in-expectation fast rate of convergence consisting of an $\\mathcal{O}\\left(\\frac{1}{T^2}\\right)$ bias decaying term and an $\\mathcal{O}\\left(\\frac{1}{nT}\\right)$ variance decaying term.\r\nIn the small-$n$-large-$T$ setting, this result substantially improves the best known results of SPP-type approaches by revealing the impact of noise level of model on convergence rate. In the complementary small-$T$-large-$n$ regime, we propose a two-phase extension of M-SPP to achieve comparable convergence rates. Additionally, we establish a deviation bound on the parameter estimation error of a sampling-without-replacement variant of M-SPP, which holds with high probability over the randomness of data while in expectation over the randomness of algorithm. Numerical evidences are provided to support our theoretical predictions when substantialized to Lasso and logistic regression models.",
+    "authors": [
+        "Xiao-Tong Yuan",
+        "Ping Li"
+    ],
+    "emails": [
+        "xtyuan1980@gmail.com",
+        "pingli98@gmail.com"
+    ],
+    "id": "21-1219",
+    "issue": 270,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Sharper Analysis for Minibatch Stochastic Proximal Point Methods: Stability, Smoothness, and Deviation",
+    "volume": 24,
+    "year": 2023
+}

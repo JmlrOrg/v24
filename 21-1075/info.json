@@ -1,0 +1,22 @@
+{
+    "abstract": "Risk modeling with electronic health records (EHR) data is challenging due to no direct observations of the disease outcome and the high-dimensional predictors. In this paper, we develop a surrogate assisted semi-supervised learning approach, leveraging small labeled data with annotated outcomes and extensive unlabeled data of outcome surrogates and high-dimensional predictors. We propose to impute the unobserved outcomes by constructing a sparse imputation model with outcome surrogates and high-dimensional predictors. We further conduct a one-step bias correction to enable interval estimation for the risk prediction. Our inference procedure is valid even if both the imputation and risk prediction models are misspecified. Our novel way of ultilizing unlabelled data enables the high-dimensional statistical inference for the challenging setting with a dense risk prediction model. We present an extensive simulation study to demonstrate the superiority of our approach compared to existing supervised methods. We apply the method to genetic risk prediction of type-2 diabetes mellitus using an EHR biobank cohort.",
+    "authors": [
+        "Jue Hou",
+        "Zijian Guo",
+        "Tianxi Cai"
+    ],
+    "emails": [
+        "hou00123@umn.edu",
+        "zijguo@stat.rutgers.edu",
+        "tcai@hsph.harvard.edu"
+    ],
+    "id": "21-1075",
+    "issue": 265,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Surrogate Assisted Semi-supervised Inference for High Dimensional Risk Prediction",
+    "volume": 24,
+    "year": 2023
+}

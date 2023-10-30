@@ -1,0 +1,22 @@
+{
+    "abstract": "The multivariate adaptive regression spline (MARS) is one of the popular estimation methods for nonparametric multivariate regression. However, as MARS is based on marginal splines, to incorporate interactions of covariates, products of the marginal splines must be used, which often leads to an unmanageable number of basis functions when the order of interaction is high and results in low estimation efficiency. In this paper, we improve the performance of MARS by using linear combinations of the covariates which achieve sufficient dimension reduction. The special basis functions of MARS facilitate the calculation of gradients of the regression function, and estimation of these linear combinations is obtained via eigen-analysis of the outer-product of the gradients. Under some technical conditions, the consistency property is established for the proposed estimation method. Numerical studies including both simulation and empirical applications show its effectiveness in dimension reduction and improvement over MARS and other commonly-used nonparametric methods in regression estimation and prediction.",
+    "authors": [
+        "Yu Liu LIU",
+        "Degui Li",
+        "Yingcun Xia"
+    ],
+    "emails": [
+        "YUCHINA123@GMAIL.COM",
+        "DEGUI.LI@YORK.AC.UK",
+        "STAXYC@NUS.EDU.SG"
+    ],
+    "id": "22-1422",
+    "issue": 309,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Dimension Reduction and MARS",
+    "volume": 24,
+    "year": 2023
+}

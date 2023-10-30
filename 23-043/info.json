@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider Sharpness-Aware Minimization (SAM), a gradient-based optimization method for deep networks that has exhibited performance improvements on image and language prediction problems.  We show that when SAM is applied with a convex quadratic objective, for most random initializations it converges to a cycle that oscillates between either side of the minimum in the direction with the largest curvature, and we provide bounds on the rate of convergence.  In the non-quadratic case, we show that such oscillations effectively perform gradient descent, with a smaller step-size, on the spectral norm of the Hessian. In such cases, SAM's update may be regarded as a third derivative---the derivative of the Hessian in the leading eigenvector direction---that encourages drift toward wider minima.",
+    "authors": [
+        "Peter L. Bartlett",
+        "Philip M. Long",
+        "Olivier Bousquet"
+    ],
+    "emails": [
+        "peterbartlett@google.com",
+        "plong@google.com",
+        "obousquet@google.com"
+    ],
+    "id": "23-043",
+    "issue": 316,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "The Dynamics of Sharpness-Aware Minimization: Bouncing Across Ravines and Drifting Towards Wide Minima",
+    "volume": 24,
+    "year": 2023
+}

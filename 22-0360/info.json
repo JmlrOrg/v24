@@ -1,0 +1,30 @@
+{
+    "abstract": "Vector autoregression has been widely used for modeling and analysis of multivariate time series data. In high-dimensional settings, model parameter regularization schemes inducing sparsity yield interpretable models and achieved good forecasting performance. However, in many data applications, such as those in neuroscience, the Granger causality graph estimates from existing vector autoregression methods tend to be quite dense and difficult to interpret, unless one compromises on the goodness-of-fit.  To address this issue, this paper proposes to incorporate a commonly used structural assumption  --- that the ground-truth graph should be largely connected, in the sense that it should only contain at most a few components.  We take a Bayesian approach and develop a novel tree-rank prior distribution for the regression coefficients. Specifically, this prior distribution forces the non-zero coefficients to appear only on the union of a few spanning trees. Since each spanning tree connects $p$ nodes with only $(p-1)$ edges, it effectively achieves both high connectivity and high sparsity. We develop a computationally efficient Gibbs sampler that is scalable to large sample size and high dimension. In analyzing test-retest functional magnetic resonance imaging data, our model produces a much more interpretable graph estimate, compared to popular existing approaches. In addition,  we show appealing properties of this new method, such as efficient computation, mild stability conditions and posterior consistency.",
+    "authors": [
+        "Leo L Duan",
+        "Zeyu Yuwen",
+        "George Michailidis",
+        "Zhengwu Zhang"
+    ],
+    "emails": [
+        "li.duan@ufl.edu",
+        "zeyu.yuwen@ufl.edu",
+        "gmichail@g.ucla.edu",
+        "zhengwu_zhang@unc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/leoduan/Spanning-Tree-VAR"
+        ]
+    ],
+    "id": "22-0360",
+    "issue": 286,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Low Tree-Rank Bayesian Vector Autoregression Models",
+    "volume": 24,
+    "year": 2023
+}

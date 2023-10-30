@@ -1,0 +1,20 @@
+{
+    "abstract": "Maximum Mean Discrepancy (MMD) has been widely used in the areas of machine learning and statistics to quantify the distance between two distributions in the $p$-dimensional Euclidean space. The asymptotic property of the sample MMD has been well studied when the dimension $p$ is fixed using the theory of U-statistic. As motivated by the frequent use of MMD test for data of moderate/high dimension, we propose to investigate the behavior of the sample MMD in a high-dimensional environment and develop a new studentized test statistic. Specifically, we obtain the central limit theorems for the studentized sample MMD as both the dimension $p$ and sample sizes $n,m$ diverge to infinity. Our results hold for a wide range of kernels, including popular Gaussian and Laplacian kernels, and also cover energy distance as a special case. We also derive the explicit rate of convergence under mild assumptions and our results suggest that the accuracy of normal approximation can improve with dimensionality. Additionally, we provide a general theory on the power analysis under the alternative hypothesis and show that our proposed test can detect difference between two distributions in the moderately high dimensional regime. Numerical simulations demonstrate the effectiveness of our proposed test statistic and normal approximation.",
+    "authors": [
+        "Hanjia Gao",
+        "Xiaofeng Shao"
+    ],
+    "emails": [
+        "hanjiag2@illinois.edu",
+        "xshao@illinois.edu"
+    ],
+    "id": "22-1136",
+    "issue": 304,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Two Sample Testing in High Dimension via Maximum Mean Discrepancy",
+    "volume": 24,
+    "year": 2023
+}

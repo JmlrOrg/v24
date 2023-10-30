@@ -1,0 +1,24 @@
+{
+    "abstract": "A widely recognized difficulty in federated learning arises from the statistical heterogeneity among clients: local datasets often originate from distinct yet not entirely unrelated probability distributions, and personalization is, therefore, necessary to achieve optimal results from each individual\u2019s perspective. In this paper, we show how the excess risks of personalized federated learning using a smooth, strongly convex loss depend on data heterogeneity from a minimax point of view, with a focus on the FedAvg algorithm (McMahan et al., 2017) and pure local training (i.e., clients solve empirical risk minimization problems on their local datasets without any communication). Our main result reveals an approximate alternative between these two baseline algorithms for federated learning: the former algorithm is minimax rate optimal over a collection of instances when data heterogeneity is small, whereas the latter is minimax rate optimal when data heterogeneity is large, and the threshold is sharp up to a constant. As an implication, our results show that from a worst-case point of view, a dichotomous strategy that makes a choice between the two baseline algorithms is rate-optimal. Another implication is that the popular FedAvg following by local fine tuning strategy is also minimax optimal under additional regularity conditions. Our analysis relies on a new notion of algorithmic stability that takes into account the nature of federated learning.",
+    "authors": [
+        "Shuxiao Chen",
+        "Qinqing Zheng",
+        "Qi Long",
+        "Weijie J. Su"
+    ],
+    "emails": [
+        "shuxiaoc@wharton.upenn.edu",
+        "zhengqinqing@gmail.com",
+        "qlong@upenn.edu",
+        "suw@wharton.upenn.edu"
+    ],
+    "id": "21-0224",
+    "issue": 262,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Minimax Estimation for Personalized Federated Learning: An Alternative between FedAvg and Local Training?",
+    "volume": 24,
+    "year": 2023
+}

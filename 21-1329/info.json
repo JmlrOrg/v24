@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider recovering causal structure from multivariate observational data. We assume the data arise from a linear structural equation model (SEM) in which the idiosyncratic errors are allowed to be dependent in order to capture possible latent confounding. Each SEM can be represented by a graph where vertices represent observed variables, directed edges represent direct causal effects, and bidirected edges represent dependence among error terms. Specifically, we assume that the true model corresponds to a bow-free acyclic path diagram; i.e., a graph that has at most one edge between any pair of nodes and is acyclic in the directed part. We show that when the errors are non-Gaussian, the exact causal structure encoded by such a graph, and not merely an equivalence class, can be recovered from observational data. The method we propose for this purpose uses estimates of suitable moments, but, in contrast to previous results, does not require specifying the number of latent variables a priori. We also characterize the output of our procedure when the assumptions are violated and the true graph is acyclic, but not bow-free. We illustrate the effectiveness of our procedure in simulations and an application to an ecology data set.",
+    "authors": [
+        "Y. Samuel Wang",
+        "Mathias Drton"
+    ],
+    "emails": [
+        "ysw7@cornell.edu",
+        "mathias.drton@tum.de"
+    ],
+    "id": "21-1329",
+    "issue": 271,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Causal Discovery with Unobserved Confounding and Non-Gaussian Data",
+    "volume": 24,
+    "year": 2023
+}

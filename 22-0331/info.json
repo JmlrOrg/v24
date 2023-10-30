@@ -1,0 +1,18 @@
+{
+    "abstract": "Recent work in the matrix completion literature has shown that prior knowledge of a matrix's row and column spaces can be successfully incorporated into reconstruction programs to substantially benefit matrix recovery. This paper proposes a novel methodology that exploits more general forms of known matrix structure in terms of subspaces. The work derives reconstruction error bounds that are informative in practice, providing insight to previous approaches in the literature while introducing novel programs with reduced sample complexities. The main result shows that a family of weighted nuclear norm minimization programs incorporating a $M_1 r$-dimensional subspace of $n\\times n$ matrices (where $M_1\\geq 1$ conveys structural properties of the subspace) allow accurate approximation of a rank $r$ matrix aligned with the subspace from a near-optimal number of observed entries (within a logarithmic factor of $M_1 r)$. The result is robust, where the error is proportional to measurement noise, applies to full rank matrices, and reflects degraded output when erroneous prior information is imposed. Numerical experiments are presented that validate the theoretical behavior derived for several example weighted programs.",
+    "authors": [
+        "Oscar L\u00f3pez"
+    ],
+    "emails": [
+        "lopezo@fau.edu"
+    ],
+    "id": "22-0331",
+    "issue": 283,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Near-Optimal Weighted Matrix Completion",
+    "volume": 24,
+    "year": 2023
+}

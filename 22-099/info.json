@@ -1,0 +1,30 @@
+{
+    "abstract": "Open ad hoc teamwork is the problem of training a single agent to efficiently collaborate with an unknown group of teammates whose composition may change over time. A variable team composition creates challenges for the agent, such as the requirement to adapt to new team dynamics and dealing with changing state vector sizes. These challenges are aggravated in real-world applications in which the controlled agent only has a partial view of the environment. In this work, we develop a class of solutions for open ad hoc teamwork under full and partial observability. We start by developing a solution for the fully observable case that leverages graph neural network architectures to obtain an optimal policy based on reinforcement learning. We then extend this solution to partially observable scenarios by proposing different methodologies that maintain belief estimates over the latent environment states and team composition. These belief estimates are combined with our solution for the fully observable case to compute an agent's optimal policy under partial observability in open ad hoc teamwork. Empirical results demonstrate that our solution can learn efficient policies in open ad hoc teamwork in fully and partially observable cases. Further analysis demonstrates that our methods' success is a result of effectively learning the effects of teammates' actions while also inferring the inherent state of the environment under partial observability.",
+    "authors": [
+        "Arrasy Rahman",
+        "Ignacio Carlucho",
+        "Niklas H\u00f6pner",
+        "Stefano V. Albrecht"
+    ],
+    "emails": [
+        "arrasy.rahman@ed.ac.uk",
+        "ignacio.carlucho@ed.ac.uk",
+        "n.r.hopner@uva.nl",
+        "s.albrecht@ed.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/uoe-agents/PO-GPL"
+        ]
+    ],
+    "id": "22-099",
+    "issue": 298,
+    "pages": [
+        1,
+        74
+    ],
+    "title": "A General Learning Framework for Open Ad Hoc Teamwork Using Graph-based Policy Learning",
+    "volume": 24,
+    "year": 2023
+}

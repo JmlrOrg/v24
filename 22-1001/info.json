@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we study a learning problem in which a forecaster only observes partial information. By properly rescaling the problem, we heuristically derive a limiting PDE on Wasserstein space which characterizes the asymptotic behavior of the regret of the forecaster. Using a verification type argument, we show that the problem of obtaining regret bounds and efficient algorithms can be tackled by finding appropriate smooth sub/supersolutions of this parabolic PDE.",
+    "authors": [
+        "Erhan Bayraktar",
+        "Ibrahim Ekren",
+        "Xin Zhang"
+    ],
+    "emails": [
+        "erhan@umich.edu",
+        "iekren@umich.edu",
+        "xin.zhang@univie.ac.at"
+    ],
+    "id": "22-1001",
+    "issue": 299,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "A PDE approach for regret bounds under partial monitoring",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "his paper considers the decentralized convex optimization problem, which has a wide range of applications in large-scale machine learning, sensor networks, and control theory. We propose novel algorithms that achieve optimal computation complexity and near optimal communication complexity. Our theoretical results give affirmative answers to the open problem on whether there exists an algorithm that can achieve a communication complexity (nearly) matching the lower bound depending on the global condition number instead of the local one. Furthermore, the linear convergence of our algorithms only depends on the strong convexity of global objective and it does not require the local functions to be convex. The design of our methods relies on a novel integration of well-known techniques including Nesterov's acceleration, multi-consensus and gradient-tracking. Empirical studies show the outperformance of our methods for machine learning applications.",
+    "authors": [
+        "Haishan Ye",
+        "Luo Luo",
+        "Ziang Zhou",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "yehaishan@xjtu.edu.cn",
+        "luoluo@fudan.edu.cn",
+        "20071642r@connect.polyu.hk",
+        "tongzhang@tongzhang-ml.org"
+    ],
+    "id": "22-1210",
+    "issue": 306,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Multi-Consensus Decentralized Accelerated Gradient Descent",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "This work shows that the demonstration of Proposition 15 of  Germain et al. (2015) is flawed and the proposition is false in a general setting. This proposition gave an inequality that upper-bounds the variance of the margin of a weighted majority vote classifier. Even though this flaw has little impact on the validity of the other results presented in Germain et al. (2015), correcting it leads to a deeper understanding of the $\\mathcal{C}$-bound, which is a key inequality that upper-bounds the risk of a majority vote classifier by the moments of its margin, and to a new result, namely a lower-bound on the $\\mathcal{C}$-bound. Notably, Germain et al.'s statement that ``the $\\mathcal{C}$-bound can be arbitrarily small'' is invalid in presence of irreducible error in learning problems with label noise. In this erratum, we pinpoint the mistake present in the demonstration of the said proposition, we give a corrected version of the proposition, and we propose a new theoretical lower bound on the $\\mathcal{C}$-bound.",
+    "authors": [
+        "Louis-Philippe Vignault",
+        "Audrey Durand",
+        "Pascal Germain"
+    ],
+    "emails": [
+        "louis-philippe.vignault.1@ulaval.ca",
+        "audrey.durand@ift.ulaval.ca",
+        "pascal.germain@ift.ulaval.ca"
+    ],
+    "id": "22-0747",
+    "issue": 294,
+    "pages": [
+        1,
+        13
+    ],
+    "title": "Erratum: Risk Bounds for the Majority Vote: From a PAC-Bayesian Analysis to a Learning Algorithm",
+    "volume": 24,
+    "year": 2023
+}

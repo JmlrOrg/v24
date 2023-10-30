@@ -1,0 +1,24 @@
+{
+    "abstract": "We introduce two block coordinate descent algorithms for solving optimization problems with ordinary differential equations (ODEs) as dynamical constraints. In contrast to prior algorithms, ours do not need to implement sensitivity analysis methods to evaluate loss function gradients. They result from the reformulation of the original problem as an equivalent optimization problem with equality constraints. In our first algorithm we avoid explicitly solving the ODE by integrating the ODE solver as a sequence of implicit constraints. In our second algorithm, we add an ODE solver to reset the estimate of the ODE solution, but no sensitivity analysis method is needed. We test the proposed algorithms on the problem of learning the parameters of the Cucker-Smale model. The algorithms are compared with gradient descent algorithms based on ODE solvers endowed with sensitivity analysis capabilities. We show that the proposed algorithms are at least 4x faster when implemented in Pytorch, and at least 16x faster when implemented in Jax. For large versions of the Cucker-Smale model, the Jax implementation is thousands of times faster. Our algorithms generate more accurate results both on training and test data. In addition, we show how the proposed algorithms scale with the number of optimization variables, and how they can be applied to learning black-box models of dynamical systems. Moreover, we demonstrate how our approach can be combined with approaches based on sensitivity analysis enabled ODE solvers to reduce the training time.",
+    "authors": [
+        "Ion Matei",
+        "Maksym Zhenirovskyy",
+        "Johan de Kleer",
+        "John Maxwell"
+    ],
+    "emails": [
+        "ion.matei@sri.com",
+        "maksym.zhenirovskyy@sri.com",
+        "johan.dekleer@sri.com",
+        "john.maxwell@sri.com"
+    ],
+    "id": "22-1002",
+    "issue": 300,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Sensitivity-Free Gradient Descent Algorithms",
+    "volume": 24,
+    "year": 2023
+}

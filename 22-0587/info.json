@@ -1,0 +1,22 @@
+{
+    "abstract": "This work studies the multi-task functional linear regression models where both the covariates and the unknown regression coefficients (called slope functions) are curves. For slope function estimation, we employ penalized splines to balance bias, variance, and computational complexity. The power of multi-task learning is brought in by imposing additional structures over the slope functions. We propose a general model with double regularization over the spline coefficient matrix: i) a matrix manifold constraint, and ii) a composite penalty as a summation of quadratic terms. Many multi-task learning approaches can be treated as special cases of this proposed model, such as a reduced-rank model and a graph Laplacian regularized model. We show the composite penalty induces a specific norm, which helps quantify the manifold curvature and determine the corresponding proper subset in the manifold tangent space. The complexity of tangent space subset is then bridged to the complexity of geodesic neighbor via generic chaining. A unified upper bound of the convergence rate is obtained and specifically applied to the reduced-rank model and the graph Laplacian regularized model. The phase transition behaviors for the estimators are examined as we vary the configurations of model parameters.",
+    "authors": [
+        "Shiyuan He",
+        "Hanxuan Ye",
+        "Kejun He"
+    ],
+    "emails": [
+        "heshiyuan@ruc.edu.cn",
+        "ye86171958@ruc.edu.cn",
+        "kejunhe@ruc.edu.cn"
+    ],
+    "id": "22-0587",
+    "issue": 291,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "A Unified Analysis of Multi-task Functional Linear Regression Models with Manifold Constraint and Composite Quadratic Penalty",
+    "volume": 24,
+    "year": 2023
+}

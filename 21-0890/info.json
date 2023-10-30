@@ -1,0 +1,24 @@
+{
+    "abstract": "Empirical risk minimization, where the underlying loss function depends on a pair of data points, covers a wide range of application areas in statistics including pairwise ranking and survival analysis. The common empirical risk estimator obtained by averaging values of a loss function over all possible pairs of observations is essentially a U-statistic.  One well-known problem with minimizing U-statistic type empirical risks, is that the computational complexity of U-statistics increases quadratically with the sample size.  When faced with big data, this poses computational challenges as the colossal number of observation pairs virtually prohibits centralized computing to be performed on a single machine.  This paper addresses this problem by developing two computationally and statistically efficient methods based on the divide-and-conquer strategy on a decentralized computing system, whereby the data are distributed among machines to perform the tasks.  One of these methods is based on a surrogate of the empirical risk, while the other method extends the one-step updating scheme in classical M-estimation to the case of pairwise loss.  We show that the proposed estimators are as asymptotically efficient as the benchmark global U-estimator obtained under centralized computing.  As well, we introduce two distributed iterative algorithms to facilitate the implementation of the proposed methods, and conduct extensive numerical experiments to demonstrate their merit.",
+    "authors": [
+        "Lanjue Chen",
+        "Alan T.K. Wan",
+        "Shuyi Zhang",
+        "Yong Zhou"
+    ],
+    "emails": [
+        "chenlanjue15@163.com",
+        "Alan.Wan@cityu.edu.hk",
+        "syzhang@fem.ecnu.edu.cn",
+        "yzhou@fem.ecnu.edu.cn"
+    ],
+    "id": "21-0890",
+    "issue": 263,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Distributed Algorithms for U-statistics-based Empirical Risk Minimization",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We  derive and analyze a generic, recursive  algorithm for estimating all splits in a finite cluster tree as well as  the corresponding clusters. We further investigate statistical properties of this generic clustering algorithm when it receives level set estimates from a kernel density estimator. In particular, we derive finite sample guarantees, consistency, rates of convergence, and an adaptive data-driven strategy for choosing the kernel bandwidth. For these results we do not need continuity assumptions on the density such as H\u00f6lder continuity, but only require intuitive geometric assumptions of non-parametric nature. In addition, we compare our results to other guarantees found in the literature and also present some experiments comparing our algorithm to $k$-means and hierarchical clustering.",
+    "authors": [
+        "Ingo Steinwart",
+        "Bharath K. Sriperumbudur",
+        "Philipp Thomann"
+    ],
+    "emails": [
+        "ingo.steinwart@mathematik.uni-stuttgart.de",
+        "bks18@psu.edu",
+        "philipp.thomann@d-one.ai"
+    ],
+    "id": "21-1532",
+    "issue": 275,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Adaptive Clustering Using Kernel Density Estimators",
+    "volume": 24,
+    "year": 2023
+}

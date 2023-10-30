@@ -1,0 +1,20 @@
+{
+    "abstract": "Distinguishing cause and effect from purely observational data is a fundamental problem in science. Even the atomic bivariate case, seemingly the simplest, is challenging and re- quires further assumptions to be identifiable at all. In recent years a variety of approaches to address this problem has been developed, each with its own assumptions, strengths, and weaknesses. In machine learning common benchmarks with real and synthetic data have been a main driver of innovation. Synthetic benchmarks can explicitly model data characteristics such as the underlying functional relations and distributions to assess how methods deal with these. However, a systematic assessment of the state-of-the-art of meth- ods is currently missing. We provide a detailed and systematic comparison of a range of methods on a novel collection of datasets that systematically models individual data challenges. Further, we evaluate more recent methods missing in previous benchmarks. The novel suite of datasets will be contributed to the causeme.net benchmark platform to provide a continuously updated and searchable causal discovery method intercomparison database. Our aim is to assist users in finding the most suitable methods for their problem setting and for method developers to improve current and develop new methods.",
+    "authors": [
+        "Christoph K\u00e4ding,",
+        "Jakob Runge,"
+    ],
+    "emails": [
+        "christoph.kaeding@pm.me",
+        "runge@tu-berlin.de"
+    ],
+    "id": "22-0151",
+    "issue": 278,
+    "pages": [
+        1,
+        144
+    ],
+    "title": "Distinguishing Cause and Effect in Bivariate Structural Causal Models: A Systematic Investigation",
+    "volume": 24,
+    "year": 2023
+}

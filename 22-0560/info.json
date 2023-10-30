@@ -1,0 +1,22 @@
+{
+    "abstract": "A basic task in explainable AI (XAI) is to identify the most important features behind a prediction made by a black box function f. The insertion and deletion tests of Petsiuk et al. (2018) can be used to judge the quality of algorithms that rank pixels from most to least important for a classification. Motivated by regression problems we establish a formula for their area under the curve (AUC) criteria in terms of certain main effects and interactions in an anchored decomposition of f. We find an expression for the expected value of the AUC under a random ordering of inputs to f and propose an alternative area above a straight line for the regression setting. We use this criterion to compare feature importances computed by integrated gradients (IG) to those computed by Kernel SHAP (KS) as well as LIME, DeepLIFT, vanilla gradient and input\u00d7gradient methods. KS has the best overall performance in two datasets we consider but it is very expensive to compute. We find that IG is nearly as good as KS while being much faster. Our comparison problems include some binary inputs that pose a challenge to IG because it must use values between the possible variable levels and so we consider ways to handle binary variables in IG. We show that sorting variables by their Shapley value does not necessarily give the optimal ordering for an insertion-deletion test. It will however do that for monotone functions of additive models, such as logistic regression.",
+    "authors": [
+        "Naofumi Hama",
+        "Masayoshi Mase",
+        "Art B. Owen"
+    ],
+    "emails": [
+        "naofumi.hama.hd@hitachi.com",
+        "masayoshi.mase.mh@hitachi.com",
+        "owen@stanford.edu"
+    ],
+    "id": "22-0560",
+    "issue": 290,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Deletion and Insertion Tests in Regression Models",
+    "volume": 24,
+    "year": 2023
+}

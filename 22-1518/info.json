@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we consider a class of nonconvex-nonconcave minimax problems, i.e., NC-PL minimax problems, whose objective functions satisfy the Polyak-Lojasiewicz (PL) condition with respect to the inner variable. We propose a zeroth-order alternating gradient descent ascent (ZO-AGDA) algorithm and a zeroth-order variance reduced alternating gradient descent ascent (ZO-VRAGDA) algorithm  for solving NC-PL minimax problem under the deterministic and the stochastic setting, respectively. The total number of function value queries to obtain an $\\epsilon$-stationary point of ZO-AGDA and ZO-VRAGDA algorithm for solving NC-PL minimax problem is upper bounded by $\\mathcal{O}(\\varepsilon^{-2})$ and $\\mathcal{O}(\\varepsilon^{-3})$, respectively. To the best of our knowledge, they are the first two zeroth-order algorithms with the iteration complexity gurantee for solving NC-PL minimax problems.",
+    "authors": [
+        "Zi Xu",
+        "Zi-Qi Wang",
+        "Jun-Lin Wang",
+        "Yu-Hong Dai"
+    ],
+    "emails": [
+        "xuzi@shu.edu.cn",
+        "colwzq@shu.edu.cn",
+        "wjl37@shu.edu.cn",
+        "dyh@lsec.cc.ac.cn"
+    ],
+    "id": "22-1518",
+    "issue": 313,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Zeroth-Order Alternating Gradient Descent Ascent Algorithms for A Class of Nonconvex-Nonconcave Minimax Problems",
+    "volume": 24,
+    "year": 2023
+}

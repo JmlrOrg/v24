@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the problem of regression in a generalized linear model (GLM) with multiple signals and latent variables. This model, which we call a matrix GLM, covers many widely studied problems in statistical learning, including mixed linear regression, max-affine regression, and mixture-of-experts. The goal in all these problems is to estimate the signals, and possibly some of the latent variables, from the observations. We propose a novel approximate message passing (AMP) algorithm for estimation in a matrix GLM and rigorously characterize its performance in the high-dimensional limit. This characterization is in terms of a state evolution recursion, which allows us to precisely compute performance measures such as the asymptotic mean-squared error. The state evolution characterization can be used to tailor the AMP algorithm to take advantage of any structural information known about the signals. Using state evolution, we derive an optimal choice of AMP `denoising' functions that minimizes the estimation error in each iteration. The theoretical results are validated by numerical simulations for mixed linear regression, max-affine regression, and mixture-of-experts. For max-affine regression, we propose an algorithm that combines AMP with expectation-maximization to estimate the intercepts of the model along with the signals. The numerical results show that AMP significantly outperforms other estimators for mixed linear regression and  max-affine regression in most parameter regimes.",
+    "authors": [
+        "Nelvin Tan",
+        "Ramji Venkataramanan"
+    ],
+    "emails": [
+        "tcnt2@cam.ac.uk",
+        "rv285@cam.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nelvintan/AMP_for_Mixed_Regression"
+        ]
+    ],
+    "id": "23-0473",
+    "issue": 317,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Mixed Regression via Approximate Message Passing",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Invertible neural networks (INNs) are neural network architectures with invertibility by design. Thanks to their invertibility and the tractability of their Jacobians, INNs have various machine learning applications such as probabilistic modeling, generative modeling, and representation learning. However, their attractive properties often come at the cost of restricting the layer design, which poses a question on their representation power: can we use these models to approximate sufficiently diverse functions? To answer this question, we have developed a general theoretical framework to investigate the representation power of INNs, building on a structure theorem of differential geometry. The framework simplifies the approximation problem of diffeomorphisms, which enables us to show the universal approximation properties of INNs. We apply the framework to two representative classes of INNs, namely Coupling-Flow-based INNs (CF-INNs) and Neural Ordinary Differential Equations (NODEs), and elucidate their high representation power despite the restrictions on their architectures.",
+    "authors": [
+        "Isao Ishikawa",
+        "Takeshi Teshima",
+        "Koichi Tojo",
+        "Kenta Oono",
+        "Masahiro Ikeda",
+        "Masashi Sugiyama"
+    ],
+    "emails": [
+        "ishikawa.isao.zx@ehime-u.ac.jp",
+        "takeshi.teshima@a.riken.jp",
+        "koichi.tojo@riken.jp",
+        "kenta.oono@a.riken.jp",
+        "masahiro.ikeda@riken.jp",
+        "sugi@k.u-tokyo.ac.jp"
+    ],
+    "id": "22-0384",
+    "issue": 287,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Universal Approximation Property of Invertible Neural Networks",
+    "volume": 24,
+    "year": 2023
+}

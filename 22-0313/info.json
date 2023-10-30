@@ -1,0 +1,28 @@
+{
+    "abstract": "Communities are a common and widely studied structure in networks, typically assuming that the network is fully and correctly observed.  In practice, network data are often collected by querying nodes about their connections. In some settings, all edges of a sampled node will be recorded, and in others, a node may be asked to name its connections. These sampling mechanisms introduce noise and bias, which can obscure the community structure and invalidate assumptions underlying standard community detection methods. We propose a general model for a class of network sampling mechanisms based on recording edges via querying nodes, designed to improve community detection for network data collected in this fashion.  We model edge sampling probabilities as a function of both individual preferences and community parameters, and show community detection can be performed by spectral clustering under this general class of models.  We also propose, as a special case of the general framework, a parametric model for directed networks we call the nomination stochastic block model, which allows for meaningful parameter interpretations and can be fitted by the method of moments. In this case, spectral clustering and the method of moments are computationally efficient and come with theoretical guarantees of consistency. We evaluate the proposed model in simulation studies on unweighted and weighted networks and under misspecified models. The method is applied to a faculty hiring dataset, discovering a meaningful hierarchy of communities among US business schools.",
+    "authors": [
+        "Tianxi Li",
+        "Elizaveta Levina",
+        "Ji Zhu"
+    ],
+    "emails": [
+        "tianxili@umn.edu",
+        "elevina@umich.edu",
+        "jizhu@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tianxili/NSBM"
+        ]
+    ],
+    "id": "22-0313",
+    "issue": 282,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Community models for networks observed through edge nominations",
+    "volume": 24,
+    "year": 2023
+}

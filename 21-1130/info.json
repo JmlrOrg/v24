@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the Sparse Plus Low-Rank decomposition problem (SLR), which is the problem of decomposing a corrupted data matrix into a sparse matrix of perturbations plus a low-rank matrix containing the ground truth. SLR is a fundamental problem in Operations Research and Machine Learning which arises in various applications, including data compression, latent semantic indexing, collaborative filtering, and medical imaging. We introduce a novel formulation for SLR that directly models its underlying discreteness. For this formulation, we develop an alternating minimization heuristic that computes high-quality solutions and a novel semidefinite relaxation that provides meaningful bounds for the solutions returned by our heuristic. We also develop a custom branch-and-bound algorithm that leverages our heuristic and convex relaxations to solve small instances of SLR to certifiable (near) optimality. Given an input n-by-n matrix, our heuristic scales to solve instances where n = 10000 in minutes, our relaxation scales to instances where n = 200 in hours, and our branch-and-bound algorithm scales to instances where n = 25 in minutes. Our numerical results demonstrate that our approach outperforms existing state-of-the-art approaches in terms of rank, sparsity, and mean-square error while maintaining a comparable runtime.",
+    "authors": [
+        "Dimitris Bertsimas",
+        "Ryan Cory-Wright",
+        "Nicholas A. G. Johnson"
+    ],
+    "emails": [
+        "dbertsim@mit.edu",
+        "r.cory-wright@imperial.ac.uk",
+        "nagj@mit.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/NicholasJohnson2020/SparseLowRankSoftware"
+        ]
+    ],
+    "id": "21-1130",
+    "issue": 267,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Sparse Plus Low Rank Matrix Decomposition: A Discrete Optimization Approach",
+    "volume": 24,
+    "year": 2023
+}

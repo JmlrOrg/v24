@@ -1,0 +1,30 @@
+{
+    "abstract": "Complexity is a fundamental concept underlying statistical learning theory that aims to inform generalization performance. Parameter count, while successful in low-dimensional settings, is not well-justified for overparameterized settings when the number of parameters is more than the number of training samples. We revisit complexity measures based on Rissanen's principle of minimum description length (MDL) and define a novel MDL-based complexity (MDL-COMP) that remains valid for overparameterized models. MDL-COMP is defined via an optimality criterion over the encodings induced by a good Ridge estimator class. We provide an extensive theoretical characterization of MDL-COMP for linear models and kernel methods and show that it is not just a function of parameter count, but rather a function of the singular values of the design or the kernel matrix and the signal-to-noise ratio. For a linear model with $n$ observations, $d$ parameters, and i.i.d. Gaussian predictors, MDL-COMP scales linearly with $d$ when $d<n$, but the scaling is exponentially smaller---$\\log d$ for $d>n$. For kernel methods, we show that MDL-COMP informs minimax in-sample error, and can decrease as the dimensionality of the input increases. We also prove that MDL-COMP upper bounds the in-sample mean squared error (MSE). Via an array of simulations and real-data experiments, we show that a data-driven Prac-MDL-COMP informs hyper-parameter tuning for optimizing test MSE with ridge regression in limited data settings, sometimes improving upon cross-validation and (always) saving computational costs. Finally, our findings also suggest that the recently observed double decent phenomenons in overparameterized models might be a consequence of the choice of non-ideal estimators.",
+    "authors": [
+        "Raaz Dwivedi",
+        "Chandan Singh",
+        "Bin Yu",
+        "Martin Wainwright"
+    ],
+    "emails": [
+        "dwivedi@cornell.edu",
+        "chansingh@microsoft.com",
+        "binyu@berkeley.edu",
+        "wainwrigwork@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/csinva/mdl-complexity"
+        ]
+    ],
+    "id": "21-1133",
+    "issue": 268,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Revisiting minimum description length complexity in overparameterized models",
+    "volume": 24,
+    "year": 2023
+}

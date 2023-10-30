@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper revisits the bandit problem in the Bayesian setting. The Bayesian approach formulates the bandit problem as an optimization problem, and the goal is to find the optimal policy which minimizes the Bayesian regret. One of the main challenges facing the Bayesian approach is that computation of the optimal policy is often intractable, especially when the length of the problem horizon or the number of arms is large. In this paper, we first show that under a suitable rescaling, the Bayesian bandit problem converges toward a continuous Hamilton-Jacobi-Bellman (HJB) equation. The optimal policy for the limiting HJB equation can be explicitly obtained for several common bandit problems, and we give numerical methods to solve the HJB equation when an explicit solution is not available. Based on these results, we propose an approximate Bayes-optimal policy for solving Bayesian bandit problems with large horizons. Our method has the added benefit that its computational cost does not increase as the horizon increases.",
+    "authors": [
+        "Yuhua Zhu",
+        "Zachary Izzo",
+        "Lexing Ying"
+    ],
+    "emails": [
+        "yuz244@ucsd.edu",
+        "zizzo@stanford.edu",
+        "lexing@stanford.edu"
+    ],
+    "id": "22-1181",
+    "issue": 305,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Continuous-in-time Limit for Bayesian Bandits",
+    "volume": 24,
+    "year": 2023
+}

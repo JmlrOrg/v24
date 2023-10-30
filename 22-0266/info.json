@@ -1,0 +1,20 @@
+{
+    "abstract": "Finite-order Markov models are well-studied models for dependent finite alphabet data. Despite their generality, application in empirical work is rare when the order $d$ is large relative to the sample size $n$ (e.g., $d = \\mathcal{O}(n)$). Practitioners rarely use higher-order Markov models because (1) the number of parameters grows exponentially with the order, (2) the sample size $n$ required to estimate each parameter grows exponentially with the order, and (3) the interpretation is often difficult. Here, we consider a subclass of Markov models called Mixture of Transition Distribution (MTD) models, proving that when the set of relevant lags is sparse (i.e., $\\mathcal{O}(\\log(n))$), we can consistently and efficiently recover the lags and estimate the transition probabilities of high-dimensional ($d = \\mathcal{O}(n)$) MTD models. Moreover, the estimated model allows straightforward interpretation. The key innovation is a recursive procedure for a priori selection of the relevant lags of the model. We prove a new structural result for the MTD and an improved martingale concentration inequality to prove our results. Using simulations, we show that our method performs well compared to other relevant methods. We also illustrate the usefulness of our method on weather data where the proposed method correctly recovers the long-range dependence.",
+    "authors": [
+        "Guilherme Ost",
+        "Daniel Y. Takahashi"
+    ],
+    "emails": [
+        "guilhermeost@im.ufrj.br",
+        "takahashiyd@gmail.com"
+    ],
+    "id": "22-0266",
+    "issue": 279,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Sparse Markov Models for High-dimensional Inference",
+    "volume": 24,
+    "year": 2023
+}
