@@ -2,8 +2,8 @@
     "abstract": "We study the non-stationary stochastic multi-armed bandit problem, where the reward statistics of each arm may change several times during the course of learning. The performance of a learning algorithm is evaluated in terms of its dynamic regret, which is defined as the difference between the expected cumulative reward of an agent choosing the optimal arm in every time step and the cumulative reward of the learning algorithm. One way to measure the hardness of such environments is to consider how many times the identity of the optimal arm can change. We propose a method that achieves, in $K$-armed bandit problems, a near-optimal $\\widetilde O(\\sqrt{K N(S+1)})$ dynamic regret, where $N$ is the time horizon of the problem and $S$ is the number of times the identity of the optimal arm changes, without prior knowledge of $S$. Previous works for this problem obtain regret bounds that scale with the number of changes (or the amount of change) in the reward functions, which can be much larger, or assume prior knowledge of $S$ to achieve similar bounds.",
     "authors": [
         "Yasin Abbasi-Yadkori",
-        "Andras Gyorgy",
-        "Nevena Lazic"
+        "András György",
+        "Nevena Lazić"
     ],
     "emails": [
         "yadkori@google.com",
