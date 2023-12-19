@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we study the Radial Basis Function (RBF) approximation to differential operators on smooth tensor fields defined on closed Riemannian submanifolds of Euclidean space, identified by randomly sampled point cloud data. The formulation in this paper leverages a fundamental fact that the covariant derivative on a submanifold is the projection of the directional derivative in the ambient Euclidean space onto the tangent space of the submanifold. To differentiate a test function (or vector field) on the submanifold with respect to the Euclidean metric, the RBF interpolation is applied to extend the function (or vector field) in the ambient Euclidean space. When the manifolds are unknown, we develop an improved second-order local SVD technique for estimating local tangent spaces on the manifold. When the classical pointwise non-symmetric RBF formulation is used to solve Laplacian eigenvalue problems, we found that while accurate estimation of the leading spectra can be obtained with large enough data, such an approximation often produces irrelevant complex-valued spectra (or pollution) as the true spectra are real-valued and positive. To avoid such an issue, we introduce a symmetric RBF discrete approximation of the Laplacians induced by a weak formulation on appropriate Hilbert spaces. Unlike the non-symmetric approximation, this formulation guarantees non-negative real-valued spectra and the orthogonality of the eigenvectors. Theoretically, we establish the convergence of the eigenpairs of both the Laplace-Beltrami operator and Bochner Laplacian for the symmetric formulation in the limit of large data with convergence rates. Numerically, we provide supporting examples for approximations of the Laplace-Beltrami operator and various vector Laplacians, including the Bochner, Hodge, and Lichnerowicz Laplacians.",
+    "authors": [
+        "John Harlim",
+        "Shixiao Willing Jiang",
+        "John Wilson Peoples"
+    ],
+    "emails": [
+        "jharlim@psu.edu",
+        "jiangshx@shanghaitech.edu.cn",
+        "jwp5828@psu.edu"
+    ],
+    "id": "22-1193",
+    "issue": 345,
+    "pages": [
+        1,
+        85
+    ],
+    "title": "Radial Basis Approximation of Tensor Fields on Manifolds: From Operator Estimation to Manifold Learning",
+    "volume": 24,
+    "year": 2023
+}

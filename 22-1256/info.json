@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper is concerned with the low Tucker-rank tensor completion problem, which is about reconstructing a tensor $\\mathcal{T}\\in\\mathbb{R}^{n\\times n\\times n}$ of low multilinear rank from partially observed entries. Riemannian optimization algorithms are a class of efficient methods for this problem, but the theoretical convergence  analysis  is still lacking. In this manuscript, we establish the entrywise convergence of the vanilla Riemannian gradient method for low Tucker-rank tensor completion under the nearly optimal sampling complexity $O(n^{3/2})$. Meanwhile, the implicit regularization phenomenon of the algorithm  has also been revealed.  As far as we know, this is the first work that has shown the  entrywise convergence and  implicit regularization property of a non-convex method for low Tucker-rank tensor completion. The analysis relies on the leave-one-out technique, and some of the technical results developed in the paper might be of broader interest in investigating the properties of other non-convex methods for this problem.",
+    "authors": [
+        "Haifeng Wang",
+        "Jinchi Chen",
+        "Ke Wei"
+    ],
+    "emails": [
+        "20110980008@fudan.edu.cn",
+        "jcchen.phys@gmail.com",
+        "kewei@fudan.edu.cn"
+    ],
+    "id": "22-1256",
+    "issue": 347,
+    "pages": [
+        1,
+        84
+    ],
+    "title": "Implicit Regularization and Entrywise Convergence of Riemannian Optimization  for Low Tucker-Rank Tensor Completion",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The dynamic Schr\u00f6dinger bridge problem seeks a stochastic process that defines a transport between two target probability measures, while optimally satisfying the criteria of being closest, in terms of Kullback-Leibler divergence, to a reference process. We propose a novel sampling-based iterative algorithm, the iterated diffusion bridge mixture (IDBM) procedure, aimed at solving the dynamic Schr\u00f6dinger bridge problem. The IDBM procedure exhibits the attractive property of realizing a valid transport between the target probability measures at each iteration. We perform an initial theoretical investigation of the IDBM procedure, establishing its convergence properties. The theoretical findings are complemented by numerical experiments illustrating the competitive performance of the IDBM procedure. Recent advancements in generative modeling employ the time-reversal of a diffusion process to define a generative process that approximately transports a simple distribution to the data distribution. As an alternative, we propose utilizing the first iteration of the IDBM procedure as an approximation-free method for realizing this transport. This approach offers greater flexibility in selecting the generative process dynamics and exhibits accelerated training and superior sample quality over larger discretization intervals. In terms of implementation, the necessary modifications are minimally intrusive, being limited to the training loss definition.",
+    "authors": [
+        "Stefano Peluchetti"
+    ],
+    "emails": [
+        "speluchetti@cogent.co.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/stepelu/idbm-pytorch"
+        ]
+    ],
+    "id": "23-0527",
+    "issue": 374,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Diffusion Bridge Mixture Transports, Schr\u00f6dinger Bridge Problems and Generative Modeling",
+    "volume": 24,
+    "year": 2023
+}

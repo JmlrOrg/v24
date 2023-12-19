@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper investigates two accelerated primal-dual mirror dynamical approaches for smooth and nonsmooth convex optimization problems with affine and closed, convex set constraints. In the smooth case, an accelerated primal-dual mirror dynamical approach (APDMD) based on accelerated mirror descent and primal-dual framework is proposed and accelerated convergence properties of primal-dual gap, feasibility measure and the objective function value along with trajectories of APDMD are derived by the Lyapunov analysis method. Then, we extend APDMD into two distributed dynamical approaches to deal with two types of distributed smooth optimization problems, i.e., distributed constrained consensus problem (DCCP) and distributed extended monotropic optimization (DEMO) with accelerated convergence guarantees. Moreover, in the nonsmooth case, we propose a smoothing accelerated primal-dual mirror dynamical approach (SAPDMD) with the help of smoothing approximation technique and the above APDMD. We further also prove that primal-dual gap, objective function value and feasibility measure along with trajectories of SAPDMD have the same accelerated convergence properties as APDMD by choosing the appropriate smooth approximation parameters. Later, we propose two smoothing accelerated distributed dynamical approaches to deal with nonsmooth DEMO and DCCP to obtain accelerated and efficient solutions. Finally, numerical and comparative experiments are given to demonstrate the effectiveness and superiority of the proposed accelerated mirror dynamical approaches.",
+    "authors": [
+        "You Zhao",
+        "Xiaofeng Liao",
+        "Xing He",
+        "Mingliang Zhou",
+        "Chaojie Li"
+    ],
+    "emails": [
+        "Zhaoyou1991sdtz@163.com",
+        "xfliao@cqu.edu.cn",
+        "hexingdoc@swu.edu.cn",
+        "Mingliangzhou@cqu.edu.cn",
+        "Cjlee.cqu@163.com"
+    ],
+    "id": "22-1069",
+    "issue": 343,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Accelerated Primal-Dual Mirror Dynamics for Centralized and Distributed Constrained Convex Optimization Problems",
+    "volume": 24,
+    "year": 2023
+}

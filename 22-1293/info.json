@@ -1,0 +1,26 @@
+{
+    "abstract": "Existing generalization bounds fail to explain crucial factors that drive the generalization of modern neural networks.  Since such bounds often hold uniformly over all parameters, they suffer from over-parametrization and fail to account for the strong inductive bias of initialization and stochastic gradient descent.  As an alternative, we propose a novel optimal transport interpretation of the generalization problem. This allows us to derive instance-dependent generalization bounds that depend on the local Lipschitz regularity of the learned prediction function in the data space. Therefore, our bounds are agnostic to the parametrization of the model and work well when the number of training samples is much smaller than the number of parameters.  With small modifications, our approach yields accelerated rates for data on low-dimensional manifolds and guarantees under distribution shifts. We empirically analyze our generalization bounds for neural networks, showing that the bound values are meaningful and capture the effect of popular regularization methods during training.",
+    "authors": [
+        "Songyan Hou",
+        "Parnian Kassraie",
+        "Anastasis Kratsios",
+        "Andreas Krause",
+        "Jonas Rothfuss"
+    ],
+    "emails": [
+        "songyan.hou@ethz.ch",
+        "pkassraie@ethz.ch",
+        "kratsioa@mcmaster.ca",
+        "krausea@ethz.ch",
+        "jonas.rothfuss@inf.ethz.ch"
+    ],
+    "id": "22-1293",
+    "issue": 349,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Instance-Dependent Generalization Bounds via Optimal Transport",
+    "volume": 24,
+    "year": 2023
+}

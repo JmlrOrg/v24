@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper develops a new framework, called modular regression, to utilize auxiliary information -- such as variables other than the original features or additional data sets -- in the training process of linear models. At a high level, our method follows the routine: (i) decomposing the regression task into several sub-tasks, (ii) fitting the sub-task models, and (iii) using the sub-task models to provide an improved estimate for the original regression problem. This routine applies to widely-used low-dimensional (generalized) linear models and high-dimensional regularized linear regression. It also naturally extends to missing-data settings where only partial observations are available. By incorporating auxiliary information, our approach improves the estimation efficiency and prediction accuracy upon linear regression or the Lasso under a conditional independence assumption for predicting the outcome. For high-dimensional settings, we develop an extension of our procedure that is robust to violations of the conditional independence assumption, in the sense that it improves efficiency if this assumption holds and coincides with the Lasso otherwise. We demonstrate the efficacy of our methods with simulated and real data sets.",
+    "authors": [
+        "Ying Jin",
+        "Dominik Rothenh\u00e4usler"
+    ],
+    "emails": [
+        "ying531@stanford.edu",
+        "rdominik@stanford.edu"
+    ],
+    "id": "22-1318",
+    "issue": 351,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Modular Regression: Improving Linear Models by Incorporating Auxiliary Data",
+    "volume": 24,
+    "year": 2023
+}

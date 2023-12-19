@@ -1,0 +1,36 @@
+{
+    "abstract": "Recent advances in reinforcement learning (RL) have increased the promise of introducing cognitive assistance and automation to robot-assisted laparoscopic surgery (RALS). However, progress in algorithms and methods depends on the availability of standardized learning environments that represent skills relevant to RALS. We present LapGym, a framework for building RL environments for RALS that models the challenges posed by surgical tasks, and sofaenv, a diverse suite of 12 environments. Motivated by surgical training, these environments are organized into 4 tracks: Spatial Reasoning, Deformable Object Manipulation & Grasping, Dissection, and Thread Manipulation. Each environment is highly parametrizable for increasing difficulty, resulting in a high performance ceiling for new algorithms. We use Proximal Policy Optimization (PPO) to establish a baseline for model-free RL algorithms, investigating the effect of several environment parameters on task difficulty. Finally, we show that many environments and parameter configurations reflect well-known, open problems in RL research, allowing researchers to continue exploring these fundamental problems in a surgical context. We aim to provide a challenging, standard environment suite for further development of RL for RALS, ultimately helping to realize the full potential of cognitive surgical robotics. LapGym is publicly accessible through GitHub (https://github.com/ScheiklP/lap_gym).",
+    "authors": [
+        "Paul Maria Scheikl",
+        "Bal\u00e1zs Gyenes",
+        "Rayan Younis",
+        "Christoph Haas",
+        "Gerhard Neumann",
+        "Martin Wagner",
+        "Franziska Mathis-Ullrich"
+    ],
+    "emails": [
+        "paul.m.scheikl@fau.de",
+        "balazs.gyenes@kit.edu",
+        "rayan.younis@stud.uni-heidelberg.de",
+        "christoph.haas@student.kit.edu",
+        "gerhard.neumann@kit.edu",
+        "martin.wagner@ukdd.de",
+        "franziska.mathis-ullrich@fau.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ScheiklP/lap_gym"
+        ]
+    ],
+    "id": "23-0207",
+    "issue": 368,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "LapGym - An Open Source Framework for Reinforcement Learning in Robot-Assisted Laparoscopic Surgery",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,33 @@
+{
+    "abstract": "Continual learning is the problem of learning from a nonstationary stream of data, a fundamental issue for sustainable and efficient training of deep neural networks over time. Unfortunately, deep learning libraries only provide primitives for offline training, assuming that model's architecture and data are fixed. Avalanche  is an open source library maintained by the ContinualAI non-profit organization that extends PyTorch by providing first-class support for dynamic architectures, streams of datasets, and incremental training and evaluation methods. Avalanche provides a large set of predefined benchmarks and training algorithms and it is easy to extend and modular while supporting a wide range of continual learning scenarios. Documentation is available at https://avalanche.continualai.org.",
+    "authors": [
+        "Antonio Carta",
+        "Lorenzo Pellegrini",
+        "Andrea Cossu",
+        "Hamed Hemati",
+        "Vincenzo Lomonaco"
+    ],
+    "emails": [
+        "antonio.carta@unipi.it",
+        "l.pellegrini@unibo.it",
+        "andrea.cossu@sns.it",
+        "hamed.hemati@unisg.ch",
+        "vincenzo.lomonaco@unipi.it"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://avalanche.continualai.org/"
+        ]
+    ],
+    "id": "23-0130",
+    "issue": 363,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Avalanche: A PyTorch Library for Deep Continual Learning",
+    "volume": 24,
+    "year": 2023
+}

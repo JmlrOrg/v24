@@ -1,0 +1,37 @@
+{
+    "abstract": "Differentiable optimization algorithms often involve expensive computations of various meta-gradients. To address this, we design and implement TorchOpt, a new PyTorch-based differentiable optimization library. TorchOpt provides an expressive and unified programming interface that simplifies the implementation of explicit, implicit, and zero-order gradients. Moreover, TorchOpt has a distributed execution runtime capable of parallelizing diverse operations linked to differentiable optimization tasks across CPU and GPU devices. Experimental results demonstrate that TorchOpt achieves a 5.2\u00d7 training time speedup in a cluster. TorchOpt is open-sourced at https://github.com/metaopt/torchopt and has become a PyTorch Ecosystem project.",
+    "authors": [
+        "Jie Ren*",
+        "Xidong Feng*",
+        "Bo Liu*",
+        "Xuehai Pan*",
+        "Yao Fu",
+        "Luo Mai",
+        "Yaodong Yang"
+    ],
+    "emails": [
+        "jieren9806@gmail.com",
+        "xidong.feng.20@ucl.ac.uk",
+        "benjaminliu.eecs@gmail.com",
+        "xuehaipan@pku.edu.cn",
+        "y.fu@ed.ac.uk",
+        "luo.mai@ed.ac.uk",
+        "yaodong.yang@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/metaopt/torchopt"
+        ]
+    ],
+    "id": "23-0191",
+    "issue": 367,
+    "pages": [
+        1,
+        14
+    ],
+    "special_issue": "MLOSS",
+    "title": "TorchOpt: An Efficient Library for Differentiable Optimization",
+    "volume": 24,
+    "year": 2023
+}

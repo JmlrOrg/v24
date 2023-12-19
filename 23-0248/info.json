@@ -1,0 +1,28 @@
+{
+    "abstract": "In nonparametric independence testing, we observe i.i.d.\\ data $\\{(X_i,Y_i)\\}_{i=1}^n$, where $X \\in \\mathcal{X}, Y \\in \\mathcal{Y}$ lie in any general spaces, and we wish to test the null that $X$ is independent of $Y$. Modern test statistics such as  the kernel Hilbert--Schmidt Independence Criterion (HSIC)  and Distance Covariance (dCov) have intractable null distributions due to the degeneracy of the underlying U-statistics. Hence, in practice, one often resorts to using permutation testing, which provides a nonasymptotic guarantee at the expense of recalculating the quadratic-time statistics (say) a few hundred times. In this paper, we provide a simple but nontrivial modification of HSIC and dCov (called  xHSIC and xdCov, pronounced ``cross'' HSIC/dCov) so that they have a limiting Gaussian distribution under the null, and thus do not require permutations. We show that our new tests, like the originals, are consistent against fixed alternatives, and minimax rate optimal against smooth local alternatives. Numerical simulations demonstrate that compared to the permutation tests, our variants have the same power within a constant factor, giving practitioners a new  option for large problems or data-analysis pipelines where computation, not sample size, could be the bottleneck.",
+    "authors": [
+        "Shubhanshu Shekhar",
+        "Ilmun Kim",
+        "Aaditya Ramdas"
+    ],
+    "emails": [
+        "shubhan2@andrew.cmu.edu",
+        "ilmun@yonsei.ac.kr",
+        "aramdas@stat.cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sshekhar17/PermFreeHSIC"
+        ]
+    ],
+    "id": "23-0248",
+    "issue": 369,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "A Permutation-Free Kernel Independence Test",
+    "volume": 24,
+    "year": 2023
+}

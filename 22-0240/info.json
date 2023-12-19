@@ -1,0 +1,32 @@
+{
+    "abstract": "In recent years, algorithms and neural architectures based on the Weisfeiler\u2013Leman algorithm, a well-known heuristic for the graph isomorphism problem, have emerged as a powerful tool for machine learning with graphs and relational data. Here, we give a comprehensive overview of the algorithm\u2019s use in a machine-learning setting, focusing on the supervised regime. We discuss the theoretical background, show how to use it for supervised graph and node representation learning, discuss recent extensions, and outline the algorithm\u2019s connection to (permutation-)equivariant neural architectures. Moreover, we give an overview of current applications and future directions to stimulate further research.",
+    "authors": [
+        "Christopher Morris",
+        "Yaron Lipman",
+        "Haggai Maron",
+        "Bastian Rieck",
+        "Nils M. Kriege",
+        "Martin Grohe",
+        "Matthias Fey",
+        "Karsten Borgwardt"
+    ],
+    "emails": [
+        "morris@cs.rwth-aachen.de",
+        "yaron.lipman@weizmann.ac.il",
+        "hmaron@nvidia.com",
+        "bastian.rieck@helmholtz-muenchen.de",
+        "nils.kriege@univie.ac.at",
+        "grohe@informatik.rwth-aachen.de",
+        "matthias@kumo.ai",
+        "karsten.borgwardt@bsse.ethz.ch"
+    ],
+    "id": "22-0240",
+    "issue": 333,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Weisfeiler and Leman go Machine Learning: The Story so far",
+    "volume": 24,
+    "year": 2023
+}

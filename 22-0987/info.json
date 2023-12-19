@@ -1,0 +1,20 @@
+{
+    "abstract": "Statistical decision problems lie at the heart of statistical machine learning. The simplest problems are multiclass classification and class probability estimation. Central to their definition is the choice of loss function, which is the means by which the quality of a solution is evaluated. In this paper we systematically develop the theory of loss functions for such problems from a novel perspective whose basic ingredients are convex sets with a particular structure. The loss function is defined as the subgradient of the support function of the convex set. It is consequently automatically proper (calibrated for probability estimation). This perspective provides three novel opportunities. It enables the development of a fundamental relationship between losses and (anti)-norms that appears to have not been noticed before. Second, it enables the development of a calculus of losses induced by the calculus of convex sets which allows the interpolation between different losses, and thus is a potential useful design tool for tailoring losses to particular problems. In doing this we build upon, and considerably extend, existing results on M-sums of convex sets. Third, the perspective leads to a natural theory of \u201cpolar\u201d loss functions, which are derived from the polar dual of the convex set defining the loss, and which form a natural universal substitution function for Vovk\u2019s aggregating algorithm.",
+    "authors": [
+        "Robert C. Williamson",
+        "Zac Cranko"
+    ],
+    "emails": [
+        "bob.williamson@uni-tuebingen.de",
+        "zac.cranko@gmail.com"
+    ],
+    "id": "22-0987",
+    "issue": 342,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "The Geometry and Calculus of Losses",
+    "volume": 24,
+    "year": 2023
+}

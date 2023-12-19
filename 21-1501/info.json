@@ -1,0 +1,26 @@
+{
+    "abstract": "Contrastive learning has achieved state-of-the-art performance in various self-supervised learning tasks and even outperforms its supervised counterpart. Despite its empirical success, theoretical understanding of the superiority of contrastive learning is still limited. In this paper, under linear representation settings, (i) we provably show that contrastive learning outperforms the standard autoencoders and generative adversarial networks, two classical generative unsupervised learning methods, for both feature recovery and in-domain downstream tasks; (ii) we also illustrate the impact of labeled data in supervised contrastive learning. This provides theoretical support for recent findings that contrastive learning with labels improves the performance of learned representations in the in-domain downstream task,  but it can harm the performance in transfer learning. We verify our theory with numerical experiments.",
+    "authors": [
+        "Wenlong Ji",
+        "Zhun Deng",
+        "Ryumei Nakada",
+        "James Zou",
+        "Linjun Zhang"
+    ],
+    "emails": [
+        "jwl2000@stanford.edu",
+        "zhundeng@g.harvard.edu",
+        "ryumei.n@rutgers.edu",
+        "jamesz@stanford.edu",
+        "linjun.zhang@rutgers.edu"
+    ],
+    "id": "21-1501",
+    "issue": 330,
+    "pages": [
+        1,
+        78
+    ],
+    "title": "The Power of Contrast for Feature Learning: A Theoretical Analysis",
+    "volume": 24,
+    "year": 2023
+}

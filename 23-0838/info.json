@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the problem of out-of-distribution (OOD) detection, that is, detecting whether a machine learning (ML) model's output can be trusted at inference time. While a number of tests for OOD detection have been proposed in prior work, a formal framework for studying this problem is lacking. We propose a definition for the notion of OOD that includes both the input distribution and the ML model, which provides insights for the construction of powerful tests for OOD detection. We also propose a multiple hypothesis testing inspired procedure to systematically combine any number of different statistics from the ML model using conformal p-values. We further provide strong guarantees on the probability of incorrectly classifying an in-distribution sample as OOD. In our experiments, we find that threshold-based tests proposed in prior work perform well in specific settings, but not uniformly well across different OOD instances. In contrast, our proposed method that combines multiple statistics performs uniformly well across different datasets and neural networks architectures.",
+    "authors": [
+        "Akshayaa Magesh",
+        "Venugopal V. Veeravalli",
+        "Anirban Roy",
+        "Susmit Jha"
+    ],
+    "emails": [
+        "amagesh2@illinois.edu",
+        "vvv@illinois.edu",
+        "anirban.roy@sri.com",
+        "susmit.jha@sri.com"
+    ],
+    "id": "23-0838",
+    "issue": 378,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Principled Out-of-Distribution Detection via Multiple Testing",
+    "volume": 24,
+    "year": 2023
+}

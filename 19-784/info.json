@@ -1,0 +1,28 @@
+{
+    "abstract": "We introduce a new class of optimization problems called scale invariant problems that cover interesting problems in machine learning and statistics and show that they are efficiently solved by a general form of power iteration called scale invariant power iteration (SCI-PI). SCI-PI is a special case of the generalized power method (GPM) (Journ\u00e9e et al., 2010) where the constraint set is the unit sphere. In this work, we provide the convergence analysis of SCI-PI for scale invariant problems which yields a better rate than the analysis of GPM. Specifically, we prove that it attains local linear convergence with a generalized rate of power iteration to find an optimal solution for scale invariant problems. Moreover, we discuss some extended settings of scale invariant problems and provide similar convergence results. In numerical experiments, we introduce applications to independent component analysis, Gaussian mixtures, and non-negative matrix factorization with the KL-divergence. Experimental results demonstrate that SCI-PI is competitive to application specific state-of-the-art algorithms and often yield better solutions.",
+    "authors": [
+        "Cheolmin Kim",
+        "Youngseok Kim",
+        "Diego Klabjan"
+    ],
+    "emails": [
+        "cheolmkim@u.northwestern.edu",
+        "youngseok@uchicago.edu",
+        "d-klabjan@northwestern.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/youngseok-kim/SCIPI-JMLR"
+        ]
+    ],
+    "id": "19-784",
+    "issue": 321,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Scale Invariant Power Iteration",
+    "volume": 24,
+    "year": 2023
+}

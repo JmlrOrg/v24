@@ -1,0 +1,20 @@
+{
+    "abstract": "We prove Carl\u2019s type inequalities for the error of approximation of compact sets K by deep and shallow neural networks. This in turn gives estimates from below on how well we can approximate the functions in K when requiring the approximants to come from outputs of such networks. Our results are obtained as a byproduct of the study of the recently introduced Lipschitz widths.",
+    "authors": [
+        "Guergana Petrova",
+        "Przemyslaw Wojtaszczyk"
+    ],
+    "emails": [
+        "gpetrova@tamu.edu",
+        "wojtaszczyk@impan.pl"
+    ],
+    "id": "22-1381",
+    "issue": 353,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Limitations on approximation by deep and shallow neural networks",
+    "volume": 24,
+    "year": 2023
+}

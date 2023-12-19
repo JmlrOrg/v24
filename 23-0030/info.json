@@ -1,0 +1,20 @@
+{
+    "abstract": "In this article, we focus on prediction of a target model by transferring the information of source models. To be flexible, we use semiparametric additive frameworks for the target and source models. Inheriting the spirit of parameter-transfer learning, we assume that different models possibly share common knowledge across parametric components that is helpful for the target predictive task. Unlike existing parameter-transfer approaches, which need to construct auxiliary source models by parameter similarity with the target model and then adopt a regularization procedure, we propose a frequentist model averaging strategy with a $J$-fold cross-validation criterion so that auxiliary parameter information from different models can be adaptively transferred through data-driven weight assignments. The asymptotic optimality and weight convergence of our proposed method are built under some regularity conditions. Extensive numerical results demonstrate the superiority of the proposed method over competitive methods.",
+    "authors": [
+        "Xiaonan Hu",
+        "Xinyu Zhang"
+    ],
+    "emails": [
+        "xnhu@amss.ac.cn",
+        "xinyu@amss.ac.cn"
+    ],
+    "id": "23-0030",
+    "issue": 358,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Optimal Parameter-Transfer Learning by Semiparametric Model Averaging",
+    "volume": 24,
+    "year": 2023
+}

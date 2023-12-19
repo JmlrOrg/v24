@@ -1,0 +1,26 @@
+{
+    "abstract": "There is an increasing realization that algorithmic inductive biases are central in preventing overfitting; empirically, we often see a benign overfitting phenomenon in overparameterized settings for natural learning algorithms, such as stochastic gradient descent (SGD), where little to no explicit regularization has been employed. This work considers this issue in arguably the most basic setting: constant-stepsize SGD (with iterate averaging or tail averaging) for linear regression in the overparameterized regime. Our main result provides a sharp excess risk bound, stated in terms of the full eigenspectrum of the data covariance matrix, that reveals a bias-variance decomposition characterizing when generalization is possible: (i) the variance bound is characterized in terms of an effective dimension (specific for SGD) and (ii) the bias bound provides a sharp geometric characterization in terms of the location of the initial iterate (and how it aligns with the data covariance matrix). More specifically, for SGD with iterate averaging, we demonstrate the sharpness of the established excess risk bound by proving a matching lower bound (up to constant factors). For SGD with tail averaging, we show its advantage over SGD with iterate averaging by proving a better excess risk bound together with a nearly matching lower bound. Moreover, we reflect on a number of notable differences between the algorithmic regularization afforded by (unregularized) SGD in comparison to ordinary least squares (minimum-norm interpolation) and ridge regression. Experimental results on synthetic data corroborate our theoretical findings.",
+    "authors": [
+        "Difan Zou",
+        "Jingfeng Wu",
+        "Vladimir Braverman",
+        "Quanquan Gu",
+        "Sham M. Kakade"
+    ],
+    "emails": [
+        "dzou@cs.hku.hk",
+        "uuujf@berkeley.edu",
+        "vb21@rice.edu",
+        "qgu@cs.ucla.edu",
+        "sham@seas.harvard.edu"
+    ],
+    "id": "21-1297",
+    "issue": 326,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Benign Overfitting of Constant-Stepsize SGD for Linear Regression",
+    "volume": 24,
+    "year": 2023
+}

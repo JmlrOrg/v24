@@ -1,0 +1,22 @@
+{
+    "abstract": "Compositional data, such as human gut microbiomes, consist of non-negative variables where only the relative values of these variables are available. Analyzing compositional data requires careful treatment of the geometry of the data. A common geometrical approach to understanding such data is through a regular simplex. The majority of existing approaches rely on log-ratio or power transformations to address the inherent simplicial geometry. In this work, based on the key observation that compositional data are projective, we reinterpret the compositional domain as a group quotient of a sphere, leveraging the intrinsic connection between projective and spherical geometry. This interpretation enables us to understand the function spaces on the compositional domain in terms of those on a sphere, and furthermore, to utilize spherical harmonics theory for constructing a compositional Reproducing Kernel Hilbert Space (RKHS).  The construction of RKHS for compositional data opens up new research avenues for future methodology developments, particularly introducing well-developed kernel methods to compositional data analysis. We demonstrate the wide applicability of the proposed theoretical framework with examples of nonparametric density estimation, kernel exponential family, and support vector machine for compositional data.",
+    "authors": [
+        "Binglin Li",
+        "Changwon Yoon",
+        "Jeongyoun Ahn"
+    ],
+    "emails": [
+        "bli2@ncat.edu",
+        "cwyoon@kaist.ac.kr",
+        "jyahn@kaist.ac.kr"
+    ],
+    "id": "21-1398",
+    "issue": 327,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Reproducing Kernels and New Approaches in Compositional Data Analysis",
+    "volume": 24,
+    "year": 2023
+}

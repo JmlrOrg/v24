@@ -1,0 +1,24 @@
+{
+    "abstract": "To capture the inherent geometric features of many community detection problems, we propose to use a new random graph model of communities that we call a Geometric Block Model. The geometric block model builds on the random geometric graphs (Gilbert, 1961), one of the basic models of random graphs for spatial networks, in the same way that the well-studied stochastic block model builds on the Erdos-Renyi random graphs. It is also a natural extension of random community models inspired by the recent theoretical and practical advancements in community detection. To analyze the geometric block model, we first provide new connectivity results for random annulus graphs which are generalizations of random geometric graphs. The connectivity properties of geometric graphs have been studied since their introduction, and analyzing them has been more difficult than their Erdos-Renyi counterparts, due to correlated edge formation. We then use the connectivity results of random annulus graphs to provide necessary and sufficient conditions for efficient recovery of communities for  the geometric block model. We show that a simple triangle-counting algorithm to detect communities in the geometric block model is near-optimal. For this, we consider the following two regimes of graph density. In the regime where the average degree of the graph grows logarithmically with the number of vertices, we show that our algorithm performs extremely well, both theoretically and practically. In contrast, the triangle-counting algorithm is far from being optimum for the stochastic block model in the logarithmic degree regime. We simulate our results on both real and synthetic datasets to show superior performance of both the new model as well as our algorithm.",
+    "authors": [
+        "Sainyam Galhotra",
+        "Arya Mazumdar",
+        "Soumyabrata Pal",
+        "Barna Saha"
+    ],
+    "emails": [
+        "sg@cs.cornell.edu",
+        "arya@ucsd.edu",
+        "soumyabrata@google.com",
+        "barnas@ucsd.edu"
+    ],
+    "id": "22-0572",
+    "issue": 338,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Community Recovery in the Geometric Block Model",
+    "volume": 24,
+    "year": 2023
+}

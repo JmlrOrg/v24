@@ -1,0 +1,26 @@
+{
+    "abstract": "Bayesian Networks (BNs) represent conditional probability relations among a set of random variables (nodes) in the form of a directed acyclic graph (DAG), and have found diverse applications in knowledge discovery. We study the problem of learning the sparse DAG structure of a BN from continuous observational data. The central problem can be modeled as a mixed-integer  program with an objective function composed of a convex quadratic loss function and a regularization penalty subject to linear constraints. The  optimal solution to this mathematical program is known to have desirable statistical properties under certain conditions.  However, the state-of-the-art optimization solvers are not able to obtain provably optimal solutions to the existing mathematical formulations for medium-size problems within reasonable computational times. To address this difficulty, we tackle the problem from both computational and statistical perspectives. On the one hand, we propose a concrete early stopping criterion to terminate the branch-and-bound process in order to obtain a near-optimal solution to the mixed-integer program, and establish the consistency of this approximate solution. On the other hand, we improve the existing formulations by replacing the linear ``big-$M$\" constraints that represent the relationship between the continuous and binary indicator variables with second-order conic constraints.  Our numerical results demonstrate the effectiveness of the proposed approaches.",
+    "authors": [
+        "Simge Kucukyavuz",
+        "Ali Shojaie",
+        "Hasan Manzour",
+        "Linchuan Wei",
+        "Hao-Hsiang Wu"
+    ],
+    "emails": [
+        "simge@northwestern.edu",
+        "ashojaie@uw.edu",
+        "hmanzour@uw.edu",
+        "LinchuanWei2022@u.northwestern.edu",
+        "hhwu2@nycu.edu.tw"
+    ],
+    "id": "20-536",
+    "issue": 322,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Consistent Second-Order Conic Integer Programming  for Learning Bayesian Networks",
+    "volume": 24,
+    "year": 2023
+}

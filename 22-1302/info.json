@@ -1,0 +1,24 @@
+{
+    "abstract": "The matrix lasso, which minimizes a least-squared loss function with the nuclear-norm regularization, offers a generally applicable paradigm for high-dimensional low-rank matrix estimation, but its efficiency is adversely affected by heavy-tailed distributions. This paper introduces a robust procedure by incorporating a Wilcoxon-type rank-based loss function with the nuclear-norm penalty for a unified high-dimensional low-rank matrix estimation framework. It includes matrix regression, multivariate regression and matrix completion as special examples. This procedure enjoys several appealing features. First, it relaxes the distributional conditions on random errors from sub-exponential or sub-Gaussian to more general distributions and thus it is robust with substantial efficiency gain for heavy-tailed random errors. Second, as the gradient function of the rank-based loss function is completely pivotal, it overcomes the challenge of tuning parameter selection and substantially saves the computation time by using an easily simulated tuning parameter. Third, we theoretically establish non-asymptotic error bounds with a nearly-oracle rate for the new estimator. Numerical results indicate that the new estimator can be highly competitive among existing methods, especially for heavy-tailed or skewed errors.",
+    "authors": [
+        "Xiaolong Cui",
+        "Lei Shi",
+        "Wei Zhong",
+        "Changliang Zou"
+    ],
+    "emails": [
+        "nk.xlcui@gmail.com",
+        "leishi@berkeley.edu",
+        "wzhong@xmu.edu.cn",
+        "zoucl@nankai.edu.cn"
+    ],
+    "id": "22-1302",
+    "issue": 350,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Robust High-Dimensional Low-Rank Matrix Estimation: Optimal Rate and Data-Adaptive Tuning",
+    "volume": 24,
+    "year": 2023
+}

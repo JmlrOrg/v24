@@ -1,0 +1,24 @@
+{
+    "abstract": "Reconstructing images from magnitude measurements is an important and difficult problem arising in many research areas, such as X-ray crystallography, astronomical imaging and more. While optimization-based approaches often struggle with the non-convexity and non- linearity of the problem, learning-based approaches are able to produce reconstructions of high quality for data similar to a given training dataset. In this work, we analyze a class of methods based on conditional generative adversarial networks (CGAN). We show how the benefits of optimization-based and learning-based methods can be combined to improve reconstruction quality. Furthermore, we show that these combined methods are able to generalize to out-of-distribution data and analyze their robustness to measurement noise. In addition to that, we compare how the methods are impacted by missing measurements. Extensive ablation studies demonstrate that all components of our approach are essential and justify the choice of network architecture.",
+    "authors": [
+        "Tobias Uelwer",
+        "Sebastian Konietzny",
+        "Alexander Oberstrass",
+        "Stefan Harmeling"
+    ],
+    "emails": [
+        "tobias.uelwer@tu-dortmund.de",
+        "sebastian.konietzny@tu-dortmund.de",
+        "alexander.oberstrass@hhu.de",
+        "stefan.harmeling@tu-dortmund.de"
+    ],
+    "id": "22-0106",
+    "issue": 332,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Learning Conditional Generative Models for Phase Retrieval",
+    "volume": 24,
+    "year": 2023
+}

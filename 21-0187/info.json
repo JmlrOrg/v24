@@ -1,0 +1,32 @@
+{
+    "abstract": "Reinforcement learning (RL) has shown great promise in estimating dynamic treatment regimes which take into account patient heterogeneity. However, health-outcome information, used as the reward for RL methods, is often not well coded but rather embedded in clinical notes. Extracting precise outcome information is a resource-intensive task, so most of the available well-annotated cohorts are small. To address this issue, we propose a semi-supervised learning (SSL) approach that efficiently leverages a small-sized labeled data set with actual outcomes observed and a large unlabeled data set with outcome surrogates. In particular, we propose a semi-supervised, efficient approach to $Q$-learning and doubly robust off-policy value estimation. Generalizing SSL to dynamic treatment regimes brings interesting challenges: 1) Feature distribution for $Q$-learning is unknown as it includes previous outcomes. 2) The surrogate variables we leverage in the modified SSL framework are predictive of the outcome but not informative of the optimal policy or value function. We provide theoretical results for our $Q$ function and value function estimators to understand the degree of efficiency gained from SSL. Our method is at least as efficient as the supervised approach, and robust to bias from mis-specification of the imputation models.",
+    "authors": [
+        "Aaron Sonabend-W",
+        "Nilanjana Laha",
+        "Ashwin N. Ananthakrishnan",
+        "Tianxi Cai",
+        "Rajarshi Mukherjee"
+    ],
+    "emails": [
+        "asonabend@google.com",
+        "nlaha@tamu.edu",
+        "aananthakrishnan@mgh.harvard.edu",
+        "tcai@hsph.harvard.edu",
+        "ram521@mail.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://github.com/asonabend/SSOPRL"
+        ]
+    ],
+    "id": "21-0187",
+    "issue": 323,
+    "pages": [
+        1,
+        86
+    ],
+    "title": "Semi-Supervised Off-Policy Reinforcement Learning and Value Estimation for Dynamic Treatment Regimes",
+    "volume": 24,
+    "year": 2023
+}

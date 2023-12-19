@@ -1,0 +1,22 @@
+{
+    "abstract": "We combine concepts from multilevel solvers for partial differential equations (PDEs) with neural network based deep learning and propose a new methodology for the efficient numerical solution of high-dimensional parametric PDEs. An in-depth theoretical analysis shows that the proposed architecture is able to approximate multigrid V-cycles to arbitrary precision with the number of weights only depending logarithmically on the resolution of the finest mesh. As a consequence, approximation bounds for the solution of parametric PDEs by neural networks that are independent on the (stochastic) parameter dimension can be derived. The performance of the proposed method is illustrated on high-dimensional parametric linear elliptic PDEs that are common benchmark problems in uncertainty quantification. We find substantial improvements over state-of-the-art deep learning-based solvers. As particularly challenging examples, random conductivity with high-dimensional non-affine Gaussian fields in 100 parameter dimensions and a random cookie problem are examined. Due to the multilevel structure of our method, the amount of training samples can be reduced on finer levels, hence significantly lowering the generation time for training data and the training time of our method.",
+    "authors": [
+        "Cosmas Hei\u00df",
+        "Ingo G\u00fchring",
+        "Martin Eigel"
+    ],
+    "emails": [
+        "cosmas.heiss@gmail.com",
+        "ingo.guehring@gmail.com",
+        "martin.eigel@wias-berlin.de"
+    ],
+    "id": "23-0421",
+    "issue": 373,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Multilevel CNNs for Parametric PDEs",
+    "volume": 24,
+    "year": 2023
+}

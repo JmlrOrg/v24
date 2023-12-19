@@ -1,0 +1,22 @@
+{
+    "abstract": "Partial monitoring is an expressive framework for sequential decision-making with an abundance of applications, including graph-structured and dueling bandits, dynamic pricing and transductive feedback models. We survey and extend recent results on the linear formulation of partial monitoring that naturally generalizes the standard linear bandit setting. The main result is that a single algorithm, information-directed sampling (IDS), is (nearly) worst-case rate optimal in all finite-action games. We present a simple and unified analysis of stochastic partial monitoring, and further extend the model to the contextual and kernelized setting.",
+    "authors": [
+        "Johannes Kirschner",
+        "Tor Lattimore",
+        "Andreas Krause"
+    ],
+    "emails": [
+        "jkirschn@ualberta.ca",
+        "lattimore@google.com",
+        "krausea@ethz.ch"
+    ],
+    "id": "22-1248",
+    "issue": 346,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Linear Partial Monitoring for Sequential Decision Making: Algorithms, Regret Bounds and Applications",
+    "volume": 24,
+    "year": 2023
+}

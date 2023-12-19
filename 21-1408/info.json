@@ -1,0 +1,22 @@
+{
+    "abstract": "The fidelity bandits problem is a variant of the $K$-armed bandit problem in which the reward of each arm is augmented by a fidelity reward that provides the player with an  additional payoff depending on how \u2018loyal\u2019 the player has been to that arm in the past. We propose two models for fidelity. In the  loyalty-points model the amount of extra reward depends on the number of times the arm has previously been played. In the subscription model the additional reward depends on the current number of consecutive draws of the arm. We consider both stochastic and adversarial problems. Since single-arm strategies are not always optimal in stochastic problems, the notion of regret in the adversarial setting needs careful adjustment. We introduce three possible notions of regret and investigate which can be bounded sublinearly. We study in detail the special cases of increasing, decreasing and coupon (where the player gets an additional reward after every $m$ plays of an arm) fidelity rewards. For the models which do not necessarily enjoy sublinear regret, we provide a worst case lower bound. For those models which exhibit sublinear regret, we provide algorithms and bound their regret.",
+    "authors": [
+        "G\u00e1bor Lugosi",
+        "Ciara Pike-Burke",
+        "Pierre-Andr\u00e9 Savalle"
+    ],
+    "emails": [
+        "gabor.lugosi@gmail.com",
+        "c.pikeburke@gmail.com",
+        "pierreandre.savalle@gmail.com"
+    ],
+    "id": "21-1408",
+    "issue": 328,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Bandit problems with fidelity rewards",
+    "volume": 24,
+    "year": 2023
+}

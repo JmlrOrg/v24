@@ -1,0 +1,20 @@
+{
+    "abstract": "Many asymptotically minimax procedures for function estimation often rely on somewhat arbitrary and restrictive assumptions such as isotropy or spatial homogeneity. This work enhances the theoretical understanding of Bayesian additive regression trees under substantially relaxed smoothness assumptions. We provide a comprehensive study of asymptotic optimality and posterior contraction of Bayesian forests when the regression function has anisotropic smoothness that possibly varies over the function domain. The regression function can also be possibly discontinuous. We introduce a new class of sparse piecewise heterogeneous anisotropic Holder functions and derive their minimax lower bound of estimation in high-dimensional scenarios under the $L_2$-loss. We then find that the Bayesian tree priors, coupled with a Dirichlet subset selection prior for sparse estimation in high-dimensional scenarios, adapt to unknown heterogeneous smoothness, discontinuity, and sparsity. These results show that Bayesian forests are uniquely suited for more general estimation problems that would render other default machine learning tools, such as Gaussian processes, suboptimal. Our numerical study shows that Bayesian forests often outperform other competitors such as random forests and deep neural networks, which are believed to work well for discontinuous or complicated smooth functions. Beyond nonparametric regression, we also examined posterior contraction of Bayesian forests for density estimation and binary classification using the technique developed in this study.",
+    "authors": [
+        "Seonghyun Jeong",
+        "Veronika Rockova"
+    ],
+    "emails": [
+        "sjeong@yonsei.ac.kr",
+        "veronika.rockova@chicagobooth.edu"
+    ],
+    "id": "22-0382",
+    "issue": 337,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "The Art of BART: Minimax Optimality over Nonhomogeneous Smoothness in High Dimension",
+    "volume": 24,
+    "year": 2023
+}

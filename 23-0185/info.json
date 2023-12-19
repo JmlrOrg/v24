@@ -1,0 +1,30 @@
+{
+    "abstract": "The Distributional Random Forest (DRF) is a recently introduced Random Forest algorithm to estimate multivariate conditional distributions. Due to its general estimation procedure, it can be employed to estimate a wide range of targets such as conditional average treatment effects, conditional quantiles, and conditional correlations. However, only results about the consistency and convergence rate of the DRF prediction are available so far. We characterize the asymptotic distribution of DRF and develop a bootstrap approximation of it. This allows us to derive inferential tools for quantifying standard errors and the construction of confidence regions that have asymptotic coverage guarantees. In simulation studies, we empirically validate the developed theory for inference of low-dimensional targets and for testing distributional differences between two populations",
+    "authors": [
+        "Jeffrey N\u00e4f",
+        "Corinne Emmenegger",
+        "Peter B\u00fchlmann",
+        "Nicolai Meinshausen"
+    ],
+    "emails": [
+        "jeffrey.naf@inria.fr",
+        "emmenegger@stat.math.ethz.ch",
+        "buhlmann@stat.math.ethz.ch",
+        "meinshausen@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JeffNaef/drfinference"
+        ]
+    ],
+    "id": "23-0185",
+    "issue": 366,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Confidence and Uncertainty Assessment for Distributional Random Forests",
+    "volume": 24,
+    "year": 2023
+}

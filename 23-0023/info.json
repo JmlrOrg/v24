@@ -1,0 +1,40 @@
+{
+    "abstract": "Generative artificial intelligence has made significant strides, producing text indistinguishable from human prose and remarkably photorealistic images. Automatically measuring how close the generated data distribution is to the target distribution is central to diagnosing existing models and developing better ones. We present MAUVE, a family of comparison measures between pairs of distributions such as those encountered in the generative modeling of text or images. These scores are statistical summaries of divergence frontiers capturing two types of errors in generative modeling. We explore three approaches to statistically estimate these scores: vector quantization, non-parametric estimation, and classifier-based estimation. We provide statistical bounds for the vector quantization approach. Empirically, we find that the proposed scores paired with a range of $f$-divergences and statistical estimation methods can quantify the gaps between the distributions of human-written text and those of modern neural language models by correlating with human judgments and identifying known properties of the generated texts. We demonstrate in the vision domain that MAUVE can identify known properties of generated images on par with or better than existing metrics. In conclusion, we present practical recommendations for using MAUVE effectively with language and image modalities.",
+    "authors": [
+        "Krishna Pillutla",
+        "Lang Liu",
+        "John Thickstun",
+        "Sean Welleck",
+        "Swabha Swayamdipta",
+        "Rowan Zellers",
+        "Sewoong Oh",
+        "Yejin Choi",
+        "Zaid Harchaoui"
+    ],
+    "emails": [
+        "pillutla@cs.washington.edu",
+        "liu16@uw.edu",
+        "jthickstun@stanford.edu",
+        "wellecks@cs.washington.edu",
+        "swabhas@usc.edu",
+        "rowanz@cs.washington.edu",
+        "sewoong@cs.washington.edu",
+        "yejin@cs.washington.edu",
+        "zaid@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/krishnap25/mauve-experiments"
+        ]
+    ],
+    "id": "23-0023",
+    "issue": 356,
+    "pages": [
+        1,
+        92
+    ],
+    "title": "MAUVE Scores for Generative Models: Theory and Practice",
+    "volume": 24,
+    "year": 2023
+}

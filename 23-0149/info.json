@@ -1,0 +1,32 @@
+{
+    "abstract": "Post-hoc global/local feature attribution methods are progressively being employed to understand the decisions of complex machine learning models. Yet, because of limited amounts of data, it is possible to obtain a diversity of models with good empirical performance but that provide very different explanations for the same prediction, making it hard to derive insight from them. In this work, instead of aiming at reducing the under-specification of model explanations, we fully embrace it and extract logical statements about feature attributions that are consistent across all models with good empirical performance (i.e. all models in the Rashomon Set). We show that partial orders of local/global feature importance arise from this methodology enabling more nuanced interpretations by allowing pairs of features to be incomparable when there is no consensus on their relative importance. We prove that every relation among features present in these partial orders also holds in the rankings provided by existing approaches. Finally, we present three use cases employing hypothesis spaces with tractable Rashomon Sets (Additive models, Kernel Ridge, and Random Forests) and show that partial orders allow one to extract consistent local and global interpretations of models despite their under-specification.",
+    "authors": [
+        "Gabriel Laberge",
+        "Yann Pequignot",
+        "Alexandre Mathieu",
+        "Foutse Khomh",
+        "Mario Marchand"
+    ],
+    "emails": [
+        "gabriel.laberge@polymtl.ca",
+        "yann.pequignot@iid.ulaval.ca",
+        "alexandre.mathieu.7@ulaval.ca",
+        "foutse.khomh@polymtl.ca",
+        "mario.marchand@ift.ulaval.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/gablabc/Partial_Order_in_Chaos"
+        ]
+    ],
+    "id": "23-0149",
+    "issue": 364,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Partial Order in Chaos: Consensus on Feature Attributions in the Rashomon Set",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "The ability of Variational Autoencoders to learn disentangled representations has made them appealing for practical applications. However, their mean representations, which are generally used for downstream tasks, have recently been shown to be more correlated than their sampled counterpart, on which disentanglement is usually measured. In this paper, we refine this observation through the lens of selective posterior collapse, which states that only a subset of the learned representations, the active variables, is encoding useful information while the rest (the passive variables) is discarded. We first extend the existing definition to multiple data examples and show that active variables are equally disentangled in mean and sampled representations. Based on this extension and the pre-trained models from disentanglement_lib}, we then isolate the passive variables and show that they are responsible for the discrepancies between mean and sampled representations. Specifically, passive variables exhibit high correlation scores with other variables in mean representations while being fully uncorrelated in sampled ones. We thus conclude that despite what their higher correlation might suggest, mean representations are still good candidates for downstream tasks applications. However, it may be beneficial to remove their passive variables, especially when used with models sensitive to correlated features.",
+    "authors": [
+        "Lisa Bonheme",
+        "Marek Grzes"
+    ],
+    "emails": [
+        "lb732@kent.ac.uk",
+        "m.grzes@kent.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bonheml/tc_study"
+        ]
+    ],
+    "id": "21-1145",
+    "issue": 324,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Be More Active! Understanding the Differences Between Mean and Sampled Representations of Variational Autoencoders",
+    "volume": 24,
+    "year": 2023
+}

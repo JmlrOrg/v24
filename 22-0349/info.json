@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, a unified batch-online learning approach is introduced to learn a linear representation of nonlinear system dynamics using the Koopman operator. The presented system modeling approach leverages a novel incremental Koopman-based update law that regains a mini-collection of samples stored in a memory to minimize not only the instantaneous Koopman operator\u2019s identification errors but also the identification errors for the collection of retrieved samples. Discontinuous modifications of gradient flows are presented for the online update law to assure finite-time convergence under easy-to-verify conditions defined on the batch of data. Therefore, this unified online-batch framework allows joint sample- and time-domain analysis to converge the Koopman operator\u2019s parameters. More specifically, it is shown that if the collected mini-batch of samples guarantees a rank condition, then finite-time guarantee in the time domain can be certified, and the settling time depends on the quality of collected samples being reused in the update law. Moreover, the efficiency of the proposed Koopman-based update law is further analyzed by showing that the identification regret in continuous time grows sub-linearly with time. Furthermore, to avoid learning corrupted dynamics due to the selection of an inappropriate set of Koopman observables, a higher-layer meta-learner employs a discrete Bayesian optimization algorithm to obtain the best library of observable functions for the operator. Since finite-time convergence of the Koopman model for each set of observables is guaranteed under a rank condition on stored data, the fitness of each set of observables can be obtained based on the identification error on the stored samples in the proposed framework and even without implementing any controller based on the learned system. Finally, to confirm the effectiveness of the proposed scheme, two simulation examples are presented.",
+    "authors": [
+        "Majid Mazouchi",
+        "Subramanya Nageshrao",
+        "Hamidreza Modares"
+    ],
+    "emails": [
+        "mazouchi@msu.edu",
+        "snageshr@ford.com",
+        "modaresh@msu.edu"
+    ],
+    "id": "22-0349",
+    "issue": 336,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Finite-time Koopman Identifier: A Unified Batch-online Learning Framework for Joint Learning of Koopman Structure and Parameters",
+    "volume": 24,
+    "year": 2023
+}

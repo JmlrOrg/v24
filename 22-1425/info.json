@@ -1,0 +1,30 @@
+{
+    "abstract": "We study experiment design for unique identification of the causal graph of a simple SCM, where the graph may contain cycles. The presence of cycles in the structure introduces major challenges for experiment design as, unlike acyclic graphs, learning the skeleton of causal graphs with cycles may not be possible from merely the observational distribution. Furthermore, intervening on a variable in such graphs does not necessarily lead to orienting all the edges incident to it. In this paper, we propose an experiment design approach that can learn both cyclic and acyclic graphs and hence, unifies the task of experiment design for both types of graphs. We provide a lower bound on the number of experiments required to guarantee the unique identification of the causal graph in the worst case, showing that the proposed approach is order-optimal in terms of the number of experiments up to an additive logarithmic term. Moreover, we extend our result to the setting where the size of each experiment is bounded by a constant. For this case, we show that our approach is optimal in terms of the size of the largest experiment required for uniquely identifying the causal graph in the worst case.",
+    "authors": [
+        "Ehsan Mokhtarian",
+        "Saber Salehkaleybar",
+        "AmirEmad Ghassami",
+        "Negar Kiyavash"
+    ],
+    "emails": [
+        "ehsan.mokhtarian@epfl.ch",
+        "s.salehkaleybar@liacs.leidenuniv.nl",
+        "ghassami@bu.edu",
+        "negar.kiyavash@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Ehsan-Mokhtarian/cyclic_experiment_design"
+        ]
+    ],
+    "id": "22-1425",
+    "issue": 354,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "A Unified Experiment Design Approach for Cyclic and Acyclic Causal Models",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The Markov game is a popular reinforcement learning framework for modeling competitive players in a dynamic environment. However, most of the existing works on Markov games focus on computing a certain equilibrium following uncertain interactions among the players but ignore the uncertainty of the environment model, which is ubiquitous in practical scenarios. In this work, we develop a theoretical solution to Markov games with environment model uncertainty. Specifically, we propose a new and tractable notion of robust correlated equilibria for Markov games with environment model uncertainty. In particular, we prove that the robust correlated equilibrium has a simple modification structure, and its characterization of equilibria critically depends on the environment model uncertainty. Moreover, we propose the first fully-decentralized stochastic algorithm for computing such the robust correlated equilibrium. Our analysis proves that the algorithm achieves the polynomial episode complexity $\\widetilde{O}( SA^2 H^5 \\epsilon^{-2})$ for computing an approximate robust correlated equilibrium with $\\epsilon$ accuracy.",
+    "authors": [
+        "Shaocong Ma",
+        "Ziyi Chen",
+        "Shaofeng Zou",
+        "Yi Zhou"
+    ],
+    "emails": [
+        "s.ma@utah.edu",
+        "zc286@cornell.edu",
+        "szou3@buffalo.edu",
+        "yi.zhou@utah.edu"
+    ],
+    "id": "23-0310",
+    "issue": 371,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Decentralized Robust V-learning for Solving Markov Games with Model Uncertainty",
+    "volume": 24,
+    "year": 2023
+}

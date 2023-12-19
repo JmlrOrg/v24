@@ -1,0 +1,28 @@
+{
+    "abstract": "Recent works have studied implicit biases in deep learning, especially the behavior of last-layer features and classifier weights. However, they usually need to simplify the intermediate dynamics under gradient flow or gradient descent due to the intractability of loss functions and model architectures. In this paper, we introduce the unhinged loss, a concise loss function, that offers more mathematical opportunities to analyze the closed-form dynamics while requiring as few simplifications or assumptions as possible. The unhinged loss allows for considering more practical techniques, such as time-vary learning rates and feature normalization. Based on the layer-peeled model that views last-layer features as free optimization variables, we conduct a thorough analysis in the unconstrained, regularized, and spherical constrained cases, as well as the case where the neural tangent kernel remains invariant. To bridge the performance of the unhinged loss to that of Cross-Entropy (CE), we investigate the scenario of fixing classifier weights with a specific structure, (e.g., a simplex equiangular tight frame). Our analysis shows that these dynamics converge exponentially fast to a solution depending on the initialization of features and classifier weights. These theoretical results not only offer valuable insights, including explicit feature regularization and rescaled learning rates for enhancing practical training with the unhinged loss, but also extend their applicability to other loss functions. Finally, we empirically demonstrate these theoretical results and insights through extensive experiments.",
+    "authors": [
+        "Xiong Zhou",
+        "Xianming Liu",
+        "Hanzhang Wang",
+        "Deming Zhai",
+        "Jiangjunjun",
+        "Xiangyang Ji"
+    ],
+    "emails": [
+        "cszx@hit.edu.cn",
+        "csxm@hit.edu.cn",
+        "cswhz@hit.edu.cn",
+        "zhaideming@hit.edu.cn",
+        "jiangjunjun@hit.edu.cn",
+        "xyji@tsinghua.edu.cn"
+    ],
+    "id": "23-0771",
+    "issue": 376,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "On the Dynamics Under the Unhinged Loss and Beyond",
+    "volume": 24,
+    "year": 2023
+}

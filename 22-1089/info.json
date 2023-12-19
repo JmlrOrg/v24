@@ -1,0 +1,20 @@
+{
+    "abstract": "We prove that the dynamics of the MBO scheme for data clustering converge to a viscosity solution to mean curvature flow. The main ingredients are (i) a new abstract convergence result based on quantitative estimates for heat operators and (ii) the derivation of these estimates in the setting of random geometric graphs. To implement the scheme in practice, two important parameters are the number of eigenvalues for computing the heat operator and the step size of the scheme. The results of the current paper give a theoretical justification for the choice of these parameters in relation to sample size and interaction width.",
+    "authors": [
+        "Tim Laux",
+        "Jona Lelmi"
+    ],
+    "emails": [
+        "tim.laux@ur.de",
+        "jona.lelmi@math.ucla.edu"
+    ],
+    "id": "22-1089",
+    "issue": 344,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Large data limit of the MBO scheme for data clustering: convergence of the dynamics",
+    "volume": 24,
+    "year": 2023
+}

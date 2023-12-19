@@ -1,0 +1,20 @@
+{
+    "abstract": "In this work, we design differentially private hypothesis tests for the following problems in the multivariate linear regression model: testing a linear relationship and testing for the presence of mixtures. The majority of our hypothesis tests are based on differentially private versions of the $F$-statistic for the multivariate linear regression model framework. We also present other differentially private tests---not based on the $F$-statistic---for these problems. We show that the differentially private $F$-statistic converges to the asymptotic distribution of its non-private counterpart. As a corollary, the statistical power of the differentially private $F$-statistic converges to the statistical power of the non-private $F$-statistic. Through a suite of Monte Carlo based experiments, we show that our tests achieve desired significance levels and have a high power that approaches the power of the non-private tests as we increase sample sizes or the privacy-loss parameter. We also show when our tests outperform existing methods in the literature.",
+    "authors": [
+        "Daniel G. Alabi",
+        "Salil P. Vadhan"
+    ],
+    "emails": [
+        "alabid@cs.columbia.edu",
+        "salil_vadhan@harvard.edu"
+    ],
+    "id": "23-0045",
+    "issue": 361,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Differentially Private Hypothesis Testing for Linear Regression",
+    "volume": 24,
+    "year": 2023
+}

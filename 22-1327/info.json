@@ -1,0 +1,20 @@
+{
+    "abstract": "This article aims to seek a selection and estimation procedure for a class of tensor regression problems with multivariate covariates and matrix responses, which can provide theoretical guarantees for model selection in finite samples. Considering the frontal slice sparsity and low-rankness inherited in the coefficient tensor, we formulate the regression procedure as a group SLOPE penalized low-rank tensor optimization problem based on an orthogonal decomposition, namely TgSLOPE. This procedure provably controls the newly introduced tensor group false discovery rate (TgFDR), provided that the predictor matrix is column-orthogonal. Moreover, we establish the asymptotically minimax convergence with respect to the TgSLOPE estimate risk. For efficient problem resolution, we equivalently transform the TgSLOPE problem into a difference-of-convex (DC) program with the level-coercive objective function. This allows us to solve the reformulation problem of TgSLOPE by an efficient proximal DC algorithm (DCA) with global convergence. Numerical studies conducted on synthetic data and a real human brain connection data illustrate the efficacy of the proposed TgSLOPE estimation procedure.",
+    "authors": [
+        "Yang Chen",
+        "Ziyan Luo"
+    ],
+    "emails": [
+        "yangchen@bjtu.edu.cn",
+        "zyluo@bjtu.edu.cn"
+    ],
+    "id": "22-1327",
+    "issue": 352,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Group SLOPE Penalized Low-Rank Tensor Regression",
+    "volume": 24,
+    "year": 2023
+}

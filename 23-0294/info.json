@@ -1,0 +1,26 @@
+{
+    "abstract": "We introduce and investigate, for finite groups $G$, $G$-invariant deep neural network ($G$-DNN) architectures with ReLU activation that are densely connected--i.e., include all possible skip connections. In contrast to other $G$-invariant architectures in the literature, the preactivations of the $G$-DNNs presented here are able to transform by signed permutation representations (signed perm-reps) of $G$. Moreover, the individual layers of the $G$-DNNs are not required to be $G$-equivariant; instead, the preactivations are constrained to be $G$-equivariant functions of the network input in a way that couples weights across all layers. The result is a richer family of $G$-invariant architectures never seen previously. We derive an efficient implementation of $G$-DNNs after a reparameterization of weights, as well as necessary and sufficient conditions for an architecture to be \"admissible\"-- i.e., nondegenerate and inequivalent to smaller architectures. We include code that allows a user to build a $G$-DNN interactively layer-by-layer, with the final architecture guaranteed to be admissible. We show that there are far more admissible $G$-DNN architectures than those accessible with the \"concatenated ReLU\" activation function from the literature. Finally, we apply $G$-DNNs to two example problems---(1) multiplication in $\\{-1, 1\\}$ (with theoretical guarantees) and (2) 3D object classification---finding that the inclusion of signed perm-reps significantly boosts predictive performance compared to baselines with only ordinary (i.e., unsigned) perm-reps.",
+    "authors": [
+        "Devanshu Agrawal",
+        "James Ostrowski"
+    ],
+    "emails": [
+        "dagrawa2@vols.utk.edu",
+        "jostrows@utk.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dagrawa2/gdnn_code"
+        ]
+    ],
+    "id": "23-0294",
+    "issue": 370,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Densely Connected G-invariant Deep Neural Networks with Signed Permutation Representations",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "his paper presents a Bayesian model, called the Bayesian Bradley Terry (BBT) model, for comparing multiple algorithms on multiple data sets based on any metric. The model is an extension of the Bradley Terry model, which tracks the number of wins each algorithm has on different data sets. Unlike frequentist methods such as Demsar tests on mean rank or multiple pairwise Wilcoxon tests, the Bayesian approach provides a more nuanced understanding of the algorithms\u2019 performance and allows for the definition of the \u201cregion of practical equivalence\u201d (ROPE) for two algorithms. Additionally, the paper introduces the concept of \u201clocal ROPE,\u201d which assesses the significance of the difference in mean measure between two algorithms using effect sizes, and can be applied in frequentist approaches as well. Both an R package and a Python program implementing the BBT are available for use.",
+    "authors": [
+        "Jacques Wainer"
+    ],
+    "emails": [
+        "wainer@ic.unicamp.br"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jwainer/bbtcomp"
+        ]
+    ],
+    "id": "22-0907",
+    "issue": 341,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Bayesian Bradley-Terry model to compare multiple ML algorithms on multiple data sets",
+    "volume": 24,
+    "year": 2023
+}

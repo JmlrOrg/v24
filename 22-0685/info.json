@@ -1,0 +1,28 @@
+{
+    "abstract": "The Hidden Markov Model is a classic modelling tool with a wide swath of applications.  Its inception considered observations restricted to a finite alphabet, but it was quickly extended to multivariate continuous distributions.  In this article, we further extend the Hidden Markov Model from mixtures of normal distributions in $d$-dimensional Euclidean space to general Gaussian measure mixtures in locally convex topological spaces, and hence, we christen this method the Topological Hidden Markov Model. The main innovation is the use of the Onsager-Machlup functional as a proxy for the probability density function in infinite dimensional spaces. This allows for choice of a Cameron-Martin space suitable for a given application. We demonstrate the versatility of this methodology by applying it to simulated diffusion processes such as Brownian and fractional Brownian sample paths as well as the Ornstein-Uhlenbeck process. Our methodology is applied to the identification of sleep states from overnight polysomnography time series data with the aim of diagnosing Obstructive Sleep Apnea in pediatric patients.  It is also applied to a series of annual cumulative snowfall curves from 1940 to 1990 in the city of Edmonton, Alberta.",
+    "authors": [
+        "Adam B Kashlak",
+        "Prachi Loliencar",
+        "Giseon Heo"
+    ],
+    "emails": [
+        "kashlak@ualberta.ca",
+        "lolienca@ualberta.ca",
+        "gheo@ualberta.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cachelack/Topological-Hidden-Markov-Model.git"
+        ]
+    ],
+    "id": "22-0685",
+    "issue": 340,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Topological Hidden Markov Models",
+    "volume": 24,
+    "year": 2023
+}
