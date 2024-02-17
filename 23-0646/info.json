@@ -1,0 +1,24 @@
+{
+    "abstract": "Reinforcement learning algorithms are known to exhibit a variety of convergence rates depending on the problem structure. Recent years have witnessed considerable progress in developing theory that is instance-dependent, along with algorithms that achieve such instance-optimal guarantees. However, important questions remain in how to utilize such notions for inferential purposes, or for early stopping, so that data and computational resources can be saved for ``easy'' problems. This paper develops data-dependent procedures that output instance-dependent confidence regions for evaluating and optimizing policies in a Markov decision process. Notably, our procedures require only black-box access to an instance-optimal algorithm, and re-use the samples used in the estimation algorithm itself. The resulting data-dependent stopping rule adapts instance-specific difficulty of the problem and allows for early termination for problems with favorable structure. We highlight benefit of such early stopping rules via some numerical studies.",
+    "authors": [
+        "Eric Xia",
+        "Koulik Khamaru",
+        "Martin J. Wainwright",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "ericzxia@mit.edu",
+        "kk1241@stat.rutgers.edu",
+        "mjwain@mit.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "23-0646",
+    "issue": 392,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Instance-Dependent Confidence and Early Stopping for Reinforcement Learning",
+    "volume": 24,
+    "year": 2023
+}

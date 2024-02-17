@@ -1,0 +1,26 @@
+{
+    "abstract": "Recent work has focused on the very common practice of prediction-based inference: that is, (i) using a pre-trained machine learning model to predict an unobserved response variable, and then (ii) conducting inference on the association between that predicted response and some covariates. As pointed out by Wang et al. (2020), applying a standard inferential approach in (ii) does not accurately quantify the association between the unobserved (as opposed to the predicted) response and the covariates. In recent work, Wang et al. (2020) and Angelopoulos et al. (2023) propose corrections to step (ii) in order to enable valid inference on the association between the unobserved response and the covariates. Here, we show that the method proposed by Angelopoulos et al. (2023) successfully controls the type 1 error rate and provides confidence intervals with correct nominal coverage, regardless of the quality of the pre-trained machine learning model used to predict the unobserved response. However, the method proposed by Wang et al. (2020) provides valid inference only under very strong conditions that rarely hold in practice: for instance, if the machine learning model perfectly estimates the true regression function in the study population of interest.",
+    "authors": [
+        "Keshav Motwani",
+        "Daniela Witten"
+    ],
+    "emails": [
+        "kmotwani@uw.edu",
+        "dwitten@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/keshav-motwani/PredictionBasedInference/"
+        ]
+    ],
+    "id": "23-0896",
+    "issue": 394,
+    "pages": [
+        1,
+        18
+    ],
+    "title": "Revisiting inference after prediction",
+    "volume": 24,
+    "year": 2023
+}

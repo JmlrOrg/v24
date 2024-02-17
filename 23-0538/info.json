@@ -1,0 +1,28 @@
+{
+    "abstract": "Kernel methods are built upon the mathematical theory of reproducing kernels and reproducing kernel Hilbert spaces. They enjoy good interpretability thanks to the solid mathematical foundation. Recently, motivated by deep neural networks in deep learning, which construct learning functions by successive compositions of activation functions and linear functions, a class of methods termed as deep kernel learning has appeared in the literature. The core of deep kernel learning is hierarchical kernels that are constructed from a base reproducing kernel by successive compositions. In this paper, we characterize the corresponding reproducing kernel Hilbert spaces of hierarchical kernels, and study conditions ensuring that the reproducing kernel Hilbert space will be expanding as the layer of hierarchical kernels increases. The results will answer whether the expressive power of hierarchical kernels will be improving as the layer increases, and give guidance to the construction of hierarchical kernels for deep kernel learning.",
+    "authors": [
+        "Wentao Huang",
+        "Houbao Lu",
+        "Haizhang Zhang"
+    ],
+    "emails": [
+        "huangwt55@mail2.sysu.edu.cn",
+        "luhb6@mail2.sysu.edu.cn",
+        "zhhaizh2@mail.sysu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SaebaHuang/Hierarchical-Kernel-in-Deep-Kernel-Learning"
+        ]
+    ],
+    "id": "23-0538",
+    "issue": 391,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Hierarchical Kernels in Deep Kernel Learning",
+    "volume": 24,
+    "year": 2023
+}

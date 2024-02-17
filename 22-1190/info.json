@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the Constrained Convex Markov Decision Process (MDP), where the goal is to minimize a convex functional of the visitation measure, subject to a convex constraint.  Designing algorithms for a constrained convex MDP faces several challenges, including (1) handling the large state space, (2) managing the exploration/exploitation tradeoff, and (3) solving the constrained optimization where the objective and the constraint are both nonlinear functions of the visitation measure. In this work, we present a model-based algorithm,  Variational Primal-Dual Policy Optimization (VPDPO), in which Lagrangian and Fenchel duality are implemented to reformulate the original constrained problem into an unconstrained primal-dual optimization. The primal variables are updated by model-based value iteration following the principle of Optimism in the Face of Uncertainty (OFU),  while the dual variables are updated by gradient ascent. Moreover, by embedding the visitation measure into a finite-dimensional space, we can handle large state spaces by incorporating function approximation. Two notable examples are (1) Kernelized Nonlinear Regulators and (2) Low-rank MDPs. We prove that with an optimistic planning oracle, our algorithm achieves sublinear regret and constraint violation in both cases and can attain the globally optimal policy of the original constrained problem.",
+    "authors": [
+        "Zihao Li",
+        "Boyi Liu",
+        "Zhuoran Yang",
+        "Zhaoran Wang",
+        "Mengdi Wang"
+    ],
+    "emails": [
+        "zl9045@princeton.edu",
+        "boyiliu2018@u.northwestern.edu",
+        "zhuoranyang.work@gmail.com",
+        "zhaoranwang@gmail.com",
+        "mengdiw@princeton.edu"
+    ],
+    "id": "22-1190",
+    "issue": 385,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Double Duality: Variational Primal-Dual Policy Optimization for Constrained Reinforcement Learning",
+    "volume": 24,
+    "year": 2023
+}

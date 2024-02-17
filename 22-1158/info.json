@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the Unbalanced Optimal Transport (UOT) between two measures of possibly different masses with at most $n$ components, where the marginal constraints of standard Optimal Transport (OT) are relaxed via Kullback-Leibler divergence with regularization factor $\\tau$. Although only Sinkhorn-based UOT solvers have been analyzed in the literature with the iteration complexity of ${O}\\big(\\tfrac{\\tau \\log(n)}{\\varepsilon} \\log\\big(\\tfrac{\\log(n)}{{\\varepsilon}}\\big)\\big)$ and per-iteration cost of $O(n^2)$ for achieving the desired error $\\varepsilon$, their positively dense output transportation plans strongly hinder the practicality. On the other hand, while being vastly used as heuristics for computing UOT in modern deep learning applications and having shown success in sparse OT problem, gradient methods applied to UOT have not been formally studied. In this paper, we propose a novel algorithm based on Gradient Extrapolation Method (GEM-UOT) to find an $\\varepsilon$-approximate solution to the UOT problem in $O\\big( \\kappa \\log\\big(\\frac{\\tau n}{\\varepsilon}\\big) \\big)$ iterations with $\\widetilde{O}(n^2)$ per-iteration cost, where $\\kappa$ is the condition number depending on only the two input measures. Our proof technique is based on a  novel dual formulation of the squared $\\ell_2$-norm UOT objective, which fills the lack of sparse UOT literature and also leads to a new characterization of approximation error between UOT and OT. To this end, we further present a novel approach of OT retrieval from UOT, which is based on GEM-UOT with fine tuned $\\tau$ and a post-process projection step. Extensive experiments on synthetic and real datasets validate our theories and demonstrate the favorable performance of our methods in practice. We showcase GEM-UOT on the task of color transfer in terms of both the quality of the transfer image and the sparsity of the transportation plan.",
+    "authors": [
+        "Quang Minh Nguyen",
+        "Hoang H. Nguyen",
+        "Yi Zhou",
+        "Lam M. Nguyen"
+    ],
+    "emails": [
+        "nmquang@mit.edu",
+        "hnguyen455@gatech.edu",
+        "yi.zhou@ibm.com",
+        "LamNguyen.MLTD@ibm.com"
+    ],
+    "id": "22-1158",
+    "issue": 384,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "On Unbalanced Optimal Transport: Gradient Methods, Sparsity and Approximation Error",
+    "volume": 24,
+    "year": 2023
+}

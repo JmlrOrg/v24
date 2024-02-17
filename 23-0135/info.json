@@ -1,0 +1,24 @@
+{
+    "abstract": "Differential replication through copying refers to the process of replicating the decision behavior of a machine learning model using another model that possesses enhanced features and attributes. This process is relevant when external constraints limit the performance of an industrial predictive system. Under such circumstances, copying enables the retention of original prediction capabilities while adapting to new demands. Previous research has focused on the single-pass implementation for copying. This paper introduces a novel sequential approach that significantly reduces the amount of computational resources needed to train or maintain a copy, leading to reduced maintenance costs for companies using machine learning models in production. The effectiveness of the sequential approach is demonstrated through experiments with synthetic and real-world datasets, showing significant reductions in time and resources, while maintaining or improving accuracy.",
+    "authors": [
+        "Nahuel Statuto",
+        "Irene Unceta",
+        "Jordi Nin",
+        "Oriol Pujol"
+    ],
+    "emails": [
+        "nahuel.statuto@esade.edu",
+        "irene.unceta@esade.edu",
+        "jordi.nin@esade.edu",
+        "oriol_pujol@ub.edu"
+    ],
+    "id": "23-0135",
+    "issue": 390,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Scalable and Efficient Iterative Method for Copying Machine Learning Classifiers",
+    "volume": 24,
+    "year": 2023
+}

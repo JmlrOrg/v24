@@ -1,0 +1,30 @@
+{
+    "abstract": "Deep learning surrogate models have shown promise in solving partial differential equations (PDEs). Among them, the Fourier neural operator (FNO) achieves good accuracy, and is significantly faster compared to numerical solvers,  on a variety of   PDEs, such as fluid flows. However, the FNO uses the Fast Fourier transform  (FFT), which is limited to rectangular domains with uniform grids. In this work, we propose a new framework, viz., Geo-FNO, to solve PDEs on arbitrary geometries. Geo-FNO learns to deform the input (physical) domain, which may be irregular, into a latent space with a uniform grid. The FNO model with the FFT is applied in the latent space. The resulting Geo-FNO model has both the computation efficiency of FFT and the flexibility of handling arbitrary geometries. Our Geo-FNO is also flexible in terms of its input formats, viz.,  point clouds, meshes, and design parameters are all valid inputs. We consider a variety of PDEs such as the Elasticity, Plasticity, Euler's, and Navier-Stokes equations, and both forward modeling and inverse design problems. Comprehensive cost-accuracy experiments show that Geo-FNO is $10^5$ times faster than the standard numerical solvers and twice more accurate compared to direct interpolation on existing ML-based PDE solvers such as the standard FNO.",
+    "authors": [
+        "Zongyi Li",
+        "Daniel Zhengyu Huang",
+        "Burigede Liu",
+        "Anima Anandkumar"
+    ],
+    "emails": [
+        "zongyili@caltech.edu",
+        "huangdz@pku.edu.cn",
+        "bl377@cam.ac.uk",
+        "anima@caltech.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/neuraloperator/Geo-FNO"
+        ]
+    ],
+    "id": "23-0064",
+    "issue": 388,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Fourier Neural Operator with Learned Deformations for PDEs on General Geometries",
+    "volume": 24,
+    "year": 2023
+}

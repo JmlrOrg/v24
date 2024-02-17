@@ -1,0 +1,30 @@
+{
+    "abstract": "Directed networks are broadly used to represent asymmetric relationships among units. Co-clustering aims to cluster the senders and receivers of directed networks simultaneously. In particular, the well-known spectral clustering algorithm could be modified as the spectral co-clustering to co-cluster directed networks. However, large-scale networks pose great computational challenges to it. In this paper, we leverage sketching techniques and derive two randomized spectral co-clustering algorithms, one random-projection-based and the other random-sampling-based, to accelerate the co-clustering of large-scale directed networks. We theoretically analyze the resulting algorithms under two generative models \u2013 the stochastic co-block model and the degree-corrected stochastic co-block model, and establish their approximation error rates and misclustering error rates, indicating better bounds than the state-of-the-art results of co-clustering literature. Numerically, we design and conduct simulations to support our theoretical results and test the efficiency of the algorithms on real networks with up to millions of nodes. A publicly available R package RandClust is developed for better usability and reproducibility of the proposed methods.",
+    "authors": [
+        "Xiao Guo",
+        "Yixuan Qiu",
+        "Hai Zhang",
+        "Xiangyu Chang"
+    ],
+    "emails": [
+        "xiaoguo@nwu.edu.cn",
+        "qiuyixuan@sufe.edu.cn",
+        "zhanghai@nwu.edu.cn",
+        "xiangyuchang@xjtu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/XiaoGuo-stat/RandClust"
+        ]
+    ],
+    "id": "20-572",
+    "issue": 380,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Randomized Spectral Co-Clustering for Large-Scale Directed Networks",
+    "volume": 24,
+    "year": 2023
+}

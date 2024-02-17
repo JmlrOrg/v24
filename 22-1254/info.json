@@ -1,0 +1,24 @@
+{
+    "abstract": "Meta-Learning aims to speed up the learning process on new tasks by acquiring useful inductive biases from datasets of related learning tasks. While, in practice, the number of related tasks available is often small, most of the existing approaches assume an abundance of tasks; making them unrealistic and prone to overfitting. A central question in the meta-learning literature is how to regularize to ensure generalization to unseen tasks. In this work, we provide a theoretical analysis using the PAC-Bayesian theory and present a generalization bound for meta-learning, which was first derived by Rothfuss et al. (2021). Crucially, the bound allows us to derive the closed form of the optimal hyper-posterior, referred to as PACOH, which leads to the best performance guarantees. We provide a theoretical analysis and empirical case study under which conditions and to what extent these guarantees for meta-learning improve upon PAC-Bayesian per-task learning bounds. The closed-form PACOH inspires a practical meta-learning approach that avoids the reliance on bi-level optimization, giving rise to a stochastic optimization problem that is amenable to standard variational methods that scale well. Our experiments show that, when instantiating the PACOH with Gaussian processes and Bayesian Neural Networks models, the resulting methods are more scalable, and yield state-of-the-art performance, both in terms of predictive accuracy and the quality of uncertainty estimates.",
+    "authors": [
+        "Jonas Rothfuss",
+        "Martin Josifoski",
+        "Vincent Fortuin",
+        "Andreas Krause"
+    ],
+    "emails": [
+        "jonas.rothfuss@inf.ethz.ch",
+        "martin.josifoski@epfl.ch",
+        "vincent.fortuin@helmholtz-munich.de",
+        "krausea@ethz.ch"
+    ],
+    "id": "22-1254",
+    "issue": 386,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Scalable PAC-Bayesian Meta-Learning via the PAC-Optimal Hyper-Posterior: From Theory to Practice",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Given a vector $y \\in \\R^n$ and a matrix $H \\in \\R^{n\\times m}$, the sparse approximation problem $\\mathcal P_{0/p}$ asks for a point $x$ such that $\\|y - Hx\\|_p \\leq \\alpha$, for a given scalar $\\alpha$, minimizing the size of the support $\\|x\\|_0 := \\#\\{j \\ |\\ x_j \\neq 0 \\}$. Existing convex mixed-integer programming formulations for $\\mathcal P_{0/p}$ are of a kind referred to as ``big-$M$'', meaning that they involve the use of a bound $M$ on the values of $x$. When a proper value for $M$ is not known beforehand, these formulations are not exact, in the sense that they may fail to recover the wanted global minimizer. In this work, we study the polytopes arising from these formulations and derive valid inequalities for them. We first use these inequalities to design a branch-and-cut algorithm for these models. Additionally, we prove that these inequalities are sufficient to describe the set of feasible supports for $\\mathcal P_{0/p}$. Based on this result, we introduce a new (and the first to our knowledge) $M$-independent integer linear programming formulation for $\\mathcal P_{0/p}$, which guarantees the recovery of the global minimizer. We propose a practical approach to tackle this formulation, which has exponentially many constraints.    The proposed methods are then compared in computational experimentation to test their potential practical contribution.",
+    "authors": [
+        "Diego Delle Donne",
+        "Matthieu Kowalski",
+        "Leo Liberti"
+    ],
+    "emails": [
+        "delledonne@essec.edu",
+        "matthieu.kowalski@universite-paris-saclay.fr",
+        "liberti@lix.polytechnique.fr"
+    ],
+    "id": "21-0741",
+    "issue": 382,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "A Novel Integer Linear Programming Approach for Global L0 Minimization",
+    "volume": 24,
+    "year": 2023
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we consider the estimation of a low Tucker rank tensor from a number of noisy linear measurements. The general problem covers many specific examples arising from applications, including tensor regression, tensor completion, and tensor PCA/SVD. We consider an efficient Riemannian Gauss-Newton (RGN) method for low Tucker rank tensor estimation. Different from the generic (super)linear convergence guarantee of RGN in the literature, we prove the first local quadratic convergence guarantee of RGN for lowrank tensor estimation in the noisy setting under some regularity conditions and provide the corresponding estimation error upper bounds. A deterministic estimation error lower bound, which matches the upper bound, is provided that demonstrates the statistical optimality of RGN. The merit of RGN is illustrated through two machine learning applications: tensor regression and tensor SVD. Finally, we provide the simulation results to corroborate our theoretical findings.",
+    "authors": [
+        "Yuetian Luo",
+        "Anru R. Zhang"
+    ],
+    "emails": [
+        "yuetian@uchicago.edu",
+        "anru.zhang@duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/yuetianluo/RGN-for-Tensor-Estimation"
+        ]
+    ],
+    "id": "21-0438",
+    "issue": 381,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Low-rank Tensor Estimation via Riemannian Gauss-Newton: Statistical Optimality and Second-Order Convergence",
+    "volume": 24,
+    "year": 2023
+}

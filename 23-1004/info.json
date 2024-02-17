@@ -1,0 +1,22 @@
+{
+    "abstract": "Estimating the ratio of two probability densities from finitely many observations of the densities is a central problem in machine learning and statistics with applications in two-sample testing, divergence estimation, generative modeling, covariate shift adaptation, conditional density estimation, and novelty detection. In this work, we analyze a large class of density ratio estimation methods that minimize a regularized Bregman divergence between the true density ratio and a model in a reproducing kernel Hilbert space (RKHS). We derive new finite-sample error bounds, and we propose a Lepskii type parameter choice principle that minimizes the bounds without knowledge of the regularity of the density ratio. In the special case of square loss, our method adaptively achieves a minimax optimal error rate. A numerical illustration is provided.",
+    "authors": [
+        "Werner Zellinger",
+        "Stefan Kindermann",
+        "Sergei V. Pereverzyev"
+    ],
+    "emails": [
+        "werner.zellinger@oeaw.ac.at",
+        "kindermann@indmath.uni-linz.ac.at",
+        "sergei.pereverzyev@oeaw.ac.at"
+    ],
+    "id": "23-1004",
+    "issue": 395,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Adaptive Learning of Density Ratios in RKHS",
+    "volume": 24,
+    "year": 2023
+}

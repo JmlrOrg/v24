@@ -1,0 +1,24 @@
+{
+    "abstract": "We establish a general Bernstein\u2013von Mises theorem for approximately linear semiparametric functionals of fractional posterior distributions based on nonparametric priors. This is illustrated in a number of nonparametric settings and for different classes of prior distributions, including Gaussian process priors. We show that fractional posterior credible sets can provide reliable semiparametric uncertainty quantification, but have inflated size. To remedy this, we further propose a shifted-and-rescaled fractional posterior set that is an efficient confidence set having optimal size under regularity conditions. As part of our proofs, we also refine existing contraction rate results for fractional posteriors by sharpening the dependence of the rate on the fractional exponent.",
+    "authors": [
+        "Alice L'Huillier",
+        "Luke Travis",
+        "Isma\u00ebl Castillo",
+        "Kolyan Ray"
+    ],
+    "emails": [
+        "alice.lhuillier@sorbonne-universite.fr",
+        "luke.travis15@imperial.ac.uk",
+        "ismael.castillo@upmc.fr",
+        "kolyan.ray@imperial.ac.uk"
+    ],
+    "id": "23-0089",
+    "issue": 389,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Semiparametric Inference Using Fractional Posteriors",
+    "volume": 24,
+    "year": 2023
+}

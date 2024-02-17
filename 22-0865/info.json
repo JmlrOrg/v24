@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we provide statistical guarantees for over-parameterized deep nonparametric regression in the presence of dependent data. By decomposing the error, we establish non-asymptotic error bounds for deep estimation, which is achieved by effectively balancing the approximation and generalization errors. We have derived an approximation result for H{\\\"o}lder functions with constrained weights. Additionally, the generalization error is bounded by the weight norm, allowing for a neural network parameter number that is much larger than the training sample size. Furthermore, we address the issue of the curse of dimensionality by assuming that the samples originate from distributions with low intrinsic dimensions. Under this assumption, we are able to overcome the challenges posed by high-dimensional spaces. By incorporating an additional error propagation mechanism, we derive oracle inequalities for the over-parameterized deep fitted $Q$-iteration.",
+    "authors": [
+        "Xingdong Feng",
+        "Yuling Jiao",
+        "Lican Kang",
+        "Baqun Zhang",
+        "Fan Zhou"
+    ],
+    "emails": [
+        "feng.xingdong@mail.shufe.edu.cn",
+        "yulingjiaomath@whu.edu.cn",
+        "kanglican@whu.edu.cn",
+        "zhang.baqun@mail.shufe.edu.cn",
+        "zhoufan@mail.shufe.edu.cn"
+    ],
+    "id": "22-0865",
+    "issue": 383,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Over-parameterized Deep Nonparametric Regression for Dependent Data with Its Applications to Reinforcement Learning",
+    "volume": 24,
+    "year": 2023
+}

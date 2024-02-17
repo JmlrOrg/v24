@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider distributed statistical optimization and inference in the presence of heterogeneity among distributed data blocks. A weighted distributed estimator is proposed to improve the statistical efficiency of the standard ''split-and-conquer\" estimator for the common parameter shared by all the data blocks. The weighted distributed estimator is at least as efficient as the would-be full sample and the generalized method of moment estimators with the latter two estimators requiring full data access. A bias reduction is formulated for the weighted distributed estimator to accommodate much larger numbers of data blocks (relaxing the constraint from $K = o(N^{1/2})$ to $K = o(N^{2/3})$, where $K$ is the number of blocks and $N$ is the total sample size) than the existing methods without sacrificing the statistical efficiency at the same time. The mean squared error bounds, the asymptotic distributions, and the corresponding statistical inference procedures of the weighted distributed and the debiased estimators are derived, which show an advantageous performance of the debiased weighted estimators when the number of data blocks is large.",
+    "authors": [
+        "Jia Gu",
+        "Song Xi Chen"
+    ],
+    "emails": [
+        "gujia@pku.edu.cn",
+        "songxichen@pku.edu.cn"
+    ],
+    "id": "22-1274",
+    "issue": 387,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Distributed Statistical Inference under Heterogeneity",
+    "volume": 24,
+    "year": 2023
+}
