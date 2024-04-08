@@ -1,0 +1,32 @@
+{
+    "abstract": "Datasets in which measurements of two (or more) types are obtained from a common set of samples arise in many scientific applications. A common problem in the exploratory analysis of such data is to identify groups of features  of different data types that are strongly associated. A bimodule is a pair (A,B) of feature sets from two data types such that the aggregate cross-correlation between the features in A and those in B is large. A bimodule (A,B) is stable if A coincides with the set of features that have significant aggregate correlation with the features in B, and vice-versa. This paper proposes an iterative-testing based bimodule search procedure (BSP) to identify stable bimodules. Compared to existing methods for detecting cross-correlated features, BSP was the best at recovering true bimodules with sufficient signal, while limiting the false discoveries. In addition, we applied BSP to the problem of expression quantitative trait loci (eQTL) analysis using data from the GTEx consortium. BSP identified several thousand SNP-gene bimodules. While many of the individual SNP-gene pairs appearing in the discovered bimodules were identified by standard eQTL methods, the discovered bimodules revealed genomic subnetworks that appeared to be biologically meaningful and worthy of further scientific investigation.",
+    "authors": [
+        "Miheer Dewaskar",
+        "John Palowitch",
+        "Mark He",
+        "Michael I. Love",
+        "Andrew B. Nobel"
+    ],
+    "emails": [
+        "miheer.dewaskar@duke.edu",
+        "johnpalowitch@gmail.com",
+        "th2953@cumc.columbia.edu",
+        "milove@email.unc.edu",
+        "nobel@email.unc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/miheerdew/cbce"
+        ]
+    ],
+    "id": "22-0581",
+    "issue": 398,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Finding Groups of Cross-Correlated Features in Bi-View Data",
+    "volume": 24,
+    "year": 2023
+}

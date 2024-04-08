@@ -1,0 +1,26 @@
+{
+    "abstract": "In multivariate data analysis, it is often important to estimate a graph characterizing dependence among $p$ variables. A popular strategy in Gaussian graphical models and latent Gaussian graphical models uses the non-zero entries in a $p\\times p$ covariance or precision matrix, typically requiring restrictive modeling assumptions for accurate graph recovery. To improve model robustness, we instead focus on estimating the backbone of the dependence graph. We use a spanning tree likelihood, based on a minimalist graphical model that is purposely overly-simplified. Taking a Bayesian approach, we place a prior on the space of trees and quantify uncertainty in the graphical model. In both theory and experiments, we show that this model does not require the population graph to be a spanning tree or the covariance to satisfy assumptions beyond positive-definiteness. The model accurately recovers the backbone of the population graph at a rate competitive with existing approaches but with better robustness. We show combinatorial properties of the spanning tree, which may be of independent interest, and develop an efficient Gibbs sampler for Bayesian inference. Analyzing electroencephalography data using a hidden Markov model with each latent state modeled by a spanning tree, we show that results are much more interpretable compared with popular alternatives.",
+    "authors": [
+        "Leo L. Duan",
+        "David B. Dunson"
+    ],
+    "emails": [
+        "li.duan@ufl.edu",
+        "dunson@duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/leoduan/Bayesian_spanning_tree"
+        ]
+    ],
+    "id": "22-0252",
+    "issue": 397,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Bayesian Spanning Tree: Estimating the Backbone of the Dependence Graph",
+    "volume": 24,
+    "year": 2023
+}

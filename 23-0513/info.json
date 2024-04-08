@@ -1,0 +1,28 @@
+{
+    "abstract": "Multi-agent reinforcement learning (MARL) has gained increasing attention due to its ability to enable multiple agents to learn policies simultaneously. However, the bootstrapping error arises from the difference between the estimated Q value and the real discounted return and accumulates backward through dynamic programming iterations. This error can become even larger as the number of agents increases, due to the exponential growth of agent interactions, resulting in infeasible learning time and incorrect actions during early training steps. To address this challenge, we observe that previously collected trajectories are useful contexts, model them using a contextual predictor to yield the next action and observation, and use the contextual predictor to replace the Q value function or utility function during the early training phase. Furthermore, we employ a joint-action sampling mechanism to restrict the action space and dynamically select policies from the vanilla utility network and those from the contextual trajectory predictor to perform rollout processes. By reasonably constraining the action space and rollout process, we can significantly accelerate the algorithm training process. Our framework applies to various value-based MARL methods in both centralized training decentralized execution (CTDE) and non-CTDE scenarios where agents are accessible (non-accessible) to global states during the training process. Experimental results on three tasks, Spread, Tag, and Reference, from the Particle World Environment (PWE) show that our framework significantly accelerates the training process of existing state-of-the-art CTDE and non-CTDE MARL methods, while also competing with or outperforming their original versions.",
+    "authors": [
+        "Yue Deng",
+        "Zirui Wang",
+        "Xi Chen",
+        "Hao Chen",
+        "Fei Yu",
+        "Yin Zhang"
+    ],
+    "emails": [
+        "devindeng@zju.edu.cn",
+        "ziseoiwong@zju.edu.cn",
+        "chan_xi@zju.edu.cn",
+        "chuhu.ch@antgroup.com",
+        "fred.yf@antgroup.com",
+        "zhangyin98@zju.edu.cn"
+    ],
+    "id": "23-0513",
+    "issue": 399,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Boosting Multi-agent Reinforcement Learning via Contextual Prompting",
+    "volume": 24,
+    "year": 2023
+}
