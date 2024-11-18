@@ -1,0 +1,24 @@
+{
+    "abstract": "Community detection for large networks poses challenges due to the high computational cost as well as heterogeneous community structures. In this paper, we consider widely existing real-world networks with \u201cgrouped communities\u201d (or \u201cthe group structure\u201d), where nodes within grouped communities are densely connected and nodes across grouped communities are relatively loosely connected. We propose a two-step community detection approach for such networks. Firstly, we leverage modularity optimization methods to partition the network into groups, where between-group connectivity is low. Secondly, we employ the stochastic block model (SBM) or degree-corrected SBM (DCSBM) to further partition the groups into communities, allowing for varying levels of between-community connectivity. By incorporating this two-step structure, we introduce a novel divide-and-conquer\r\nalgorithm that asymptotically recovers both the group structure and the community structure. Numerical studies confirm that our approach significantly reduces computational costs while achieving competitive performance. This framework provides a comprehensive solution for detecting community structures in networks with grouped communities, offering a valuable tool for various applications.",
+    "authors": [
+        "Sheng Zhang",
+        "Rui Song",
+        "Wenbin Lu",
+        "Ji Zhu"
+    ],
+    "emails": [
+        "shengz0918@gmail.com",
+        "songray@gmail.com",
+        "wlu4@ncsu.edu",
+        "jizhu@umich.edu"
+    ],
+    "id": "19-590",
+    "issue": 401,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Distributed Community Detection in Large Networks",
+    "volume": 24,
+    "year": 2023
+}
